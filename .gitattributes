@@ -1,1 +1,39 @@
 * text=auto eol=lf
+
+# 7z
+*.[77][zZ] filter=lfs diff=lfs merge=lfs -text
+# zip
+*.[zZ][iI][pP] filter=lfs diff=lfs merge=lfs -text
+
+# gif
+*.[gG][iI][fF] filter=lfs diff=lfs merge=lfs -text
+# dds
+*.[dD][dD][sS] filter=lfs diff=lfs merge=lfs -text
+# png
+*.[pP][nN][gG] filter=lfs diff=lfs merge=lfs -text
+# tga
+*.[tT][gG][aA] filter=lfs diff=lfs merge=lfs -text
+
+# bsa
+*.[bB][sS][aA] filter=lfs diff=lfs merge=lfs -text
+
+# esp
+*.[eE][sS][pP] filter=lfs diff=lfs merge=lfs -text
+# esm
+*.[eE][sS][mM] filter=lfs diff=lfs merge=lfs -text
+# omwgame
+*.[oO][mM][wW][[gG][aA][mM][eE]] filter=lfs diff=lfs merge=lfs -text
+# omwaddon
+*.[oO][mM][wW][aA][dD][dD][oO][nN] filter=lfs diff=lfs merge=lfs -text
+
+# nif
+*.[nN][iI][fF] filter=lfs diff=lfs merge=lfs -text
+# kf
+*.[kK][fF] filter=lfs diff=lfs merge=lfs -text
+
+# mp4
+*.[mM][pP][44] filter=lfs diff=lfs merge=lfs -text
+# mkv
+*.[mM][kK][vV] filter=lfs diff=lfs merge=lfs -text
+# webm
+*.[wW][eE][bB][mM] filter=lfs diff=lfs merge=lfs -text
