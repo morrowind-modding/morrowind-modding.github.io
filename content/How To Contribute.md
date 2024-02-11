@@ -1,9 +1,10 @@
 
-In order to contribute to the wiki, you must have two things:
+In order to contribute to the wiki, you must have three things:
 
 1. A [GitHub](https://github.com) account
 2. The [Obsidian](https://obsidian.md/) app 
 3. [Git](https://git-scm.com/downloads)
+
    *nix users, feel free to grab the above applications from your local package manager instead.
 
 We assume for the sake of this document that you already all three of these. We have done what we can to minimize interaction with Git and we will walk you through necessary steps to use it. We also hope that you will very much enjoy using Obsidian.
