@@ -71,10 +71,22 @@ Replace `<PERSONAL_ACCESS_TOKEN>` with your previously generated key, and your u
 ## Editing Guide
    Pick where your document should go first. Most contributor content should go under `Guides`, but if you're making edits to a specific project, then use that folder instead. Feel free to create new folders if you feel your document necessitates it.
    
-   Text documents should be placed at the author's discretion, with any assets (ESM, DDS, pictures, videos, etc) placed inside of The matching folder under `Assets`. See the Morrowind Interiors Project guide for an example:
+   ### Basic Folder Structure
+   - Guides – Umbrella Heading 
+	- Concept – a landing page summarizing the concept – e.g., Textures 
+		- Sub-Concepts – elaborating on specific parts of a concept – e.g., AI Upscaling 
+			- Tutorials – e.g., Upscaling a texture with Gigapixel AI
+- Programs and Tools – Umbrella Heading 
+	- (Tool Type) – landing page for categories of tools – e.g., 3D Modelling 
+		- (Program Name) – e.g., Blender
+- Projects – Umbrella Heading 
+	- (Project Name) – *Summary page about the project 
+		- (Structure from here could vary depending on the project)
+- Contributing to Morrowind Modmaking Wiki 
    
-   ![[Pasted image 20240210194829.png]]
+   Text documents should be placed at the author's discretion, with any assets (ESM, DDS, pictures, videos, etc) placed inside of a corresponding folder under `Assets`. See the Morrowind Interiors Project guide for an example:
    
+   ![[Pasted image 20240210220541.png]]
    
    You can drag any files your document depends on right into Obsidian and place them into this folder. This helps keep the wiki easy to navigate. 
 
