@@ -30,7 +30,7 @@ Hover your mouse over the `Position` attribute of your texture and then press `I
 ![[Pasted image 20240211003310.png]]
 You can change the length of the animation by dragging around, or typing in the end frame. The animation below ends at 4 seconds. Finally, set your desired location and press `I` again. This will insert a new keyframe at your current location, with the new texture location you just set. Press spacebar to play the animation.
 
-![[changelength-(3).mp4]]
+![[Change Animation Length.webm]]
 
 You might notice the animation is a little "jumpy". This is because by default blender animations use bezier curves for their timing, which isn't intended to be perfectly smooth during transitions. To fix this, if you want to, simply right click in your timeline and change the `Interpolation Mode` to linear:
 
