@@ -68,10 +68,11 @@ Now you just need to hook your personal access token and repository fork into Ob
 ## Editing Guide
    Pick where your document should go first. Most contributor content should go under `Guides`, but if you're making edits to a specific project, then use that folder instead. Feel free to create new folders if you feel your document necessitates it.
 
-### WARNING:
+### REQUIREMENTS:
 - Due to compatibility issues with Obsidian and Quartz, only some file types can be accepted. Videos must be in webm format before publication. Any audio which is not directly relevant to the subject of the video clip must be removed as well to limit file sizes. Maintainers can help you with this. You can use something like [Simple Screen Recorder](https://github.com/lextrack/Simple-Screen-Recorder)or [OBS](https://obsproject.com/) to record your screen with or without audio.
 - Morrowind-specific file types such as `nif`, `dds`, and `esm` will not directly be recognized by Obsidian and can't be opened as notes. They will, however, appear in your source control view and can be added to links in your documents. 
 	- For example, if your asset is a texture in: `Assets/Animation/Simple Texture Animation in Blender`, then you make a link to it in your document like this: \!\[\[Assets/Animation/Simple Texture Animation in Blender/sky5_blu.dds\]\]
+- Submissions should be tagged with the tools used and subject covered. See existing guides for exmples. To add a tag, simply use an octothorpe `#` and the name of the tag. \#blender or \#CSSE are existing tags which you may use, but feel free to make up any that are relevant.
 ### Basic Folder Structure
    - Guides – Umbrella Heading 
 	- Concept – a landing page summarizing the concept – e.g., Textures 
@@ -118,3 +119,8 @@ We promise, this is the last page. This is your opportunity to explain your chan
 Reviews may be quick or not, but, please do what you are able to communicate with the team regarding any questions or issues that may come up during review. Pull Requests that are abandoned after 30 days will be assumed to be left in the entirely hands of the team and will be handled according to their judgment.
 
 If all goes well, you are now done with the entire process. If you are ever lost regarding any step, you may refer to this document or reach out to the team on [MMC](https://discord.gg/yDjWBrGW)
+#git #gettingstarted #wiki
+
+
+
+

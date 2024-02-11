@@ -129,3 +129,6 @@ Lastly, check the Behave Like Exterior box for the interior cell. The water leve
 higher than needed. What you will want to do is place an activator in the interior that will use
 SetWaterLevel on cellChanged == 1 to the water level you need. You may need to experiment to get
 this just right. If OpenMW does not yet support interior weather, feel free to look at how Morrowind Interiors Project fakes interior weather: https://www.nexusmods.com/morrowind/mods/52237
+
+
+#Blender #modelling #nifskope #interiordesign #CSSE #Constructionset 
