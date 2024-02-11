@@ -7,13 +7,14 @@ In order to contribute to the wiki, you must have three things:
 
 
 
-   \*nix users, feel free to grab the above applications from your local package manager instead.
+ \*nix users, feel free to grab the above applications from your local package manager instead.
 
 We assume for the sake of this document that you already all three of these. We have done what we can to minimize interaction with Git and we will walk you through necessary steps to use it. We also hope that you will very much enjoy using Obsidian.
 # Fork the Repository
 
 1. Go to the [wiki repository](https://github.com/morrowind-modding/wiki)
 2. Click `Fork`, then `Create Fork`:
+   
    ![[Pasted image 20240210185412.png]]
    
    ![[Pasted image 20240210185439.png]]
@@ -33,14 +34,16 @@ We assume for the sake of this document that you already all three of these. We 
 
 In order to make changes to the wiki's GitHub through Obsidian, you must give it a special key that says it has permission from you to do so first.
 
-1. Log into your Github account and open your profile. Then go to Settings. You can open your profile from any part of the GitHub site by clicking your profile picture in the upper right corner of the page:![[Pasted image 20240210183517.png]]
+1. Log into your Github account and open your profile. Then go to Settings. You can open your profile from any part of the GitHub site by clicking your profile picture in the upper right corner of the page:
+   ![[Pasted image 20240210183517.png]]
    ![[Pasted image 20240210183545.png]]
-   2. Go to `developer settings`, then `Personal Access Tokens`, and select `Token (Classic)`: ![[Pasted image 20240210183812.png]]![[Pasted image 20240210183916.png]]
-      On this final menu, select `Generate a Personal Access Token`:
-      ![[Screenshot_20240210_184211.png]]
-      
-      On this page you name your key and set its expiration date. We recommend doing a `Custom` expiration for one year from the date you are creating the key. This is as long as GitHub will allow them to live. Then, make sure to click the checkbox next to `repo`. Finally, click `Generate Token` at the bottom of the page. Please take special note of the fact that you will not be able to see your personal access token again after creating it - leave the page open until you've configured Obsidian!
-      ![[Screenshot_20240210_184527 1.png]]
+2. Go to `developer settings`, then `Personal Access Tokens`, and select `Token (Classic)`: 
+   ![[Pasted image 20240210183812.png]]
+   ![[Pasted image 20240210183916.png]]
+  On this final menu, select `Generate a Personal Access Token`:
+  ![[Screenshot_20240210_184211.png]]
+3. On this page you name your key and set its expiration date. We recommend doing a `Custom` expiration for one year from the date you are creating the key. This is as long as GitHub will allow them to live. Then, make sure to click the checkbox next to `repo`. Finally, click `Generate Token` at the bottom of the page. Please take special note of the fact that you will not be able to see your personal access token again after creating it - leave the page open until you've configured Obsidian!
+  ![[Screenshot_20240210_184527 1.png]]
       
 # Set Up Obsidian
 
@@ -48,26 +51,20 @@ In order to make changes to the wiki's GitHub through Obsidian, you must give it
 
 Now you just need to hook your personal access token and repository fork into Obsidian itself. 
 1. Open Obsidian and click the settings gear in the bottom-left.
-![[Pasted image 20240210191739.png]]
+   ![[Pasted image 20240210191739.png]]
 2. Go to `Community Plugins`, then `Browse`. Search for `Git`.
    ![[Pasted image 20240210191953.png]]
    Select the first result, hit `Install`, then `Enable`.
    ![[Screenshot_20240210_192008.png]]
    
 ## Clone the Repository
-   1. Open the Command Palette by pressing `CTRL+P`
-   2. Type in clone, and select `Clone an existing repo`
+1. Open the Command Palette by pressing `CTRL+P`
+2. Type in clone, and select `Clone an existing repo`
       ![[Screenshot_20240210_192157.png]]
 3. Paste in your repository URL in the following format:
-`https://<PERSONAL_ACCESS_TOKEN>@github.com/<USERNAME>/<REPO>.git
-
-
-Replace `<PERSONAL_ACCESS_TOKEN>` with your previously generated key, and your username in place of `<USERNAME>`:
-   ![[Screenshot_20240210_192307.png]]
-   
+   `https://<PERSONAL_ACCESS_TOKEN>@github.com/<USERNAME>/<REPO>.git
+   Replace `<PERSONAL_ACCESS_TOKEN>` with your previously generated key, and your username in place of `<USERNAME>`: ![[Screenshot_20240210_192307.png]]
    Pick a name for the folder, and leave the second box about `Clone depth` blank - simply press enter. Now the wiki is installed inside of obsidian, and you can make edits to your local copy of it. Let's start by sending over this very document!
-   
-   
 ## Editing Guide
    Pick where your document should go first. Most contributor content should go under `Guides`, but if you're making edits to a specific project, then use that folder instead. Feel free to create new folders if you feel your document necessitates it.
 
@@ -88,7 +85,7 @@ Replace `<PERSONAL_ACCESS_TOKEN>` with your previously generated key, and your u
 		- (Structure from here could vary depending on the project)
 - Contributing to Morrowind Modmaking Wiki 
    
-   Text documents should be placed at the author's discretion, with any assets (ESM, DDS, pictures, videos, etc) placed inside of a corresponding folder under `Assets`. See the Morrowind Interiors Project guide for an example:
+Text documents should be placed at the author's discretion, with any assets (ESM, DDS, pictures, videos, etc) placed inside of a corresponding folder under `Assets`. See the Morrowind Interiors Project guide for an example:
    
    ![[Pasted image 20240210220541.png]]
    
