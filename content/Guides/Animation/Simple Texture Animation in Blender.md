@@ -14,7 +14,7 @@ Once you've made the sphere, select its material and then `Create a Morrowind Sh
 
 For the purpose of this tutorial, we'll use an edited version of the `sky5_blu` texture from [LibreQuake](https://github.com/MissLavender-LQ/LibreQuake)
 
-![[MWModWiki/content/assets/Animation/Simple Texture Animation in Blender/sky5_blu.dds]]
+![[Assets/Animation/Simple Texture Animation in Blender/sky5_blu.dds]]
 
 Once you've created the shader, scroll down to `Base Texture` and select `Open`, giving it our sky texture or whatever you prefer.
 ![[Pasted image 20240211002856.png]]
