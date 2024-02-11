@@ -74,6 +74,7 @@ Replace `<PERSONAL_ACCESS_TOKEN>` with your previously generated key, and your u
 ### WARNING:
 - Due to compatibility issues with Obsidian and Quartz, only some file types can be accepted. Videos must be in webm format before publication. Any audio which is not directly relevant to the subject of the video clip must be removed as well to limit file sizes. Maintainers can help you with this. You can use something like [Simple Screen Recorder](https://github.com/lextrack/Simple-Screen-Recorder)or [OBS](https://obsproject.com/) to record your screen with or without audio.
 - Morrowind-specific file types such as `nif`, `dds`, and `esm` will not directly be recognized by Obsidian and can't be opened as notes. They will, however, appear in your source control view and can be added to links in your documents. 
+	- For example, if your asset is a texture in: `Assets/Animation/Simple Texture Animation in Blender`, then you make a link to it in your document like this: \!\[\[Assets/Animation/Simple Texture Animation in Blender/sky5_blu.dds\]\]
 ### Basic Folder Structure
    - Guides – Umbrella Heading 
 	- Concept – a landing page summarizing the concept – e.g., Textures 
