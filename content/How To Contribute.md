@@ -82,9 +82,16 @@ Your changes will be listed here - click the back arrow to revert them, or the p
 
 This is where your commit message will be written. This is simply meant to be an informative note regarding the changes you made. Once that's done, click the buttons above in the listed order. Do not click button `1` if you manually staged individual files as described above.
 
-You're all done editing! The only thing left for you the creator to do is submit it for review. Go back to your fork on GitHub.
+You're all done editing! The only thing left for you the creator to do is submit it for review. Go back to your fork on GitHub. You should see a message similar to the one below; click `Contribute`, then `Open Pull Request`.
+
+![[Pasted image 20240210200208.png]]
+A summary of your changes will appear. If you already know what's been done, then keep it simple - Just press open pull request. ![[Pasted image 20240210200259.png]]
+
+We promise, this is the last page. This is your opportunity to explain your changes, what they do, and why they exist. Don't be afraid to say whatever you feel is appropriate - be elaborate, be concise, but please explain what you did somehow or another. if you wish, check `Allow edits by maintainers`, to allow the core team to make changes to your Pull Request whilst it's being reviewed.
 
 
+![[Pasted image 20240210200438.png]]
 
->    {{files}}
-> Updated at {{date}} by {{hostname}}
+Reviews may be quick or not, but, please do what you are able to communicate with the team regarding any questions or issues that may come up during review. Pull Requests that are abandoned after 30 days will be assumed to be left in the entirely hands of the team and will be handled according to their judgment.
+
+If all goes well, you are now done with the entire process. If you are ever lost regarding any step, you may refer to this document or reach out to the team on [MMC](https://discord.gg/yDjWBrGW)
