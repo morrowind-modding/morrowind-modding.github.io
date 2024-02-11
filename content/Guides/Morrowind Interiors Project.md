@@ -11,7 +11,7 @@ How to Build Fake Exteriors Using Export Sphere
 7. (Optional) BSA Unpacking tool, such as [BSArch](https://www.nexusmods.com/fallout4/mods/63243)
 
 
-
+# Create the World Mesh
 Now we're ready to work! Go to the cell you want to copy and hit ctrl+shift+e. This will bring up the export sphere. You can scroll up on the mouse wheel to increase the size of the sphere. Since you will want the cell you are in (along with the 8 surrounding cells), scroll all the way up to 3000 units.
 
 In Blender, import the nif file. You'll normally find it under `Meshes/g7`. Locate the building you are creating an exterior view for. Select everything that cannot be seen from the windows of your interior cell and delete it:
@@ -25,6 +25,8 @@ portion of your interior and delete everything except the windows:
 ![[Pasted image 20240209141947.png]]
 
 
+### Match It Up in the Construction Set
+
 Since Morrowind buildings are often bigger on the inside, you will not be able to perfectly
 match all of the windows most of the time. Export your nif (don’t close Blender if you can handle it), create a new static with it in the construction set, and move it into your interior. Do your best to match the windows:
 
@@ -32,20 +34,35 @@ match all of the windows most of the time. Export your nif (don’t close Blende
 
 Once you have roughly matched the windows, delete the windows in your nif back in Blender and re-export. Resist the urge to close and re-open the Construction Set to get the updates, as it will make replacing parts of the exterior nif with the matching statics more difficult.
 
+
+# Handling Visibility From the Inside
+
+## Window Textures
+
 You will need windows with transparent textures if Morrowind Interiors Project has not already created them. This is when you will need GIMP and NifSkope. You will also want to unpack your BSAs at this time so that you may access the assets. Open up the mesh in NifSkope and click the window if you don’t know what texture you need.
 
 ![[Pasted image 20240209142042.png]]
 
-# Can we elaborate on this a bit?
-Import the texture into GIMP. If your texture has parts that should not be transparent, you will need to select only the transparent parts and erase them to 50% or so. Otherwise, you can erase the entire texture to around 50% opacity:
 
-![[Pasted image 20240209142339.png]]
+Locate your texture, drag and drop it into GIMP
+![[Pasted image 20240210213359.png]]
+
+Since we don't want the lead between the glass pieces to be transparent, select it all and then invert the selection so that only the glass is selected:
+
+![[Pasted image 20240210213503.png]]
+
+
+Now select the Eraser, set it to something like 50% (or however clear you want the glass to be), and erase the glass:
+
+![[Pasted image 20240210213525.png]]
 
 After you export it, go back into NifSkope and select the texture you just exported. Lastly, right click on the NiTriShape for the window and go down to Node and select Add Property. You need to add a NiAlphaProperty:
 
 ![[Pasted image 20240209142406.png]]
 
 Now you can go back into the Construction Set and replace the mesh with your new mesh.
+
+## (Optional) Make Your Own Windows
 If your mesh does not have a window built into it, there are a few extra steps. Write down the X, Y, Z location and rotation of both objects (window mesh and the mesh the window is cutting into). Import both meshes into Blender, and set their X, Y, Z position to their positions in the Construction Set divided by 100 (4416.123 to 44.16123, etc.). The Z rotation should be the same (sometimes you have to add/subtract 180 degrees), but for the Y rotation in Blender, you need to use the X rotation in the Construction Set (This is also sometimes off and needed to be mirrored). Other than the division by 100, this can be hit-or-miss. 
 
 After some fiddling, you should be able to get both objects within Blender
@@ -64,6 +81,8 @@ After you apply the Boolean, make sure you 0 out the X,Y,Z position and rotation
 Now you can export and add it to the Construction Set. You will also want to create a mesh for the part with the window on it and replace the mesh in game with the new mesh. You may also want to set the 3D scale to something like 1.01, as there can be a loss of precision in the conversion:
 
 ![[Pasted image 20240209142701.png]]
+
+## Make the Exteriors Match Up
 
 The next part is the most tedious part, and will often require going in and out of the game to
 test. Various objects can cause collision issues, so you will need to move objects that cannot be seen out of the way. If they can be seen, you will need to get creative. For example, here is the front of Ghorak Manor in Caldera:
