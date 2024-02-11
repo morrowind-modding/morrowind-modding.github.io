@@ -70,6 +70,9 @@ Replace `<PERSONAL_ACCESS_TOKEN>` with your previously generated key, and your u
    
 ## Editing Guide
    Pick where your document should go first. Most contributor content should go under `Guides`, but if you're making edits to a specific project, then use that folder instead. Feel free to create new folders if you feel your document necessitates it.
+
+WARNING:
+- Due to compatibility issues with Obsidian and Quartz, only some file types can be accepted. Videos must be in webm format before publication. Maintainers can help you with this.
    
    ### Basic Folder Structure
    - Guides – Umbrella Heading 
