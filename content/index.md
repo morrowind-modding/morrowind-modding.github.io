@@ -7,6 +7,7 @@ This is the home page of the ***Morrowind Modding Wiki***.
 ## Guides
 
 - [[Morrowind Interiors Project]]
+- [[Simple Texture Animation in Blender]]
 
 ---
 
