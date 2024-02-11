@@ -5,14 +5,19 @@ In order to contribute to the wiki, you must have three things:
 2. The [Obsidian](https://obsidian.md/) app 
 3. [Git](https://git-scm.com/downloads)
 
-   *nix users, feel free to grab the above applications from your local package manager instead.
+
+
+   \*nix users, feel free to grab the above applications from your local package manager instead.
 
 We assume for the sake of this document that you already all three of these. We have done what we can to minimize interaction with Git and we will walk you through necessary steps to use it. We also hope that you will very much enjoy using Obsidian.
 # Fork the Repository
 
 1. Go to the [wiki repository](https://github.com/morrowind-modding/wiki)
 2. Click `Fork`, then `Create Fork`:
-   ![[Pasted image 20240210185412.png]]![[Pasted image 20240210185439.png]]
+   ![[Pasted image 20240210185412.png]]
+   
+   ![[Pasted image 20240210185439.png]]
+   
    Now you have your own unique copy of the entire repository which you can change however you like and even rehost. Note that over time the repository may grow to be fairly large. 
    
    NOTE: Developers may build the site locally with the following `npm` command:
@@ -55,8 +60,11 @@ Now you just need to hook your personal access token and repository fork into Ob
       ![[Screenshot_20240210_192157.png]]
 3. Paste in your repository URL in the following format:
 `https://<PERSONAL_ACCESS_TOKEN>@github.com/<USERNAME>/<REPO>.git
-    Replace `<PERSONAL_ACCESS_TOKEN>` with your previously generated key, and your username in place of `<USERNAME>`:
+
+
+Replace `<PERSONAL_ACCESS_TOKEN>` with your previously generated key, and your username in place of `<USERNAME>`:
    ![[Screenshot_20240210_192307.png]]
+   
    Pick a name for the folder, and leave the second box about `Clone depth` blank - simply press enter. Now the wiki is installed inside of obsidian, and you can make edits to your local copy of it. Let's start by sending over this very document!
    
    
@@ -66,6 +74,7 @@ Now you just need to hook your personal access token and repository fork into Ob
    Text documents should be placed at the author's discretion, with any assets (ESM, DDS, pictures, videos, etc) placed inside of The matching folder under `Assets`. See the Morrowind Interiors Project guide for an example:
    
    ![[Pasted image 20240210194829.png]]
+   
    
    You can drag any files your document depends on right into Obsidian and place them into this folder. This helps keep the wiki easy to navigate. 
 
