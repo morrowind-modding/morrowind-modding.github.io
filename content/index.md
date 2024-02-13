@@ -8,6 +8,7 @@ This is the home page of the ***Morrowind Modding Wiki***.
 
 - [[Morrowind Interiors Project]]
 - [[Simple Texture Animation in Blender]]
+- [[Creating a Patch for an ESP]]
 
 ---
 
