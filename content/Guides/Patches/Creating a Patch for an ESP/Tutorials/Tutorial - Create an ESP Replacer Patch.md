@@ -25,17 +25,19 @@
 ![[Patches_ESP-Replacer_1_Conflict.png]]
 1. We can clearly see some kind of conflict here. The house added by `Replacer_1a.esp` overlaps with the thatch tower (`ex_common_tower_thatch`) added by `Replacer_1b.esp`, covering up the door to the tower.
 2. Before making *any*  changes, we need to differentiate between what references come from **`1a.esp`** and **`1b.esp`**, as **we can only make modifications to references from `1a.esp`**. There are two ways we can do this:
-	1. **Cell View**: with `Show modified only` enabled, only references *added* or *modified* by `1a.esp` are displayed. We can double-click on these to locate them in the Render Window
+	 - **Cell View**: with `Show modified only` enabled, only references *added* or *modified* by `1a.esp` are displayed. We can double-click on these to locate them in the Render Window
 		1. Double-click on `ex_nord_win_02`, the first reference in Cell View under `Object ID`. This will take you to the reference's location in the Render Window - However, in this case, it is obscured by other references (the thatch tower), so we need to move the camera around to find the selected reference.
 		2. To get a better view, left click on the top of the Render Window (the top bar that displays the cell name, `Caldera -2,2`). This allows to use the camera controls in the Render Window, without unselecting our `ex_nord_win_02` reference. Hold the `shift` key and move your mouse around to orbit the camera around and get your bearings - to locate the window you'll need to zoom in, either by scrolling with your mouse wheel, or holding the `V` key and moving your mouse forward.
 			![[Patches_ESP-Replacer_1_Conflict2.png]]
-		1. Repeat this process for each reference from `Replacer_1a.esp`. Note however that this is a time-consuming approach if your active ESP contains many references in the ce
+		3. Repeat this process for each reference from `Replacer_1a.esp`. Note however that this is a time-consuming approach if your active ESP contains many references in the cell.
+		   
 		>[!tip] Tip: Hiding references in the Render Window
 		>%%space%%
 		>While having one or more references selected in the Render Window, press `Q` on your keyboard to bring up the `Context Menu`. Select `Hide Selection` to hide the reference. This can be reverted with `Restore Hidden References` in the `Context Menu`
 		>This can make navigating tight spaces or finding stray references much easier.
-	1. **`Show Reference Data`:** See the wiki page [Show Reference Data]() %%add link%% for a detailed explanation of this
+		>
+	- **`Show Reference Data`:** See the wiki page [Show Reference Data]() %%add link%% for a detailed explanation of this
 		1. Left-click on `ex_common_house_addon`, the entrance to the thatch tower with the curved roof. While selected, press and hold `ctrl + shift + R + middle-mouse-button` to bring up the Reference Data window, which tells us beside `File:` that the reference originates from `MMW_Patches_ESP-Replacer_1b.esp`. 
 			![[Patches_ESP-Replacer_1_Conflict3.png]]
-		1. Try this out with other references in the cell - they will either originate from `Morrowind.esm`, `MMW_Patches_ESP-Replacer_1a.esp` or `MMW_Patches_ESP-Replacer_1b.esp`. Be sure not to move any references as otherwise you will make [dirty references]() %%add link%%
+		2. Try this out with other references in the cell - they will either originate from `Morrowind.esm`, `MMW_Patches_ESP-Replacer_1a.esp` or `MMW_Patches_ESP-Replacer_1b.esp`. Be sure not to move any references as otherwise you will make [dirty references]() %%add link%%
 3. 
