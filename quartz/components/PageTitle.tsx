@@ -1,6 +1,7 @@
 import { pathToRoot } from "../util/path"
 import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { classNames } from "../util/lang"
+import { joinSegments } from "../util/path"
 import { i18n } from "../i18n"
 
 function PageTitle({ fileData, cfg, displayClass }: QuartzComponentProps) {
