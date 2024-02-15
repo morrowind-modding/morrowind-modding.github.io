@@ -103,7 +103,7 @@ export function renderPage(
               {
                 type: "element",
                 tagName: "a",
-                properties: { href: inner.properties?.href, class: ["internal"] },
+                properties: { href: inner.properties?.href, class: ["internal", "transclude-src"] },
                 children: [
                   { type: "text", value: i18n(cfg.locale).components.transcludes.linkToOriginal },
                 ],
@@ -140,7 +140,7 @@ export function renderPage(
             {
               type: "element",
               tagName: "a",
-              properties: { href: inner.properties?.href, class: ["internal"] },
+              properties: { href: inner.properties?.href, class: ["internal", "transclude-src"] },
               children: [
                 { type: "text", value: i18n(cfg.locale).components.transcludes.linkToOriginal },
               ],
@@ -170,7 +170,7 @@ export function renderPage(
             {
               type: "element",
               tagName: "a",
-              properties: { href: inner.properties?.href, class: ["internal"] },
+              properties: { href: inner.properties?.href, class: ["internal", "transclude-src"] },
               children: [
                 { type: "text", value: i18n(cfg.locale).components.transcludes.linkToOriginal },
               ],
@@ -225,7 +225,7 @@ export function renderPage(
                   ))}
                 </Header>
                 <div class="popover-hint">
-                  {slug !== "index" && beforeBody.map((BodyComponent) => (
+                  {beforeBody.map((BodyComponent) => (
                     <BodyComponent {...componentData} />
                   ))}
                 </div>
