@@ -1,4 +1,6 @@
-*This page contains three tutorials of varying difficulty on how to create an ESP Replacer Patch:*
+*This page contains three tutorials of varying difficulty on how to create an ESP Replacer Patch:*'
+
+See [[Creating a Patch for an ESP]] for more information on what patches are and how they work.
 
 # Tutorial 1:
 ![[Patches_ESP-Replacer_1_Preview.png]]
@@ -69,5 +71,17 @@ First, to make it easier to select what we'll be moving, we can use the `Hide Se
 ![[Patches_ESP-Replacer_1_CSSEHide.webm]]
 
 With these hidden, we can select the references we want to move from `Replacer_1a.esp`. Hold `ctrl` and left click each of the following references from `1a.esp`:
+* Chimney -- `ex_nord_chimney_01`
+* Windows -- `ex_nord_win_01` and `ex_nord_win_02`
+* Doorframe -- `ex_nord_doorf_01`
+* Door -- `ex_nord_door_01`
+* Doormarker -- `DoorMarker`
+* House -- `ex_nord_house_02`
 
 ![[Patches_ESP-Replacer_1_Patching1.png]]
+
+>[!note]- Selecting multiple objects
+>Using `ctrl + left click` allows you to select a select a series of references. This means we can move them together as a group without losing their arrangement - how they are placed relative to eachother.
+
+
+#Tutorial #Patches #Constructionset #CSSE 
