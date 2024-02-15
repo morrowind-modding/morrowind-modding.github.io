@@ -11,7 +11,7 @@ function PageTitle({ fileData, cfg, displayClass }: QuartzComponentProps) {
   return (
     <h1 class={classNames(displayClass, "page-title")}>
       <a href={baseDir}>
-        <img src={iconPath} alt={title}/>
+        <img class="Logo" src={iconPath} alt={title}/>
       </a>
     </h1>
   )
@@ -20,6 +20,12 @@ function PageTitle({ fileData, cfg, displayClass }: QuartzComponentProps) {
 PageTitle.css = `
 .page-title {
   margin: 0;
+}
+.Logo {
+max-height: 650px;
+min-height: 50px;
+max-width: 240px;
+min-width: 50px;
 }
 `
 
