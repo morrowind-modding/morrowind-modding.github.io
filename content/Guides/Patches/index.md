@@ -1,8 +1,11 @@
 ---
 title: Patches
+aliases: 
+  - Patches
 tags:
   - Guides
   - Patches
-  - Constructionset
+  - ConstructionSet
+  - Tutorials
 ---
 This text is a placeholder.

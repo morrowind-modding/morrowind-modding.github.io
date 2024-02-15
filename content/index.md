@@ -4,11 +4,11 @@ This is the home page of the ***Morrowind Modding Wiki***.
 
 ---
 
-## Guides
+## [[Guides/index|Guides]]
 
-- [[Morrowind Interiors Project]]
-- [[Simple Texture Animation in Blender]]
-- [[Creating a Patch for an ESP]]
+- [[Guides/Animation/index|Animation]]
+- [[Guides/Level Design/index|Level Design]]
+- [[Guides/Patches/index|Patches]]
 
 ---
 

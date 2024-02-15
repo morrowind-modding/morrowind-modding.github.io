@@ -131,4 +131,4 @@ SetWaterLevel on cellChanged == 1 to the water level you need. You may need to e
 this just right. If OpenMW does not yet support interior weather, feel free to look at how Morrowind Interiors Project fakes interior weather: https://www.nexusmods.com/morrowind/mods/52237
 
 
-#Blender #modelling #nifskope #interiordesign #CSSE #Constructionset 
+#Blender #modelling #nifskope #Interiors #Exteriors #CSSE #ConstructionSet 
