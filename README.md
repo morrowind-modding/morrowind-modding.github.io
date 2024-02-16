@@ -1,6 +1,6 @@
 # The Morrowind Modding Wiki
 
-Repository for the [Morrowind Modding Wiki](https://morrowind-modding.github.io/wiki/)
+Repository for the [Morrowind Modding Wiki](https://morrowind-modding.github.io/)
 
 ----
 
@@ -10,5 +10,5 @@ Repository for the [Morrowind Modding Wiki](https://morrowind-modding.github.io/
 * [magicaldave](https://github.com/magicaldave)
 * [MasssiveJuice08](https://github.com/MasssiveJuice08)
 
-*Authored in [Obsidian.md](https://obsidian.md/)*
+*Authored in [Obsidian.md](https://obsidian.md/)*  
 *Deployed with [Quartz 4.0](https://quartz.jzhao.xyz/)*
