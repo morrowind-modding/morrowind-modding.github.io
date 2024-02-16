@@ -35,7 +35,7 @@ Before making *any*  changes, we need to differentiate between what references c
 
 There are two ways we can do this:
 
-> [!note] Browse references with **Cell View**:
+> [!note] Browse references with Cell View:
 > With `Show modified only` enabled, only references *added* or *modified* by `1a.esp` are displayed. We can double-click on each of these to locate them in the Render Window
 > > [!example]- 
 >>1. Double-click on `ex_nord_win_02`, the first reference in Cell View under `Object ID`. This will take you to the reference's location in the Render Window - However, in this case, it is obscured by other references (the thatch tower), so we need to move the camera around to find the selected reference.
@@ -43,9 +43,10 @@ There are two ways we can do this:
 >>![[Patches_ESP-Replacer_1_Conflict2.png]]
 >>3. Repeat this process for each reference from `Replacer_1a.esp`. Note however that this is a time-consuming approach if your active ESP contains many references in the cell.
 >>>[!tip] Tip: 
+>>> 
 >>>You can also do this by opening another session of the CS with only `MMW_Patches_ESP-Replacer_1b.esp` set to `active` and selecting Show Modified Only.
 
-> [!note] **Show Reference Data:** 
+> [!note] Show Reference Data: 
 >Holding `ctrl + shift + R + clicking middle-mouse-button` on a selected reference brings up Reference Data, telling us which plugin is adding or modifying that reference.
 >> [!example]-
 >>1. Left-click on `ex_common_house_addon`, the entrance to the thatch tower with the curved roof. While selected, press and hold `ctrl + shift + R + middle-mouse-button` to bring up the Reference Data window, which tells us beside `File:` that the reference originates from `MMW_Patches_ESP-Replacer_1b.esp`. 
