@@ -42,7 +42,7 @@ There are two ways we can do this:
 >>2. To get a better view, left click on the top of the Render Window (the top bar that displays the cell name, `Caldera -2,2`). This allows to use the camera controls in the Render Window, without unselecting our `ex_nord_win_02` reference. Hold the `shift` key and move your mouse around to orbit the camera around and get your bearings - to locate the window you'll need to zoom in, either by scrolling with your mouse wheel, or holding the `V` key and moving your mouse forward.
 >>![[Patches_ESP-Replacer_1_Conflict2.png]]
 >>3. Repeat this process for each reference from `Replacer_1a.esp`. Note however that this is a time-consuming approach if your active ESP contains many references in the cell.
->>>[!tip] Tip:
+>>>[!tip] Tip: 
 >>>You can also do this by opening another session of the CS with only `MMW_Patches_ESP-Replacer_1b.esp` set to `active` and selecting Show Modified Only.
 
 > [!note] **Show Reference Data:** 
@@ -62,7 +62,7 @@ There are two ways we can do this:
 ### Step 3: Patching
 We need to move the house and associated references added by `MMW_Patches_ESP-Replacer_1a.esp` so that they don't overlap with the tower from `Replacer_1b.esp`.
 
-First, to make it easier to select what we'll be moving, we can use the `Hide Selection` option with CSSE to hide some references from `Replacer_1b.esp` - see [[#^CSSEHideReference|Tip: Hiding references in the Render Window]]. Hide the following `Replacer_1b.esp` references:
+First, to make it easier to select what we'll be moving, we can use the `Hide Selection` option with CSSE to hide some references from `Replacer_1b.esp` - see above. Hide the following `Replacer_1b.esp` references:
 * Door -- `ex_nord_door_01`
 * Doorframe -- `ex_nord_doorf_01`
 * The tower entrance -- `ex_common_house_addon`
