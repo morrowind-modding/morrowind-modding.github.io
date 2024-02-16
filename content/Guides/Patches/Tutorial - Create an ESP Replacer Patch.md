@@ -5,12 +5,14 @@ See [[Creating a Patch for an ESP]] for more information on what patches are and
 # Tutorial 1:
 ![[Patches_ESP-Replacer_1_Preview.png]]
 * **Difficulty level:** Beginner
-* **Tutorial Files:** [ESP Replacer Tutorial - Scenario 1]()
-     * `MMW_Patches_ESP-Replacer_1a.esp`
-     * `MMW_Patches_ESP-Replacer_1b.esp`
 * **Requirements:**
      * Morrowind, Tribunal and Bloodmoon
      * [CSSE]()%%add link%%
+* **Tutorial Files:**
+     * `MMW_Patches_ESP-Replacer_1a.esp`
+     * `MMW_Patches_ESP-Replacer_1b.esp`
+![[Assets/Guides/Patches/Tutorial - Create an ESP Replacer Patch/MMW_Patches_ESP-Replacer_1.0.zip]]
+
 
 **Scenario:** `MMW_Patches_ESP-Replacer_1a.esp` adds a house to Caldera. `MMW_Patches_ESP-Replacer_1b.esp` adds a thatch tower to Caldera in the same place - follow the tutorial to create an ESP replacer for `Replacer_1a.esp` which solves the conflict:
 
