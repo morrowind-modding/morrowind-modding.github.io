@@ -57,7 +57,7 @@ There are two ways we can do this:
 >%%space%%
 >While having one or more references selected in the Render Window, press `Q` on your keyboard to bring up the `Context Menu`. Select `Hide Selection` to hide the reference. This can be reverted with `Restore Hidden References` in the `Context Menu`
 >This can make navigating tight spaces or finding stray references much easier.
->^CSSEHideReference
+> ^CSSEHideReference
 
 ### Step 3: Patching
 We need to move the house and associated references added by `MMW_Patches_ESP-Replacer_1a.esp` so that they don't overlap with the tower from `Replacer_1b.esp`.
