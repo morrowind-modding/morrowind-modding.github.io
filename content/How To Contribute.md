@@ -62,7 +62,7 @@ Now you just need to hook your personal access token and repository fork into Ob
 2. Type in clone, and select `Clone an existing repo`
       ![[Screenshot_20240210_192157.png]]
 3. Paste in your repository URL in the following format:
-   `https://<PERSONAL_ACCESS_TOKEN>@github.com/<USERNAME>/<REPO>.git
+   `https://<PERSONAL_ACCESS_TOKEN>@github.com/<USERNAME>/<REPO>.git`
    Replace `<PERSONAL_ACCESS_TOKEN>` with your previously generated key, and your username in place of `<USERNAME>`: ![[Screenshot_20240210_192307.png]]
    Pick a name for the folder, and leave the second box about `Clone depth` blank - simply press enter. Now the wiki is installed inside of obsidian, and you can make edits to your local copy of it. Let's start by sending over this very document!
 ## Editing Guide
