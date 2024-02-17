@@ -6,5 +6,4 @@ tags:
   - Guides
   - Tutorials
 ---
-
-This text is a placeholder.
+## Principles of Video Game Environment and Level Design

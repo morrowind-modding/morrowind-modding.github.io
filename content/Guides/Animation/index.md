@@ -10,5 +10,4 @@ tags:
   - Tutorials
   - Animation
 ---
-
-This text is a placeholder.
+## Guides and Tutorials on Creating Animations:

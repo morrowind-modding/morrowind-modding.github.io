@@ -8,5 +8,4 @@ tags:
   - ConstructionSet
   - Interiors
 ---
-
-This text is a placeholder.
+## Designing Interior Cells:

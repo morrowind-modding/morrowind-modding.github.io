@@ -8,4 +8,4 @@ tags:
   - ConstructionSet
   - Tutorials
 ---
-This text is a placeholder.
+## Creating Patches for Other Mods:
