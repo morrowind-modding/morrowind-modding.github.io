@@ -1,3 +1,8 @@
+---
+title: Home
+aliases:
+  - Home
+---
 ## Welcome
 
 This is the home page of the ***Morrowind Modding Wiki***.
@@ -16,6 +21,3 @@ This is the home page of the ***Morrowind Modding Wiki***.
   - [[How To Contribute]]
 
 ---
-
-> [!Note]
-> Everything is just place holder at the moment.
