@@ -150,7 +150,7 @@ a {
       width: $sidePanelWidth;
       margin-top: $topSpacing;
       box-sizing: border-box;
-      padding: 0 1rem;
+      padding: 0 4rem;
       position: fixed;
       @media all and (max-width: $fullPageWidth) {
         position: initial;
