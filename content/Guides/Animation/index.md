@@ -4,10 +4,8 @@ aliases:
   - Animation
 tags:
   - Blender
-  - modelling
-  - nifskope
-  - Guides
-  - Tutorials
+  - Nifskope
   - Animation
+description: Guides and Tutorials on Creating Animations
 ---
 ## Guides and Tutorials on Creating Animations:

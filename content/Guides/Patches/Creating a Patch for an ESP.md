@@ -3,7 +3,7 @@ description: In-depth guidelines on creating patches for ESP files
 tags:
   - Guides
   - Patches
-  - ConstructionSet
+  - Construction-Set
 ---
 This page is a guideline on creating patches for ESP files, describing the different methods that can be used to create an ESP patch and providing links to step-by-step tutorials.
 ## Important Considerations: What an ESP Can and Cannot Do

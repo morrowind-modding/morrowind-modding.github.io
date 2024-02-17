@@ -1,9 +1,10 @@
 ---
 title: Level Design
-aliases: 
+aliases:
   - Level Design
 tags:
-  - Guides
-  - Tutorials
+  - Architecture
+  - Spatial-Composition
+description: Principles of Video Game Environment and Level Design
 ---
 ## Principles of Video Game Environment and Level Design

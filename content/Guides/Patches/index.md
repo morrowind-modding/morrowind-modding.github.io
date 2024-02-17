@@ -1,11 +1,11 @@
 ---
 title: Patches
-aliases: 
+aliases:
   - Patches
 tags:
-  - Guides
   - Patches
-  - ConstructionSet
-  - Tutorials
+  - Construction-Set
+  - Conflicts
+description: Creating Compatibility - Mod Conflicts and Patches
 ---
-## Creating Patches for Other Mods:
+## Creating Compatibility - Mod Conflicts and Patches:

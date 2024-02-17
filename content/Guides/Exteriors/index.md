@@ -4,8 +4,8 @@ aliases:
   - Exteriors
 tags:
   - Exteriors
-  - Guides
-  - Tutorials
-  - ConstructionSet
+  - Construction-Set
+  - Landscaping
+description: Designing Exterior Cells and Landscaping
 ---
-## Designing Exterior Cells:
+## Designing Exterior Cells and Landscaping:

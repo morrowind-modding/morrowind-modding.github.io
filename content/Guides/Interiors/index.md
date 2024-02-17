@@ -3,9 +3,8 @@ title: Interiors
 aliases:
   - Interiors
 tags:
-  - Guides
-  - Tutorials
-  - ConstructionSet
   - Interiors
+  - Construction-Set
+description: Dungeons and Dwellings - Designing Interior Cells
 ---
-## Designing Interior Cells:
+## Dungeons and Dwellings - Designing Interior Cells:

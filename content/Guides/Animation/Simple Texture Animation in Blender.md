@@ -2,7 +2,7 @@
 description: "Make a texture orbit around a sphere in this short #Blender tutorial."
 tags:
   - Blender
-  - modelling
+  - Modeling
   - Tutorials
 ---
 ## Prerequisites:

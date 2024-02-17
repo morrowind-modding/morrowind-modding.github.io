@@ -2,12 +2,12 @@
 description: Fake exterior worldspaces using Export Sphere and Blender
 tags:
   - Blender
-  - modelling
-  - nifskope
+  - Modeling
+  - Nifskope
   - Interiors
   - Exteriors
   - CSSE
-  - ConstructionSet
+  - Construction-Set
   - Tutorials
 ---
 How to Build Fake Exteriors Using Export Sphere
