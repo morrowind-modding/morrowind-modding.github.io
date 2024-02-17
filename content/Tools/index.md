@@ -1,3 +1,5 @@
 ---
-title: Tools Root
+title: Tools
+aliases:
+  - Tools
 ---

@@ -15,6 +15,10 @@ This is the home page of the ***Morrowind Modding Wiki***.
 - [[Guides/Level Design/index|Level Design]]
 - [[Guides/Patches/index|Patches]]
 
+## [[Tools/index|Tools]]
+
+## [[Projects/index|Projects]]
+
 ---
 
 ## Contributing
