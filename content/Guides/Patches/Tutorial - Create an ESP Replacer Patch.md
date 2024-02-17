@@ -1,4 +1,12 @@
-*This page contains three tutorials of varying difficulty on how to create an ESP Replacer Patch:*'
+---
+description: Three tutorials of increasing difficulty on creating ESP Replacers
+tags:
+  - Tutorials
+  - Patches
+  - ConstructionSet
+  - CSSE
+---
+*This page contains three tutorials of varying difficulty on how to create an ESP Replacer Patch:*
 
 See [[Creating a Patch for an ESP]] for more information on what patches are and how they work.
 
@@ -86,5 +94,3 @@ With these hidden, we can select the references we want to move from `Replacer_1
 >[!note]- Selecting multiple objects
 >Using `ctrl + left click` allows you to select a select a series of references. This means we can move them together as a group without losing their arrangement - how they are placed relative to eachother.
 
-
-#Tutorials #Patches #ConstructionSet #CSSE 

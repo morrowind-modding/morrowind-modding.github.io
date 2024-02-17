@@ -1,3 +1,10 @@
+---
+description: In-depth guidelines on creating patches for ESP files
+tags:
+  - Guides
+  - Patches
+  - ConstructionSet
+---
 This page is a guideline on creating patches for ESP files, describing the different methods that can be used to create an ESP patch and providing links to step-by-step tutorials.
 ## Important Considerations: What an ESP Can and Cannot Do
 Generally speaking, an ESP cannot modify instances from another ESP. There are ways to make them do so by forcing an ESP to depend on another ESP as its master, but they will only reliably work in OpenMW, and are prone to breaking if the ‘master’ ESP changes (which it will do if it is edited and saved in the Construction Set). It is important to understand these limitations when creating ESP patches.
@@ -44,5 +51,3 @@ Maintenance: how tedious will it be to update the ESP replacer?
 * **Naming**: ESP replacers often take the same name as the mod they are replacing (e.g., Both the original mod and ESP replacer are called ‘UniqueModName.esp’). If installing mods directly in Data Files, users would overwrite the original ESP with the patch ESP; otherwise if using a mod manager or OpenMW’s native Data Directories, whichever mod folder/s that contain an ESP titled ‘UniqueModName.esp’ is the one that will be utilised by the virtual Data Files. However, an ESP replacer does not need to have the same name as the original mod, and in fact giving the ESP replacer a unique name (e.g., ‘UniqueModName_MyModPatch.esp’) can make it easier to create more accurate load order rules for Mlox; a simple `[conflict]` Mlox rule can warn users if they have both the original ESP and the ESP replacer. However, inexperienced mod users may be more likely to load both ESPs by mistake if they don’t use Mlox and misread the mod instructions
 * **Permissions**: Check the permissions and credits section on the conflicting mod’s Nexus Mods page to see if the mod author allows other users to edit their mod. They may stipulate that you need to seek their permission first, in which case you should make a reasonable effort to contact them before editing their mod. If they don’t allow others to edit their content at all, then your ESP replacer will need to be a replacer for your own mod ESP that works around the conflicting mod’s edits and you should not edit and re-package their ESP as an ESP replacer on your own mod page.
 
-
-#Guides #Patches #ConstructionSet 

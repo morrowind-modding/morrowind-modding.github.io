@@ -14,9 +14,9 @@ Guides are organized here by category, but you can also search them by tag as we
 
 ## [[Guides/Level Design/index|Level Design]]
 ### [[Guides/Level Design/Interiors/index|Interiors]]
-- [[Morrowind Interiors Project]] -- Fake exterior worldspaces using #MWSE and #Blender.
+- [[Morrowind Interiors Project]]
 ### [[Guides/Level Design/Exteriors/index|Exteriors]]
 
 ## [[Guides/Patches/index|Patches]]
-- [[Creating a Patch for an ESP]] -- In-depth guide to creating patches for #ESP files with #CSSE.
+- [[Creating a Patch for an ESP]]
 - [[Tutorial - Create an ESP Replacer Patch]]
