@@ -1,3 +1,10 @@
+---
+description: "Make a texture orbit around a sphere in this short #Blender tutorial."
+tags:
+  - Blender
+  - modelling
+  - Tutorials
+---
 ## Prerequisites:
 1. [Blender](https://www.blender.org/download/)
 2. [io_scene_mw](https://github.com/Greatness7/io_scene_mw)
@@ -40,5 +47,3 @@ You might notice the animation is a little "jumpy". This is because by default b
 Play around with setting different `scale`, `position`, or `rotation` values for your animation. This simple change can get you pretty far! In a later tutorial we'll explore using this same technique with multiple textures, and then later how to use it to create a working skybox. 
 
 For now, though, make sure to export your mesh back out as a nif using blender until you're ready to work on it again.
-
-#Blender #modelling

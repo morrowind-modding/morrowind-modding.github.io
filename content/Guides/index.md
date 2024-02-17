@@ -9,7 +9,7 @@ tags:
 Guides are organized here by category, but you can also search them by tag as well.
 
 ## [[Guides/Animation/index|Animation]]
-- [[Simple Texture Animation in Blender]] -- Learn how to make a texture orbit around a sphere in minutes using this short #Blender tutorial.
+- [[Simple Texture Animation in Blender]]
 
 
 ## [[Guides/Level Design/index|Level Design]]
