@@ -31,3 +31,11 @@ description: A list of interesting Quartz websites that MMW could borrow ideas f
 ## [CS Notes](https://notes.yxy.ninja/)
 
 **Hosted on:** Self-hosted maybe? Custom url but site repo is based on Github
+
+---
+## [Owlly Lab](https://www.mara-li.fr/)
+
+**Hosted on:** Github Pages
+**Why is it cool**
+* They made a working hamburger menu on mobile for the Explorer
+* Extensive customization of layout while based on Github Pages
