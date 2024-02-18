@@ -1,4 +1,5 @@
 @use "./base.scss";
+@use "./variables.scss" as *;
 
 .page-title {
     height: 200px;
@@ -34,10 +35,23 @@ img:active:not(.Logo) {
 
 img {
   &[alt*="+side"],
-  &[alt*="+rside"] {
+  &[alt*="rside"] {
     width: 20em;
     min-width: 50px;
     float: right;
+    margin: 0;
+    margin-left: 1em;
+
+    @media screen and (max-width: $mobileBreakpoint) {
+      width: 12.5em;
+    }
+  }
+
+  &[alt*="-side"],
+  &[alt*="lside"] {
+    width: 20em;
+    min-width: 50px;
+    float: left;
     margin: 0;
     margin-left: 1em;
 
