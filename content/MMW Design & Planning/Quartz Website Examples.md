@@ -1,3 +1,8 @@
+---
+tags:
+  - MMW-Development
+description: A list of interesting Quartz websites that MMW could borrow ideas from
+---
 ## [Topo Da Mente](https://www.pmcf.xyz/topo-da-mente/)
 
 **Hosted on:** self-hosted
