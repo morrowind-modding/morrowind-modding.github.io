@@ -94,3 +94,16 @@ With these hidden, we can select the references we want to move from `Replacer_1
 >[!note]- Selecting multiple objects
 >Using `ctrl + left click` allows you to select a select a series of references. This means we can move them together as a group without losing their arrangement - how they are placed relative to eachother.
 
+It's best to have the house `ex_nord_house_02` selected *last*, because in CSSE the last reference selected is what the CS will base movement and rotation off when moving a group of objects in the Render Window.[^1] This is of particular importance when moving a group of objects arranged with gridsnap.
+
+**If you have not selected the house last,** you can `ctrl + left click` to de-select it without de-selecting everything else, then `ctrl + left click` it again, making it now the last reference selected.
+
+**With our group now selected, we can move it to a better position:**
+![[Patches_ESP-Replacer_1_Move.webm]]
+> [!tip] Tip: `X`, `Y` and `Z` hotkeys
+> Holding down either `X`, `Y` or `Z` while moving one or more references keeps the references fixed to that axis while moving.
+
+---
+# Footnotes
+
+[^1]: In the vanilla CS it is the opposite: it uses the *first* object as a point of reference for movement and rotation when moving a group of multiple selected references.
