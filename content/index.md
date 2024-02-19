@@ -24,8 +24,9 @@ This is the home page of the ***Morrowind Modding Wiki***.
 ## [[Projects/index|Projects]]
 
 ---
-
 ## Contributing
   - [[How To Contribute]]
+
+## [[MMW Design & Planning/index|MMW Design & Planning]]
 
 ---

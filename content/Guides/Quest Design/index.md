@@ -7,6 +7,6 @@ tags:
   - Journal
   - Story
   - Construction-Set
-description: Selling a Story - Quest Design and Journal Entries
+description: Selling a Story - Dialogue, Quest Design and Journal Entries
 ---
-## Selling a Story - Quest Design and Journal Entries:
+## Selling a Story - Dialogue, Quest Design and Journal Entries:
