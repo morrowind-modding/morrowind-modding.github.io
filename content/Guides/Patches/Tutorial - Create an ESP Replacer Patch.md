@@ -15,7 +15,7 @@ See [[Creating a Patch for an ESP]] for more information on what patches are and
 * **Difficulty level:** Beginner
 * **Requirements:**
      * Morrowind, Tribunal and Bloodmoon
-     * [CSSE]()%%add link%%
+     * [CSSE]()%%broken link%%
 * **Tutorial Files:**
      * `MMW_Patches_ESP-Replacer_1a.esp`
      * `MMW_Patches_ESP-Replacer_1b.esp`
