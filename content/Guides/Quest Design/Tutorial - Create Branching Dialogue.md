@@ -48,7 +48,7 @@ Let’s set up the greeting on `dialPath == 0`
 
 ## Nesting choices within a dialogue path
 
-We can nest further branching choices within `dialPath 0`, depending on whether the player responds to choice `"Cabbages 1"` or `"Kings" 2`. using the `Choice` function.
+We can nest further branching choices within `dialPath 0`, depending on whether the player responds to choice `"Cabbages 1"` or `"Kings" 2`, using the `Choice` function.
 
 ### Choice 1:
 
