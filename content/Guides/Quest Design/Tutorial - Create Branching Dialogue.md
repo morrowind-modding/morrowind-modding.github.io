@@ -77,7 +77,9 @@ For the second choice, we set `dialPath` to `2`:
 >[!figure]
 >![[MMW_Quest-Design_BranchingDIAL_08.png]]
 >>[!example] Example in-game: 
+>>
 >>![[MMW_Quest-Design_BranchingDIAL_09.png]] 
+>>
 >>In-game, the other choices are displayed:
 
 ---
