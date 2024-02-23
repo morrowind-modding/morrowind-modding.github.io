@@ -47,10 +47,9 @@ See [[Creating a Patch for an ESP]] for more information on what patches are and
 We can clearly see some kind of conflict here. The house added by `Replacer_1a.esp` overlaps with the thatch tower (`ex_common_tower_thatch`) added by `Replacer_1b.esp`, covering up the door to the tower.
 
 >[!warning]
-
-Before making *any*  changes, we need to differentiate between what references come from **`1a.esp`** and **`1b.esp`**, as **we can only make modifications to references from `1a.esp`**. 
-
-There are two ways we can do this:
+>Before making *any*  changes, we need to differentiate between what references come from **`1a.esp`** and **`1b.esp`**, as **we can only make modifications to references from `1a.esp`**.
+>
+>There are two ways we can do this:
 
 ### Browse references with Cell View:
 With `Show modified only` enabled, only references *added* or *modified* by `1a.esp` are displayed. We can double-click on each of these to locate them in the Render Window.
