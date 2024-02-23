@@ -25,12 +25,23 @@ export function byDateAndAlphabetical(
   }
 }
 
+export function byAlphabetical(
+  cfg: GlobalConfiguration,
+): (f1: QuartzPluginData, f2: QuartzPluginData) => number {
+  return (f1, f2) => {
+    // sort lexographically by title
+    const f1Title = f1.frontmatter?.title.toLowerCase() ?? ""
+    const f2Title = f2.frontmatter?.title.toLowerCase() ?? ""
+    return f1Title.localeCompare(f2Title)
+  }
+}
+
 type Props = {
   limit?: number
 } & QuartzComponentProps
 
 export const PageList: QuartzComponent = ({ cfg, fileData, allFiles, limit }: Props) => {
-  let list = allFiles.sort(byDateAndAlphabetical(cfg))
+  let list = allFiles.sort(byAlphabetical(cfg))
   if (limit) {
     list = list.slice(0, limit)
   }
