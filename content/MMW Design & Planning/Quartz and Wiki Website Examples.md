@@ -3,6 +3,8 @@ tags:
   - MMW-Development
 description: A list of interesting Quartz websites that MMW could borrow ideas from
 ---
+# Quartz sites:
+
 ## [Topo Da Mente](https://www.pmcf.xyz/topo-da-mente/)
 
 **Hosted on:** self-hosted
@@ -39,3 +41,11 @@ description: A list of interesting Quartz websites that MMW could borrow ideas f
 **Why is it cool**
 * They made a working hamburger menu on mobile for the Explorer
 * Extensive customization of layout while based on Github Pages
+
+---
+
+# Non-Quartz Sites:
+
+## [Cyberpunk 2077 Modding](https://wiki.redmodding.org/cyberpunk-2077-modding/)
+
+Created with Gitbook, this is the modding wiki for Cyberpunk 2077
