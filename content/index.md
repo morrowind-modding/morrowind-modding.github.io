@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Morrowind Modding Wiki Home
 aliases:
   - Home
 ---
