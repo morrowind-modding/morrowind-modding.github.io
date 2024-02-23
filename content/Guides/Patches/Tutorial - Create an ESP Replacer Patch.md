@@ -14,7 +14,7 @@ This page is part of a series of guides on [[Guides/Patches/index|Patches]]
 See [[Creating a Patch for an ESP]] for more information on what patches are and how they work.
 
 # Tutorial 1:
->[!figure] Scenario: 
+>[!info] Scenario: 
 >![[Patches_ESP-Replacer_1_Preview.png]] 
 >**Scenario:**
 >- `MMW_Patches_ESP-Replacer_1a.esp` adds a house to Caldera. 
@@ -128,9 +128,11 @@ We can move the house south along the Y-axis to a position where it no longer ov
 
 See the video below for how the house was moved in the CS:
 
-> [!figure] Moving the house - Video:
+> [!example] Moving the house - Video:
 > ![[Patches_ESP-Replacer_1_Move.webm]]
+> 
 > We can move the house south along the Y-axis and east along the X-axis
+> 
 >  > [!tip]- Tip: Moving references using the `X`, `Y` and `Z` hotkeys: 
 > > 
 > > Holding down either `X`, `Y` or `Z` while moving one or more references keeps the references fixed to that axis while moving.
@@ -168,8 +170,11 @@ We can also check whether there are any references that completely covered up (o
 
 >[!example]- Example 2: buried 'ex_drystonewall'
 >![[Patches_ESP-Replacer_1_check2.png]]
+>
 >Now completely buried by the house is an `ex_drystonewall_c_01` reference from `Morrowind.esm`. 
+>
 >>[!question]- Should we delete this reference? 
+>>
 >>*"There are a few ways we can do this, and the choice is yours"* 
 >> 
 >>1. On the one hand, it is unnecessarily adding to the reference count of the cell %%add link to page on optimizing reference counts%%, so we could delete this to help optimize the cell. 
