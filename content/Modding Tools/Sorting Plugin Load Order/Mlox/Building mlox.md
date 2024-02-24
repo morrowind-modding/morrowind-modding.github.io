@@ -10,7 +10,7 @@ description: Creating your own build of mlox
 >* [[Using mlox]] -- How to use mlox to sort your load order
 >* [[mlox Rule Guidelines]] -- Guidelines for Editors of the mlox rule-base
 >* [[Building mlox]] -- Creating your own build of mlox
->* [[mlox history]] -- A brief history of the development of mlox 
+>* [[mlox History]] -- A brief history of the development of mlox 
 
 # Building mlox as an exe
 

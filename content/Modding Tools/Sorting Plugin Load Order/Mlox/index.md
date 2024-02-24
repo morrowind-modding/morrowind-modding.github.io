@@ -19,7 +19,7 @@ Use mlox to check for plugin dependencies and conflicts, and to sort your plugin
 >* [[Using mlox]] -- How to use mlox to sort your load order
 >* [[mlox Rule Guidelines]] -- Guidelines for Editors of the mlox rule-base
 >* [[Building mlox]] -- Creating your own build of mlox
->* [[mlox history]] -- A brief history of the development of mlox 
+>* [[mlox History]] -- A brief history of the development of mlox 
 
 # About
 mlox is designed to help people manage large collections of plugins for popular Elder Scrolls games from Bethesda Softworks.

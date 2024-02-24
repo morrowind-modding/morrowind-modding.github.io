@@ -13,7 +13,7 @@ description: How to use mlox to sort your load order
 >* [[Using mlox]] -- How to use mlox to sort your load order
 >* [[mlox Rule Guidelines]] -- Guidelines for Editors of the mlox rule-base
 >* [[Building mlox]] -- Creating your own build of mlox
->* [[mlox history]] -- A brief history of the development of mlox 
+>* [[mlox History]] -- A brief history of the development of mlox 
 
 # Backup Your Load Order Before Using!
 Before you start testing how mlox works on your load order, I recommend using Wrye Mash to save your current load order, so that you can revert back to it later should you decide that you do not like the results you get from mlox.
