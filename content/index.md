@@ -83,7 +83,7 @@ An outline of the various tools used for Morrowind modding, organized by categor
 >>
 >>Tools for creating and modifying meshes and animations for Morrowind
 > 
->>[!example]- [[Modding Tools/Combining Plugins/index|Combining Plugins]]] 
+>>[!example]- [[Modding Tools/Combining Plugins/index|Combining Plugins]] 
 >>
 >>Tools for merging plugins and managing master files
 > 
