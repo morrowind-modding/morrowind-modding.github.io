@@ -69,7 +69,7 @@ Guides and tutorials covering every aspect of modmaking for Morrowind, organised
 
 ## [[TES3 Construction Set/index|TES3 Construction Set]]
 
-## [[Tools/index|Tools]]
+## [[morrowind-modding-wiki/content/Modding Tools/index|Modding Tools]]
 
 ## [[Programmers' Reference/index|Programmers' Reference]]
 

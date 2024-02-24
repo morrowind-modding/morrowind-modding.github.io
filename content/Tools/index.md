@@ -1,5 +1,0 @@
----
-title: Tools
-aliases:
-  - Tools
----
