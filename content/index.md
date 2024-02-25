@@ -23,7 +23,7 @@ Guides and tutorials covering every aspect of modmaking for Morrowind, organised
 >* [[Guides/Interiors/index|Interiors]] -- Dungeons and Dwellings - Designing Interior Cells 
 >* [[Guides/Level Design/index|Level Design]] -- Principles of Video Game Environment and Level Design 
 >* [[Guides/Leveled Lists/index|Leveled Lists]] -- Leveled Creatures and Items - Working with Leveled Lists 
->* [Guides/Patches/index|Patches]] -- Creating Compatibility - Mod Conflicts and Patches
+>* [[Guides/Patches/index|Patches]] -- Creating Compatibility - Mod Conflicts and Patches
 >* [[Guides/Publishing Mods/index|Publishing Mods]] -- Understanding Permissions, Credits and How to Publish Mods 
 >* [[Guides/Quest Design/index|Quest Design]] -- Selling a Story - Dialogue, Quest Design and Journal Entries 
 >* [[Guides/Scripting/index|Scripting]] -- Morrowind Scripting - MWScript, MWSE-Lua and OpenMW-Lua 
