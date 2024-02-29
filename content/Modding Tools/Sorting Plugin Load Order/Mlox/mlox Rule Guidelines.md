@@ -11,7 +11,7 @@ description: Guidelines for Editors of the mlox rule-base
 >
 >This article is part of a series on [[Modding Tools/Sorting Plugin Load Order/Mlox/index|mlox]]
 > 
->* [[Using mlox]] -- How to use mlox to sort your load order
+>* [[Contributing to mlox Rules]] -- How to contribute to the rule-base of mlox 
 >* [[mlox Rule Guidelines]] -- Guidelines for Editors of the mlox rule-base
 >* [[Building mlox]] -- Creating your own build of mlox
 >* [[mlox History]] -- A brief history of the development of mlox 
