@@ -39,11 +39,11 @@ You'll find everything you need to know here: %% also add link to mlox-rules cha
 
 This guide will cover the following points:
 
-* [[#Finding the Rules-Base]]
-* [[#Where to Start]] -- finding a rule that needs adding:
-* [[#Learning the Rules]] -- the mlox cheat-sheet:
-* [[#Checking your Work]]
-* [[#Contributing on Github]]
+- [[#Finding the Rules-Base]] 
+- [[#Where to Start]] -- finding a rule that needs adding:
+- [[#Learning the Rules]] -- the mlox cheat-sheet:
+- [[#Checking your Work]] 
+- [[#Contributing on Github]]
 
 For the purposes of this tutorial, we will use a fictional Nexus mod page as a demonstration -- **'Morrowind Modding Wiki - Contributing to mlox Rules'**:
 
@@ -117,8 +117,6 @@ This information forms the basis of most mlox rules.
 ## Learning the Rules: 
 
 %% Explain mlox rules-base and %%
-
-## Creating 
 
 ## Checking your Work
 
