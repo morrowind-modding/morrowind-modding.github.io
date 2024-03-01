@@ -2,7 +2,7 @@
 tags:
   - mlox
   - Github
-  - Tutorials
+  - Guides
 description: How to contribute to the rule-base of mlox
 ---
 
@@ -45,17 +45,6 @@ This guide will cover the following points:
 - [[#Checking your Work]] 
 - [[#Contributing on Github]]
 
-For the purposes of this tutorial, we will use a fictional Nexus mod page as a demonstration -- **'Morrowind Modding Wiki - Contributing to mlox Rules'**:
-
->[!abstract] Tutorial
-> 
-> ![[Tools_mlox_contributing_Nexus1.png]] 
-> 
-> * **Difficulty**: #Beginner 
-> * **Requirements**: 
-> 	* A Github account
-> 	* A decent text editor: 
-> 		* Windows Notepad is all that is required, but [Visual Studio Code](https://code.visualstudio.com/) is recommended, especially for its [Git](https://git-scm.com/) integration
 
 
 ## Finding the Rules-Base
@@ -107,12 +96,6 @@ This information forms the basis of most mlox rules.
 >> ![[Tools_mlox_contributing_NexusBug.png]]
 
 
-
->[!figure] ![[Tools_mlox_contributing_Nexus2.png]]
-> 
-> An example of how a mod's load order requirements and conflicts might be displayed on a NexusMods page.
-
-%% outline types of rules that should be added based off the mod page description %%
 
 ## Learning the Rules: 
 
