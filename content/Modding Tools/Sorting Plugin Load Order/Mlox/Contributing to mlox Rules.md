@@ -3,7 +3,7 @@ tags:
   - mlox
   - Github
   - Guides
-description: How to contribute to the rule-base of mlox
+description: Guidelines and tips on contributing to the rule-base of mlox
 ---
 
 >[!abstract]- Pages contained within this folder 
@@ -28,42 +28,46 @@ description: How to contribute to the rule-base of mlox
 
 Contributing to mlox is as simple as reading mod page descriptions, making edits to a text file, and having a rudimentary knowledge of using [Github](https://github.com/).
 
->[!warning]- Hold up - did you say "*Github*"? 
+>[!warning]- Hold up - did you say _"Github"?_ 
 > 
 >>[!success] Yes -- but don't be alarmed: 
 >> 
 >> It's easier than you think, and this guide will take you through each step to make it as easy as possible.
 
-You'll find everything you need to know here: %% also add link to mlox-rules channel in MMC %%
+You'll find everything you need to get started here. %% also add link to mlox-rules channel in MMC %%
 
 # How to contribute: 
 
 This guide will cover the following points:
 
-- [[#Finding the Rules-Base]] 
-- [[#Where to Start]] -- finding a rule that needs adding:
-- [[#Learning the Rules]] -- the mlox cheat-sheet:
+- [[#Where do contributions get made?]] 
+- [[#How to Find Rules to Add]] 
+- [[#Learning the Rules -- the mlox Cheat-Sheet]]
 - [[#Checking your Work]] 
 - [[#Contributing on Github]]
 
+## Where do contributions get made?
 
+![[Tools_mlox_contributing_github-banner.png]]
 
-## Finding the Rules-Base
+The rules-base of mlox is stored in the Github repository [DanaePlays/mlox-rules](https://github.com/DanaePlays/mlox-rules). This is where updates to the rules are made -- each time mlox is run, it automatically downloads the latest rules from here.
 
->[!figure] ![[Tools_mlox_contributing_1.png]]
-> 
-> The [mlox-rules](https://github.com/DanaePlays/mlox-rules) Github repository -- for most mlox contributors, the 'mlox_base' and 'mlox_user' txt files are the only two files they will ever need to interact with.
+The rules themselves are stored in two files:
 
-The rules-base of mlox is stored in the Github repository [DanaePlays/mlox-rules](https://github.com/DanaePlays/mlox-rules). This is where updates to the rules-base are made and where mlox downloads its rules from each time it updates. Github can be intimidating to newcomers -- However, you only really need to pay attention to two files on the repository: 
-
-* `mlox_base.txt`
-* `mlox_user.txt`
+* `mlox_base.txt` -- %%summarize%%
+* `mlox_user.txt` -- %%summarize%%
 
 These two simple files are easy to edit and are organized around a simple set of rules. You do not need to be a programmer or coder, or even a modmaker, in order to understand and contribute to the rules-base. 
 
-We'll cover [[#Contributing on Github]] last
+>[!tip]- Tip for newcomers to Github:
+>
+> Github can be intimidating and unfamiliar to navigate at first. However, you only really need to pay attention to two files on this repository: `mlox_base.txt` and `mlox_user.txt` -- The rest you can ignore.
+>
+>![[Tools_mlox_contributing_1.png]]
 
-## Where to Start:
+In order to contribute rules on Github, you will need to create a fork of the repository -- We'll cover that in [[#Contributing on Github]]
+
+## How to Find Rules to Add
 
 Mod authors often advise[^1] on their mod's [NexusMods](https://www.nexusmods.com/morrowind) page or readme the following information:
 
@@ -74,7 +78,7 @@ Mod authors often advise[^1] on their mod's [NexusMods](https://www.nexusmods.co
 
 This information forms the basis of most mlox rules.
 
->[!question]- What other sources of information are used to inform mlox rules?
+>[!question] What other sources of information are used to inform mlox rules?
 > 
 > Nexus mod page descriptions and mod readmes are the main source of information. However, other sources of information are also useful and accepted:
 >  
@@ -94,13 +98,21 @@ This information forms the basis of most mlox rules.
 >> 
 >> Nonetheless, these can be a useful starting point for any research you undertake. 
 >>  
->> ![[Tools_mlox_contributing_NexusBug.png]]
+>> ![[Tools_mlox_contributing_NexusBug.png]] 
 
 
 
-## Learning the Rules: 
+## Learning the Rules -- the mlox Cheat-Sheet 
 
-%% Explain mlox rules-base and %%
+The article [[mlox Rule Guidelines]] is an essential reference for understanding and creating your own mlox rules. However, a great way to learn is by copying existing mlox rules and adapting them:
+
+- For example, if you want to learn how to format an `[Order]` rule, use the 'find' function (`ctrl + f` in most text editors) to search for "`[order]`" and see how other instances of this rule have been formatted.
+
+>[!figure] ![[Tools_mlox_contributing_order_01.png]] 
+> 
+> An example of an \[Order] rule for defining load order
+
+
 
 ## Checking your Work
 
