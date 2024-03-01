@@ -17,6 +17,7 @@ Use mlox to check for plugin dependencies and conflicts, and to sort your plugin
 >This article is part of a series on [[Modding Tools/Sorting Plugin Load Order/Mlox/index|mlox]]
 > 
 >* [[Contributing to mlox Rules]] -- How to contribute to the rule-base of mlox 
+>* [[Tutorial - How to Add Rules to the mlox-rules Repository]]
 >* [[mlox Rule Guidelines]] -- Guidelines for Editors of the mlox rule-base
 >* [[Building mlox]] -- Creating your own build of mlox
 >* [[mlox History]] -- A brief history of the development of mlox 
