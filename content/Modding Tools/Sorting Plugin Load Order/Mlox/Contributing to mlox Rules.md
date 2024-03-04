@@ -108,10 +108,54 @@ The article [[mlox Rule Guidelines]] is an essential reference for understanding
 
 - For example, if you want to learn how to format an `[Order]` rule, use the 'find' function (`ctrl + f` in most text editors) to search for "`[order]`" and see how other instances of this rule have been formatted.
 
->[!figure] ![[Tools_mlox_contributing_order_01.png]] 
-> 
-> An example of an \[Order] rule for defining load order
+### \[Order]
 
+Specifies the order of plugins, from top to bottom, with the bottom being loaded last. 
+ 
+![[Tools_mlox_contributing_order_01.png]]
+ 
+>[!example]- 
+> 
+> 
+> 
+ 
+>[!warning]- 
+> 
+> If two orderings conflict, the first one encountered wins. Order conflicts are called "cycles". 
+> 
+> Each order rule should only list a **maximum of two plugins**, as this gives mlox more flexibility in ordering and reduces the likelihood of cycles.
+ 
+--- 
+ 
+### \[Requires] 
+  
+>[!tip]- 
+> 
+> 
+ 
+--- 
+ 
+### \[Patch] 
+  
+>[!tip]- 
+> 
+> 
+ 
+--- 
+ 
+### \[Conflict] 
+ 
+>[!tip]- 
+> 
+> 
+> 
+ 
+### \[Note] 
+ 
+>[!tip]- 
+> 
+> 
+> 
 
 
 ## Checking your Work
