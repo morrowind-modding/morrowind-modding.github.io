@@ -49,6 +49,7 @@ For pages that are placed in an incorrect category, or directly in `/content`.
 >> This article has not been added to any category. Please help out by adding it to a category so it can be listed with similar articles. 
 >>  
 >> \*_replace default icon with picture of Imperial Guard._ 
+>> 
 >> \*_option 1._ 
 > 
 >> [!warning]+  _"I don't recall using teleportation, and yet there I was. Alone. Naked."_
@@ -56,6 +57,7 @@ For pages that are placed in an incorrect category, or directly in `/content`.
 >> This article has not been added to any category. Please help out by adding it to a category so it can be listed with similar articles. 
 >>  
 >> \*_replace default icon with picture of a High Elf Male wizard._ 
+>> 
 >> \*_option 2._
 
 ### Tag Issues: 
@@ -85,6 +87,7 @@ Maintenance templates For the following issues:
 >> This article contains tags that are not sufficiently related to the content. Please help by editing the tags so it can be listed with similar articles. 
 >> 
 >> \*_replace icon with Breton Male face, or perhaps a blue plate_
+>> 
 >> \*_option 1_
 > 
 >> [!warning]+  _"The chairs. The tables. All confused. We hear the words, and must speak them. We take them, and arrange them, but still, they will not be quiet."_ 
@@ -92,6 +95,7 @@ Maintenance templates For the following issues:
 >> This article contains tags that are not sufficiently related to the content. Please help by editing the tags so it can be listed with similar articles. 
 >> 
 >> \*_replace icon with Ash Zombie face_
+>> 
 >> \*_option 1_
 
 
