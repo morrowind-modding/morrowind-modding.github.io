@@ -24,7 +24,7 @@ To add flair to the wiki, custom Morrowind-themed maintenance templates can be c
 
 ---
 
-## Morrowind-Themed Maintenance Templates: 
+## Morrowind-Themed Maintenance Templates 
 
  A list of draft maintenance templates, sorted by category. Where more than one potential option is given for what the final maintenance template could be, the callout will specify if it is "option 1", "2" and so on.
 
@@ -34,7 +34,7 @@ To add flair to the wiki, custom Morrowind-themed maintenance templates can be c
 > 
 > Wikipedia "[\{{Uncategorized}}](https://en.wikipedia.org/wiki/Template:Uncategorized)" maintenance template
 
-### Article Categorization Issues:
+### Article Categorization Issues
 
 For pages that are placed in an incorrect category, or directly in `/content`.
 
@@ -44,7 +44,7 @@ For pages that are placed in an incorrect category, or directly in `/content`.
 > 
 > #### Uncategorized Article: 
 > 
->> [!warning]+  _"You've finally arrived, but our records don't show from where"_
+>> [!warning]+  _"You've finally arrived, but our records don't show from where."_
 >>  
 >> This article has not been added to any category. Please help out by adding it to a category so it can be listed with similar articles. 
 >>  
@@ -55,14 +55,16 @@ For pages that are placed in an incorrect category, or directly in `/content`.
 > 
 > #### Miscategorized Article:
 > 
->> [!warning]+  _"I don't recall using teleportation, and yet there I was. Alone. Naked."_
->>  
+>> [!warning]+ _"So strange this place. Far from the marsh."_ 
+>>   
 >> This article has been placed in the wrong category, or a better category for it exists than what it is currently in. Please help out by moving the article to a more suitable category so it can be listed with similar articles. 
 >>  
->> \*_replace default icon with picture of a High Elf Male wizard._ 
+>> \*_replace default icon with picture of default Argonian._ 
 >> 
 
-### Article Tag Issues: 
+---
+
+### Article Tag Issues 
 
 Maintenance templates For the following issues:
 
@@ -98,6 +100,8 @@ Maintenance templates For the following issues:
 >> \*_replace icon with Ash Zombie face_
 >> 
 >> \*_option 1_
+
+---
 
 ### Category Maintenance 
 
@@ -135,9 +139,9 @@ Maintenance templates for subject 'categories' (i.e., the subfolders contained w
 > > 
 > > \*_replace icon with generic Dunmer female_
 
+---
 
 ### Cleanup
-
 
 > [!info]+ Draft Ideas -- Cleanup
 > 
@@ -149,12 +153,25 @@ Maintenance templates for subject 'categories' (i.e., the subfolders contained w
 > > 
 > > This article may require cleanup to meet MMW's quality standards. No cleanup reason has been specified. Please help improve this article if you can; the discussions tab on Github may contain suggestions.
 > > 
-> > \*_replace icon with generic Breton Male face._
+> > \*_replace icon with generic Breton face._
 
+---
 
+### Context
+
+> [!info]+ Draft Ideas -- Context Missing
+> 
+> #### Article is Missing Context:
+> 
+> > [!warning]+ _"I don't recall using teleportation, and yet there I was. Alone. Naked."_
+> > 
+> > Parts of this article do not provide enough context for readers unfamiliar with the subject to understand later content.
+> > 
+> > \*_replace icon with generic Altmer Male_
+
+---
 
 ### Contradiction
-
 
 > [!info]+ Draft Ideas -- Article Contradictions 
 > 
@@ -175,7 +192,67 @@ Maintenance templates for subject 'categories' (i.e., the subfolders contained w
 > > Parts of this article are self-contradictory or confusing and need to be edited for clarity.
 > > 
 > > \*_replace icon with Vivec's face_ 
+
+---
+
+### Deletion
+
+For articles, categories (folders), or tags considered for deletion.
+
+
+> [!info]+ Draft Ideas -- Deletion
 > 
+> #### Article/Category/Tag Considered for Deletion:
+> 
+> > [!warning]+ _"This is the end of you, s'wit!"_
+> > 
+> > This `[article/category/tag]` is a candidate for deletion. Consult the Github Discussions tab if you disagree.
+> > 
+> > \*_replace icon with generic Dunmer face_
+> 
+> ---
+> 
+> #### Deletion Disputed:
+> 
+> > [!warning]+ _"I'm being attacked. Help!"_
+> > 
+> > The deletion of this page is contested. The person placing this notice intends to dispute the deletion of this article on its Github Discussions page, and requests that this page not be deleted in the meantime.
+> > 
+> > \*_replace icon with generic Dunmer face_
+> 
+> ---
+> 
+> #### Copyright Violation
+> 
+> > [!danger]+ Possible Copyright Violation
+> > 
+> > The previous content of this page appears to infringe on the copyright of the text from the source(s) below:
+> > 
+> > - `[placeholder]`
+> >   
+> > Posting copyrighted material without the express permission of the copyright holder is a violation of applicable law and of our policy. Those who repeatedly post copyrighted material may be blocked from further editing.  
+> > 
+> > \*_ironically, this description was copy-pasted directly from Wookiepedia._
+
+
+---
+
+### Redlinks
+
+Redlinks are placeholder links to wiki articles that have not yet been created. E.g., if the article on Blender had not yet been created, you could create a redlink in your animation tutorial as a placeholder to reference it like so: `[[Modding Tools/3D Modeling Software & Tools/Blender|Blender]]` which would be displayed as `Blender`
+
+> [!info] Draft Ideas -- Redlinks
+> 
+> #### Article Contains Too Many Redlinks
+> 
+> > [!warning]+ _"Why walk when you can ride?"_
+> > 
+> > This article contains an excess of redlinks. Attention is requested to create new articles from these links.
+> > 
+> > \*_replace icon with Dunmer Silt Strider Pilot_
+
+
+
 
 
 --- 
@@ -192,19 +269,19 @@ Maintenance templates for subject 'categories' (i.e., the subfolders contained w
 	- [x] underpopulated category
 	- [x] overpopulated category
 	- [x] category undergoing maintenance
-- [ ] cleanup
-	- [x] cleanup - reason not provided
-	- [ ] cleanup - to a higher standard of article quality
+- [x] cleanup
+	- [x] cleanup - generic maintenance template
 - [x] contradiction 
 	- [x] article contradicts another article
 	- [x] sections within an article contradict each other
-- [ ] context 
-	- [ ] article does not provide enough context for readers unfamiliar with the subject
-- [ ] deadlinks
-	- [ ] article contains excess of deadlinks that lead nowhere
-- [ ] deletion 
-	- [ ] article is a candidate for deletion
-	- [ ] contested: deletion of article is contested
+- [x] context 
+	- [x] article does not provide enough context for readers unfamiliar with the subject
+- [x] redlinks
+	- [x] article contains excess of redlinks to articles not yet written
+- [x] deletion 
+	- [x] article is a candidate for deletion
+	- [x] contested: deletion of article is contested
+	- [x] copyright infringement
 	- [ ] tag: entire tag is candidate for deletion, e.g., `#Dirty-Edits`
 	- [ ] category: entire category (a folder) is candidate for deletion, e.g., "`/content/Modding Tools/Sorting Plugin Load Order`"
 - [ ] expand
@@ -408,10 +485,6 @@ Maintenance templates for subject 'categories' (i.e., the subfolders contained w
 > > [!quote] _Dirt, dirt, dirt, dirt, dirt. Everywhere dirt._
 > > 
 > > \- Breton Males
-> 
-> > [!quote] _I could kill that guar. Those boots are ruined._
-> > 
-> > \- Dunmer
 > 
 > > [!quote] _I have a feeling that you and I are about to become very close._
 > > 
