@@ -163,11 +163,11 @@ Maintenance templates for subject 'categories' (i.e., the subfolders contained w
 > 
 > #### Article is Missing Context:
 > 
-> > [!warning]+ _"I don't recall using teleportation, and yet there I was. Alone. Naked."_
+> > [!warning]+ _"Oh. The bad people are the Camonna Tong. I thought everybody knew that."_
 > > 
 > > Parts of this article do not provide enough context for readers unfamiliar with the subject to understand later content.
 > > 
-> > \*_replace icon with generic Altmer Male_
+> > \*_replace icon with Larrius Varro_
 
 ---
 
@@ -234,6 +234,50 @@ For articles, categories (folders), or tags considered for deletion.
 > > 
 > > \*_ironically, this description was copy-pasted directly from Wookiepedia._
 
+---
+
+### Expand
+
+> [!info]+ Draft Ideas -- Expand
+> 
+> #### Article or Section Could Be Expanded Upon
+>
+> > [!warning]+ _"Such fine company. One would be wise to listen"_
+> >
+> > It is requested that this article, or a section of this article, be expanded.
+> >
+> > \*_replace icon with generic Argonian_
+
+---
+
+### Factual Accuracy
+
+> [!info]+ Draft Ideas -- Factual Accuracy
+> 
+> > [!warning]+ _"Greetings! M'Aiq knows many things. What is your interest? You seek knowledge. M'Aiq has much. Some of it verified by actual facts!"_
+> >
+> > The factual accuracy of this article or section is disputed.
+> >
+> > \*_replace icon with M'Aiq._
+
+---
+
+### Game Engine-Specific Issues:
+
+> [!info]+ Draft Ideas -- Game Engine-Specific Issues:
+> 
+> #### Lacks MWSE/MGE-XE Information
+> 
+> > [!warning]+
+> > 
+> > This article could benefit from the addition of MGE-XE/MWSE-specific information.
+> 
+> #### Lacks OpenMW Information
+> 
+> > [!warning]+ 
+> > 
+> > This article could benefit from the addition of OpenMW-specific information.
+
 
 ---
 
@@ -250,6 +294,48 @@ Redlinks are placeholder links to wiki articles that have not yet been created. 
 > > This article contains an excess of redlinks. Attention is requested to create new articles from these links.
 > > 
 > > \*_replace icon with Dunmer Silt Strider Pilot_
+
+---
+
+### Sources
+
+> [!info]+ Draft Ideas
+> 
+> #### Lacking Sources
+>
+> > [!warning]+ _"There's no point being part of history if you're too ignorant to learn it"_
+> > 
+> > This article needs to be provided with more sources to conform to a higher standard of article quality.
+> > 
+> > \*_replace icon with Caius Cosades_
+>
+> --- 
+> 
+> #### Irrelevant Sources
+>
+> > [!warning]+ _"Rumors flow from the House of Troubles"_
+> >
+> > This article cites sources which do not sufficiently relate to its content.
+> >
+> > \*_replace icon with ALMSIVI symbol or Vivec_
+
+
+---
+
+### Tone
+
+Most wikis use an impartial, encyclopaedic tone. It would be sensible for MMW to follow this convention, as it avoids lending certain mods, modding methods or modding tools an undue bias. If any content should be recommended over others, sources should be cited. An encyclopaedic tone makes maintaining a consistent tone and style of writing easier; humor is subjective.
+
+> [!info] Draft Ideas -- Tone Issues
+> 
+> #### Informal Tone
+>
+> > [!warning]+ _"Where's your uniform?"_
+> >
+> > This article, or a section of this article, may not be written in the formal tone expected of an encyclopedia entry.
+> >
+> > \*_replace icon with Imperial Guard face_
+
 
 
 
@@ -284,10 +370,10 @@ Redlinks are placeholder links to wiki articles that have not yet been created. 
 	- [x] copyright infringement
 	- [ ] tag: entire tag is candidate for deletion, e.g., `#Dirty-Edits`
 	- [ ] category: entire category (a folder) is candidate for deletion, e.g., "`/content/Modding Tools/Sorting Plugin Load Order`"
-- [ ] expand
-	- [ ] Request that article or section of an article be expanded
-- [ ] factual accuracy 
-	- [ ] factual accuracy of article or section is disputed
+- [x] expand
+	- [x] Request that article or section of an article be expanded
+- [x] factual accuracy 
+	- [x] factual accuracy of article or section is disputed
 - [ ] game engine-specific info
 	- [ ] OpenMW - article/section only covers OpenMW engine behaviour
 	- [ ] MWSE - article/section only covers MWSE/MGE-XE behaviour
@@ -306,13 +392,15 @@ Redlinks are placeholder links to wiki articles that have not yet been created. 
 - [ ] non-Morrowind-specific subject
 	- [ ] relevance - this article about `[non-Morrowind-specific tool/subject]` has too much redundant information that is not relevant to Morrowind `(e.g., Gimp)`
 	- [ ] repeating information from external sources - this article about `[non-morrowind-specific tool/subject]` repeats information already explained on `[external tool/subject website, e.g., Gimp user guides` 
-- [ ] sources 
-	- [ ] Lack of sources - add more
-	- [ ] Irrelevant sources - this article's/section's cited sources do not relate to the subject
-- [ ] tone 
-	- [ ] article not written in formal tone
+- [x] sources 
+	- [x] Lack of sources - add more
+	- [x] Irrelevant sources - this article's/section's cited sources do not relate to the subject
+- [x] tone 
+	- [x] article not written in formal tone
 - [ ] update
 	- [ ] `[mod/tool name]` updated - parts of this article are no longer up to date
+- [ ] WIP
+    - [ ] Article is a WIP
 
 
 --- 
@@ -501,3 +589,23 @@ Redlinks are placeholder links to wiki articles that have not yet been created. 
 > > [!quote] _"Fetch the Fork of Horripilation from the mad hermit near Ald Redaynia."_
 > > 
 > > \- Sheogorath
+> 
+> > [!quote] _"Rumors flow from the House of Troubles"_
+> >
+> > \- Tribunal faithful saying
+> 
+> > [!quote] _"A terrible place, I've heard. There's a boat from Khuul, if you have any reason to go."_
+> > 
+> > \- generic dialogue: `Solstheim`
+> 
+> > [!quote] _"Oh. The bad people are the Camonna Tong. I thought everybody knew that."_
+> > 
+> > \- Larrius Varro
+> 
+> > [!quote] _"Have you taken care of that cave rat problem yet?"_
+> > 
+> > \- Eydis Fire-Eye
+> 
+> > [!quote] _"These rats are such a nuisance! I'm worried they'll eat all of my pillows,"_
+> > 
+> > \- Drarayne Thelas
