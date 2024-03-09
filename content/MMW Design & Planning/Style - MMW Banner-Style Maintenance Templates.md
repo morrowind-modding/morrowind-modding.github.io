@@ -157,6 +157,23 @@ Maintenance templates for subject 'categories' (i.e., the subfolders contained w
 
 ---
 
+### Conciseness
+
+> [!info]+ Draft Ideas -- Conciseness of Articles
+> 
+> Articles should be detailed, but substantive. Articles that repeat themselves or ramble too much should be made more concise.
+> 
+> #### Conciseness
+> 
+> > [!warning]+ _"I'm a busy gal, so if you could hurry this up."_
+> > 
+> > Parts of this article could be made more concise for better readability.
+> > 
+> > \*_replace icon with Elone or generic Redguard Female.
+
+
+---
+
 ### Context
 
 > [!info]+ Draft Ideas -- Context Missing
@@ -238,15 +255,25 @@ For articles, categories (folders), or tags considered for deletion.
 
 ### Expand
 
+For insufficiently detailed content or incomplete lists.
+
 > [!info]+ Draft Ideas -- Expand
 > 
 > #### Article or Section Could Be Expanded Upon
 >
-> > [!warning]+ _"Such fine company. One would be wise to listen"_
+> > [!warning]+ _"Welcome, friend. Share some sugar?"_
 > >
 > > It is requested that this article, or a section of this article, be expanded.
 > >
-> > \*_replace icon with generic Argonian_
+> > \*_replace icon with generic Khajiit_
+> 
+> #### Incomplete List Could Be Expanded
+> 
+> > [!warning]+ _"Welcome, friend. Share some sugar?"_
+> >
+> > This list is incomplete and could benefit from additional entries.
+> >
+> > \*_replace icon with generic Khajiit_
 
 ---
 
@@ -268,15 +295,44 @@ For articles, categories (folders), or tags considered for deletion.
 > 
 > #### Lacks MWSE/MGE-XE Information
 > 
-> > [!warning]+
+> > [!warning]+ _"There are a few ways we can do this, and the choice is yours."_
 > > 
 > > This article could benefit from the addition of MGE-XE/MWSE-specific information.
+> >
+> > \*_replace icon with Socucius Ergalla or MWSE logo._
 > 
 > #### Lacks OpenMW Information
 > 
-> > [!warning]+ 
+> > [!warning]+ _"There are a few ways we can do this, and the choice is yours."_
 > > 
 > > This article could benefit from the addition of OpenMW-specific information.
+> >
+> > \*_replace icon with Socucius Ergalla or OpenMW logo._
+
+---
+
+### Images
+
+
+> [!info]+ Draft Ideas -- Image & Diagram Issues:
+> 
+> #### Article Lacking images/Diagrams
+> 
+> > [!warning]+ _"How free you are, to venture in the nude!"_
+> > 
+> > This article could benefit from the addition of more %%pick one%% images and/or diagrams.
+> > 
+> > \*_replace icon with Fargoth_
+
+---
+
+### Merging or Splitting Articles
+
+> [!info]+ Draft Ideas -- Merging or Splitting Articles:
+> 
+> #### Merging Articles
+> 
+> > [!warning]+ 
 
 
 ---
@@ -324,7 +380,7 @@ Redlinks are placeholder links to wiki articles that have not yet been created. 
 
 ### Tone
 
-Most wikis use an impartial, encyclopaedic tone. It would be sensible for MMW to follow this convention, as it avoids lending certain mods, modding methods or modding tools an undue bias. If any content should be recommended over others, sources should be cited. An encyclopaedic tone makes maintaining a consistent tone and style of writing easier; humor is subjective.
+Most wikis use an impartial, encyclopedic tone. It would be sensible for MMW to follow this convention, as it avoids lending certain mods, modding methods or modding tools an undue bias. If any content should be recommended over others, sources should be cited. An encyclopedic tone makes maintaining a consistent tone and style of writing easier; humor is subjective.
 
 > [!info] Draft Ideas -- Tone Issues
 > 
@@ -357,6 +413,8 @@ Most wikis use an impartial, encyclopaedic tone. It would be sensible for MMW to
 	- [x] category undergoing maintenance
 - [x] cleanup
 	- [x] cleanup - generic maintenance template
+- [x] conciseness
+	- [x] article could be condensed
 - [x] contradiction 
 	- [x] article contradicts another article
 	- [x] sections within an article contradict each other
@@ -368,20 +426,18 @@ Most wikis use an impartial, encyclopaedic tone. It would be sensible for MMW to
 	- [x] article is a candidate for deletion
 	- [x] contested: deletion of article is contested
 	- [x] copyright infringement
-	- [ ] tag: entire tag is candidate for deletion, e.g., `#Dirty-Edits`
-	- [ ] category: entire category (a folder) is candidate for deletion, e.g., "`/content/Modding Tools/Sorting Plugin Load Order`"
+	- [x] tag: entire tag is candidate for deletion, e.g., `#Dirty-Edits`
+	- [x] category: entire category (a folder) is candidate for deletion, e.g., "`/content/Modding Tools/Sorting Plugin Load Order`"
 - [x] expand
 	- [x] Request that article or section of an article be expanded
+	- [x] Incomplete list - list should be expanded upon
 - [x] factual accuracy 
 	- [x] factual accuracy of article or section is disputed
-- [ ] game engine-specific info
-	- [ ] OpenMW - article/section only covers OpenMW engine behaviour
-	- [ ] MWSE - article/section only covers MWSE/MGE-XE behaviour
-- [ ] images
-	- [ ] article needs more images
-	- [ ] image not suitable
-- [ ] list
-	- [ ] Incomplete list - list should be expanded upon
+- [x] game engine-specific info
+	- [x] OpenMW - article/section only covers OpenMW engine behaviour
+	- [x] MWSE - article/section only covers MWSE/MGE-XE behaviour
+- [x] images
+	- [x] article needs more images
 - [ ] merging
 	- [ ] article should be merged with another
 	- [ ] article should be separated into a new article
@@ -609,3 +665,28 @@ Most wikis use an impartial, encyclopaedic tone. It would be sensible for MMW to
 > > [!quote] _"These rats are such a nuisance! I'm worried they'll eat all of my pillows,"_
 > > 
 > > \- Drarayne Thelas
+> 
+> > [!quote] _"Short trip, long trip. You decide."_
+> >
+> > \- Dunmer
+> 
+> > [!quote] _"Yes, Ahnassi is a thief. But she is a NICE thief. Don't you think so?"_
+> >
+> > \- Ahnassi 
+> 
+> > [!quote] _"What's that? Oh, never mind the jewels! I just want to find the bandit again. He was charming, and funny, and I simply must see him again"._
+> >
+> > \- Maurrie Aurmine>
+> 
+> > [!quote] _"I must say, I find you most interesting right now. Please, go ahead."_
+> >
+> > \- Altmer 
+> 
+> > [!quote] _"Well, I find myself in pleasant company. Please, share your thoughts."_
+> >
+> > \- Altmer
+> 
+> > [!quote] _"I'm a busy gal, so if you could hurry this up."_
+> > 
+> > \- Redguard Female
+
