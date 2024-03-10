@@ -330,9 +330,51 @@ For insufficiently detailed content or incomplete lists.
 
 > [!info]+ Draft Ideas -- Merging or Splitting Articles:
 > 
-> #### Merging Articles
+> #### Article Considered for Merging
 > 
-> > [!warning]+ 
+> > [!warning]+ _"We make a special trip just for you, same low price."_
+> >
+> > This article could benefit from being merged into `[placeholder name]`. If you disagree, please consult the Discussions tab on Github.
+> >
+> > \*_replace icon with Dunmer Gondolier._
+> 
+> ---
+>
+> #### Article to be Split into Multiple Articles
+> 
+> > [!warning]+ _"Your age is past. We are the new gods, born of the flesh, and wise and caring of the needs of our people."_
+> >
+> > This article should be split into either multiple articles accessible from a disambiguation page, or a set of articles.
+> >
+> > \*_replace icon with Sotha Sil or ALMSIVI symbol._
+
+---
+
+### Multiple Issues
+
+> [!info]+ Draft Ideas -- Article Contains Multiple Issues:
+> 
+> #### Mutiple Issues
+> 
+> > [!warning]+ _"Hrisskar, Don't think I've forgotten our wager. I want this dagger sharp as a scamp's claw by morning."_
+> >
+> > This article has multiple issues and is in need of major additions and/or work.
+> >
+> > \*_replace icon with note icon matching that of 'Note to Hrisskar'._
+
+---
+
+### Neutrality
+
+> [!info]+ Draft Ideas -- Neutral POV
+> 
+> #### Article's Neutrality Disputed
+> 
+> > [!warning]+ _"Yes, Ahnassi is a thief. But she is a NICE thief. Don't you think so?"_
+> >
+> > The neutrality of this article or section is disputed. Please see the relevant discussion on the Guthub Discussions page.
+> > 
+> > \*_replace icon with Ahnassi._
 
 
 ---
@@ -341,7 +383,7 @@ For insufficiently detailed content or incomplete lists.
 
 Redlinks are placeholder links to wiki articles that have not yet been created. E.g., if the article on Blender had not yet been created, you could create a redlink in your animation tutorial as a placeholder to reference it like so: `[[Modding Tools/3D Modeling Software & Tools/Blender|Blender]]` which would be displayed as `Blender`
 
-> [!info] Draft Ideas -- Redlinks
+> [!info]+ Draft Ideas -- Redlinks
 > 
 > #### Article Contains Too Many Redlinks
 > 
@@ -353,9 +395,36 @@ Redlinks are placeholder links to wiki articles that have not yet been created. 
 
 ---
 
+### Relevance
+
+> [!info]+ Draft Ideas -- Issues with Article Relevance
+> 
+> #### Relevance to Morrowind
+> 
+> > [!warning]+ _"\[...supposedly the definitive reference to fishy sticks throughout Tamriel, but the pages are so smeared with fishy stick sauce it is impossible to read any of them.\]"_
+> > 
+> > The relevance of this article/section to Morrowind modding is disputed and requires work. Consult the Github Discussion for more information.
+> > 
+> > \*_replace icon with "Have a Fishy Stick!" image._
+> 
+> ---
+> 
+> #### Topic Covered Elsewhere
+> 
+> > [!warning]+ _"Greetings, outlander. Don't I know you from somewhere?"_
+> > 
+> > This article/section repeats information already covered by external sources. It could benefit from being condensed and directing readers to those sources where applicable. Consult the Github Discussion for more information.
+> > 
+> > \*_replace icon with generic Dunmer_
+
+
+repeating information from external sources - this article about `[non-morrowind-specific tool/subject]` repeats information already explained on `[external tool/subject website, e.g., Gimp user guides` 
+
+---
+
 ### Sources
 
-> [!info]+ Draft Ideas
+> [!info]+ Draft Ideas -- Issues with Sources
 > 
 > #### Lacking Sources
 >
@@ -375,7 +444,6 @@ Redlinks are placeholder links to wiki articles that have not yet been created. 
 > >
 > > \*_replace icon with ALMSIVI symbol or Vivec_
 
-
 ---
 
 ### Tone
@@ -392,10 +460,34 @@ Most wikis use an impartial, encyclopedic tone. It would be sensible for MMW to 
 > >
 > > \*_replace icon with Imperial Guard face_
 
+---
+
+### Update
+
+> [!info]+ Draft Ideas -- Article Outdated
+> 
+> #### Article is Outdated
+> 
+> > [!warning]+ _"Have you taken care of that cave rat problem yet?"_
+> > 
+> > Parts of this article are no longer up to date. Please update the article to include missing information, and remove this template when finished.
+> > 
+> > \*_replace icon with Eydis Fire-Eye._
 
 
+---
 
+### WIP Article
 
+> [!info]+ Draft Ideas -- WIP Articles
+> 
+> #### Article is a Work in Progress
+> 
+> > [!warning]+ _"Not done yet. Soon, though. You go away and let me work now. Can't work with people watching. Sometimes I don't even watch. Big rock, you know."_
+> > 
+> > This page is a work in progress. Therefore, it is not finished and may undergo critical changes while this message remains in place. As a courtesy, please avoid making minor edits to this page while this message is displayed, in order to avoid edit conflicts.
+> > 
+> > \*_replace icon with Duma gro-Lag._
 
 --- 
 
@@ -438,25 +530,25 @@ Most wikis use an impartial, encyclopedic tone. It would be sensible for MMW to 
 	- [x] MWSE - article/section only covers MWSE/MGE-XE behaviour
 - [x] images
 	- [x] article needs more images
-- [ ] merging
-	- [ ] article should be merged with another
-	- [ ] article should be separated into a new article
-- [ ] multiple Issues
-	- [ ] Umbrella category that lists multiple issues
-- [ ] neutrality
-	- [ ] article's neutrality is disputed
-- [ ] non-Morrowind-specific subject
-	- [ ] relevance - this article about `[non-Morrowind-specific tool/subject]` has too much redundant information that is not relevant to Morrowind `(e.g., Gimp)`
-	- [ ] repeating information from external sources - this article about `[non-morrowind-specific tool/subject]` repeats information already explained on `[external tool/subject website, e.g., Gimp user guides` 
+- [x] merging
+	- [x] article should be merged with another
+	- [x] article should be separated into multiple articles
+- [x] multiple Issues
+	- [x] Umbrella category that lists multiple issues
+- [x] neutrality
+	- [x] article's neutrality is disputed
+- [x] relevance
+	- [x] relevance to Morrowind - this article about `[non-Morrowind-specific tool/subject]` has too much redundant information that is not relevant to Morrowind `(e.g., Gimp)`
+	- [x] repeating information from external sources - this article about `[non-morrowind-specific tool/subject]` repeats information already explained on `[external tool/subject website, e.g., Gimp user guides` 
 - [x] sources 
 	- [x] Lack of sources - add more
 	- [x] Irrelevant sources - this article's/section's cited sources do not relate to the subject
 - [x] tone 
 	- [x] article not written in formal tone
-- [ ] update
-	- [ ] `[mod/tool name]` updated - parts of this article are no longer up to date
-- [ ] WIP
-    - [ ] Article is a WIP
+- [x] update
+	- [x] `[mod/tool name]` updated - parts of this article are no longer up to date
+- [x] WIP
+    - [x] Article is a WIP
 
 
 --- 
@@ -689,4 +781,19 @@ Most wikis use an impartial, encyclopedic tone. It would be sensible for MMW to 
 > > [!quote] _"I'm a busy gal, so if you could hurry this up."_
 > > 
 > > \- Redguard Female
+> 
+> > [!quote] _"the eye of the needle lies in the teeth of the wind; the mouth of the cave lies in the skin of the pearl; the dream is the door and the star is the key."_
+> > \- 'Wisdom's Test' Nerevarine prophecy
+> 
+> > [!quote] _"I know a fine place. Excellent fishing. My friend, Mehra Milo, says it's her favorite fishing spot. You ready to go?"_
+> >
+> > \- Blatta Hateria
+> 
+> > [!quote] _"Me? Well, I have done a few pieces. Mostly, Ghorak just throw them really far. You interested in buying a piece? I'm working on one now... for now, I call 'Untitled rock.'"_
+> >
+> > \- Duma gro-Lag
+> 
+> > [!quote] _"Your age is past. We are the new gods, born of the flesh, and wise and caring of the needs of our people."_
+> >
+> > \- Sotha Sil, _'The Battle of Red Mountain'_, (Vivec)
 
