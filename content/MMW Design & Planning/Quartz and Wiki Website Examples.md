@@ -44,8 +44,20 @@ description: A list of interesting Quartz websites that MMW could borrow ideas f
 
 ---
 
+## [Mage the Awakening Wiki](https://lakeinlove.github.io/Mage-The-Awakening/)
+
+Just a pretty Quartz site with a simple but navigable layout. Some questionable design choices, such as choosing to make all bold words a different colour (making them easily confused with hyperlinks).
+
+---
+
 # Non-Quartz Sites:
 
 ## [Cyberpunk 2077 Modding](https://wiki.redmodding.org/cyberpunk-2077-modding/)
 
 Created with Gitbook, this is the modding wiki for Cyberpunk 2077
+
+---
+
+## [The Integral Guide to Well-Being](https://integralguide.com/About)
+
+Published with [Obsidian Publish](https://obsidian.md/publish), it features a visually pleasing UI, including support for [Stacked Pages](https://help.obsidian.md/User+interface/Tabs#Stack+tab+groups) and folder icons.
