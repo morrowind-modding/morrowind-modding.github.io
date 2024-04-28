@@ -33,24 +33,6 @@ img:active:not(.Logo) {
     background:var(--background-primary);
 }
 
-/*----grid callout----*/
-.callout[data-callout="even-columns"] {
-  /* Removes padding and background colour from the container */
-  padding: 0;
-  background-color: transparent;
-}
-.callout[data-callout="even-columns"] > .callout-content {
-  /* Arranges the content in columns */
-  display: grid;
-  /* minmax sets the minimum width of a column. Make the columns 'skinnier' by setting 15rem to a smaller number */
-  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-  gap: 12px;
-}
-.callout[data-callout="even-columns"] > .callout-title {
-  /* Hides the callout title */
-  display: none;
-}
-
 /*----infobox callout----*/
 .callout[data-callout="infobox"] {
   background-color: rgba(80, 120, 180, 0.1);
