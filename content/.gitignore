@@ -1,5 +1,5 @@
-# Exclude Obsidian's settings (including plugin and hotkey configurations)
-.obsidian/
+# Exclude Obsidian's settings and plugins, but include snippets
+.obsidian/!snippets
 
 # Exclude OS settings and caches
 .trash/
