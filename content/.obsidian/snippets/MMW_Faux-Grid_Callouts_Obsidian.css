@@ -1,0 +1,34 @@
+/*----float left----*/
+.callout[data-callout="gridfloatleft"] {
+    --callout-color: rgba(0, 0, 0, 0);
+    --callout-icon: lucide-alert-circle;
+    float: left;
+    width: 50%;
+    margin: auto;
+    clear: left;
+}
+
+  /* mobile breakpoint */
+  @media (max-width: 767px) {
+    .callout[data-callout="gridfloatleft"] {
+      width: 100%;
+      float: none;
+    }
+  }
+
+.callout[data-callout="gridfloatright"] {
+    --callout-color: rgba(0, 0, 0, 0);
+    --callout-icon: lucide-alert-circle;
+    float: right;
+    width: 50%;
+    margin: auto;
+    clear: right;
+  }
+  
+  /* mobile breakpoint */
+  @media (max-width: 767px) {
+    .callout[data-callout="gridfloatright"] {
+      width: 100%;
+      float: none;
+    }
+  }
