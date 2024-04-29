@@ -5,6 +5,7 @@ public
 prof
 tsconfig.tsbuildinfo
 /.obsidian
+.obsidian/!snippets
 .quartz-cache
 private/
 .replit
