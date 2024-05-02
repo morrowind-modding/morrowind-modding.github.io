@@ -1,4 +1,4 @@
-import { QuartzComponentConstructor, QuartzComponentProps } from "../types"
+import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "../types"
 import path from "path"
 
 import style from "../styles/listPage.scss"
@@ -16,13 +16,13 @@ interface FolderContentOptions {
 }
 
 const defaultOptions: FolderContentOptions = {
-  showFolderCount: false,
+  showFolderCount: true,
 }
 
 export default ((opts?: Partial<FolderContentOptions>) => {
   const options: FolderContentOptions = { ...defaultOptions, ...opts }
 
-  function FolderContent(props: QuartzComponentProps) {
+  const FolderContent: QuartzComponent = (props: QuartzComponentProps) => {
     const { tree, fileData, allFiles, cfg } = props
     const folderSlug = stripSlashes(simplifySlug(fileData.slug!))
     const allPagesInFolder = allFiles.filter((file) => {
@@ -47,9 +47,7 @@ export default ((opts?: Partial<FolderContentOptions>) => {
 
     return (
       <div class={classes}>
-        <article>
-          <p>{content}</p>
-        </article>
+        <article>{content}</article>
         <div class="page-listing">
           {options.showFolderCount && (
             <p>

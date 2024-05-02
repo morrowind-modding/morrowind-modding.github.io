@@ -19,6 +19,17 @@ export type Analytics =
       websiteId: string
       host?: string
     }
+  | {
+      provider: "goatcounter"
+      websiteId: string
+      host?: string
+      scriptSrc?: string
+    }
+  | {
+      provider: "posthog"
+      apiKey: string
+      host?: string
+    }
 
 export interface GlobalConfiguration {
   pageTitle: string
