@@ -1,275 +1,3 @@
-@use "./base.scss";
-@use "./variables.scss" as *;
-
-.page-title {
-    height: 200px;
-}
-
-#explorer-ul {
-    max-height: calc(100vh - 400px);
-}
-
-img:not(.Logo) {
-	cursor:zoom-in;}
-
-img:active:not(.Logo) {
-	cursor:zoom-out;
-	display:block;
-	z-index:100;
-	position:fixed;
-    max-height:100%;
-    max-width:100%;
-    height:100%;
-    width:100%;
-    object-fit: contain;
-    margin:0 auto;
-    text-align:center;
-    top: 50%;
-  	transform: translateY(-50%);
-    padding:0;
-    left:0;
-    right:0;
-    bottom:0;
-    background:var(--background-primary);
-}
-
-/*----Faux Grid Callouts----*/
-
-/*---float left---*/
-.callout[data-callout="gridfloatleft"] {
-  --color: rgba(44, 160, 223, 0.5);
-  --border: rgba(44, 160, 223, 0.5);
-  --bg: rgba(0, 0, 0, 0);
-  --callout-icon: lucide-alert-circle;
-  float: left;
-  width: 50%;
-  margin: auto;
-  clear: left;
-}
-
-/* mobile breakpoint */
-@media (max-width: 767px) {
-  .callout[data-callout="gridfloatleft"] {
-    width: 100%;
-    float: none;
-  }
-}
-
-
-/*---float right---*/
-.callout[data-callout="gridfloatright"] {
-  --color: rgba(44, 160, 223, 0.5);
-  --border: rgba(44, 160, 223, 0.5);
-  --bg: rgba(0, 0, 0, 0);
-  --callout-icon: lucide-alert-circle;
-  float: right;
-  width: 50%;
-  margin: auto;
-  clear: right;
-}
-
-/* mobile breakpoint */
-@media (max-width: 767px) {
-  .callout[data-callout="gridfloatright"] {
-    width: 100%;
-    float: none;
-  }
-}
-
-/*----Caption Callouts----*/
-
-/*---caption left callout---*/
-.callout[data-callout="caption_left"] {
-  --color: rgb(0, 176, 255);
-  --border: rgba(0, 176, 255, 0.44);
-  --bg: rgba(0, 176, 255, 0.1);
-  float: left;
-  max-width: 40%;
-  padding: 6px;
-  margin: 2px 12px 2px 0px;
-}
-
-.callout[data-callout="caption_left"] > .callout-title {
-  display: none;
-}
-
-.callout[data-callout="caption_left"] img {
-  display: block;
-  margin: auto;
-  max-width: 100%;
-}
-
-.callout[data-callout="caption_left"] p {
-  text-align: left;
-  padding: 2px;
-  margin: auto;
-  font-size: 0.875em;
-}
-
-/* mobile breakpoint */
-@media (max-width: 767px) {
-  .callout[data-callout="caption_left"] {
-    max-width: 50%;
-  }
-}
-
-/*---caption center callout---*/
-.callout[data-callout="caption"] {
-  --color: rgb(0, 176, 255);
-  --border: rgba(0, 176, 255, 0.44);
-  --bg: rgba(0, 176, 255, 0.1);
-  padding: 6px;
-  max-width: 80%;
-  margin: auto;
-}
-
-.callout[data-callout="caption"] > .callout-title {
-  display: none;
-}
-
-.callout[data-callout="caption"] img {
-  display: block;
-  margin: auto;
-  max-width: 100%;
-}
-
-.callout[data-callout="caption"] p {
-  text-align: center;
-  padding: 2px;
-  margin: auto;
-  font-size: 0.875em;
-}
-
-/*---caption right callout---*/
-.callout[data-callout="caption_right"] {
-  --color: rgb(0, 176, 255);
-  --border: rgba(0, 176, 255, 0.44);
-  --bg: rgba(0, 176, 255, 0.1);
-  float: right;
-  max-width: 40%;
-  padding: 6px;
-  margin: 2px 0px 2px 12px;
-}
-
-.callout[data-callout="caption_right"] > .callout-title {
-  display: none;
-}
-
-.callout[data-callout="caption_right"] img {
-  display: block;
-  margin: auto;
-  max-width: 100%;
-}
-
-.callout[data-callout="caption_right"] p {
-  text-align: left;
-  padding: 2px;
-  margin: auto;
-  font-size: 0.875em;
-}
-
-/* mobile breakpoint */
-@media (max-width: 767px) {
-  .callout[data-callout="caption_right"] {
-    max-width: 50%;
-  }
-}
-
-/*----infobox callout----*/
-.callout[data-callout="infobox"] {
-  background-color: rgba(80, 120, 180, 0.1);
-  --callout-icon: none;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  float: right;
-  width: 300px;
-  margin: 0px 0px 10px 10px;
-  padding: 5px;
-}
-
-/* mobile breakpoint */
-@media (max-width: 767px) {
-  .callout[data-callout="infobox"] {
-    width: 100%;
-    float: none;
-  }
-}
-
-@media (max-width: 480px) {
-  .callout[data-callout="infobox"] {
-    width:100%;
-    float: none;
-  }
-}
-
-/* stack infoboxes vertically with 'clear' */
-.callout[data-callout="infobox"] {
-  clear: right;
-}
-
-/* Remove Callout Title */
-.callout[data-callout="infobox"] .callout-title {
-  display: none;
-}
-
-
-/* H2 Title */
-.callout[data-callout="infobox"] h2 {
-  margin: auto;
-  max-width: 100%;
-  font-size: 15px;
-  text-align: center;
-  border-radius: 2px;
-  background-color: rgba(255, 255, 255, 0.1);
-  padding: 4px;
-}
-
-/* H3 Title */
-.callout[data-callout="infobox"] h3 {
-  margin: auto;
-  max-width: 100%;
-  font-size: 17px;
-  text-align: center;
-  border-radius: 2px;
-  background-color: rgba(255, 255, 255, 0.1);
-  padding: 4px;
-}
-
-/* Spacing */
-.callout[data-callout="infobox"] p {
-  margin-block-start: 10px;
-  margin-block-end: 0px;
-  width: 100%;
-}
-
-/* Image */
-.callout[data-callout="infobox"] img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 100%;
-}
-
-/* Table */
-.callout[data-callout="infobox"] table {
-  margin: auto;
-  width: 100%;
-  font-size: 16px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  background-color: rgb(30, 30, 30);
-}
-
-.callout[data-callout="infobox"] th {
-  padding-left: 12px; 
-  padding-right: 0px;
-  vertical-align: top;
-}
-
-.callout[data-callout="infobox"] td {
- padding-left: 12px; 
- padding-right: 0px;
- vertical-align: top;
-}
-
 body {
   --image-border-color: var(--background-modifier-border);
   --image-border-width: 1px;
@@ -773,6 +501,71 @@ img[alt~=border],
   object-fit: contain;
 }
 
+/*@settings
+name: Image Adjustments
+id: image-adjustments
+settings:
+    - 
+        id: info-text-SlRvb-img-adj
+        type: info-text
+        title: Image Adjustments by SlRvb
+        description: "[Image Adjustments Snippet How-To Guide](https://publish.obsidian.md/slrvb-docs/ITS+Theme/Image+Adjustments)"
+        markdown: true
+    -
+        title: List Overlap Fix
+        description: Fix list bullets overlapping with images
+        id: img-adj-list
+        type: class-toggle
+        default: true
+    -
+        title: Clear Images
+        description: Push image under/over headings or horizontal lines
+        id: img-adj-clears
+        type: heading
+        level: 1
+        collapsed: true
+    -
+        title: Horizontal Lines
+        description: Push image under/over any horizontal lines
+        id: clear-hr
+        type: class-toggle
+    -
+        title: Headings
+        description: Push image under/over all headings 1-6
+        id: clear-headings
+        type: class-toggle
+    -
+        title: Heading Specific
+        description: Push image under/over some headings and not others
+        id: img-adj-clears-headings
+        type: heading
+        level: 2
+        collapsed: true
+    -
+        title: Header 1
+        id: clear-heading-1
+        type: class-toggle
+    -
+        title: Header 2
+        id: clear-heading-2
+        type: class-toggle
+    -
+        title: Header 3
+        id: clear-heading-3
+        type: class-toggle
+    -
+        title: Header 4
+        id: clear-heading-4
+        type: class-toggle
+    -
+        title: Header 5
+        id: clear-heading-5
+        type: class-toggle
+    -
+        title: Header 6
+        id: clear-heading-6
+        type: class-toggle
+*/
 /*Theme fixes*/
 .img-adj-list :is(ul, ol) {
   display: flow-root;
