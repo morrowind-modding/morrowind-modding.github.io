@@ -60,7 +60,7 @@ An outline of the various tools used for Morrowind modding, organized by categor
 
 ---
 
-## [[MWModWiki/content/Programmers Reference/index|Programmers' Reference]]
+## [[Programmers Reference/index|Programmers Reference]]
 
 ---
 
