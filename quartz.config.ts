@@ -16,7 +16,7 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "morrowind-modding.github.io/",
-    ignorePatterns: ["private", "templates/*", ".obsidian"],
+    ignorePatterns: ["private", "**/templates/", ".obsidian"],
     defaultDateType: "created",
     theme: {
       fontOrigin: "googleFonts",
