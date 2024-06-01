@@ -226,7 +226,7 @@ export function renderPage(
                   ))}
                 </Header>
                 <div class="popover-hint">
-                  {slug !== "index" && beforeBody.map((BodyComponent) => (
+                  {beforeBody.map((BodyComponent) => (
                     <BodyComponent {...componentData} />
                   ))}
                 </div>

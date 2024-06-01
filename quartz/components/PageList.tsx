@@ -25,23 +25,12 @@ export function byDateAndAlphabetical(
   }
 }
 
-export function byAlphabetical(
-  cfg: GlobalConfiguration,
-): (f1: QuartzPluginData, f2: QuartzPluginData) => number {
-  return (f1, f2) => {
-    // sort lexographically by title
-    const f1Title = f1.frontmatter?.title.toLowerCase() ?? ""
-    const f2Title = f2.frontmatter?.title.toLowerCase() ?? ""
-    return f1Title.localeCompare(f2Title)
-  }
-}
-
 type Props = {
   limit?: number
 } & QuartzComponentProps
 
 export const PageList: QuartzComponent = ({ cfg, fileData, allFiles, limit }: Props) => {
-  let list = allFiles.sort(byAlphabetical(cfg))
+  let list = allFiles.sort(byDateAndAlphabetical(cfg))
   if (limit) {
     list = list.slice(0, limit)
   }
@@ -50,20 +39,22 @@ export const PageList: QuartzComponent = ({ cfg, fileData, allFiles, limit }: Pr
     <ul class="section-ul">
       {list.map((page) => {
         const title = page.frontmatter?.title
-        const description = page.frontmatter?.description
         const tags = page.frontmatter?.tags ?? []
 
         return (
           <li class="section-li">
             <div class="section">
-              <p></p>
+              {page.dates && (
+                <p class="meta">
+                  <Date date={getDate(cfg, page)!} locale={cfg.locale} />
+                </p>
+              )}
               <div class="desc">
                 <h3>
                   <a href={resolveRelative(fileData.slug!, page.slug!)} class="internal">
                     {title}
                   </a>
                 </h3>
-                {description}
               </div>
               <ul class="tags">
                 {tags.map((tag) => (

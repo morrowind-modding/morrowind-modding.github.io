@@ -74,7 +74,6 @@ const calloutMapping = {
   error: "danger",
   bug: "bug",
   example: "example",
-  figure: "figure",
   quote: "quote",
   cite: "quote",
 } as const

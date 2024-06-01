@@ -113,15 +113,6 @@
     --callout-icon: var(--callout-icon-quote);
   }
 
-  &[data-callout="figure"] {
-    --color: #7a43b5;
-    --border: #7a43b544;
-    --bg: #7a43b510;
-    --callout-icon: var(--callout-icon-example);
-    font-size: 1.25em;
-    text-align: center;
-  }
-
   &.is-collapsed > .callout-title > .fold-callout-icon {
     transform: rotateZ(-90deg);
   }
