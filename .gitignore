@@ -13,3 +13,4 @@ content/.obsidian/*.json
 private/
 .replit
 replit.nix
+package-lock.json
