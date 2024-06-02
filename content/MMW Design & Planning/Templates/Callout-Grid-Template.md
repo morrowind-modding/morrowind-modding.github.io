@@ -1,0 +1,7 @@
+> [!gridfloatleft]
+> 
+> %%content%%
+
+> [!gridfloatright]
+> 
+> %%content%%
