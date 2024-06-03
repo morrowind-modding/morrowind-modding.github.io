@@ -1,0 +1,27 @@
+/*--- Maintenance Template ---*/
+.callout[data-callout="maintenance_template"] {
+    border: 1px solid #db894244;
+    background-color: #db894210;
+    padding: 2px;
+}
+
+.callout[data-callout="maintenance_template"] > .callout-title {
+    display: none;
+}
+
+.callout[data-callout="maintenance_template"] img {
+    float: left;
+    max-width: 30%;
+    margin: auto;
+    object-fit: contain;
+}
+
+.callout[data-callout="maintenance_template"] p {
+    font-size: 0.8rem;
+}
+
+.callout[data-callout="maintenance_template"] p strong {
+    font-size: 1rem;
+    color: #db8942;
+    text-align: center;
+}
