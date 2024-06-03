@@ -50,14 +50,45 @@ Just a pretty Quartz site with a simple but navigable layout. Some questionable 
 
 ---
 
-## Non-Quartz Sites:
+## Non-Quartz, Obsidian-Based Sites:
+
+### [The Integral Guide to Well-Being](https://integralguide.com/About)
+
+Published with [Obsidian Publish](https://obsidian.md/publish), it features a visually pleasing UI, including support for [Stacked Pages](https://help.obsidian.md/User+interface/Tabs#Stack+tab+groups) and folder icons.
+
+---
+
+## Wiki and Documentation Sites
+
+A list of wiki and program documentation websites for inspiration, particularly those that are focused on:
+
+1. Modding
+2. Documentation for a program
+3. Instructional wikis in general with tutorial and guide-based content
+
+Most wikis avoid ['instructional and presumptuous language'](https://en.m.wikipedia.org/wiki/Wikipedia:Manual_of_Style#Instructional_and_presumptuous_language). This is suitable for the general reference, encyclopaedic content most wikis are focused on, (whether it be Wikipedia, or one of the numerous fandom wikis based around a fictional media franchise). However, whilst the Morrowind Modding Wiki strives to keep an impartial tone, it _is_ an instructional tool on how to create and manage mods.
 
 ### [Cyberpunk 2077 Modding](https://wiki.redmodding.org/cyberpunk-2077-modding/)
 
 Created with Gitbook, this is the modding wiki for Cyberpunk 2077
 
+### [Paradox Wikis](https://wikis.paradoxplaza.com/)
+
+The home of [Paradox Interactive](https://www.paradoxinteractive.com/) game wikis. Most (if not all) wikis hosted on Paradox Wikis contain an extensive **Modding** section detailing how to create and manage mods for the game in question. 
+
 ---
 
-### [The Integral Guide to Well-Being](https://integralguide.com/About)
+### [Souls Modding](http://soulsmodding.wikidot.com/)
 
-Published with [Obsidian Publish](https://obsidian.md/publish), it features a visually pleasing UI, including support for [Stacked Pages](https://help.obsidian.md/User+interface/Tabs#Stack+tab+groups) and folder icons.
+The 'Soulsborne Modding Wiki' is the home of modding knowledge of FromSoftware's ['Soulsborne'](https://en.m.wikipedia.org/wiki/Soulslike)' games.
+
+The structure appears to be that of a general reference wiki, with tutorials separated into their own section and each tutorial attributed to a specific author.
+
+---
+
+### [Stardew Modding Wiki](https://stardewmodding.wiki.gg/wiki/Main_Page)
+
+The modding wiki for 'Stardew Valley'.
+
+---
+
