@@ -49,7 +49,7 @@ Here are some things to keep in mind as you get started with Lua.
 	- The book does not contain very many examples.
 - The majority of the functionality you will use when developing Lua mods will be native to either OpenMW or MWSE.
 	- OpenMW-specific documentation can be found [here](https://openmw.readthedocs.io/en/stable/reference/lua-scripting/index.html).
-		- A good place to start is \_\_\_\_\_\_.
+		- A good place to start is the [Overview of Lua scripting](https://openmw.readthedocs.io/en/latest/reference/lua-scripting/overview.html) page.
 	- MWSE-specific documentation can be found [here](https://mwse.github.io/MWSE/).
 		- A good place to start is in the [Guides section](https://mwse.github.io/MWSE/guides/introduction/).
 - The [Nexus Lua Dump](https://github.com/MWSE/morrowind-nexus-lua-dump) is a public repository that gathers together all Lua mods that have been published on www.nexusmods.com. It's a great resource for seeing how other mods implemented certain functionalities.
