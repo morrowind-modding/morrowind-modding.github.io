@@ -1,10 +1,50 @@
 
-Lua is a very small and feature-light programming language. Compared to several other programming languages, there are very few built-in functionalities and data structures. This makes it much easier to pick up the language, but it can also lead to repetitive code and result in rebuilding the wheel several times.
+Lua is a very small and feature-light programming language. Compared to several other programming languages, there are very few built-in functionalities and data structures. This makes it much easier to pick up the language, but it can also lead to repetitive code and result in rebuilding the wheel several times. This problem can be mitigated by using third-party libraries provided by MWSE/OpenMW, mod authors, and possibly other projects on GitHub.
+
+## Type Annotations and LuaCATS
+
+Lua does not come with any built-in functionality for annotating types. In larger projects, this can make it difficult to keep track of what tables store what data, and this can lead to errors. To circumvent this problem, [LuaCATS](https://luals.github.io/wiki/annotations/) offers a _VS Code_ plugin that allows for robust type annotation functionality.
+
+>[!note]+ This guide will use LuaCATS annotation in code blocks.
+> LuaCATS will primarily be used to specify the types of `local` variables, and document the arguments and return values of functions. 
+
+A lot of the keywords and terminology in LuaCATS is fairly self-explanatory, but a quick overview will be provided in this section by way of examples.
+>[!example]- Specify the types of keys and values in a `table`
+> To say a variable, named `tbl`, is of type `table`, each of its keys is a `string`, and each of its values is a `number`, we may write
+>```lua
+>---@type table<string, number>
+>local tbl = {}
+>```
+
+>[!example]- Specify that a `table` only holds certain keys.
+> Let's say we're storing some data that represents a person, and we only wish to store their `name` and `age`. We can annotate this as follows:
+>```lua
+>---@type {name: string, age: integer}
+>local person = {}
+>```
+>In general, the syntax is `{key1name: val1type, key2name: val2type, key3name, val3type, ...}`.
+
+>[!example]- Annotate the arguments and return values of a `function`
+> Consider the following code block:
+>```lua
+>---@param arg1 string
+>---@param arg2 integer
+>---@return boolean
+>local function my_func(arg1, arg2)
+>	return true
+>end
+>```
+>The above annotations dictate the acceptable arguments to `my_func`, along with its expected return types: namely,
+>- `my_func` accepts two parameters: `arg1`, and `arg2`.
+>- `arg1` must be a `string`
+>- `arg2` must be an `integer`.
+>- `my_func` will return a `boolean` value.
+## Useful Resources
 
 Here are some things to keep in mind as you get started with Lua.
 * The most comprehensive (freely available) Lua guide is the first edition of the [Programming in Lua (PIL)](https://www.lua.org/pil/contents.html) book. 
-	* This should be considered the primary resource for learning all things Lua related, but it is not without it's faults:
-	- PIL is designed for Lua 5.0, while MWSE and openmw both use modified versions of Lua 5.1. This means some sections of PIL are outdated, and that PIL doesn't cover all of the built-in Lua features you'll have at your disposal when developing Lua mods.
+	* This should be considered the primary resource for learning all things Lua related, but it is not without it's faults.
+	- PIL is designed for Lua 5.0, while MWSE and OpenMW both use modified versions of Lua 5.1. This means some sections of PIL are outdated, and that PIL doesn't cover all of the built-in Lua features you'll have at your disposal when developing Lua mods.
 	- Some parts of the book can be rather terse and/or highly abstract.
 	- The book does not contain very many examples.
 - The majority of the functionality you will use when developing Lua mods will be native to either OpenMW or MWSE.

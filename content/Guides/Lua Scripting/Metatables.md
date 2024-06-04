@@ -1,7 +1,7 @@
 
-## Overview
+# Overview
 
-**Metatables** provide a way to extend the functionality of ordinary tables in Lua. They allow you give tables **metamethods**. The most commonly used metamethod is the `__index` metamethod, which controls what happens after a table tries to look up a missing key. Other commonly used metamethods include `__len`, which governs what happens when you use the `#` operator on a table, and  `__call`, which lets you call a table as if it were a function. Typically, a metatable will be a table of the form `table<string, fun(...): ...>`. You can set and retrive metatables by using the `setmetatable` and `getmetatable` functions as follows:
+**Metatables** provide a way to extend the functionality of ordinary tables in Lua; their primary purpose is to allow you to define **metamethods**, which may intuitively be thought of as ways to control how certain operations are performed on a specific `table`. The most commonly used metamethod is the `__index` metamethod (discussed in detail below), which controls what happens after trying to index a table with a key that is not present in that table. Other commonly used metamethods include `__len`, which governs what happens when you use the `#` operator on a table, and  `__call`, which lets you call a table as if it were a function. Typically, a metatable will be a `table` of the form `table<string, fun(...): ...>`. You can set and retrieve metatables by using the `setmetatable` and `getmetatable` functions as follows:
 ```lua
 local tbl = {}
 local meta = {}
@@ -11,10 +11,9 @@ local m = getmetatable(tbl) -- retrieve the metatable of a table. Note that in t
 ```
 
 
-Strictly speaking, there is no difference between a "metatable" and an "ordinary" table: any `table` can act as a metatable to any other `table`. 
-
-> [!example]- Example: Any table can be a metatable.
->
+> [!note] Any `table` can be a metatable
+>Strictly speaking, there is no difference between a _metatable_ and an _ordinary_ `table`: any `table` can act as a metatable to any other `table`.  Furthermore, you can use metatables to store things other than metamethods, so long as keys associated to those things don't clash with valid metamethod names.
+> 
 > The following code does not produce any errors (although it doesn't do anything useful either):
 > ```lua
 > setmetatable({ a = 1, b = 2}, {c = 3, d = 4})
@@ -23,7 +22,7 @@ Strictly speaking, there is no difference between a "metatable" and an "ordinary
 You can think of a "metatable" as a way to provide a list of rules, that dictate what should happen whenever something tries to do certain things to a table. Let's continue with the above notation, where `tbl` is an "ordinary" `table` and `meta` is its metatable. Each `(key, value)` pair in `meta` takes the form `(name_of_action, response)`, where `name_of_action` is a string, and `response` is a function. Whenever your code tries to perform certain actions on `tbl`, it will check if `meta` has an entry that governs a `response` for that action. 
 
 
-### In-depth Example: `__index` metamethod.
+# In-depth Example: `__index` metamethod.
 
 Let's work through an example to see how the various pieces fall into place. We will use the `__index` metamethod to control what a specific `table` does when we try to index a missing value from the table. We will use the following variables throughout this example.
 ```lua
@@ -107,3 +106,21 @@ function saved_config_meta.__index(_, key)
 end
 setmetatable(saved_config, saved_config_meta)
 ```
+
+In fact, this behavior is so common that Lua provides a built-in shortcut for implementing it. You can write
+
+```lua
+saved_config_meta.__index = default_config
+```
+instead of the more cumbersome
+```lua
+function saved_config_meta.__index(_, key)
+	return default_config[key]
+end
+```
+
+
+>[!warning]
+> Writing `meta_tbl.__index = other_tbl` is **not** a shortcut for producing the function from the previous example; it will result in the `other_tbl` being stored as the value associated to the `__index` key.
+> 
+> This means that `__index` is the _only_ metamethod that can be either a `table` or a `function`.
