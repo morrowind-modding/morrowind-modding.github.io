@@ -1,24 +1,22 @@
 ---
-title: Manual of Style
+title: Manual of Style - 36 Sermons of MMW
 aliases:
-  - Manual of Style
+  - Manual of Style - 36 Sermons of MMW
 tags:
   - Manual-of-Style
 description: Morrowind Modding Wiki Manual of Style for how to write and edit articles
 ---
 > [!infobox]
 > 
-> ## [[MMW Design & Planning/Manual of Style/index.md|Manual of Style]]
+> ## [[MMW Design & Planning/Manual of Style - 36 Sermons of MMW/index|Manual of Style]]
 > 
 > ![[PuzzleBoxOnly.png]]
 > 
-> ### This article is part of the [[MMW Design & Planning/Manual of Style/index.md|Manual of Style]]
+> ### This article is part of the [[MMW Design & Planning/Manual of Style - 36 Sermons of MMW/index|Manual of Style]]
 > 
 > - [[Article Layout Guidelines]]
 > - [[Content Guidelines]]
 > - [[Formatting Guidelines]]
-
-^32ee0e
 
 ## About
 

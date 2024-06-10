@@ -7,11 +7,11 @@ description: Guidelines for structuring wiki articles - Part of the Morrowind Mo
 
 > [!infobox]
 > 
-> ## [[MMW Design & Planning/Manual of Style/index.md|Manual of Style]]
+> ## [[MMW Design & Planning/Manual of Style - 36 Sermons of MMW/index|Manual of Style]]
 > 
 > ![[PuzzleBoxOnly.png]]
 > 
-> ### This article is part of the [[MMW Design & Planning/Manual of Style/index.md|Manual of Style]]
+> ### This article is part of the [[MMW Design & Planning/Manual of Style - 36 Sermons of MMW/index|Manual of Style]]
 > 
 > - [[Article Layout Guidelines]]
 > - [[Content Guidelines]]

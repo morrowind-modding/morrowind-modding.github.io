@@ -5,23 +5,23 @@ tags:
 description: Guidelines for formatting Markdown text - Part of the Morrowind Modding Wiki Manual of Style
 ---
 
-> [!infobox]
-> 
-> ## [[MMW Design & Planning/Manual of Style/index.md|Manual of Style]]
-> 
-> ![[PuzzleBoxOnly.png]]
-> 
-> ### This article is part of the [[MMW Design & Planning/Manual of Style/index.md|Manual of Style]]
-> 
-> - [[Article Layout Guidelines]]
-> - [[Content Guidelines]]
-> - [[Formatting Guidelines]]
-
 ## About
 
 Guidelines for formatting Markdown text for the Morrowind Modding Wiki
 
 ---
+
+> [!infobox]
+> 
+> ## [[MMW Design & Planning/Manual of Style - 36 Sermons of MMW/index|Manual of Style]]
+> 
+> ![[PuzzleBoxOnly.png|ws-sm]]
+> 
+> ### This article is part of the [[MMW Design & Planning/Manual of Style - 36 Sermons of MMW/index|Manual of Style]]
+> 
+> - [[Article Layout Guidelines]]
+> - [[Content Guidelines]]
+> - [[Formatting Guidelines]]
 
 ## Code
 
@@ -217,7 +217,7 @@ This can be summarised with three principles:
 
 - **Visual clarity**: Avoid cluttering links
 - **Relevance**: Ensure links are relevant to the content of the article
-- **First-come**, first-served: Only the first mentioned instance should contain a link
+- **First-come, first-served**: Only the first mentioned instance should contain a link
 
 #### Visual Clarity
 
