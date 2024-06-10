@@ -3,6 +3,7 @@ tags:
   - MMW-Development
 description: This is a list of Obsidian community plugins that could be integrated into the workflow of the wiki.
 ---
+
 This is a list of Obsidian community plugins that could be integrated into the workflow of the wiki. Preferably these should be plugins which are compatible as-is with Quartz. However, some plugins that are not currently compatible with Quartz will also be listed for consideration.
 
 ## [Linter](https://github.com/platers/obsidian-linter)
@@ -84,5 +85,22 @@ Dataview generates _data_ from your vault by pulling information from **Markd
 > 
 > Quartz integration is possible, but convoluted. The rewards may not be worth the effort involved to get it running.
 
+---
 
+## [Shiki Highlighter](https://github.com/mProjectsCode/obsidian-shiki-plugin)
 
+This plugin integrates [shiki](https://shiki.style/) via [Expressive Code](https://expressive-code.com/) into Obsidian, providing better syntax highlighting for over 100 languages.
+
+Shiki is [used by Quartz for syntax highlighting](https://quartz.jzhao.xyz/features/syntax-highlighting) and adds a number of additional ways to style codeblocks.
+
+> [!abstract] Use-Case:
+> 
+> Enables Shiki-style syntax highlighting in Obsidian, aligning its rendering of codeblocks with Quartz. This improves WYSIWYG.
+
+> [!success] Compatible with Quartz
+> 
+> Quartz already uses Shiki, so this plugin would help align how codeblocks are rendered in Obsidian with how they are rendered in Quartz.
+
+> [!warning] Cons
+> 
+> The plugin uses [Expressive Code](https://expressive-code.com/) for rendering, whereas Quartz uses [Rehype Pretty Code](https://rehype-pretty-code.netlify.app/).
