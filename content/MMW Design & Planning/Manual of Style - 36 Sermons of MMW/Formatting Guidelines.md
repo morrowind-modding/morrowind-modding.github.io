@@ -40,8 +40,11 @@ Inline code should not be used to denote keyboard buttons, e.g., `ctrl`. Instead
 
 Code blocks support [syntax highlighting](https://help.obsidian.md/Editing+and+formatting/Basic+formatting+syntax#Code+blocks) by defining code language after the first three backticks, e.g., 
 
-\`\`\`lua
-\`\`\`
+````
+```lua
+
+```
+````
 
 #### Supported Languagss
 
@@ -61,7 +64,6 @@ These include:
 - titles
 - line highlighting and word highlighting 
 - line numbers
-- escaping codeblocks
 
 As these features are not part of Obsidian, they will not be rendered there. However, The community plugin [Shiki Highlighter](https://github.com/mProjectsCode/obsidian-shiki-plugin) can be used to enable rendering of these.
 
@@ -123,26 +125,26 @@ Headers structure content to help readers navigate your article.
 
 > [!abstract]+ Headers
 > 
-> ## \#\# This is a main subject (h2)
+> ## `##` This is a main subject (h2)
 > 
-> ### \#\#\# This subject has several important sub-subjects (h3)
+> ### `###` This subject has several important sub-subjects (h3)
 > 
-> #### \#\#\#\# Sub-subjects can benefit from subheadings (h4)
+> #### `####` Sub-subjects can benefit from subheadings (h4)
 > 
-> ##### \#\#\#\#\# Example (h5)
+> ##### `#####` Example (h5)
 > 
-> ``` 
-> [example code block]
+> ```lua title="codeblock title" 
+> example code block
 > ``` 
 
 **Header 1** (H1) should never be used, as a webpage should only ever contain one H1 element - in Quartz, the article filename is the H1 element (i.e., **Wiki Formatting Guidelines**)
 
-| Markdown          | HTML Header Tag Equivalent | Use                                               |
-| ----------------- | -------------------------- | ------------------------------------------------- |
-| \#                | `<h1>`                     | Unused, as Quartz uses the filename as h1         |
-| \#\#              | `<h2>`                     | Main section divider                              |
-| \#\#\# - \#\#\#\# | `<h3>` - `<h4>`            | For use in article subsections                    |
-| \#\#\#\#\#        | `<h5>`                     | For labeling _'Example'_ above fenced code blocks |
+| Markdown           | HTML Header Tag Equivalent | Use                                       |
+| ------------------ | -------------------------- | ----------------------------------------- |
+| `#`                | `<h1>`                     | Unused, as Quartz uses the filename as h1 |
+| `##`               | `<h2>`                     | Main section divider                      |
+| `###` - `####`     | `<h3>` - `<h4>`            | For use in article subsections            |
+| `#####` - `######` | `<h5>` - `<h6>`            | (use-case undetermined yet)               |
 
 Header numbers should be arranged sequentially. 
 
@@ -201,7 +203,7 @@ Links are important for navigating content in the wiki.
 > 
 > An 'internal link' is a link from one page in MMW to another page in MMW.
 > 
-> These should be rendered using \[\[Wikilink\]\] format as detailed on [Internal Links - Obsidian Help](https://help.obsidian.md/Linking+notes+and+files/Internal+links)
+> These should be rendered using `[[Wikilink]]` format as detailed on [Internal Links - Obsidian Help](https://help.obsidian.md/Linking+notes+and+files/Internal+links)
 
 > [!info]+ External Links
 > 
