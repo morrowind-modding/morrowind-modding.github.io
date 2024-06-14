@@ -851,8 +851,10 @@ kbd:active kbd {
 .callout[data-callout="maintenance_template"] img {
   float: left;
   max-width: 30%;
-  margin: auto;
+  margin: 0px 8px;
   object-fit: contain;
+  border: 2px solid #db894244;
+  background-color: black;
 }
 
 .callout[data-callout="maintenance_template"] p {

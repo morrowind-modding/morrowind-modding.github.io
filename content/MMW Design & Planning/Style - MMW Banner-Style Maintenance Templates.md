@@ -796,4 +796,67 @@ Most wikis use an impartial, encyclopedic tone. It would be sensible for MMW to 
 > > [!quote] _"Your age is past. We are the new gods, born of the flesh, and wise and caring of the needs of our people."_
 > >
 > > \- Sotha Sil, _'The Battle of Red Mountain'_, (Vivec)
+> 
+> > [!quote] _"We understand you were visited by some Dark Brotherhood assassins. A regrettable occurrence."_
+> > \- King Hlaalu Helseth
+> 
+> > [!quote] _"Although this book argues that nothing disastrous could result, the disappearance of my race argues otherwise."_
+> > \- Yagrum Bagarn
+
+## NPC Heads to Get Screenshots of:
+
+> [!gridfloatleft] Default Race NPCs
+> 
+> - [x] Argonian Male
+> - [x] Argonian Female
+> - [x] Breton Male
+> - [x] Breton Female
+> - [x] Dark Elf Male
+> - [x] Dark Elf Female
+> - [x] High Elf Male
+> - [x] High Elf Female
+> - [x] Imperial Male
+> - [x] Imperial Female
+> - [x] Khajiit Male
+> - [x] Khajiit Female
+> - [x] Nord Male
+> - [x] Nord Female
+> - [x] Orc Male
+> - [x] Orc Female
+> - [x] Redguard Male
+> - [x] Redguard Female
+> - [x] Wood Elf Male
+> - [x] Wood Elf Female
+
+> [!gridfloatright] Named or Class-Specific NPCs
+> 
+> - [x] Ahnassi
+> - [x] Almalexia
+> - [x] Ash Zombie
+> - [x] Caius Cosades
+> - [x] Corprus Stalker
+> - [x] Creeper
+> - [x] Duma gro-Lag
+> - [x] Dunmer Gondolier
+> - [x] Eldafire
+> - [x] Elone
+> - [x] Eydis Fire-Eye
+> - [x] Fargoth
+> - [x] Hlaalu Helseth
+> - [x] Imperial Guard generic male
+> - [x] Larrius Varro
+> - [x] Ordinator
+> - [x] M'Aiq
+> - [x] Socucius Ergalla
+> - [x] Sotha Sil
+> - [x] Uncle Sweetshare
+> - [x] Vivec
+
+> [!gridfloatright] Misc icons
+> 
+> - [ ] ALMSIVI symbol
+> - [x] Note to Hrisskar
+> - [ ] MWSE Logo
+> - [ ] OpenMW Logo
+> - [ ] Have a Fishy Stick
 
