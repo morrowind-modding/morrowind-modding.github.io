@@ -137,7 +137,7 @@ Headers structure content to help readers navigate your article.
 > example code block
 > ``` 
 
-**Header 1** (H1) should never be used, as a webpage should only ever contain one H1 element - in Quartz, the article filename is the H1 element (i.e., **Wiki Formatting Guidelines**)
+**Header 1** (H1) should never be used, as a webpage should only ever contain one H1 element - in Quartz, the article filename is the H1 element (i.e., **Formatting Guidelines**)
 
 | Markdown           | HTML Header Tag Equivalent | Use                                       |
 | ------------------ | -------------------------- | ----------------------------------------- |
