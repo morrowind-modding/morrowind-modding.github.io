@@ -33,47 +33,32 @@ img:active:not(.Logo) {
     background:var(--background-primary);
 }
 
-/*----Faux Grid Callouts----*/
+/*----Grid Callouts----*/
 
-/*---float left---*/
-.callout[data-callout="gridfloatleft"] {
-  --color: rgba(44, 160, 223, 0.5);
-  --border: rgba(44, 160, 223, 0.5);
-  --bg: rgba(0, 0, 0, 0);
-  --callout-icon: lucide-alert-circle;
-  float: left;
-  width: 50%;
-  margin: auto;
-  clear: left;
+/* Even columns */
+.callout[data-callout="even_columns"] {
+  /* Removes padding and hides the container */
+  padding: 0;
+  background-color: transparent;
+  border: none;
 }
 
-/* mobile breakpoint */
-@media (max-width: 767px) {
-  .callout[data-callout="gridfloatleft"] {
-    width: 100%;
-    float: none;
-  }
+.callout[data-callout="even_columns"] > .callout-title {
+  /* Hides the callout title */
+  display: none;
 }
 
-
-/*---float right---*/
-.callout[data-callout="gridfloatright"] {
-  --color: rgba(44, 160, 223, 0.5);
-  --border: rgba(44, 160, 223, 0.5);
-  --bg: rgba(0, 0, 0, 0);
-  --callout-icon: lucide-alert-circle;
-  float: right;
-  width: 50%;
-  margin: auto;
-  clear: right;
+.callout[data-callout="even_columns"] > .callout-content {
+  /* Arranges the content in columns */
+  display: grid;
+  /* minmax sets the minimum width of a column. Make the columns 'skinnier' by setting 15rem to a smaller number */
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 12px;
 }
 
-/* mobile breakpoint */
-@media (max-width: 767px) {
-  .callout[data-callout="gridfloatright"] {
-    width: 100%;
-    float: none;
-  }
+.callout[data-callout="even_columns"]>.callout-content>:first-child:not(pre, figure) {
+  margin-top: 16;
+  /* First-child needs a margin-top of 16 to match the margin-top of other grid items - except codeblocks */
 }
 
 /*----Caption Callouts----*/
