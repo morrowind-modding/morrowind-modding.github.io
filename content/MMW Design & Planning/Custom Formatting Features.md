@@ -9,9 +9,9 @@ This page is an outline of custom formatting features implemented for use in the
 
 ## Formatting
 
-### [SIRvb's Image Adjustments](https://publish.obsidian.md/slrvb-docs/ITS+Theme/Image+Adjustments)
+### Image Adjustments
 
-Image adjustments from SIRvb's Image Adjustments CSS snippet are incorporated into MMW. Some examples of how it can be used include:
+Image adjustments from [SIRvb's Image Adjustments](https://publish.obsidian.md/slrvb-docs/ITS+Theme/Image+Adjustments) CSS snippet are incorporated into MMW. Some examples of how it can be used include:
 - resizing images
 - displaying images as a banner across the page or across a callout
 - image-warp (using the CSS 'float' property), allowing text and other content to wrap around an image.
@@ -93,22 +93,42 @@ MMW borrows a large number of [Callout Adjustments](https://publish.obsidian.md/
 
 ### Callout Sizing
 
-> [!note|right ws-med clear] Add `|static` to use fixed sizing with pixels
-> 
-> Callout sizing uses percentages by default, `|static` switches to pixels to use static sizing.
+Callouts can be resized using the keywords below.
 
-|Attributes|Callout Width `%`|Callout Width `px`|
-|---|:-:|:-:|
-|`wmicro`|10%|50px|
-|`wtiny`|20%|100px|
-|`wsmall`|30%|200px|
-|`ws-med`|40%|300px|
-|`wm-sm`|50%|400px|
-|`wmed`|60%|500px|
-|`wm-tl`|80%|600px|
-|`wtall`|95%|700px|
-|`wfull`|100%||
-|`wfit`|Auto|Auto|
+The sizing is a percentage, relative to the callout's parent. Using `|wmed` as an example:
+
+- if placed directly in the page body, it would take up 60% page-width.
+- if nested within another callout, it would only take up 60% of the 'parent' callout's width.
+
+Sizing can be made to use pixels instead of percentage by adding `|static`.
+
+> [!even_columns] 
+> 
+> > [!note|clean no-t]
+> > 
+> > |Attributes|Callout Width `%`|Callout Width `px`|
+> > |---|:-:|:-:|
+> > |`wmicro`|10%|50px|
+> > |`wtiny`|20%|100px|
+> > |`wsmall`|30%|200px|
+> > |`ws-med`|40%|300px|
+> > |`wm-sm`|50%|400px|
+> > |`wmed`|60%|500px|
+> > |`wm-tl`|80%|600px|
+> > |`wtall`|95%|700px|
+> > |`wfull`|100%||
+> > |`wfit`|Auto|Auto|
+> 
+> > [!note|clean no-t]
+> > 
+> > > [!note] Add `|static` for sizing with pixels
+> > >
+> > > Callout sizing uses percentages by default. `|static` switches to pixels to use static sizing.
+> > 
+> > > [!tip]
+> > > 
+> > > Callout sizing is the same as [[Custom Formatting Features#SIRvb's Image Adjustments|SIRvb's Image Adjustments]]
+ 
 
 ---
 
