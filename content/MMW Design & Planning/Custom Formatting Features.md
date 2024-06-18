@@ -188,18 +188,26 @@ In addition to the default [Obsidian Callouts](https://help.obsidian.md/Editing+
 
 ### Captions
 
-> [!caption_right]
+> [!caption|right]
 > 
 > ![[PuzzleBoxOnly.png|wsmall]]
 > 
-> `[!caption_right]` callout
+> `[!caption|right]` callout
 
-Three callouts for adding captions to images. The callout title is hidden and text size reduced, similar to how Wikipedia and other wikis format their article image captions.
+A borderless callout for adding captions to images. 
 
-**Types:**
-- `[!caption_left]` - floats to the left of the page
-- `[!caption_right]` - floats to the right of the page
-- `[!caption]` - centered in the middle of the page
+Use [[Custom Formatting Features#Callout Positioning|Callout Positioning]] metadata to float these left or right for wiki-style article image captions
+
+```markdown title="syntax"
+> [!caption]
+> 
+> ![[image.png]]
+> 
+> Image caption.
+
+```
+
+<br>
 
 ### Infobox
 
