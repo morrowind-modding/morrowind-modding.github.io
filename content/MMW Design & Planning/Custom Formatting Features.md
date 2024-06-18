@@ -28,6 +28,90 @@ These should be used for any instance where programs' default hotkeys (ones whic
 
 ---
 
+## Callout Adjustments
+
+MMW borrows a large number of [Callout Adjustments](https://publish.obsidian.md/slrvb-docs/ITS+Theme/Callout+Adjustments#Adjustments "SIRvb's ITS Theme") from SIRvb's 'ITS Theme' for Obsidian. These add much-needed flexibility for styling and positioning callouts.
+
+**Syntax:**
+
+```markdown title="basic syntax"
+> [!callout-type|adjustment adjustment2]
+```
+
+```markdown title="examples"
+> [!tip|right]
+
+> [!warning|title-center]
+
+> [!note|clean no-title embed]
+```
+
+### Callout Titles
+
+|Abbr.|Full Title|Description|
+|---|---|---|
+|`no-t`|`no-title`|Hides callout title|
+|`s-t`|`show-title`|Show callout title|
+|`ttl-c`|`title-center`|Center callout title text|
+|`no-i`|`no-icon`|Hide callout icon|
+|`subt`|`subtitle`|Style words in italic (`* *`, `_ _`) as subtitles|
+
+### Callout Text
+
+|Abbr.|Full Title|Description|
+|---|---|---|
+|`txt-c`|`text-center`|Center callout text|
+|`txt-r`|`txt-right`|Right align callout text|
+|`txt-l`|`txt-left`|Left align callout text|
+|`txt-s`|`text-small`|Shrink callout text size|
+
+### Callout Styling
+
+|Abbr.|Full Title|Description|
+|---|---|---|
+||`embed`|Remove callout padding to expand embed|
+||`clean`|Remove callout Styling|
+||`collapse`|Remove all padding and margins for ultra compact look|
+|`nbrd`|`no-border`|Borderless callout|
+||`clear`|Move any other floating elements near to under this callout|
+
+### Callout Content Padding
+
+|Attribute|Abbr|Callout Padding Sizing|
+|---|---|:-:|
+|`content-padding-small`|`c-p-sm`|6px|
+|`content-padding-medium`|`c-p-med`|12px|
+|`content-padding-large`|`c-p-lg`|24px|
+
+### Callout Positioning
+
+|Attribute|Description|
+|---|---|
+|`left`|Float callout to the left|
+|`right`|Float callout to the right|
+|`center`|Center the callout|
+
+### Callout Sizing
+
+> [!note|right ws-med clear] Add `|static` to use fixed sizing with pixels
+> 
+> Callout sizing uses percentages by default, `|static` switches to pixels to use static sizing.
+
+|Attributes|Callout Width `%`|Callout Width `px`|
+|---|:-:|:-:|
+|`wmicro`|10%|50px|
+|`wtiny`|20%|100px|
+|`wsmall`|30%|200px|
+|`ws-med`|40%|300px|
+|`wm-sm`|50%|400px|
+|`wmed`|60%|500px|
+|`wm-tl`|80%|600px|
+|`wtall`|95%|700px|
+|`wfull`|100%||
+|`wfit`|Auto|Auto|
+
+---
+
 ## Custom Callouts
 
 In addition to the default [Obsidian Callouts](https://help.obsidian.md/Editing+and+formatting/Callouts), MMW also adds the following custom Callouts:
