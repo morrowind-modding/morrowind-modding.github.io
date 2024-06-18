@@ -200,5 +200,8 @@
 
 .callout.callout:is([data-callout-metadata~=text-small],
 [data-callout-metadata~=txt-s]) > .callout-content > * {
-  font-size: 0.8rem;
+  --font-text-size: var(--font-smallest);
+  --tag-size: var(--font-smallest);
+  --table-text-size: var(--font-smallest);
+  font-size: var(--font-text-size);
 }
