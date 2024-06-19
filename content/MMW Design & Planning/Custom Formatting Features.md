@@ -24,7 +24,9 @@ These should be used for any instance where programs' default hotkeys (ones whic
 
 > [!tip]- Closing HTML tags
 > 
-> `<kbd>` is an HTML tag. It is used to surround an 'element' (in this case, a piece of text). As it is not self-closing, the second tag in a pair of closing tags needs a `forward slash` (<kbd>/</kbd>), for example: \<kbd\> \</kbd\>.
+> `<kbd>` is an HTML tag. It is used to surround an 'element' (in this case, a piece of text). As it is not self-closing, the second tag in a pair of tags needs a `forward slash` (<kbd>/</kbd>) to 'close' it. 
+> 
+> **Example**: \<kbd\> \</kbd\>.
 
 ---
 
@@ -136,55 +138,43 @@ Sizing can be made to use pixels instead of percentage by adding `|static`.
 
 In addition to the default [Obsidian Callouts](https://help.obsidian.md/Editing+and+formatting/Callouts), MMW also adds the following custom Callouts:
 
-### Callout Grid
+### Column Callout
 
-> [!even_columns]
+The `[!column]` callout lets you display content as a grid.
+
+The callout itself is invisible but its contents get displayed as a grid, with each new line of the callout represents a new grid column. It works best when nesting other callouts within it. However, if you wish to write content in columns without callout styling for the nested callouts, you can add the [[Custom Formatting Features#Callout Adjustments|Callout Adjustments]] metadata `clean no-title` to them.
+
+By adding the `flex` metadata, grid columns will stack vertically on mobile.
+
+> [!column|flex 3]
 > 
-> **(Column 1)** <br>
-> The `[!even_columns]` callout is an invisible callout whose contents get displayed as a grid. Each new line of the callout represents a new grid column. You can nest callouts, images or even codeblocks in the grid.
+> > [!warning] Use Nested Callouts
+> > 
+> > `[column]` is designed to have callouts nested within it.
+> > 
+> > To remove styling from nested callouts, add `clean no-title` to the metadata
 > 
-> **(Column 2)** <br>
-> The number of columns depends on the page-width. The MMW site has a wider page-width than Obsidian's default page-width, so it displays three columns rather than two.
+> > [!NOTE|clean no-t]
+> > 
+> > This callout has `clean no-title` metadata.
+> > 
+> > ```markdown title="syntax:"
+> > > [!column]
+> > >
+> > > > [!note] title
+> > > >
+> > > > content
+> > >
+> > > > [!column] title
+> > > >
+> > > > content
+> > ```
 > 
 > > [!caption]
 > > 
 > > ![[PuzzleBoxOnly.png|wsmall]]
 > > 
 > > A caption callout nested in the grid.
-
-#### Syntax
-
-> [!even_columns]
-> 
-> ```markdown title="plaintext"
-> 
-> > [!even-columns]
-> >
-> > left
-> >
-> > center
-> >
-> > right
-> > 
-> ```
-> 
-> ```markdown title="nested callouts"
-> 
-> > [!even-columns]
-> > 
-> > > [!note] title
-> > > 
-> > > content
-> >
-> > > [!example] title
-> > >
-> > > content
-> >
-> > > [!warning] title
-> > >
-> > > content
-> > > 
-> ```
 
 ### Captions
 
