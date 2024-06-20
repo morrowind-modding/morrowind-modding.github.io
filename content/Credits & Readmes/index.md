@@ -14,5 +14,5 @@ title: Credits & Readmes
 
 ## [ITS Theme for Obsidian](https://publish.obsidian.md/slrvb-docs/ITS+Theme/ITS+Theme)
 
-- Thanks to [SIRvb](https://github.com/SlRvb) for providing the ITS Theme's [Image Adjustments](https://github.com/SlRvb/Obsidian--ITS-Theme/blob/main/Snippets/S%20-%20Images%20Adjustments.css) CSS snippet used throughout the site.
+- Thanks to [SIRvb](https://github.com/SlRvb) for providing the ITS Theme's [Image Adjustments](https://github.com/SlRvb/Obsidian--ITS-Theme/blob/main/Snippets/S%20-%20Images%20Adjustments.css) and [Callouts](https://github.com/SlRvb/Obsidian--ITS-Theme/blob/main/Snippets/S%20-%20Callouts.css) CSS snippets used throughout the site.
 - [License](https://github.com/SlRvb/Obsidian--ITS-Theme/blob/main/LICENSE)
