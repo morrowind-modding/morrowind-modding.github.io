@@ -104,7 +104,7 @@ The sizing is a percentage, relative to the callout's parent. Using `|wmed` as a
 
 Sizing can be made to use pixels instead of percentage by adding `|static`.
 
-> [!even_columns] 
+> [!column|flex 2] 
 > 
 > > [!note|clean no-t]
 > > 
