@@ -276,7 +276,7 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options> 
                   } else if ([".zip"].includes(ext)) {
                     return {
                       type: "html",
-                      value: `<button type="button" class="mmw-download-button"><a href="${url}" download>${alias}</a></button>`,
+                      value: `<a href="${url}" class="mmw-download-link" download>Download ${alias}</a>`,
                     }
                   } else {
                     const block = anchor
