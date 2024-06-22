@@ -272,6 +272,13 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options> 
                       type: "html",
                       value: `<iframe src="${url}"></iframe>`,
                     }
+                  // MMW - assign custom styling to .zip embed download link
+                  } else if ([".zip", ".7z"].includes(ext)) {
+                    const downloadText = alias ? alias : fp
+                    return {
+                      type: "html",
+                      value: `<a href="${url}" class="mmw-download-link" download>Download ${downloadText}</a>`,
+                    }
                   } else {
                     const block = anchor
                     return {
