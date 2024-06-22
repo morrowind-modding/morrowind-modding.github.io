@@ -274,9 +274,10 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options> 
                     }
                   // MMW - assign custom styling to .zip embed download link
                   } else if ([".zip"].includes(ext)) {
+                    const downloadText = alias ? alias : fp
                     return {
                       type: "html",
-                      value: `<a href="${url}" class="mmw-download-link" download>Download ${alias}</a>`,
+                      value: `<a href="${url}" class="mmw-download-link" download>Download ${downloadText}</a>`,
                     }
                   } else {
                     const block = anchor

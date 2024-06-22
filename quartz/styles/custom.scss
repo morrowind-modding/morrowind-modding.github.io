@@ -1095,7 +1095,6 @@ kbd:active kbd {
 
 a.mmw-download-link:link, a.mmw-download-link:visited {
   background-color: #8f9fa926; 
-  color: var(--dark); /*#ebebec*/
   border: none;
   text-align: center;
   text-decoration: none;
@@ -1107,18 +1106,23 @@ a.mmw-download-link:link, a.mmw-download-link:visited {
 }
 
 a.mmw-download-link:hover, a.mmw-download-link:active {
-  /* color: #ebebec !important; */
-  /* override Quartz behaviour of highlighting text when hovering */
-  background-color: #8f9fa94a;
+  background-color: #8f9fa93d;
 }
 
 a.mmw-download-link::before {
   /* display download icon before link text */
-  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1.2rem' height='1.2rem' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='lucide lucide-download'%3E%3Cpath d='M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4'/%3E%3Cpolyline points='7 10 12 15 17 10'/%3E%3Cline x1='12' x2='12' y1='15' y2='3'/%3E%3C/svg%3E");
   display: inherit;
   vertical-align: middle;
   padding-right: 5px;
-  color: var(--dark);
+}
+
+  /*change svg stroke='' based on dark/light theme*/
+[saved-theme="light"]a.mmw-download-link::before {
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1.2rem' height='1.2rem' viewBox='0 0 24 24' fill='none' stroke='%232b2b2b' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='lucide lucide-download'%3E%3Cpath d='M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4'/%3E%3Cpolyline points='7 10 12 15 17 10'/%3E%3Cline x1='12' x2='12' y1='15' y2='3'/%3E%3C/svg%3E");
+}
+
+[saved-theme="dark"]a.mmw-download-link::before {
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1.2rem' height='1.2rem' viewBox='0 0 24 24' fill='none' stroke='%23ebebec' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='lucide lucide-download'%3E%3Cpath d='M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4'/%3E%3Cpolyline points='7 10 12 15 17 10'/%3E%3Cline x1='12' x2='12' y1='15' y2='3'/%3E%3C/svg%3E");
 }
 
 a.mmw-download-link div.popover {
