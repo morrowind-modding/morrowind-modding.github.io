@@ -1,0 +1,47 @@
+/*--- Maintenance Template ---*/
+.callout[data-callout="maintenance"] {
+    border: 1px solid #db894244;
+    background-color: #db894210;
+    padding: 0px;
+  }
+  
+  .callout[data-callout="maintenance"] > .callout-title {
+    display: none;
+  }
+  
+  .callout[data-callout="maintenance"] > .callout-content {
+    padding: 2px;
+  }
+
+  .callout[data-callout="maintenance"] p:first-of-type {
+    margin: 0;
+  }
+  
+  .callout[data-callout="maintenance"] > .callout-content p img {
+    margin: 16px;
+    object-fit: contain;
+    border: 2px solid #db894244;
+    background-color: black;
+  }
+  
+  .callout[data-callout="maintenance"] > .callout-content p {
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+    text-align: center;
+  }
+  
+  .callout[data-callout="maintenance"] > .callout-content p:has(strong) {
+    font-size: 1.1rem;
+  }
+  
+  .callout[data-callout="maintenance"] > .callout-content p strong {
+    color: #db8942;
+  }
+  
+  .callout[data-callout="maintenance"] .callout[data-callout~="maintenance"][data-callout-metadata~="clean"] {
+    background-color: transparent;
+  }
+
+  .callout[data-callout="maintenance"] .callout[data-callout~="maintenance"]{
+    margin-right: 16px;
+  }

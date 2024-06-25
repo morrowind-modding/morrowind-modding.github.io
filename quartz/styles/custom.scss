@@ -1060,33 +1060,43 @@ kbd:active kbd {
 }
 
 /*--- Maintenance Template ---*/
-.callout[data-callout="maintenance_template"] {
+.callout[data-callout="maintenance"] {
   border: 1px solid #db894244;
   background-color: #db894210;
-  padding: 2px;
 }
 
-.callout[data-callout="maintenance_template"] > .callout-title {
+.callout[data-callout="maintenance"] > .callout-title {
   display: none;
 }
 
-.callout[data-callout="maintenance_template"] img {
-  float: left;
+.callout[data-callout="maintenance"] > .callout-content {
+  padding: 2px;
+}
+
+.callout[data-callout="maintenance"] > .callout-content p img {
   max-width: 30%;
-  margin: 0px 8px;
+  margin: 16px 16px 16px 0px;
   object-fit: contain;
   border: 2px solid #db894244;
   background-color: black;
 }
 
-.callout[data-callout="maintenance_template"] p {
+.callout[data-callout="maintenance"] > .callout-content p {
   font-size: 0.9rem;
+  line-height: 1.2rem;
+  text-align: center;
 }
 
-.callout[data-callout="maintenance_template"] p strong {
-  font-size: 1rem;
+.callout[data-callout="maintenance"] > .callout-content p:has(strong) {
+  font-size: 1.1rem;
+}
+
+.callout[data-callout="maintenance"] > .callout-content p strong {
   color: #db8942;
-  text-align: center;
+}
+
+.callout[data-callout="maintenance"] .callout[data-callout~="maintenance"][data-callout-metadata~="clean"] {
+  background-color: transparent;
 }
 
 /* ===================== */
