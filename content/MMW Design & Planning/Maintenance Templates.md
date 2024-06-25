@@ -101,8 +101,6 @@ Identifying inconsistent and contradictory information.
 
 ![[Article Contradicts Itself#^e5f461]]
 
----
-
 ### Deletion
 
 For articles, categories (folders), or tags considered for deletion.
