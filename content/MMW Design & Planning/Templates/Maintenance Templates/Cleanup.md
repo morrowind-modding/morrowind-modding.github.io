@@ -1,6 +1,6 @@
 > [!maintenance] 
 > 
-> %%![[Breton]]%%
+> ![[picture-of-verrick-germain.png|left wtiny]]
 > 
 > > [!maintenance|clean nbrd]
 > > 

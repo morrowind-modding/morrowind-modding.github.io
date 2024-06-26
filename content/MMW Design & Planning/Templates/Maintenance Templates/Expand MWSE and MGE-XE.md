@@ -1,6 +1,6 @@
 > [!maintenance] 
 > 
-> %%![[Socucius Ergalla]]%%
+> ![[picture-of-socucius-ergalla.png|left wtiny]]
 > 
 > > [!maintenance|clean nbrd]
 > > 

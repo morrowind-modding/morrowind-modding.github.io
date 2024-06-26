@@ -1,6 +1,6 @@
 ---
 tags:
-  - MMW-Development
+  - Policy
 description: Templates for highlighting wiki content which requires editing to conform to MMW standards.
 ---
 
@@ -159,7 +159,11 @@ Templates for addressing issues with the quantity and quality of media, such as 
 
 #### Media Quality:
 
-To-do
+![[Media Quality#^1cf0c0]]
+
+#### Tutorial Files:
+
+![[Tutorial Files#^636a5b]]
 
 ### Merging or Splitting Articles
 
@@ -187,7 +191,7 @@ Template for identifying bias.
 
 ### Redlinks
 
-Redlinks are placeholder links to wiki articles that have not yet been created. E.g., if the article on Blender had not yet been created, you could create a redlink in your animation tutorial as a placeholder to reference it like so: `[[Modding Tools/3D Modeling Software & Tools/Blender|Blender]]` which would be displayed as `Blender`
+Template for pages with too many empty placeholder wikilinks or broken links to external sites.
 
 ![[Redlinks#^eef836]]
 
@@ -205,7 +209,7 @@ Templates for issues with relevancy of article content.
 
 ### Sources
 
-Templates for issues with sources
+Templates for issues with article sources.
 
 #### Sources Lacking:
 
@@ -217,10 +221,12 @@ Templates for issues with sources
 
 ### Tone
 
-Templates for issues with article writing style.
+Template for issues with article writing style.
 
 ![[Tone#^6e35f0]]
 
 ### Work-in-Progress Article
+
+Sometimes it is better to upload what you have already, even if it is not yet finished.
 
 ![[Work-in-Progress Article#^4e8d2e]]

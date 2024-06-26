@@ -1,6 +1,6 @@
 > [!maintenance] 
 > 
-> %%![[Ranis Athrys]]%%
+> ![[picture-of-ranis-athrys.png|left wtiny]]
 > 
 > > [!maintenance|clean nbrd]
 > > 

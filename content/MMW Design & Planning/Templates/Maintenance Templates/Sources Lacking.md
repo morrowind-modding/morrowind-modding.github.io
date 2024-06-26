@@ -1,6 +1,6 @@
 > [!maintenance] 
 > 
-> %%![[Caius]]%%
+> ![[picture-of-caius-cosades.png|left wtiny]]
 > 
 > > [!maintenance|clean nbrd]
 > > 

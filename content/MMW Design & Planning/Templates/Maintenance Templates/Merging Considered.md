@@ -1,6 +1,6 @@
 > [!maintenance] 
 > 
-> %%![[gondolier]]%%
+> ![[picture-of-dunmer-gondolier.png|left wtiny]]
 > 
 > > [!maintenance|clean nbrd]
 > > 

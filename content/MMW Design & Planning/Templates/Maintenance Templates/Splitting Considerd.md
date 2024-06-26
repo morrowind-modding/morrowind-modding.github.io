@@ -1,6 +1,6 @@
 > [!maintenance] 
 > 
-> %%![[Sotha Sil]]%%
+> ![[picture-of-sotha-sil-dead.png|left wtiny]]
 > 
 > > [!maintenance|clean nbrd]
 > > 

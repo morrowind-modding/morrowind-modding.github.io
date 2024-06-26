@@ -1,6 +1,6 @@
 > [!maintenance] 
 > 
-> %%![[argonian]]%%
+> ![[picture-of-skink-in-trees-shade.png|left wtiny]]
 > 
 > > [!maintenance|clean nbrd]
 > > 

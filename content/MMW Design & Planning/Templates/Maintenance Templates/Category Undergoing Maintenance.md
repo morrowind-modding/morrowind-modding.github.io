@@ -1,6 +1,6 @@
 > [!maintenance] 
 > 
-> %%![[Ash Zombie]]%%
+> ![[picture-of-ash-zombie.png|left wtiny]]
 > 
 > > [!maintenance|clean nbrd]
 > > 

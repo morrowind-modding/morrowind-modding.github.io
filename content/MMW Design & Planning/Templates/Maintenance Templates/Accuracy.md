@@ -1,6 +1,6 @@
 > [!maintenance] 
 > 
-> %%![[M'aiq]]%%
+> ![[picture-of-maiq.png|left wtiny]]
 > 
 > > [!maintenance|clean nbrd]
 > > 

@@ -1,6 +1,6 @@
 > [!maintenance] 
 > 
-> %%![[Ahnassi]]%%
+> ![[picture-of-ahnassi.png|left wtiny]]
 > 
 > > [!maintenance|clean nbrd]
 > > 

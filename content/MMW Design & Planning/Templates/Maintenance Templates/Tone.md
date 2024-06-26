@@ -1,6 +1,6 @@
 > [!maintenance] 
 > 
-> %%![[guard]]%%
+> ![[picture-of-guard.png|left wtiny]]
 > 
 > > [!maintenance|clean nbrd]
 > > 

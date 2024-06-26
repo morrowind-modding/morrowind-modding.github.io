@@ -1,6 +1,6 @@
 > [!maintenance] Article Contains no Tags
 > 
-> ![[Socucius_Ergalla.png|left wtiny]]
+> ![[picture-of-socucius-ergalla.png|left wtiny]]
 > 
 > > [!maintenance|clean nbrd]
 > > 

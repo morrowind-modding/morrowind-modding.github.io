@@ -1,6 +1,6 @@
 > [!maintenance] 
 > 
-> %%![[Vivec]]%%
+> ![[picture-of-almalexia-warrior.png|left wtiny]]
 > 
 > > [!maintenance|clean nbrd]
 > > 

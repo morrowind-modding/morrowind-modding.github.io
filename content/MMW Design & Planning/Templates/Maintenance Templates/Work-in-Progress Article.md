@@ -1,6 +1,6 @@
 > [!maintenance] 
 > 
-> %%![[Orc Male]]%%
+> ![[picture-of-duma-gro-lag.png|left wtiny]]
 > 
 > > [!maintenance|clean nbrd]
 > > 

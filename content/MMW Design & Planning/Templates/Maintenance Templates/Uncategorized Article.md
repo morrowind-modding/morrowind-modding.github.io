@@ -1,6 +1,6 @@
 > [!maintenance] Uncategorized Article
 > 
-> %%![[guard]]%%
+> ![[picture-of-guard.png|left wtiny]]
 > > [!maintenance|clean nbrd]
 > > 
 > > **"You've finally arrived, but our records don't show from where."**

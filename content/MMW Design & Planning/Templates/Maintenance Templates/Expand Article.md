@@ -1,10 +1,10 @@
 > [!maintenance] 
 > 
-> %%![[Jobasha]]%%
+> ![[picture-of-divayth-fyr.png|left wtiny]]
 > 
 > > [!maintenance|clean nbrd]
 > > 
-> > **"Welcome, friend. Share some sugar?"**
+> > **"Say. That's an interesting Dwemer piece you have there. What can you tell me about it?**
 > > 
 > > It is requested that this article, or a section of this article, be expanded.
 

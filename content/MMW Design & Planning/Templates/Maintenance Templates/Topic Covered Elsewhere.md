@@ -1,6 +1,6 @@
 > [!maintenance] 
 > 
-> %%![[Dunmer Male]]%%
+> ![[picture-of-default-dunmer-player-character.png|left wtiny]]
 > 
 > > [!maintenance|clean nbrd]
 > > 

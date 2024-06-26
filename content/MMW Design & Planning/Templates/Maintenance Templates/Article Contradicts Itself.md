@@ -1,6 +1,6 @@
 > [!maintenance] 
 > 
-> %%![[image]]%%
+> ![[picture-of-vivec.png|left wtiny]]
 > 
 > > [!maintenance|clean nbrd]
 > > 

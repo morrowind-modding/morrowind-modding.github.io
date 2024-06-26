@@ -1,6 +1,6 @@
 > [!maintenance] 
 > 
-> %%![[Elone]]%%
+> ![[picture-of-elone.png|left wtiny]]
 > 
 > > [!maintenance|clean nbrd]
 > > 

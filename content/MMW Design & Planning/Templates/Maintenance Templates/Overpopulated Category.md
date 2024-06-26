@@ -1,6 +1,6 @@
 > [!maintenance] 
 > 
-> %%![[Nord]]%%
+> ![[picture-of-hlormar-wine-sot.png|left wtiny]]
 > 
 > > [!maintenance|clean nbrd]
 > > 

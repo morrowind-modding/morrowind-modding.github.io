@@ -1,6 +1,6 @@
 > [!maintenance] 
 > 
-> %%![[Fargoth]]%%
+> ![[picture-of-fargoth.png|left wtiny]]
 > 
 > > [!maintenance|clean nbrd]
 > > 

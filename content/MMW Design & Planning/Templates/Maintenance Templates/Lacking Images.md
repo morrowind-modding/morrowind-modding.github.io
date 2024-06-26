@@ -1,10 +1,10 @@
 > [!maintenance] 
 > 
-> %%![[fargoth]]%%
+> ![[picture-of-fargoth.png|left wtiny]]
 > 
 > > [!maintenance|clean nbrd]
 > > 
-> > **_"How free you are, to venture in the nude!"_**
+> > **"How free you are, to venture in the nude!"**
 > >
 > > This article could benefit from the addition of more images and/or diagrams.
 

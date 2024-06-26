@@ -1,6 +1,6 @@
 > [!maintenance] 
 > 
-> %%![[Altmer Male]]%%
+> ![[picture-of-arrille.png|left wtiny]]
 > 
 > > [!maintenance|clean nbrd]
 > > 

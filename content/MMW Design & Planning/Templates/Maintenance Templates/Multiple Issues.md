@@ -1,6 +1,6 @@
 > [!maintenance] 
 > 
-> %%![[image]]%%
+> ![[picture-of-note-to-hrisskar.png|left wtiny]]
 > 
 > > [!maintenance|clean nbrd]
 > > 

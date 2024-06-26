@@ -1,6 +1,6 @@
 > [!maintenance] 
 > 
-> %%![[fishy stick]]%%
+> ![[have-a-fishy-stick.png|left wtiny]]
 > 
 > > [!maintenance|clean nbrd]
 > > 

@@ -1,10 +1,10 @@
 > [!maintenance] 
 > 
-> %%![[Detritus Caria]]%%
+> ![[picture-of-jobasha.png|left wtiny]]
 > 
 > > [!maintenance|clean nbrd]
 > > 
-> > **"Would you like to look over my wonderful collection of clutter? Perhaps you would even consider helping me fill out my collection."**
+> > **"Jobasha reads books, buys books, sells books. What more can Jobasha say?"**
 > > 
 > > This list is incomplete and could benefit from additional entries.
 

@@ -1,6 +1,6 @@
 > [!maintenance] 
 > 
-> %%![[Larrius Varro]]%%
+> ![[picture-of-larrius-varro.png|left wtiny]]
 > 
 > > [!maintenance|clean nbrd]
 > > 
