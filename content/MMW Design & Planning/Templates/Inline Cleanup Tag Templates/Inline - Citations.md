@@ -1,0 +1,1 @@
+<sup>\[_[[Inline - Citations|Citations]]_\]</sup>
