@@ -1,0 +1,1 @@
+<sup>\[_[[Inline - British English Spelling|British English spelling]]_\]</sup>

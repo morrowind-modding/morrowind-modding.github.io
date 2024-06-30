@@ -21,5 +21,5 @@ Page should act as a landing page for Maintenance Templates and Inline Cleanup T
 
 See:
 - [[Maintenance Templates]]
-- [[Inline Cleanup Tags]]
+- [[Inline Cleanup Labels]]
 - [Wikipedia:Tagging pages for problems](https://en.m.wikipedia.org/wiki/Wikipedia:Tagging_pages_for_problems)

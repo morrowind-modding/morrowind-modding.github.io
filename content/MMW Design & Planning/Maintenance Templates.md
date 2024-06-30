@@ -34,11 +34,11 @@ For pages that are placed in an incorrect category, or directly in `/content`.
 
 #### Uncategorized Article: 
 
-![[Uncategorized Article#^adfe39]]
+![[Maintenance - Uncategorized Article#^adfe39]]
 
 #### Miscategorized Article:
 
-![[Miscategorized Article#^267a3e]]
+![[Maintenance - Miscategorized Article#^267a3e]]
 
 ### Article Tag Issues 
 
@@ -49,11 +49,11 @@ Maintenance templates For the following issues:
 
 #### Missing Tags: 
 
-![[Missing Tags#^497c9d]]
+![[Maintenance - Missing Tags#^497c9d]]
 
 #### Inaccurate Tags: 
 
-![[Inaccurate Tags#^263da9]]
+![[Maintenance - Inaccurate Tags#^263da9]]
 
 ### Category Maintenance 
 
@@ -61,33 +61,33 @@ Maintenance templates for subject 'categories' (i.e., the subfolders contained w
 
 #### Underpopulated Category:
 
-![[Underpopulated Category#^185a87]]
+![[Maintenance - Underpopulated Category#^185a87]]
 
 #### Overpopulated Category:
 
-![[Overpopulated Category#^153873]]
+![[Maintenance - Overpopulated Category#^153873]]
 
 #### Category Undergoing Maintenance:
 
-![[Category Undergoing Maintenance#^884ed7]]
+![[Maintenance - Category Undergoing Maintenance#^884ed7]]
 
 ### Cleanup
 
 A broad maintenance template for when none of the more specific templates fit.
 
-![[Cleanup#^d165af]]
+![[Maintenance - Cleanup#^d165af]]
 
 ### Conciseness
 
 Articles should be detailed, but substantive. Articles that repeat themselves or ramble too much should be made more concise.
 
-![[Conciseness#^9f1ab8]]
+![[Maintenance - Conciseness#^9f1ab8]]
 
 ### Context
 
 Article is missing important context.
 
-![[Context#^fc75ea]]
+![[Maintenance - Context#^fc75ea]]
 
 ### Contradiction
 
@@ -95,11 +95,11 @@ Identifying inconsistent and contradictory information.
 
 #### Article Contradicts Another Article:
 
-![[Article Contradicts Another Article#^9a1883]]
+![[Maintenance - Article Contradicts Another Article#^9a1883]]
 
 #### Article Contradicts Itself: 
 
-![[Article Contradicts Itself#^e5f461]]
+![[Maintenance - Article Contradicts Itself#^e5f461]]
 
 ### Deletion
 
@@ -107,15 +107,15 @@ For articles, categories (folders), or tags considered for deletion.
 
 #### Deletion Considered:
 
-![[Deletion Considered#^3e9b16]]
+![[Maintenance - Deletion Considered#^3e9b16]]
 
 #### Deletion Disputed:
 
-![[Deletion Disputed#^38b673]]
+![[Maintenance - Deletion Disputed#^38b673]]
 
 #### Copyright Violation:
 
-![[Copyright Violation#^4928ad]]
+![[Maintenance - Copyright Violation#^4928ad]]
 
 ### Expand
 
@@ -123,19 +123,19 @@ For insufficiently detailed content or incomplete lists.
 
 #### Expand Article:
 
-![[Expand Article#^6fc39d]]
+![[Maintenance - Expand Article#^6fc39d]]
 
 #### Expand List:
 
-![[Expand List#^7ed84e]]
+![[Maintenance - Expand List#^7ed84e]]
 
 #### Expand OpenMW:
 
-![[Expand OpenMW#^0bee2a]]
+![[Maintenance - Expand OpenMW#^0bee2a]]
 
 #### Expand MWSE and MGE-XE:
 
-![[Expand MWSE and MGE-XE#^f48f97]]
+![[Maintenance - Expand MWSE and MGE-XE#^f48f97]]
 
 ### Factual Accuracy
 
@@ -143,11 +143,11 @@ Templates for the accuracy of article content.
 
 #### Accuracy: 
 
-![[Accuracy#^8285e2]]
+![[Maintenance - Accuracy#^8285e2]]
 
 #### Information Outdated:
 
-![[Information Outdated#^72094e]]
+![[Maintenance - Information Outdated#^72094e]]
 
 ### Media
 
@@ -155,15 +155,15 @@ Templates for addressing issues with the quantity and quality of media, such as 
 
 #### Lacking images:
 
-![[Lacking Images#^12855b]]
+![[Maintenance - Lacking Images#^12855b]]
 
 #### Media Quality:
 
-![[Media Quality#^1cf0c0]]
+![[Maintenance - Media Quality#^1cf0c0]]
 
 #### Tutorial Files:
 
-![[Tutorial Files#^636a5b]]
+![[Maintenance - Tutorial Files#^636a5b]]
 
 ### Merging or Splitting Articles
 
@@ -171,29 +171,29 @@ Templates for identifying where an article is too long and could be split into m
 
 #### Merging Considered:
 
-![[Merging Considered#^46a1ba]]
+![[Maintenance - Merging Considered#^46a1ba]]
 
 #### Splitting Considered:
 
-![[Splitting Considerd#^954588]]
+![[Maintenance - Splitting Considerd#^954588]]
 
 ### Multiple Issues
 
 Umbrella template for capturing numerous issues.
 
-![[Multiple Issues#^fd9f8e]]
+![[Maintenance - Multiple Issues#^fd9f8e]]
 
 ### Neutrality
 
 Template for identifying bias.
 
-![[Neutrality#^436f5e]]
+![[Maintenance - Neutrality#^436f5e]]
 
 ### Redlinks
 
 Template for pages with too many empty placeholder wikilinks or broken links to external sites.
 
-![[Redlinks#^eef836]]
+![[Maintenance - Redlinks#^eef836]]
 
 ### Relevance
 
@@ -201,11 +201,11 @@ Templates for issues with relevancy of article content.
 
 #### Relevance to Morrowind:
 
-![[Relevance#^6629a6]]
+![[Maintenance - Relevance#^6629a6]]
 
 #### Topic Covered Elsewhere:
 
-![[Topic Covered Elsewhere#^9174f7]]
+![[Maintenance - Topic Covered Elsewhere#^9174f7]]
 
 ### Sources
 
@@ -213,20 +213,20 @@ Templates for issues with article sources.
 
 #### Sources Lacking:
 
-![[Sources Lacking#^bab6ab]]
+![[Maintenance - Sources Lacking#^bab6ab]]
 
 #### Sources Irrelevant:
 
-![[Sources Irrelevant#^0b4e72]]
+![[Maintenance - Sources Irrelevant#^0b4e72]]
 
 ### Tone
 
 Template for issues with article writing style.
 
-![[Tone#^6e35f0]]
+![[Maintenance - Tone#^6e35f0]]
 
 ### Work-in-Progress Article
 
 Sometimes it is better to upload what you have already, even if it is not yet finished.
 
-![[Work-in-Progress Article#^4e8d2e]]
+![[Maintenance - Work-in-Progress Article#^4e8d2e]]
