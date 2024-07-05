@@ -537,9 +537,3 @@ ol.overflow {
 
 /* ====================================== */
 /* -- Below are MMW Edits to base.scss -- */
-
-tr,
-td {
-  overflow-wrap: normal;
-  /* Prevents words in tables being broken on narrow displays */
-}
