@@ -36,7 +36,6 @@ export default (() => {
             <a href="/MMW-Design--and--Planning/">Contributing</a>
           </span>
         </div>
-      <hr style="background-color: var(--gray); border-top: 1px var(--gray) solid; margin-top: 1.3rem"></hr>
       </div>
     )
   }
