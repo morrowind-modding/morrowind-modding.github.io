@@ -10,17 +10,19 @@ header {
   flex-wrap: wrap;
   column-gap: 1em;
   font-size: 1.2em;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin: 0 0.2em;
+  background-color: #8f9fa926;
 
   span {
-    margin-top: 0.75em;
+    margin: 0.75em 0;
   }
 
-  img {
+  svg {
     height: 1em;
     margin: 0 0.3em 0 0;
     vertical-align: sub;
+    color: var(--dark);
   }
 
   a {
@@ -28,16 +30,17 @@ header {
   }
 }
 
-@media (max-width: $mobileBreakpoint) {
-  #links-header > * {
-    width: calc(33.33% - 0.67em); /* 33.33% width with some gap */
-  }
+/* --- mobile breakpoint removed - it's mostly redundant as the element uses CSS flex --- */
+// @media (max-width: $mobileBreakpoint) {
+//   #links-header > * {
+//     width: calc(33.33% - 0.67em); /* 33.33% width with some gap */
+//   }
 
-  #links-header > *:nth-child(3n-1) {
-    text-align: center;
-  }
+//   #links-header > *:nth-child(3n-1) {
+//     text-align: center;
+//   }
 
-  #links-header > *:nth-child(3n) {
-    text-align: right;
-  }
-}
+//   #links-header > *:nth-child(3n) {
+//     text-align: right;
+//   }
+// }
