@@ -2,7 +2,27 @@
 @use "./variables.scss" as *;
 
 .page-title {
-    height: 200px;
+    height: 175px;
+}
+
+/* --- MMW Logo on mobile display --- */
+
+@media screen and (max-width:$mobileBreakpoint) {
+  .Logo {
+    max-height: 185px;
+    min-height: 150px;
+    max-width: 200px;
+    min-width: 150px;
+  }
+  .page-title {
+    height: 150px;
+  }
+  #quartz-body .sidebar.left {
+    margin-top: 0.5rem;
+  }  
+  .sidebar.left .spacer.mobile-only {
+    flex: 0.5 0.5 auto;
+  }
 }
 
 #explorer-ul {
