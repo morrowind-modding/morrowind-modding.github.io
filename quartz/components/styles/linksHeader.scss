@@ -6,17 +6,8 @@ header {
 }
 
 #links-header {
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 1em;
   font-size: 1.2em;
-  justify-content: space-evenly;
   margin: 0 0.2em;
-  background-color: #8f9fa926;
-
-  span {
-    margin: 0.75em 0;
-  }
 
   svg {
     height: 1em;
@@ -26,14 +17,19 @@ header {
   }
 
   a {
+    display: inline-block;
     color: var(--dark);
+    padding: 10px 15px;
+    background-color: #8f9fa926;
+  }  
+  
+  a:hover{
+      background-color: #8f9fa93d;
   }
 }
 
 @media screen and (max-width: $mobileBreakpoint) {
   #links-header {
-    flex-wrap: nowrap;
-    justify-content: space-between;
     overflow: scroll;
     white-space: nowrap;
   }
