@@ -16,7 +16,10 @@ description: Morrowind Modding Wiki Manual of Style for how to write and edit ar
 > 
 > - [[Article Layout Guidelines]]
 > - [[Content Guidelines]]
+> - [[file-naming-guidelines|File Naming Guidelines]]
 > - [[Formatting Guidelines]]
+
+^3085e6
 
 ## About
 
