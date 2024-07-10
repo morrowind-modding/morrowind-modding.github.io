@@ -1,1 +1,0 @@
-<sup>\[_[[Inline - Irrelevant Citation|Irrelevant citation]]_\]</sup>

@@ -1,1 +1,0 @@
-<sup>\[_[[Inline - Citation Needed|Citation needed]]_\]</sup>

@@ -1,0 +1,1 @@
+<sup>\[_[[inline-opinion|Opinion]]_\]</sup>

@@ -1,1 +1,0 @@
-<sup>\[_[[Inline - Broken Link|Broken link]]_\]</sup>

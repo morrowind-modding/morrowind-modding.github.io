@@ -1,1 +1,0 @@
-<sup>\[_[[Inline - Overly Detailed|Overly detailed]]_\]</sup>

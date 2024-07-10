@@ -1,1 +1,0 @@
-<sup>\[_[[Inline - Explain|Explain]]_\]</sup>

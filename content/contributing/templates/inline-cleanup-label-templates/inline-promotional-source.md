@@ -1,0 +1,1 @@
+<sup>\[_[[inline-promotional-source|Promotional source]]_\]</sup>
