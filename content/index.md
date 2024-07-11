@@ -2,6 +2,7 @@
 title: Morrowind Modding Wiki Home
 aliases:
   - Home
+description: Welcome to the Morrowind Modding Wiki, the community repository of Morrowind modding knowledge
 ---
 ## Welcome
 
