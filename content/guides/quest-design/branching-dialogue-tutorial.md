@@ -17,7 +17,7 @@ See the Project Tamriel Wiki article [Writing and Diagloue Guides](https://wiki.
 
 # Tutorial: 
 >[!figure]
->![[MMW_Quest-Design_BranchingDIAL_banner.png]]
+>![[example-of-branching-dialogue-in-morrowind.png]]
 >*Morrowind dialogue uses a topic-based system rather than a dialogue tree system, but with a little bit of MWScript you can create branching dialogue trees as complex as you like*
 * **Difficulty level:** Intermediate
 * **Requirements:**
@@ -32,7 +32,7 @@ See the Project Tamriel Wiki article [Writing and Diagloue Guides](https://wiki.
 The first thing we need is an NPC with a script with a local variable. This local variable will be used in dialogue:
 
 >[!figure] Getting set up:
->![[MMW_Quest-Design_BranchingDIAL_01.png]]
+>![[npc-with-local-script-in-tes3cs.png]]
 >For branching dialogue to work properly, an NPC needs to have a script attached with a local variable.
 >
 >>[!tip]
@@ -42,11 +42,11 @@ The first thing we need is an NPC with a script with a local variable. This loca
 Let’s set up the greeting on `dialPath == 0`
 
 >[!figure]
->![[MMW_Quest-Design_BranchingDIAL_02.png]]
+>![[setting-dialpath-for-branching-dialogue-tes3cs.png]]
 >Note that in the `result` we specify a `choice` function
 >>[!example]- Example in-game:
 >>
->>![[MMW_Quest-Design_BranchingDIAL_03.png]]
+>>![[morrowind-branching-dialogue-tutorial-first-choice.png]]
 >>*Well? What shall we talk about?*
 
 ## Nesting choices within a dialogue path
@@ -58,30 +58,30 @@ We can nest further branching choices within `dialPath 0`, depending on whether 
 For the first choice, we set the `dialPath` to `1` in the results:
 
 >[!figure]
->![[MMW_Quest-Design_BranchingDIAL_04.png]]
+>![[nesting-dialpath-choices-in-tes3cs.png]]
 >*Do you enjoy cabbages? It's a simple choice.*
 >>[!example]- Example in-game:
 >>
->>![[MMW_Quest-Design_BranchingDIAL_05.png]]
+>>![[nested-branching-dialogue-choice-in-morrowind.png]]
 
 To which a response can be made:
 
 >[!figure]
->![[MMW_Quest-Design_BranchingDIAL_06.png]]
+>![[resetting-dialpath-in-tes3cs-dialogue.png]]
 >If `Choice 2` is chosen, the NPC can be made to respond *"Neither do I."* As neither you nor the NPC wish to discuss cabbages any further... we can set the `dialPath` back to `0`.
 >>[!example]- Example in-game:
 >>
->>![[MMW_Quest-Design_BranchingDIAL_07.png]]
+>>![[resetting-dialpath-to-zero-in-morrowind.png]]
 
 ### Choice 2:
 
 For the second choice, we set `dialPath` to `2`:
 
 >[!figure]
->![[MMW_Quest-Design_BranchingDIAL_08.png]]
+>![[second-branching-dialogue-choice-in-tes3cs.png]]
 >>[!example] Example in-game: 
 >>
->>![[MMW_Quest-Design_BranchingDIAL_09.png]] 
+>>![[second-nested-dialogue-choice-in-morrowind.png]] 
 >>
 >>In-game, the other choices are displayed:
 

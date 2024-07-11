@@ -13,7 +13,7 @@ description:
 	%%* E.g. See [[creating-a-patch-for-an-esp|Creating a Patch for an ESP]] for more information on what patches are and how they work.* %%
 
 # Tutorial 1: 
-%%![[Patches_ESP-Replacer_1_Preview.png]]%% %% add an introductory image or screenshot related to the tutorial  %%
+%%![[comparison-screenshot-of-two-conflicting-mods.png]]%% %% add an introductory image or screenshot related to the tutorial  %%
 * **Difficulty level:** %% Beginner, Intermediate or Advanced %%
 * **Requirements:**
      * %% list required tools %%

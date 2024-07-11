@@ -18,7 +18,7 @@ See [[creating-a-patch-for-an-esp|Creating a Patch for an ESP]] for more informa
 
 # Tutorial 1:
 >[!info] Scenario: 
->![[Patches_ESP-Replacer_1_Preview.png]] 
+>![[comparison-screenshot-of-two-conflicting-mods.png]] 
 >**Scenario:**
 >- `MMW_Patches_ESP-Replacer_1a.esp` adds a house to Caldera. 
 >- `MMW_Patches_ESP-Replacer_1b.esp` adds a thatch tower to Caldera in the same place. 
@@ -38,14 +38,14 @@ See [[creating-a-patch-for-an-esp|Creating a Patch for an ESP]] for more informa
 
 ## Step 1: Navigating to the Cell
 1. Open the Construction Set ('CS'), open the Data Files window and double-click `Replacer_1a.esp` and `Replacer_1b.esp` to load them. Set `Replacer_1a.esp` as ‘Active’.
-![[Patches_ESP-Replacer_1_DataFiles.png]]
+![[enabling-plugins-for-esp-replacer-tutorial.png]]
 3. Click `show modified only` in the Cell View window. This will make it display only cells modified or added by the active plugin - in this case, `Replacer_1a.esp`
-![[Patches_ESP-Replacer_Cell_Window.png]]
+![[beginner-esp-replacer-tutorial-cell-view.png]]
 1. In the Cell View window, under `Cell Name`, locate the cell `Caldera, -2,2` where our mod conflict is, and **double-click** it to bring you there in the Render Window.
 2. `Show modified only` not only filters the list of cells modified by the active ESP: it also filters the list of references *in* that cell to only display references modified or added by the active ESP. Under `Object ID` in the right-hand panel in Cell View, **double-click** on `ex_nord_house_02`
 
 ## Step 2: Identifying the Conflict
-![[Patches_ESP-Replacer_1_Conflict.png]]
+![[screenshot-of-mod-conflict-in-tes3cs.png]]
 
 We can clearly see some kind of conflict here. The house added by `Replacer_1a.esp` overlaps with the thatch tower (`ex_common_tower_thatch`) added by `Replacer_1b.esp`, covering up the door to the tower.
 
@@ -59,7 +59,7 @@ With `Show modified only` enabled, only references *added* or *modified* by `1a.
 > [!example]- Click for more information: 
 > 1. Double-click on `ex_nord_win_02`, the first reference in Cell View under `Object ID`. This will take you to the reference's location in the Render Window - However, in this case, it is obscured by other references (the thatch tower), so we need to move the camera around to find the selected reference.
 > 2. To get a better view, left click on the top of the Render Window (the top bar that displays the cell name, `Caldera -2,2`). This allows to use the camera controls in the Render Window, without unselecting our `ex_nord_win_02` reference. Hold the `shift` key and move your mouse around to orbit the camera around and get your bearings - to locate the window you'll need to zoom in, either by scrolling with your mouse wheel, or holding the `V` key and moving your mouse forward.
->![[Patches_ESP-Replacer_1_Conflict2.png]]
+>![[window-clipping-through-wall-mod-conflict.png]]
 >3. Repeat this process for each reference from `Replacer_1a.esp`. Note however that this is a time-consuming approach if your active ESP contains many references in the cell.
 >>[!tip] Tip: 
 >> 
@@ -69,7 +69,7 @@ With `Show modified only` enabled, only references *added* or *modified* by `1a.
 Holding `ctrl + shift + R + clicking middle-mouse-button` on a selected reference brings up Reference Data, telling us which plugin is adding or modifying that reference.
 > [!example]- Click for more information: 
 >1. Left-click on `ex_common_house_addon`, the entrance to the thatch tower with the curved roof. While selected, press and hold `ctrl + shift + R + middle-mouse-button` to bring up the Reference Data window, which tells us beside `File:` that the reference originates from `MMW_Patches_ESP-Replacer_1b.esp`. 
->![[Patches_ESP-Replacer_1_Conflict3.png]]
+>![[using-show-reference-data-in-tes3cs.png]]
 >1. Try this out with other references in the cell - they will either originate from `Morrowind.esm`, `MMW_Patches_ESP-Replacer_1a.esp` or `MMW_Patches_ESP-Replacer_1b.esp`. Be sure not to move any references as otherwise you will make [dirty references]() %%add link%%
 >>For more information on [Show Reference Data]() %%add link%% see the wiki page
 
@@ -98,7 +98,7 @@ To make it easier to select what we'll be moving, we can use the `Hide Selection
 * The tower itself -- `ex_common_tower_thatch`
 
 >[!figure]
->![[Patches_ESP-Replacer_1_CSSEHide.webm]]
+>![[video-demonstrating-hiding-references-in-csse.webm]]
 >Using the `Hide Selection` option from the `Q` Context Menu in CSSE, we can temporarily hide any references that are covering up the ones we want to move.
 
 With these hidden, we can select the references we want to move from `Replacer_1a.esp`. Hold `ctrl` and left click each of the following references from `1a.esp`:
@@ -109,7 +109,7 @@ With these hidden, we can select the references we want to move from `Replacer_1
 * Doormarker -- `DoorMarker`
 * House -- `ex_nord_house_02`
 
-![[Patches_ESP-Replacer_1_Patching1.png]]
+![[typical-tes3-nord-house-reference-ids.png]]
 
 >[!note]- Selecting multiple objects
 >Using `ctrl + left click` allows you to select a select a series of references. This means we can move them together as a group without losing their arrangement - how they are placed relative to eachother.
@@ -125,13 +125,13 @@ It's best to have the house `ex_nord_house_02` selected *last*, because in CSSE 
 We can move the house south along the Y-axis to a position where it no longer overlaps with the thatch tower, leaving a gap in-between the two buildings. This is the position we will be moving the house to for this tutorial: 
 
 >[!figure] New location: 
-> ![[Patches_ESP-Replacer_1_Moved.png]]
+> ![[mod-conflict-resolved-with-esp-replacer.png]]
 > This is where we want to move the house.
 
 See the video below for how the house was moved in the CS:
 
 > [!example] Moving the house - Video:
-> ![[Patches_ESP-Replacer_1_Move.webm]]
+> ![[moving-a-nord-house-in-tes3cs.webm]]
 > 
 > We can move the house south along the Y-axis and east along the X-axis
 > 
@@ -161,7 +161,7 @@ Check around the house to ensure that no parts of it are now floating off the gr
 We can also check whether there are any references that completely covered up (or 'buried') by the house that could be either moved or deleted. Here are two examples:
 
 >[!example]- Example 1: buried chokeweed 
->![[Patches_ESP-Replacer_1_check1.png]] 
+>![[chokeweed-clipping-through-tes3-nord-house.png]] 
 >After moving the house, it now covers up the stem of the chokeweed `flora_chokeweed_02` from `Morrowind.esm`. You can move the reference or delete it. 
 >
 >>[!warning] A note on cleaning dirty edits: 
@@ -171,7 +171,7 @@ We can also check whether there are any references that completely covered up (o
 >>Make note of this when cleaning the plugin later that the newly modified cell is *not* a dirty edit and should not be removed from the plugin.
 
 >[!example]- Example 2: buried 'ex_drystonewall'
->![[Patches_ESP-Replacer_1_check2.png]]
+>![[drystonewall-clipping-through-tes3-nord-house.png]]
 >
 >Now completely buried by the house is an `ex_drystonewall_c_01` reference from `Morrowind.esm`. 
 >
@@ -221,7 +221,7 @@ That being said, here are some possible dirty edits you may make during the proc
 >- Dirty edits to `Morrowind.esm` references can generally be automatically cleaned with the `tes3cmd` `clean` command
 > 
 >>[!example]
->>![[Patches_ESP-Replacer_1_DirtyEdit.png]]
+>>![[dirty-edit-via-undo-in-tes3cs.png]]
 >> 
 >>In this example, the tower from `Replacer_1b.esp` was moved, then undone with `ctrl+z`. 
 >>A dirty reference will still be added to your active `Replacer_1a.esp` regardless, and will need to be removed with a low-level editor if the plugin is saved after the edit is made.
