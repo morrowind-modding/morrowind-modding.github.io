@@ -34,7 +34,7 @@ See [[creating-a-patch-for-an-esp|Creating a Patch for an ESP]] for more informa
      * `MMW_Patches_ESP-Replacer_1a.esp`
      * `MMW_Patches_ESP-Replacer_1b.esp`
 
-![[MMW_Patches_ESP-Replacer_1.0.zip]]
+![[mmw-patches-esp-replacer-v1.zip]]
 
 ## Step 1: Navigating to the Cell
 1. Open the Construction Set ('CS'), open the Data Files window and double-click `Replacer_1a.esp` and `Replacer_1b.esp` to load them. Set `Replacer_1a.esp` as ‘Active’.

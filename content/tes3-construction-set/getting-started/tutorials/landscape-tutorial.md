@@ -9,7 +9,7 @@ You’ll probably want to read the tutorial on World Building first. Landscaping
 
 You’ll want to load your plugin first, “MyPlugin.esp” (see the World Building tutorial). When you load it, select it to be the “active” plugin. You can run the *Construction Set* with many plugins loaded, so you must set one to active. The active plugin is the one that all of your changes are being saved to.
 
-![[Landscape Tutorial 1.bmp]]
+![[setting-active-plugin-in-tes3cs.bmp]]
 
 ### Find an area to build on.
 
@@ -21,43 +21,43 @@ The landscape is a “height map” made up of vertices. You can pull these vert
 
 Click the landscape button on the toolbar to enter landscape editing mode. Your clicks in the render window will now move and select the landscape points, instead of world objects.
 
-![[Landscape Tutorial 2.bmp]]
+![[using-landscape-editor-in-tes3cs.bmp]]
 
 A red circle shows how big of an area you will be pulling up and down. By changing the Radius and Falloff %, you choose how the vertices move as you select and move the mouse up and down. Start pulling the landscape up so it’s over the water. 
 
-![[Landscape Tutorial 3.bmp]]
+![[raising-landscape-above-water-in-tes3cs.bmp]]
 
 By moving large sections of landscape up and then others down, you can sculpt the mesh like clay. Also try using the “smoothing” checkbox. This will allow you to smooth out areas to get rid of unwanted jaggedness that can occur from rapid height changes.
 
 It is best to edit the heights in wireframe mode, but switch often to textured mode so you can see where the ocean height is hitting your area.
 
-![[Landscape Tutorial 4.bmp]]
+![[editing-landscape-with-wireframe-in-tes3cs.bmp]]
 
-![[Landscape Tutorial 5.bmp]]
+![[toggleing-wireframe-mode-in-tes3cs.bmp]]
 
 ### Texture the landscape.
 
 Once you have a shape you like, you’ll want to texture it. Right clicking on the landscape paints it with your currently selected texture. Try to follow the shapes you have built. The landscape textures will automatically smooth into one another. If you get more than 2 textures hitting the same area, you’ll want to move some things around and try to get the texture match on the corner, as only 2 textures look perfect hitting the same spot. A landscape texture covers 4 landscape vertices, so you may also want to adjust the shape of the landscape when you see where the textures fall. 
 
-![[Landscape Tutorial 6.bmp]]
+![[applying-textures-to-landscape-in-tes3cs.bmp]]
 
 ### Place landscape foliage.
 
 Dress your landscape up with trees, rocks, bushes and anything else you can think of. Leave landscape editing and drag objects in from the object window. The larger trees and rocks are under the “static” tab and the plants and bushes are under “containers” since they contain ingredients such as berries. Once you get a bunch in you like, use the copy and paste functions to move groups around quickly.
 
-![[Landscape Tutorial 7.bmp]]
+![[placing-objects-on-landscape-in-tes3cs.bmp]]
 
 ### Vertex Coloring
 
 The finishing touch on landscape is vertex coloring. Go back into landscape editing mode and select “Edit colors”. Your mouse now becomes a paintbrush. You can select a color for right clicking and one for left clicking. Vertex painting can really enhance your area by adding darkened areas under trees and weathered areas around rocks.
 
-![[Landscape Tutorial 8.bmp]]
+![[vertex-coloring-a-landscape-in-tes3cs.bmp]]
 
 ### Place dungeon entrance and link it.
 
 Now add an entrance into your dungeon we created in the World Building Tutorial. Drag in a door object from the object window. Double click the door and select the “Teleport” option and choose the Cell you want the door to go to, “My Cave of Death and Adventure” in this case. Do the same to the door in the dungeon, linking it to the outside. After you choose the Cell you want to go to, you’ll get to place a DoorMarker that shows the exact location the door goes to.
 
-![[Landscape Tutorial 9.bmp]]
+![[selecting-a-doormarker-in-tes3cs.bmp]]
 
 ### Save and test.
 

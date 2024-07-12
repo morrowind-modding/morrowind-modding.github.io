@@ -30,14 +30,14 @@ How to Build Fake Exteriors Using Export Sphere
 Now we're ready to work! Go to the cell you want to copy and hit ctrl+shift+e. This will bring up the export sphere. You can scroll up on the mouse wheel to increase the size of the sphere. Since you will want the cell you are in (along with the 8 surrounding cells), scroll all the way up to 3000 units.
 
 In Blender, import the nif file. You'll normally find it under `Meshes/g7`. Locate the building you are creating an exterior view for. Select everything that cannot be seen from the windows of your interior cell and delete it:
-![[Pasted image 20240209141830.png]]
+![[morrowind-cell-exported-to-nif-file.png]]
 
 
 
 There are even more optimizations you can do, but this is a start. Next, find the exterior
 portion of your interior and delete everything except the windows:
 
-![[Pasted image 20240209141947.png]]
+![[optimizing-cell-export-nif-in-blender.png]]
 
 
 ### Match It Up in the Construction Set
@@ -45,7 +45,7 @@ portion of your interior and delete everything except the windows:
 Since Morrowind buildings are often bigger on the inside, you will not be able to perfectly
 match all of the windows most of the time. Export your nif (don’t close Blender if you can handle it), create a new static with it in the construction set, and move it into your interior. Do your best to match the windows:
 
-![[Pasted image 20240209142010.png]]
+![[matching-window-interior-position-to-exterior.png]]
 
 Once you have roughly matched the windows, delete the windows in your nif back in Blender and re-export. Resist the urge to close and re-open the Construction Set to get the updates, as it will make replacing parts of the exterior nif with the matching statics more difficult.
 
@@ -56,24 +56,24 @@ Once you have roughly matched the windows, delete the windows in your nif back i
 
 You will need windows with transparent textures if Morrowind Interiors Project has not already created them. This is when you will need GIMP and NifSkope. You will also want to unpack your BSAs at this time so that you may access the assets. Open up the mesh in NifSkope and click the window if you don’t know what texture you need.
 
-![[Pasted image 20240209142042.png]]
+![[locating-window-source-texture-in-nifskope.png]]
 
 
 Locate your texture, drag and drop it into GIMP
-![[Pasted image 20240210213359.png]]
+![[opening-window-texture-in-gimp.png]]
 
 Since we don't want the lead between the glass pieces to be transparent, select it all and then invert the selection so that only the glass is selected:
 
-![[Pasted image 20240210213503.png]]
+![[inverted-selection-of-window-in-gimp.png]]
 
 
 Now select the Eraser, set it to something like 50% (or however clear you want the glass to be), and erase the glass:
 
-![[Pasted image 20240210213525.png]]
+![[erasing-window-to-transparent-in-gimp.png]]
 
 After you export it, go back into NifSkope and select the texture you just exported. Lastly, right click on the NiTriShape for the window and go down to Node and select Add Property. You need to add a NiAlphaProperty:
 
-![[Pasted image 20240209142406.png]]
+![[adding-nialphaproperty-to-nitrishape-in-nifskope.png]]
 
 Now you can go back into the Construction Set and replace the mesh with your new mesh.
 
@@ -83,50 +83,50 @@ If your mesh does not have a window built into it, there are a few extra steps. 
 After some fiddling, you should be able to get both objects within Blender
 as they were in the game:
 
-![[Pasted image 20240209142420.png]]
+![[kitbashing-interior-window-tile-in-blender.png]]
 
 Select the non-window mesh and do a Boolean with the window mesh. Sometimes you need to tweak the settings so that only what should be deleted is deleted, such as the Self Intersection checkbox:
 
-![[Pasted image 20240209142437.png]]
+![[removing-window-via-boolean-in-blender.png]]
 
 After you apply the Boolean, make sure you 0 out the X,Y,Z position and rotation of the mesh:
 
-![[Pasted image 20240209142647.png]]
+![[zeroing-coordinates-of-mesh-in-blender.png]]
 
 Now you can export and add it to the Construction Set. You will also want to create a mesh for the part with the window on it and replace the mesh in game with the new mesh. You may also want to set the 3D scale to something like 1.01, as there can be a loss of precision in the conversion:
 
-![[Pasted image 20240209142701.png]]
+![[replacing-old-interior-window-in-tes3cs.png]]
 
 ## Make the Exteriors Match Up
 
 The next part is the most tedious part, and will often require going in and out of the game to
 test. Various objects can cause collision issues, so you will need to move objects that cannot be seen out of the way. If they can be seen, you will need to get creative. For example, here is the front of Ghorak Manor in Caldera:
 
-![[Pasted image 20240209142718.png]]
+![[exterior-of-ghorak-manor-in-caldera.png]]
 
 As can be seen, the door should be visible from the window:
 
-![[Pasted image 20240209142734.png]]
+![[view-of-caldera-inside-ghorak-manor.png]]
 
 However, the exterior nif will probably conflict with the interior. Here, the door was altered so that it can be seen from the window, but also not blocking the interior door:
 
-![[Pasted image 20240209143425.png]]
+![[preventing-doorway-from-clipping-into-interior.png]]
 
 It was also bent to prevent the player from looking out the window and back into the hallway. In another example, Shenk’s Shovel of Caldera has a window overlooking part of the building:
 
-![[Pasted image 20240209143439.png]]
+![[exterior-of-shenks-shovel-in-caldera.png]]
 
 This section of building, however, would clip with the room it represents, so it needs to be removed in the exterior nif. Looking out the window, one can see into the room below, as the ceiling has no mesh on that side:
 
-![[Pasted image 20240209143451.png]]
+![[clipping-ceiling-visible-inside-shenks-shovel.png]]
 
 To fix this, I created a mesh using part of the roof mesh of one of the Nord houses. I then placed it below the window, but not so low that it clipped into the room below:
 
-![[Pasted image 20240209143502.png]]
+![[custom-nord-roof-for-shenks-shovel.png]]
 
 Now when one looks out of the window, this is what they see:
 
-![[Pasted image 20240209143515.png]]
+![[nord-roof-visible-inside-shenks-shovel.png]]
 
 These are just two examples of the sorts of tweaks you may need to make. It’s all smoke-and-mirrors, but do your best to create the proper illusion for the mod users.
 
@@ -136,7 +136,7 @@ Dahrk, the windows out of your window will not change. What you will need to do 
 Another approach is to select everything from the exterior cell and paste it into the
 interior cell. Moving it all as one mass, try to line everything up with the export (use the smallest objects as a guide). Once everything overlaps, go into your export in blender and delete everything except for the land tiles. This should be done for every mesh, so that mesh replacers are taken into account. You will also want to place any activator and lights:
 
-![[Pasted image 20240209143538.png]]
+![[interior-view-of-fake-caldera-exterior.png]]
 
 Now that everything has been placed, toggle collision and see what can’t be seen from the
 window. If something is covered by a mountain or building, delete it from the nif.

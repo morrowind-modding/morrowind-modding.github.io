@@ -10,7 +10,7 @@ description: Morrowind Modding Wiki Manual of Style for how to write and edit ar
 > 
 > ## [[contributing/manual-of-style/index|Manual of Style]]
 > 
-> ![[PuzzleBoxOnly.png]]
+> ![[morrowind-modding-wiki-logo-without-text.png]]
 > 
 > ### This article is part of the [[contributing/manual-of-style/index|Manual of Style]]
 > 

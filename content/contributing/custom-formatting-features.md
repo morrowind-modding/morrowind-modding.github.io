@@ -175,7 +175,7 @@ By adding the `flex` metadata, grid columns will stack vertically on mobile.
 > 
 > > [!caption]
 > > 
-> > ![[PuzzleBoxOnly.png|wsmall]]
+> > ![[morrowind-modding-wiki-logo-without-text.png|wsmall]]
 > > 
 > > A caption callout nested in the grid.
 
@@ -183,7 +183,7 @@ By adding the `flex` metadata, grid columns will stack vertically on mobile.
 
 > [!caption|right]
 > 
-> ![[PuzzleBoxOnly.png|wsmall]]
+> ![[morrowind-modding-wiki-logo-without-text.png|wsmall]]
 > 
 > `[!caption|right]` callout
 
@@ -210,7 +210,7 @@ A wiki-style infobox displayed in the top right of an article to summarize data 
 > 
 > ## Infobox
 > 
-> ![[PuzzleBoxOnly.png]]
+> ![[morrowind-modding-wiki-logo-without-text.png]]
 > 
 > ### Table
 > 
