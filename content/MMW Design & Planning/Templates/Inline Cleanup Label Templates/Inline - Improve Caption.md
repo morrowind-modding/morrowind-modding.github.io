@@ -1,1 +1,0 @@
-<sup>\[_[[Inline - Improve Caption|Improve caption]]_\]</sup>

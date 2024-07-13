@@ -1,0 +1,1 @@
+<sup>\[_[[inline-vague|Vague]]_\]</sup>

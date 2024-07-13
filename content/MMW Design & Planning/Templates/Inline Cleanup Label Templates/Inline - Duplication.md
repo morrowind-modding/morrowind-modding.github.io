@@ -1,1 +1,0 @@
-<sup>\[_[[Inline - Duplication|Duplication]]_\]</sup>

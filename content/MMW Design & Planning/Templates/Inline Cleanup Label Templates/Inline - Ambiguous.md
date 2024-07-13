@@ -1,1 +1,0 @@
-<sup>\[_[[Inline - Ambiguous|Ambiguous]]_\]</sup>

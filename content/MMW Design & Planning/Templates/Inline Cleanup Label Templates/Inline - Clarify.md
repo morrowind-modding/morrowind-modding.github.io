@@ -1,1 +1,0 @@
-<sup>\[_[[Inline - Clarify|Clarify]]_\]</sup>

@@ -1,1 +1,0 @@
-<sup>\[_[[Inline - Expand Acronym|Expand acronym]]_\]</sup>

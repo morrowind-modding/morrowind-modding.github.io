@@ -1,1 +1,0 @@
-<sup>\[_[[Inline - Contradiction|Contradiction]]_\]</sup>
