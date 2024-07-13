@@ -28,7 +28,7 @@ For more information on how to contribute to [mlox-rules](https://github.com/Dan
 ## Tutorial
 
 >[!info] Scenario:
-> ![[Tools_mlox_contributing_Nexus1.png]] 
+> ![[mlox-mmw-tutorial-nexusmods-page.png]] 
 > 
 > **Scenario:**
 > 
@@ -48,7 +48,7 @@ For more information on how to contribute to [mlox-rules](https://github.com/Dan
 ### Step One: Find a rule to add
 Referring to the demo mod page, we can see that it stipulates load order requirements and also which mods conflict with it:
 
->[!figure] ![[Tools_mlox_contributing_Nexus2.png]]
+>[!figure] ![[mlox-tutorial-nexusmods-load-order.png]]
 > 
 > An example of how a mod's load order requirements and conflicts might be displayed on a NexusMods page.
 

@@ -7,7 +7,7 @@ tags:
   - Load-order
 description: mlox is a tool for analyzing and sorting your Morrowind plugin load order.
 ---
-![[Tools_mlox_icon.png|left]] mlox is a mini "expert system" for advising you on your set of plugins.
+![[mlox-logo.png|left]] mlox is a mini "expert system" for advising you on your set of plugins.
 
 Use mlox to check for plugin dependencies and conflicts, and to sort your plugins into an optimal load order.
 
@@ -42,7 +42,7 @@ It also provides advice on plugin conflicts, missing pre-requisites, and general
 
 **Note**: mlox does not tell you if you have missing Meshes or Textures, it is only a load order tool, and does not report problems with resources!
 
-![[Tools_mlox_gui_1.png]]
+![[screenshot-of-mlox-gui.png]]
 
 # Downloading
 The latest stable version of mlox can be found [here](https://github.com/rfuzzo/mlox/releases), and the source code can be found on [github](https://github.com/rfuzzo/mlox).

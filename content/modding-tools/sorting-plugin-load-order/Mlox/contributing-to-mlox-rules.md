@@ -51,7 +51,7 @@ This guide will cover the following points:
 
 ### Where do contributions get made?
 
-![[Tools_mlox_contributing_github-banner.png]]
+![[mlox-rules-github-repository-navbar.png]]
 
 The rules-base of mlox is stored in the Github repository [DanaePlays/mlox-rules](https://github.com/DanaePlays/mlox-rules). This is where updates to the rules are made -- each time mlox is run, it automatically downloads the latest rules from here.
 
@@ -66,7 +66,7 @@ These two simple files are easy to edit and are organized around a simple set of
 >
 > Github can be intimidating and unfamiliar to navigate at first. However, you only really need to pay attention to two files on this repository: `mlox_base.txt` and `mlox_user.txt` -- The rest you can ignore.
 >
->![[Tools_mlox_contributing_1.png]]
+>![[mlox-rules-github-repository-important-files.png]]
 
 In order to contribute rules on Github, you will need to create a fork of the repository -- We'll cover that in [[#Contributing on Github]]
 
@@ -101,7 +101,7 @@ This information forms the basis of most mlox rules.
 >> 
 >> Nonetheless, these can be a useful starting point for any research you undertake. 
 >>  
->> ![[Tools_mlox_contributing_NexusBug.png]] 
+>> ![[mlox-tutorial-nexusmods-bug-report.png]] 
 
 
 
@@ -115,7 +115,7 @@ The article [[mlox-rule-guidelines|Mlox Rule Guidelines]] is an essential refere
 
 Specifies the order of plugins, from top to bottom, with the bottom being loaded last. 
  
-![[Tools_mlox_contributing_order_01.png]]
+![[example-of-a-mlox-order-rule.png]]
  
 >[!example]- 
 > 
