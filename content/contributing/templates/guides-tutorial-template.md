@@ -10,7 +10,7 @@ description:
 	%% E.G. *This page contains three tutorials of varying difficulty on how to create an ESP Replacer Patch:* %%
 
 %% Add a backlink to any relevant Guides pages which provide background on the subject matter of the tutorial %%
-	%%* E.g. See [[creating-a-patch-for-an-esp|Creating a Patch for an ESP]] for more information on what patches are and how they work.* %%
+	%%* E.g. See [[guides/patches/creating-a-patch-for-an-esp|Creating a Patch for an ESP]] for more information on what patches are and how they work.* %%
 
 # Tutorial 1: 
 %%![[comparison-screenshot-of-two-conflicting-mods.png]]%% %% add an introductory image or screenshot related to the tutorial  %%

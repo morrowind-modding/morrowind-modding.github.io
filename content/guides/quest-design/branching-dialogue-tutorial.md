@@ -22,7 +22,7 @@ See the Project Tamriel Wiki article [Writing and Diagloue Guides](https://wiki.
 * **Difficulty level:** Intermediate
 * **Requirements:**
      * Morrowind, Tribunal and Bloodmoon
-     * *This tutorial assumes you have a basic knowledge of [[guides/scripting/index|Scripting]]*
+     * _This tutorial assumes you have a basic knowledge of [[guides/scripting/index|Scripting]]_
 
 **Scenario:** 
 *Duder the Dunmer wants to know whether you would like to discuss Kings or Cabbages - but you can only pick **one**. If only there was a way to create branching dialogue choices in Morrowind..?*

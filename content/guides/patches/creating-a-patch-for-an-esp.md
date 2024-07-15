@@ -41,7 +41,7 @@ These use an additional ESP to make their changes and in most cases will need to
 Put simply, an ‘ESP replacer’ is an ESP that replaces the ESP of one mod [mod ‘A’], with changes made to it in order to make it compatible with another mod [mod ‘B’]. This is somewhat of a blunt tool to achieve compatibility, but it does the job. 
 
 ### Tutorials:
-* [[esp-replacer-patch-beginner-tutorial|ESP-Replacer Patch Beginner Tutorial]]
+* [[guides/patches/esp-replacer-patch-beginner-tutorial|ESP-Replacer Patch Beginner Tutorial]]
 ### Pros:
 * **Control**: By modifying the conflicting plugin directly, you have full control over how you make it compatible with your own - however, with BCOM this method should only be used for replacing your own mod ESP, and not Beautiful Cities of Morrowind.esp or any of its modular optional ESPs.
 * **Easy to make**: No ‘smoke and mirrors’ here. You won’t need to write any complex scripts (though you may need to edit the mod’s scripts, e.g., if a script places NPCs in a specific location and you have modified the layout of that location)

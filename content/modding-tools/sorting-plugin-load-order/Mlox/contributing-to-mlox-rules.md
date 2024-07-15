@@ -11,7 +11,7 @@ aliases:
 
 >[!abstract]- Pages contained within this folder 
 >
->This article is part of a series on [[modding-tools/sorting-plugin-load-order/Mlox/index|mlox]]
+>This article is part of a series on [[modding-tools/sorting-plugin-load-order/mlox/index|mlox]]
 > 
 >* [[contributing-to-mlox-rules]] -- How to contribute to the rule-base of mlox 
 >* [[tutorial-how-to-add-rules-to-the-mlox-rules-repository]]
@@ -21,7 +21,7 @@ aliases:
 
 ## About
 
-[[modding-tools/sorting-plugin-load-order/Mlox/index|mlox]] is currently the most powerful tool available for correctly sorting Morrowind plugin load orders, and notifying users of conflicts or available patches -- however, it is only as effective as the rules that it is given. Without current, regularly updated rules to keep up with new mod releases and updates, it is simply a neat piece of code and nothing else.  
+[[modding-tools/sorting-plugin-load-order/mlox/index|mlox]] is currently the most powerful tool available for correctly sorting Morrowind plugin load orders, and notifying users of conflicts or available patches -- however, it is only as effective as the rules that it is given. Without current, regularly updated rules to keep up with new mod releases and updates, it is simply a neat piece of code and nothing else.  
 
 >[!question]- Can anyone contribute to mlox? 
 > 

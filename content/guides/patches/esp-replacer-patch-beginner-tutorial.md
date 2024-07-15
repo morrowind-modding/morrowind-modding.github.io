@@ -14,7 +14,7 @@ aliases:
 
 This page is part of a series of guides on [[guides/patches/index|Patches]]
 
-See [[creating-a-patch-for-an-esp|Creating a Patch for an ESP]] for more information on what patches are and how they work.
+See [[guides/patches/creating-a-patch-for-an-esp|Creating a Patch for an ESP]] for more information on what patches are and how they work.
 
 # Tutorial 1:
 >[!info] Scenario: 
@@ -228,7 +228,7 @@ That being said, here are some possible dirty edits you may make during the proc
 
 ### Naming the ESP
 
-With your ESP Replacer completed, consider whether the name will be identical to the 'original mod', or have a unique name to distinguish it. See [[creating-a-patch-for-an-esp#Conventions|Creating a Patch for an ESP]] for more information.
+With your ESP Replacer completed, consider whether the name will be identical to the 'original mod', or have a unique name to distinguish it. See [[guides/patches/creating-a-patch-for-an-esp#Conventions|Creating a Patch for an ESP]] for more information.
 
 If a unique name is given for your ESP Replacer patch, consider adding `[conflict]` and `[order]` [mlox rules](https://github.com/DanaePlays/mlox-rules) to enable correct automated plugin sorting.
 

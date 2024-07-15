@@ -12,7 +12,7 @@ aliases:
 
 >[!abstract]- Pages contained within this folder 
 >
->This article is part of a series on [[modding-tools/sorting-plugin-load-order/Mlox/index|mlox]]
+>This article is part of a series on [[modding-tools/sorting-plugin-load-order/mlox/index|mlox]]
 > 
 >* [[contributing-to-mlox-rules|Contributing to Mlox Rules]] -- How to contribute to the rule-base of mlox 
 >* [[tutorial-how-to-add-rules-to-the-mlox-rules-repository|Tutorial - How to Add Rules to the mlox-rules Repository]]
