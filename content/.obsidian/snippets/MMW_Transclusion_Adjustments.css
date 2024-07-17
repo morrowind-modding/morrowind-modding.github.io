@@ -1,0 +1,20 @@
+/*Transclusions*/
+
+.internal-embed[alt~=clean].is-loaded:not(.image-embed) {
+    --embed-padding: 0;
+    border: none;
+}
+
+.internal-embed[alt~=right] {
+    float: right;
+    margin-left: 0.5em;
+  }
+  
+  .internal-embed[alt~=left] {
+    float: left;
+    margin-right: 0.5em;
+  }
+  
+  :not(.lp-embed-float) .is-live-preview .internal-embed:is([alt~=right], [alt~=left]) {
+    float: unset;
+  }

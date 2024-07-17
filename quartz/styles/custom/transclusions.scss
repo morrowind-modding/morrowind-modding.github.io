@@ -1,0 +1,11 @@
+@use "../base.scss";
+@use "../variables.scss" as *;
+
+.transclude[data-embed-alias~=clean] {
+    border-left: none;
+    padding-left: 0;
+}
+
+.transclude[data-embed-alias~=clean] > .transclude-src {
+    display: none;
+}
