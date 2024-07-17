@@ -8,7 +8,7 @@ aliases:
   - Content Guidelines
 ---
 
-![[contributing/manual-of-style/index#^3085e6|Manual of Style - 36 Sermons of MMW]]
+![[contributing/manual-of-style/index#^3085e6|Manual of Style - 36 Sermons of MMW clean]]
 
 ## Writing Style
 
@@ -36,3 +36,9 @@ TO-DO
 	- videos
 - downloads
 - first-person tone
+
+## Transclusions
+
+This allows for [[redundancy]] within the wiki, wherein an important piece of data (such as a table or a contents list), which must appear on multiple pages, can be stored in just one note. When updates are made to the data, only the original note needs to be edited; all pages where that data has been embedded will be updated automatically. 
+
+This is the same principle as [Wikipedia 'Templates'](https://en.wikipedia.org/wiki/Wikipedia:Templates). However, it has been renamed because ['Templates' in Obsidian serve a different function](https://help.obsidian.md/Plugins/Templates).

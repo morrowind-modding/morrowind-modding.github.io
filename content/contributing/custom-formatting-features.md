@@ -241,27 +241,47 @@ A wiki-style infobox displayed in the top right of an article to summarize data 
 
 ---
 
-## Hide Embed ('Transclusion') Styling
+## Embed Adjustments
 
-**Syntax:**
+Adjustments for Obsidian [embedded files](https://help.obsidian.md/Linking+notes+and+files/Embed+files), otherwise known as 'transclusions'
 
-```
-![[Embedded Note|attribute]]
-![[intereting-note-title|clean]]
+```markdown title="syntax"
+![[Embedded Note|attribute attribute]]
+
+![[intereting-note-title|clean right]]
 ```
 
 | Attribute | Description                        |
 | --------- | ---------------------------------- |
 | `clean`   | Removes border to hide embed style |
+| `left`    | Float                              |
+| `right`   | Floats embed to the right          |
 
-When embedding content from one note within another note, the default border styling can be hidden by adding '`|clean]]`' at the end of the wikilink, in order to make the embed appear seamlessly as a part of the page it is embedded in. ^4beb5b
+### Hide Embed Styling
 
-This allows for [[redundancy]] within the wiki, wherein an important piece of data (such as a table or a contents list), which must appear on multiple pages, can be stored in just one note. When updates are made to the data, only the original note needs to be edited; all pages where that data has been embedded will be updated automatically. 
+You can hide the borders of embedded notes and blocks by adding '`|clean]]`' to the wikilink's alias.
+^4beb5b
 
-This is the same principle as [Wikipedia 'Templates'](https://en.wikipedia.org/wiki/Wikipedia:Templates). However, it has been renamed because ['Templates' in Obsidian serve a different function](https://help.obsidian.md/Plugins/Templates).
+This allows the embed to appear seamlessly as a part of the page it is embedded in. 
 
-> [!example] This is a standard transclusion:
-> ![[custom-formatting-features#^4beb5b]]
+> [!column|2 flex clean no-t]
+> > [!example] This is a standard transclusion:
+> > ![[custom-formatting-features#^4beb5b]]
+>
+> > [!example] This is a 'clean' transclusion:
+> > ![[custom-formatting-features#^4beb5b|clean]]
 
-> [!example] This is a 'clean' transclusion:
-> ![[custom-formatting-features#^4beb5b|clean]]
+> [!warning] Embedding block links which float left or right
+> You must add a `left` or `right` attribute to embeds if the embedded content itself already floats left or right.
+> 
+> **Example:**
+> - The [[custom-formatting-features#Infobox|infobox callout]] already floats right. To embed it in another page, add `|right` to the embed wikilink's alias.
+> 
+> This prevents the embed from taking up 100% of the page-width, instead of wrapping around other content
+
+### Float Embed Left or Right
+
+Embeds can be made to float to the left or right of a page by adding `|left` or `|right` to the embed wikilink's alias. ^cb5c00
+
+As well as being a stylistic choice to move supplementary content outside of the main flow of the text, it is also necessary when embedding a block which contains an element with a float property already stipulated (e.g., an infobox callout).
+
