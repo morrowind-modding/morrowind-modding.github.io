@@ -238,3 +238,30 @@ A wiki-style infobox displayed in the top right of an article to summarize data 
 > | Row | Row |
 > | Row | Row |
 ```
+
+---
+
+## Hide Embed ('Transclusion') Styling
+
+**Syntax:**
+
+```
+![[Embedded Note|attribute]]
+![[intereting-note-title|clean]]
+```
+
+| Attribute | Description                        |
+| --------- | ---------------------------------- |
+| `clean`   | Removes border to hide embed style |
+
+When embedding content from one note within another note, the default border styling can be hidden by adding '`|clean]]`' at the end of the wikilink, in order to make the embed appear seamlessly as a part of the page it is embedded in. ^4beb5b
+
+This allows for [[redundancy]] within the wiki, wherein an important piece of data (such as a table or a contents list), which must appear on multiple pages, can be stored in just one note. When updates are made to the data, only the original note needs to be edited; all pages where that data has been embedded will be updated automatically. 
+
+This is the same principle as [Wikipedia 'Templates'](https://en.wikipedia.org/wiki/Wikipedia:Templates). However, it has been renamed because ['Templates' in Obsidian serve a different function](https://help.obsidian.md/Plugins/Templates).
+
+> [!example] This is a standard transclusion:
+> ![[custom-formatting-features#^4beb5b]]
+
+> [!example] This is a 'clean' transclusion:
+> ![[custom-formatting-features#^4beb5b|clean]]
