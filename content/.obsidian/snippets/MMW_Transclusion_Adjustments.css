@@ -1,0 +1,6 @@
+/*Transclusions*/
+
+.internal-embed[alt$=clean].is-loaded:not(.image-embed) {
+    --embed-padding: 0;
+    border: none;
+}
