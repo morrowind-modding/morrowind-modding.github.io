@@ -14,7 +14,7 @@ _Guidelines on how to format filenames for the wiki._
 
 ## General Practices for File Naming
 
-![[contributing/manual-of-style/index#^3085e6|Manual of Style - 36 Sermons of MMW]]
+![[contributing/manual-of-style/index#^3085e6|clean right]]
 
 - Use only standard ASCII alphanumeric characters in file and directory names.
 - Lowercase only.

@@ -8,7 +8,7 @@ aliases:
   - Content Guidelines
 ---
 
-![[contributing/manual-of-style/index#^3085e6|Manual of Style - 36 Sermons of MMW clean]]
+![[contributing/manual-of-style/index#^3085e6|clean right]]
 
 ## Writing Style
 

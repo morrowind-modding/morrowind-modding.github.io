@@ -14,7 +14,7 @@ Guidelines for formatting Markdown text for the Morrowind Modding Wiki
 
 ---
 
-![[contributing/manual-of-style/index#^3085e6|Manual of Style - 36 Sermons of MMW]]
+![[contributing/manual-of-style/index#^3085e6|clean right]]
 
 ## Code
 
