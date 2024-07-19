@@ -22,6 +22,7 @@ import Breadcrumbs from "./Breadcrumbs"
 
 import Comments from "./Comments"
 import LinksHeader from "./LinksHeader"
+import HeroSection from "./HeroSection"
 
 export {
   ArticleTitle,
@@ -47,4 +48,5 @@ export {
   NotFound,
   Breadcrumbs,
   LinksHeader,
+  HeroSection,
 }

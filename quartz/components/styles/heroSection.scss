@@ -1,0 +1,40 @@
+@use "../../styles/variables.scss" as *;
+
+.hero {
+    background-image: url('https://www.ird.govt.nz/-/media/project/ir/home/graphics/banners/homepage/homepage-banner-background-v2.jpg?modified=20230321183509&modified=20230321183509');
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    padding: 0 20px;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .btn-primary {
+    background-color: #fff;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .btn-primary:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
