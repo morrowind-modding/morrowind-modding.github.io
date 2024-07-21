@@ -5,7 +5,21 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [Component.LinksHeader()],
-  afterBody: [],
+  afterBody: [Component.Comments({
+    provider: 'giscus',
+    options: {
+      // from data-repo
+      repo: 'morrowind-modding/wiki',
+      // from data-repo-id
+      repoId: 'R_kgDOLP1-Jw',
+      // from data-category
+      category: 'General',
+      // from data-category-id
+      categoryId: 'DIC_kwDOLP1-J84CdRF9',
+      reactionsEnabled: true,
+    }
+  }),
+  ],
   footer: Component.Footer({
     links: {
       GitHub: "https://github.com/morrowind-modding/wiki",
@@ -36,7 +50,6 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
-    Component.Comments(),
   ],
 }
 
@@ -57,6 +70,5 @@ export const defaultListPageLayout: PageLayout = {
     Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
-    Component.Comments(),
   ],
 }
