@@ -1,8 +1,8 @@
 @use "../../styles/variables.scss" as *;
 
 .hero {
-    background-image: url('https://www.ird.govt.nz/-/media/project/ir/home/graphics/banners/homepage/homepage-banner-background-v2.jpg?modified=20230321183509&modified=20230321183509');
-    height: 500px;
+    background-image: url('https://i.imgur.com/Hi8Du3g.png');
+    height: 350px;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -14,8 +14,13 @@
   }
   
   .hero h1 {
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
     font-size: 3rem;
-    margin-bottom: 20px;
+    -webkit-text-stroke: 1px black;
+    margin: 20px 0px;
   }
   
   .hero p {
@@ -31,6 +36,7 @@
     text-decoration: none;
     font-weight: bold;
     transition: all 0.3s ease-in-out;
+    margin-bottom: 20px;
   }
   
   .btn-primary:hover {

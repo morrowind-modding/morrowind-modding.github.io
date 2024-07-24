@@ -12,7 +12,7 @@ export default (() => {
         // Display HeroSection on homepage
             return (
             <div class="hero">
-                <h1>Your source for modding Morrowind</h1>
+                <h1>Your source for Morrowind-modding</h1>
                 <p>Bringing together over twenty years of community knowledge.</p>
                 <a href="/contributing/" class="btn-primary">Become a contributer</a>
             </div>
