@@ -1,46 +1,54 @@
 @use "../../styles/variables.scss" as *;
 
 .hero {
-    background-image: url('https://i.imgur.com/Hi8Du3g.png');
-    height: 350px;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: #fff;
-    padding: 0 20px;
+  background-image: url('https://i.imgur.com/Hi8Du3g.png');
+  height: 350px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  padding: 0 20px;
+  box-shadow: 25px 25px 7px 0 var(--light) inset, -25px -25px 7px 0 var(--light) inset; 
+}
+
+@media screen and (max-width:$mobileBreakpoint) {
+  .hero {
+    box-shadow: none;
+    margin-top: 10px;
   }
+}
   
-  .hero h1 {
-    font-family: "EB Garamond", serif;
-    font-optical-sizing: auto;
-    font-weight: 800;
-    font-style: normal;
-    font-size: 3rem;
-    -webkit-text-stroke: 1px black;
-    margin: 20px 0px;
-  }
-  
-  .hero p {
-    font-size: 1.5rem;
-    margin-bottom: 30px;
-  }
-  
-  .btn-primary {
-    background-color: #fff;
-    color: #333;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: all 0.3s ease-in-out;
-    margin-bottom: 20px;
-  }
-  
-  .btn-primary:hover {
-    background-color: #333;
-    color: #fff;
-  }
-  
+.hero h1 {
+  color: #ebebec;
+  -webkit-text-stroke: 1px black;
+  margin: 30px 0px;
+  font-weight: 900;
+  flex-grow: 0;
+}
+
+.hero p {
+  color: #ebebec;
+  -webkit-text-stroke: 1px black;
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+.btn-primary {
+  background-color: #fff;
+  color: #333;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+  margin-bottom: 30px;
+}
+
+.btn-primary:hover {
+  background-color: #333;
+  color: #fff;
+}
