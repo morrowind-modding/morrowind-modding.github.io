@@ -1,0 +1,220 @@
+@use "../base.scss";
+@use "../variables.scss" as *;
+
+/* ---- Callout Adjustments ---- */
+
+/* --- Positioning --- */
+.callout.callout.callout[data-callout-metadata~=left] {
+    float: left;
+    margin: unset;
+    margin-right: 8px;
+  }
+  
+  .callout.callout[data-callout-metadata~=right] {
+    float: right;
+    margin: unset;
+    margin-left: 8px;
+  }
+  
+  .callout.callout.callout[data-callout-metadata~=center] {
+    display: block;
+    margin: auto;
+    float: unset;
+  }
+  
+  .callout[data-callout-metadata~=clear] {
+    /* makes it so floating callouts stack vertically with content instead of horizontally */
+    clear: both;
+  }
+  
+  /* --- Sizing --- */
+  .callout.callout.callout {
+    --callout-micro: 10%;
+    --callout-tiny: 20%;
+    --callout-small: 30%;
+    --callout-small-med: 40%;
+    --callout-med-small: 50%;
+    --callout-medium: 60%;
+    --callout-med-tall: 80%;
+    --callout-tall: 95%;
+  }
+  .callout.callout.callout[data-callout-metadata~=wmicro] {
+    max-width: unset;
+    width: var(--callout-micro);
+  }
+  .callout.callout.callout[data-callout-metadata~=wtiny] {
+    max-width: unset;
+    width: var(--callout-tiny);
+  }
+  .callout.callout.callout[data-callout-metadata~=wsmall] {
+    max-width: unset;
+    width: var(--callout-small);
+  }
+  .callout.callout.callout[data-callout-metadata~=ws-med] {
+    max-width: unset;
+    width: var(--callout-small-med);
+  }
+  .callout.callout.callout[data-callout-metadata~=wm-sm] {
+    max-width: unset;
+    width: var(--callout-med-small);
+  }
+  .callout.callout.callout[data-callout-metadata~=wmed] {
+    max-width: unset;
+    width: var(--callout-medium);
+  }
+  .callout.callout.callout[data-callout-metadata~=wm-tl] {
+    max-width: unset;
+    width: var(--callout-med-tall);
+  }
+  .callout.callout.callout[data-callout-metadata~=wtall] {
+    max-width: unset;
+    width: var(--callout-tall);
+  }
+  .callout.callout.callout[data-callout-metadata~=sban], .callout.callout.callout[data-callout-metadata~=wfull] {
+    width: 100%;
+    float: unset;
+    max-width: 100%;
+  }
+  
+  .callout.callout.callout[data-callout-metadata~=wfit] {
+    width: fit-content;
+    max-width: min-content;
+  }
+  
+  .callout.callout[data-callout-metadata~=static] {
+    /* Callout sizing uses percentages by default, |static switches to pixels to use static sizing */
+    --callout-micro: 50px;
+    --callout-tiny: 100px;
+    --callout-small: 200px;
+    --callout-small-med: 300px;
+    --callout-med-small: 400px;
+    --callout-medium: 500px;
+    --callout-med-tall: 600px;
+    --callout-tall: 700px;
+  }
+  
+  /* --- Title Adjustments --- */
+  .callout.callout.callout.callout:is([data-callout-metadata~=no-t],
+  [data-callout-metadata~=no-title]) > .callout-title {
+    display: none;
+  }
+  
+  .callout.callout.callout.callout:is([data-callout-metadata~=no-t],
+  [data-callout-metadata~=no-title]) > .callout-content > :first-child {
+    margin-top: 16;
+    /* quartz does not seem to add a margin-top to .callout-content, so removing .callout-title squishes it to the top unless a margin is added here */
+  }
+  
+  .callout.callout.callout.callout:is([data-callout-metadata~=s-t],
+  [data-callout-metadata~=show-title]) > .callout-title {
+    display: flex;
+  }
+  .callout.callout.callout.callout:is([data-callout-metadata~=s-t],
+  [data-callout-metadata~=show-title]) > .callout-content > p {
+    margin-top: 0;
+  }
+  
+  .callout.callout.callout.callout:is([data-callout-metadata~=subtitle],
+  [data-callout-metadata~=subt]) .callout-title {
+    align-content: center;
+    align-items: center;
+  }
+  .callout.callout.callout.callout:is([data-callout-metadata~=subtitle],
+  [data-callout-metadata~=subt]) .callout-title em {
+    display: block;
+    font-style: normal;
+    font-size: 0.933em;
+    line-height: 12px;
+    font-weight: normal;
+  }
+  .callout.callout.callout.callout:is([data-callout-metadata~=subtitle],
+  [data-callout-metadata~=subt]) .callout-title em em {
+    font-style: italic;
+    display: inline-block;
+  }
+  
+  .callout:is([data-callout-metadata~=no-i],
+  [data-callout-metadata~=no-icon]) > .callout-title .callout-icon {
+    display: none;
+  }
+  
+  /* --- Callout Styling --- */
+  .callout[data-callout-metadata~=embed] .callout-content, .callout[data-callout-metadata~=embed] > .callout-content > p {
+      margin: 0;
+      padding: 0;
+    }
+    
+  .callout.callout.callout:is([data-callout-metadata~=nbrd],
+  [data-callout-metadata~=no-border]) {
+    border: 0;
+  }
+  
+  .callout.callout.callout[data-callout-metadata~=clean],
+  .callout.callout.callout[data-callout-metadata~=clean] > .callout-content {
+    border: 0;
+    box-shadow: none;
+      /* Quartz does not use --callout-padding variable */
+    padding: 0;
+  }
+  .callout.callout.callout[data-callout-metadata~=clean] .callout-content,
+  .callout.callout.callout[data-callout-metadata~=clean] > .callout-content .callout-content {
+    padding: 0;
+  }
+  
+  .callout.callout.callout[data-callout-metadata~=clean],
+  .callout.callout.callout[data-callout-metadata~=clean] {
+    /* substituted Obsidian variable '--callout-color:' for Quartz callout variables */
+    --color: var(--dark);
+    --border: transparent;
+    --bg: transparent;
+  }
+  
+  .callout.callout:is([data-callout-metadata~=content-padding-small],
+  [data-callout-metadata~=c-p-sm]) > .callout-content {
+    padding: 0.375rem;
+    /* Quartz does not use --callout-content-padding variable; replace with 'padding' */
+  }
+  
+  .callout.callout:is([data-callout-metadata~=content-padding-medium],
+  [data-callout-metadata~=c-p-med]) > .callout-content {
+    padding: 0.75rem;
+    /* Quartz does not use --callout-content-padding variable; replace with 'padding' */
+  }
+  
+  .callout.callout:is([data-callout-metadata~=content-padding-large],
+  [data-callout-metadata~=c-p-lg]) > .callout-content {
+    padding: 1.5rem;
+    /* Quartz does not use --callout-content-padding variable; replace with 'padding' */
+  }
+  
+  /* --- Text Formatting --- */
+  .callout.callout:is([data-callout-metadata~=txt-l],
+  [data-callout-metadata~=text-left]) > .callout-content > * {
+    text-align: left;
+  }
+  
+  .callout.callout:is([data-callout-metadata~=txt-r],
+  [data-callout-metadata~=text-right]) > .callout-content {
+    text-align: right;
+  }
+  
+  .callout.callout:is([data-callout-metadata~=txt-c],
+  [data-callout-metadata~=text-center]) > .callout-content {
+    text-align: center;
+  }
+  
+  .callout.callout:is([data-callout-metadata~=ttl-c],
+  [data-callout-metadata~=title-center]) .callout-title {
+    justify-content: center;
+  }
+  .callout.callout:is([data-callout-metadata~=ttl-c],
+  [data-callout-metadata~=title-center]) .callout-title-inner {
+    display: block;
+    flex: unset;
+  }
+  
+  .callout.callout:is([data-callout-metadata~=text-small],
+  [data-callout-metadata~=txt-s]) > .callout-content > * {
+    font-size: 0.8rem;
+  }
+  
