@@ -10,66 +10,39 @@ title: ESP-Replacer Patch Beginner Tutorial
 aliases:
   - ESP-Replacer Patch Beginner Tutorial
 ---
+*This page contains three tutorials of varying difficulty on how to create an ESP Replacer Patch:*
 
-> [!infobox]
-> 
-> ## ESP Replacer Patch - Beginner Tutorial
-> 
-> ![[screenshot-of-mod-conflict-in-tes3cs.png|banner]]
-> 
-> ### Tutorial Information
-> 
-> | %%Type%% | %%Name%% |
-> | --- | --- |
-> | **Difficulty Level:** | #Beginner |
-> |  **Requirements:** | - Morrowind, Tribunal, Bloodmoon<br>- [[CSSE]] |
-> | **Tools Used:** | The Construction Set |
-> | **Tutorial Files:** | - `MMW_Caldera-House.esp`<br>- `MMW_Caldera-Tower.esp` |
-> 
-> ![[mmw-esp-replacer-beginner-tutorial.zip|Tutorial Files]]
+This page is part of a series of guides on [[guides/patches/index|Patches]]
 
-## About
+See [[guides/patches/creating-a-patch-for-an-esp|Creating a Patch for an ESP]] for more information on what patches are and how they work.
 
-This is a beginner-level tutorial on creating [[creating-a-patch-for-an-esp#ESP Replacer|ESP replacer patches]].
+# Tutorial 1:
+>[!info] Scenario: 
+>![[comparison-screenshot-of-two-conflicting-mods.png]] 
+>**Scenario:**
+>- `MMW_Patches_ESP-Replacer_1a.esp` adds a house to Caldera. 
+>- `MMW_Patches_ESP-Replacer_1b.esp` adds a thatch tower to Caldera in the same place. 
+>
+>Follow the tutorial to create an ESP replacer for `Replacer_1a.esp` which solves the conflict:
 
-See [[guides/patches/creating-a-patch-for-an-esp|Creating a Patch for an ESP]] for an overview on what patches are and how they work.
+>[!Abstract] Tutorial Requirements and Files
+* **Difficulty level:** #Beginner
+* **Requirements:**
+     * Morrowind, Tribunal and Bloodmoon
+     * [CSSE]()%%add link%%
+* **Tutorial Files:**
+     * `MMW_Patches_ESP-Replacer_1a.esp`
+     * `MMW_Patches_ESP-Replacer_1b.esp`
 
-To follow this tutorial, ensure you download the **tutorial files** and extract the plugins to the `Data Files` folder of your [[modmaking installation of Morrowind]].
-
-### Brief
-
-Two mods each add a building to Caldera, but the two buildings occupy the same space, clipping through each other.
-
-- **Caldera House** adds a Nord house (`MMW_Caldera-House.esp`).
-- **Caldera Tower** adds a thatch tower (`MMW_Caldera-Tower.esp`).
-
-Create an ESP replacer patch for Caldera House which solves the conflict.
-
-### Goals
-
-By the end of this tutorial you should understand how to use the Construction Set to:
-
-- Identify a mod conflict.
-- Patch an ESP to be compatible with another, without adding dirty references.
-
-> [!caption|sban]
-> ![[comparison-screenshot-of-two-conflicting-mods.png]]
-> Caldera House and Caldera Tower side-by-side.
+![[mmw-esp-replacer-beginner-tutorial.zip]]
 
 ## Step 1: Navigating to the Cell
-
-> [!Caption|right wsmall]  
-> ![[enabling-plugins-for-esp-replacer-tutorial.png]]  
-> Setting the active ESP in Data Files
-
-1. Open the Construction Set ('CS'), open the Data Files window and double-click `MMW_Caldera-House.esp` and `MMW_Caldera-Tower.esp` to load them. Set (`MMW_Caldera-Tower.esp` as ‘Active’.
-
-
-
-2. Click `show modified only` in the Cell View window. This will make it display only cells modified or added by the active plugin - in this case, `Replacer_1a.esp`
+1. Open the Construction Set ('CS'), open the Data Files window and double-click `Replacer_1a.esp` and `Replacer_1b.esp` to load them. Set `Replacer_1a.esp` as ‘Active’.
+![[enabling-plugins-for-esp-replacer-tutorial.png]]
+3. Click `show modified only` in the Cell View window. This will make it display only cells modified or added by the active plugin - in this case, `Replacer_1a.esp`
 ![[beginner-esp-replacer-tutorial-cell-view.png]]
-3. In the Cell View window, under `Cell Name`, locate the cell `Caldera, -2,2` where our mod conflict is, and **double-click** it to bring you there in the Render Window.
-4. `Show modified only` not only filters the list of cells modified by the active ESP: it also filters the list of references *in* that cell to only display references modified or added by the active ESP. Under `Object ID` in the right-hand panel in Cell View, **double-click** on `ex_nord_house_02`
+1. In the Cell View window, under `Cell Name`, locate the cell `Caldera, -2,2` where our mod conflict is, and **double-click** it to bring you there in the Render Window.
+2. `Show modified only` not only filters the list of cells modified by the active ESP: it also filters the list of references *in* that cell to only display references modified or added by the active ESP. Under `Object ID` in the right-hand panel in Cell View, **double-click** on `ex_nord_house_02`
 
 ## Step 2: Identifying the Conflict
 ![[screenshot-of-mod-conflict-in-tes3cs.png]]
@@ -81,7 +54,7 @@ We can clearly see some kind of conflict here. The house added by `Replacer_1a.e
 >
 >There are two ways we can do this:
 
-### Browse references with Cell View
+### Browse references with Cell View:
 With `Show modified only` enabled, only references *added* or *modified* by `1a.esp` are displayed. We can double-click on each of these to locate them in the Render Window.
 > [!example]- Click for more information: 
 > 1. Double-click on `ex_nord_win_02`, the first reference in Cell View under `Object ID`. This will take you to the reference's location in the Render Window - However, in this case, it is obscured by other references (the thatch tower), so we need to move the camera around to find the selected reference.
@@ -92,7 +65,7 @@ With `Show modified only` enabled, only references *added* or *modified* by `1a.
 >> 
 >>You can also do this by opening another session of the CS with only `MMW_Patches_ESP-Replacer_1b.esp` set to `active` and selecting Show Modified Only.
 
-### Show Reference Data
+### Show Reference Data: 
 Holding `ctrl + shift + R + clicking middle-mouse-button` on a selected reference brings up Reference Data, telling us which plugin is adding or modifying that reference.
 > [!example]- Click for more information: 
 >1. Left-click on `ex_common_house_addon`, the entrance to the thatch tower with the curved roof. While selected, press and hold `ctrl + shift + R + middle-mouse-button` to bring up the Reference Data window, which tells us beside `File:` that the reference originates from `MMW_Patches_ESP-Replacer_1b.esp`. 
@@ -266,7 +239,7 @@ Congratulations -- should now be able to create a basic ESP Replacer patch! The 
 
 ---
 
-## Tutorial 2
+# Tutorial 2:
 
 *Coming soon to a Morrowind Modding Wiki near you*
 

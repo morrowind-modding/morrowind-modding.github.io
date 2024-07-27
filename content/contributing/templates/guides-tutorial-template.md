@@ -22,7 +22,7 @@ description:
      * %% List any files created for the tutorials that users require in order to follow along with the tutorial, e.g. two ESPs for an ESP patch tutorial%%
 
 %% Add a download link to any Tutorial Files. To make it a downloadable link, the full directory needs to be entered starting from [Assets/] %%
-	%% E.G. ![[mmw-patches-esp-replacer-v1.zip]]%% 
+	%% E.G. ![[mmw-esp-replacer-beginner-tutorial.zip]]%% 
 
 
 **Scenario:** %% Outline the scenario for the tutorial, summarizing what the problem or goal is, and what the tutorial will teach in order to solve or achieve this %%

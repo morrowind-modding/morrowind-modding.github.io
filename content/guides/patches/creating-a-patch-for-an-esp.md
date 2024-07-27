@@ -9,7 +9,9 @@ aliases:
   - Creating a Patch for an ESP
 ---
 This page is a guideline on creating patches for ESP files, describing the different methods that can be used to create an ESP patch and providing links to step-by-step tutorials.
+
 ## Important Considerations: What an ESP Can and Cannot Do
+
 Generally speaking, an ESP cannot modify instances from another ESP. There are ways to make them do so by forcing an ESP to depend on another ESP as its master, but they will only reliably work in OpenMW, and are prone to breaking if the ‘master’ ESP changes (which it will do if it is edited and saved in the Construction Set). It is important to understand these limitations when creating ESP patches.
 
 For a thorough explanation, see the [Project Tamriel Wiki page: Content File Guidelines](https://wiki.project-tamriel.com/wiki/Content_File_Guidelines)
@@ -21,17 +23,17 @@ It is also important to note that many techniques used for creating patches for 
 ## Types of Patches for ESPs
 These can be separated into three categories:
 
-#### ESP Replacer Patch
+### ESP Replacer Patch
 Simple and effective, but has its own limitations.
 
-#### Additional ESP Patch
+### Additional ESP Patch
 These use an additional ESP to make their changes and in most cases will need to load after the mods they are patching.
 * Object Record Override
 * Pathgrid Reset
 * Landscape Fix
 * ‘Invisible Mesh’ trick
 
-#### Other ESP Patches
+### Other ESP Patches
 * Utilizing Global Scripts - Built-in compatibility without the need for a separate patch
 * Tes3cmd BAT File
 
