@@ -57,7 +57,7 @@ An outline of the various tools used for Morrowind modding, organized by categor
 
 ---
 
-## [[tes3-construction-set/index|TES3 Construction Set]]
+## [TES3 Construction Set Help Docs](https://tes3cs-manual.vercel.app/)
 
 ---
 
