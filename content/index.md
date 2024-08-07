@@ -72,5 +72,3 @@ An outline of the various tools used for Morrowind modding, organized by categor
 ## [[contributing/index|Contributing]]
 
 * [[how-to-contribute|How to Contribute]]
-
----
