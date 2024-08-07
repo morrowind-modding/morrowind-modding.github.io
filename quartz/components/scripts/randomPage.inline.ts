@@ -5,7 +5,7 @@ function getRandomInt(max: number) {
   }
 
 function isValidUrl(newSlug: string, oldSlug: String) {
-  return oldSlug === newSlug || newSlug.includes("/contributing/")
+  return oldSlug !== newSlug && !newSlug.includes("/contributing/")
 }
 
 async function navigateToRandomPage() {
@@ -15,11 +15,8 @@ async function navigateToRandomPage() {
     // window.location.href = `${pathToRoot(fullSlug)}/${allPosts[getRandomInt(allPosts.length - 1)]}`
     let newSlug = `${pathToRoot(fullSlug)}/${allPosts[getRandomInt(allPosts.length - 1)]}`;
 
-    if (newSlug === fullSlug) {
-      // Generate a new random slug until it's different from the starting fullSlug
-      do {
-        newSlug = `${pathToRoot(fullSlug)}/${allPosts[getRandomInt(allPosts.length - 1)]}`;
-      } while (isValidUrl(newSlug, fullSlug));
+    while (!isValidUrl(newSlug, fullSlug)) {
+      newSlug = `${pathToRoot(fullSlug)}/${allPosts[getRandomInt(allPosts.length - 1)]}`;
     }
     window.location.href = newSlug;
 }
