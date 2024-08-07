@@ -18,3 +18,9 @@ aliases:
 
 - Thanks to [SIRvb](https://github.com/SlRvb) for providing the ITS Theme's [Image Adjustments](https://github.com/SlRvb/Obsidian--ITS-Theme/blob/main/Snippets/S%20-%20Images%20Adjustments.css) and [Callouts](https://github.com/SlRvb/Obsidian--ITS-Theme/blob/main/Snippets/S%20-%20Callouts.css) CSS snippets used throughout the site.
 - [License](https://github.com/SlRvb/Obsidian--ITS-Theme/blob/main/LICENSE)
+
+## [Eilleen's (online!) Everything Notebook](https://quartz.eilleeenz.com/)
+
+- Thanks to [fanteastick](https://github.com/fanteastick) for 'Eilleen's (online!) Everything Notebook', from whom the code for the site footer's 'Scroll to top' and 'Random page' buttons was borrowed. 
+- **Github:** [fanteastick/quartz-test](https://github.com/fanteastick/quartz-test)
+- [License](https://github.com/fanteastick/quartz-test/blob/v4/LICENSE.txt)
