@@ -6,6 +6,8 @@ function getRandomInt(max: number) {
 
 function isValidUrl(newSlug: string, oldSlug: String) {
   return oldSlug !== newSlug && !newSlug.includes("/contributing/")
+  // to exclude a folder add: && !newSlug.includes("/folder-name/")
+  // this can be repeated
 }
 
 async function navigateToRandomPage() {
