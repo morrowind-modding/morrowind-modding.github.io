@@ -50,7 +50,8 @@ Create an ESP replacer patch for Caldera House which solves the conflict.
 By the end of this tutorial you should understand how to use the Construction Set to:
 
 - Identify a mod conflict.
-- Patch an ESP to be compatible with another, without adding dirty references.
+- Make an ESP compatible with another ESP by turning the former into an ESP replacer patch.
+- Avoid adding [[dirty references]] while having multiple plugins loaded in the Construction Set.
 
 > [!caption|sban]
 > ![[comparison-screenshot-of-two-conflicting-mods.png]]
