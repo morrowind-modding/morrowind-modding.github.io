@@ -53,48 +53,49 @@ MMW borrows a large number of [Callout Adjustments](https://publish.obsidian.md/
 
 ### Callout Titles
 
-|Abbr.|Full Title|Description|
-|---|---|---|
-|`no-t`|`no-title`|Hides callout title|
-|`s-t`|`show-title`|Show callout title|
-|`ttl-c`|`title-center`|Center callout title text|
-|`no-i`|`no-icon`|Hide callout icon|
-|`subt`|`subtitle`|Style words in italic (`* *`, `_ _`) as subtitles|
+| Abbr.   | Full Title     | Description                                       |
+| ------- | -------------- | ------------------------------------------------- |
+| `no-t`  | `no-title`     | Hides callout title                               |
+| `s-t`   | `show-title`   | Show callout title                                |
+| `ttl-c` | `title-center` | Center callout title text                         |
+| `no-i`  | `no-icon`      | Hide callout icon                                 |
+| `subt`  | `subtitle`     | Style words in italic (`* *`, `_ _`) as subtitles |
 
 ### Callout Text
 
-|Abbr.|Full Title|Description|
-|---|---|---|
-|`txt-c`|`text-center`|Center callout text|
-|`txt-r`|`txt-right`|Right align callout text|
-|`txt-l`|`txt-left`|Left align callout text|
-|`txt-s`|`text-small`|Shrink callout text size|
+| Abbr.   | Full Title    | Description              |
+| ------- | ------------- | ------------------------ |
+| `txt-c` | `text-center` | Center callout text      |
+| `txt-r` | `txt-right`   | Right align callout text |
+| `txt-l` | `txt-left`    | Left align callout text  |
+| `txt-s` | `text-small`  | Shrink callout text size |
 
 ### Callout Styling
 
-|Abbr.|Full Title|Description|
-|---|---|---|
-||`embed`|Remove callout padding to expand embed|
-||`clean`|Remove callout Styling|
-||`collapse`|Remove all padding and margins for ultra compact look|
-|`nbrd`|`no-border`|Borderless callout|
-||`clear`|Move any other floating elements near to under this callout|
+| Abbr.  | Full Title        | Description                                                 |
+| ------ | ----------------- | ----------------------------------------------------------- |
+|        | `embed`           | Remove callout padding to expand embed                      |
+|        | `clean`           | Remove callout Styling                                      |
+|        | `collapse`        | Remove all padding and margins for ultra compact look       |
+| `nbrd` | `no-border`       | Borderless callout                                          |
+|        | `clear`           | Move any other floating elements near to under this callout |
+| `n-th` | `no-table-header` | Hides table header in callouts                              |
 
 ### Callout Content Padding
 
-|Attribute|Abbr|Callout Padding Sizing|
-|---|---|:-:|
-|`content-padding-small`|`c-p-sm`|6px|
-|`content-padding-medium`|`c-p-med`|12px|
-|`content-padding-large`|`c-p-lg`|24px|
+| Attribute                | Abbr      | Callout Padding Sizing |
+| ------------------------ | --------- | :--------------------: |
+| `content-padding-small`  | `c-p-sm`  |          6px           |
+| `content-padding-medium` | `c-p-med` |          12px          |
+| `content-padding-large`  | `c-p-lg`  |          24px          |
 
 ### Callout Positioning
 
-|Attribute|Description|
-|---|---|
-|`left`|Float callout to the left|
-|`right`|Float callout to the right|
-|`center`|Center the callout|
+| Attribute | Description                |
+| --------- | -------------------------- |
+| `left`    | Float callout to the left  |
+| `right`   | Float callout to the right |
+| `center`  | Center the callout         |
 
 ### Callout Sizing
 

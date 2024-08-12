@@ -205,3 +205,13 @@
   --table-text-size: var(--font-smallest);
   font-size: var(--font-text-size);
 }
+
+.callout:is([data-callout-metadata~=n-th],
+[data-callout-metadata~=no-table-header]) > .callout-content table {
+  margin-bottom: 5px;
+}
+.callout:is([data-callout-metadata~=n-th],
+[data-callout-metadata~=no-table-header]) > .callout-content table thead, .callout:is([data-callout-metadata~=n-th],
+[data-callout-metadata~=no-table-header]) > .callout-content table th {
+  display: none;
+}

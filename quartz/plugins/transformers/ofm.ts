@@ -137,9 +137,7 @@ const wikilinkImageEmbedRegex = new RegExp(
   /^(?<alt>(?!^\d*x?\d*$).*?)?(\|?\s*?(?<width>\d+)(x(?<height>\d+))?)?$/,
 )
 
-export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options> | undefined> = (
-  userOpts,
-) => {
+export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options>> = (userOpts) => {
   const opts = { ...defaultOptions, ...userOpts }
 
   const mdastToHtml = (ast: PhrasingContent | Paragraph) => {
@@ -264,7 +262,7 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options> 
                   } else if ([".pdf"].includes(ext)) {
                     return {
                       type: "html",
-                      value: `<iframe src="${url}"></iframe>`,
+                      value: `<iframe src="${url}" class="pdf"></iframe>`,
                     }
                   // MMW - assign custom styling to .zip embed download link
                   } else if ([".zip", ".7z"].includes(ext)) {
@@ -624,11 +622,10 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options> 
                   // YouTube video (with optional playlist)
                   node.tagName = "iframe"
                   node.properties = {
-                    class: "external-embed",
+                    class: "external-embed youtube",
                     allow: "fullscreen",
                     frameborder: 0,
                     width: "600px",
-                    height: "350px",
                     src: playlistId
                       ? `https://www.youtube.com/embed/${videoId}?list=${playlistId}`
                       : `https://www.youtube.com/embed/${videoId}`,
@@ -637,11 +634,10 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options> 
                   // YouTube playlist only.
                   node.tagName = "iframe"
                   node.properties = {
-                    class: "external-embed",
+                    class: "external-embed youtube",
                     allow: "fullscreen",
                     frameborder: 0,
                     width: "600px",
-                    height: "350px",
                     src: `https://www.youtube.com/embed/videoseries?list=${playlistId}`,
                   }
                 }
