@@ -218,6 +218,12 @@
   font-size: 0.8rem;
 }
 
+.callout.callout:is([data-callout-metadata~=text-small],
+[data-callout-metadata~=txt-s]) > .callout-content > .table-container > table > * {
+  // override Quartz default table line-height 2rem
+  line-height: 1.6rem;
+}
+
 .callout:is([data-callout-metadata~=n-th],
 [data-callout-metadata~=no-table-header]) > .callout-content table {
   margin-bottom: 5px;
