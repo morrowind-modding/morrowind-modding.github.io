@@ -11,7 +11,7 @@ aliases:
   - ESP-Replacer Patch Beginner Tutorial
 ---
 
-> [!infobox]
+> [!infobox|n-th]
 > 
 > ## ESP Replacer Patch - Beginner Tutorial
 > 
@@ -34,7 +34,7 @@ This is a beginner-level tutorial on creating [[creating-a-patch-for-an-esp#ESP 
 
 See [[guides/patches/creating-a-patch-for-an-esp|Creating a Patch for an ESP]] for an overview on what patches are and how they work.
 
-To follow this tutorial, ensure you download the **tutorial files** and extract the plugins to the `Data Files` folder of your [[modmaking installation of Morrowind]].
+To follow this tutorial, ensure you download the **tutorial files** and extract the plugins either to the `Data Files` folder of your [[modmaking installation of Morrowind]] or install them through a [[modding-tools/mod-managers/index.md|mod manager]].
 
 ### Brief
 
@@ -47,7 +47,7 @@ Create an ESP replacer patch for Caldera House which solves the conflict.
 
 ### Goals
 
-By the end of this tutorial you should understand how to use the Construction Set to:
+By the end of this tutorial you should understand how to use the Construction Set in order to:
 
 - Identify a mod conflict.
 - Make an ESP compatible with another ESP by turning the former into an ESP replacer patch.
