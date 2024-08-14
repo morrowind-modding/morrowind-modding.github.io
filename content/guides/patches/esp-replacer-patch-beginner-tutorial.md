@@ -67,18 +67,27 @@ Of the two plugins, we will only set one ESP as active: `MMW_Caldera-House.esp`.
 
 1. Open the [Data Files Window](https://tes3cs.pages.dev/data-files/data-files-window)
 2. Set both `MMW_Caldera-House.esp` and `MMW_Caldera-Tower.esp` as checked.
-3. Set the former as **Active File**
+3. Set the former as active by clicking **Set as Active File**
 
 > [!Caption|center wfull]  
 > ![[enabling-plugins-for-esp-replacer-tutorial.png]]  
-> Setting the active ESP in Data Files
+> Setting the active ESP in the Data Files window
+
+---
 
 ## Step 2: Navigating to the Cell
 
-4. Click `show modified only` in the Cell View window. This will make it display only cells modified or added by the active plugin - in this case, `Replacer_1a.esp`
-![[beginner-esp-replacer-tutorial-cell-view.png]]
-3. In the Cell View window, under `Cell Name`, locate the cell `Caldera, -2,2` where our mod conflict is, and **double-click** it to bring you there in the Render Window.
-4. `Show modified only` not only filters the list of cells modified by the active ESP: it also filters the list of references *in* that cell to only display references modified or added by the active ESP. Under `Object ID` in the right-hand panel in Cell View, **double-click** on `ex_nord_house_02`
+Using the [Cell Window](https://tes3cs.pages.dev/building-and-editing/main-editing-windows/the-cell-view-window) we can quickly navigate to the relevant cell we need to modify and identify what [object references](https://tes3cs.pages.dev/objects/reference-data/#object-reference) the active plugin has added or modified.
+
+> [!Caption|center wfull]
+> ![[beginner-esp-replacer-tutorial-cell-view.png]]
+> Filtering for modified cells and object references in the Cell View window using **'Show modified only'**
+
+1. Click **'Show modified only'** in the Cell View window. This will make it display only cells modified or added by the active plugin - in this case, `Replacer_1a.esp`
+2. In the Cell View window, under `Cell Name`, locate the cell `Caldera, -2,2` where our mod conflict is, and **double-click** it to bring you there in the Render Window.
+3. `Show modified only` not only filters the list of cells modified by the active ESP: it also filters the list of references *in* that cell to only display references modified or added by the active ESP. Under `Object ID` in the right-hand panel in Cell View, **double-click** on `ex_nord_house_02`
+
+---
 
 ## Step 3: Identifying the Conflict
 ![[screenshot-of-mod-conflict-in-tes3cs.png]]
