@@ -3,103 +3,94 @@
 
 /*----infobox callout----*/
 .callout[data-callout="infobox"] {
-    background-color: rgba(80, 120, 180, 0.1);
+    background-color: transparent;
     --callout-icon: none;
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 1px solid var(--lightgray);
     float: right;
     width: 300px;
     margin: 0px 0px 10px 10px;
     padding: 5px;
   }
-  
-  /* mobile breakpoint */
-  @media (max-width: 767px) {
-    .callout[data-callout="infobox"] {
-      width: 100%;
-      float: none;
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .callout[data-callout="infobox"] {
-      width:100%;
-      float: none;
-    }
-  }
-  
-  /* stack infoboxes vertically with 'clear' */
+
+/* mobile breakpoint */
+@media screen and (max-width: $mobileBreakpoint) {
   .callout[data-callout="infobox"] {
-    clear: right;
-  }
-  
-  /* Remove Callout Title */
-  .callout[data-callout="infobox"] .callout-title {
-    display: none;
-  }
-  
-  
-  /* H2 Title */
-  .callout[data-callout="infobox"] h2 {
-    margin: auto;
-    max-width: 100%;
-    font-size: 15px;
-    text-align: center;
-    border-radius: 2px;
-    background-color: rgba(255, 255, 255, 0.1);
-    padding: 4px;
-  }
-  
-  /* H3 Title */
-  .callout[data-callout="infobox"] h3 {
-    margin: auto;
-    max-width: 100%;
-    font-size: 17px;
-    text-align: center;
-    border-radius: 2px;
-    background-color: rgba(255, 255, 255, 0.1);
-    padding: 4px;
-  }
-  
-  /* Spacing */
-  .callout[data-callout="infobox"] p {
-    margin-block-start: 10px;
-    margin-block-end: 0px;
     width: 100%;
-  }
-  
-  /* Image */
-  .callout[data-callout="infobox"] img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 100%;
-  }
-  
-  /* Table */
-  .callout[data-callout="infobox"] table {
+    float: none;
     margin: auto;
-    width: 100%;
-    font-size: 16px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    background-color: rgb(30, 30, 30);
   }
-  
-  .callout[data-callout="infobox"] th {
-    padding-left: 12px; 
-    padding-right: 0px;
-    vertical-align: top;
-  }
-  
-  .callout[data-callout="infobox"] td {
-   padding-left: 12px; 
-   padding-right: 0px;
-   vertical-align: top;
-  }
-  
-  body {
-    --image-border-color: var(--background-modifier-border);
-    --image-border-width: 1px;
-    --image-border-padding: 8px;
-    --image-border-background: var(--td);
-  }
-  
+}
+
+/* stack infoboxes vertically with 'clear' */
+.callout[data-callout="infobox"] {
+  clear: right;
+}
+
+/* Remove Callout Title */
+.callout[data-callout="infobox"] .callout-title {
+  display: none;
+}
+
+
+/* H2 Title */
+.callout[data-callout="infobox"] h2 {
+  margin: auto;
+  max-width: 100%;
+  font-size: 15px;
+  text-align: center;
+  border-radius: 2px;
+  background-color: var(--lightgray);
+  padding: 4px;
+}
+
+/* H3 Title */
+.callout[data-callout="infobox"] h3 {
+  margin: auto;
+  max-width: 100%;
+  font-size: 17px;
+  text-align: center;
+  border-radius: 2px;
+  background-color: var(--lightgray);
+  padding: 4px;
+}
+
+/* hide anchor in infobox headings so they remain centered */
+.callout[data-callout="infobox"] h2 a[role="anchor"], .callout[data-callout="infobox"] h3 a[role="anchor"] {
+  display: none;
+}
+
+/* Spacing */
+.callout[data-callout="infobox"] p {
+  margin-block-start: 10px;
+  margin-block-end: 0px;
+  width: 100%;
+}
+
+/* Image */
+.callout[data-callout="infobox"] img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+}
+
+/* Table */
+.callout[data-callout="infobox"] table {
+  margin: auto;
+  width: 100%;
+  font-size: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: rgb(30, 30, 30);
+}
+
+.callout[data-callout="infobox"] th {
+  padding-left: 12px; 
+  padding-right: 0px;
+  vertical-align: top;
+}
+
+.callout[data-callout="infobox"] td {
+  padding-left: 12px; 
+  padding-right: 0px;
+  vertical-align: top;
+}
