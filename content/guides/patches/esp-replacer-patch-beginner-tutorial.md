@@ -47,7 +47,7 @@ Create an ESP replacer patch for Caldera House which solves the conflict.
 
 ### Goals
 
-By the end of this tutorial you should understand how to use the Construction Set in order to:
+By the end of this tutorial you should understand how to use the [Construction Set](https://tes3cs.pages.dev/) (<abbr title="Construction Set">CS</abbr>) in order to:
 
 - Identify a mod conflict.
 - Make an ESP compatible with another ESP by turning the former into an ESP replacer patch.
@@ -57,22 +57,30 @@ By the end of this tutorial you should understand how to use the Construction Se
 > ![[comparison-screenshot-of-two-conflicting-mods.png]]
 > Caldera House and Caldera Tower side-by-side.
 
-## Step 1: Navigating to the Cell
+---
 
-> [!Caption|right wsmall]  
+## Step 1: Setting the Active ESP
+
+Although only one ESP needs to be modified to create an ESP replacer, we will be working with both plugins loaded simultaneously in the Construction Set.
+
+Of the two plugins, we will only set one ESP as active: `MMW_Caldera-House.esp`.
+
+1. Open the [Data Files Window](https://tes3cs.pages.dev/data-files/data-files-window)
+2. Set both `MMW_Caldera-House.esp` and `MMW_Caldera-Tower.esp` as checked.
+3. Set the former as **Active File**
+
+> [!Caption|center wfull]  
 > ![[enabling-plugins-for-esp-replacer-tutorial.png]]  
 > Setting the active ESP in Data Files
 
-1. Open the Construction Set ('CS'), open the Data Files window and double-click `MMW_Caldera-House.esp` and `MMW_Caldera-Tower.esp` to load them. Set (`MMW_Caldera-Tower.esp` as ‘Active’.
+## Step 2: Navigating to the Cell
 
-
-
-2. Click `show modified only` in the Cell View window. This will make it display only cells modified or added by the active plugin - in this case, `Replacer_1a.esp`
+4. Click `show modified only` in the Cell View window. This will make it display only cells modified or added by the active plugin - in this case, `Replacer_1a.esp`
 ![[beginner-esp-replacer-tutorial-cell-view.png]]
 3. In the Cell View window, under `Cell Name`, locate the cell `Caldera, -2,2` where our mod conflict is, and **double-click** it to bring you there in the Render Window.
 4. `Show modified only` not only filters the list of cells modified by the active ESP: it also filters the list of references *in* that cell to only display references modified or added by the active ESP. Under `Object ID` in the right-hand panel in Cell View, **double-click** on `ex_nord_house_02`
 
-## Step 2: Identifying the Conflict
+## Step 3: Identifying the Conflict
 ![[screenshot-of-mod-conflict-in-tes3cs.png]]
 
 We can clearly see some kind of conflict here. The house added by `Replacer_1a.esp` overlaps with the thatch tower (`ex_common_tower_thatch`) added by `Replacer_1b.esp`, covering up the door to the tower.
@@ -109,7 +117,7 @@ Holding `ctrl + shift + R + clicking middle-mouse-button` on a selected referenc
 > -  press `Q` on your keyboard to bring up the `Context Menu`. 
 > - Select `Hide Selection` to hide the reference. This can be reverted with `Restore Hidden References` in the `Context Menu`
 
-## Step 3: Patching
+## Step 4: Patching
 
 We need to move the house and associated references added by `MMW_Patches_ESP-Replacer_1a.esp` so that they don't overlap with the tower from `Replacer_1b.esp`.
 
@@ -174,7 +182,7 @@ See the video below for how the house was moved in the CS:
 
 With the house moved, the patch is nearly complete: all that is left to do is to make some touch-ups.
 
-## Step 4: Final Touches
+## Step 5: Final Touches
 
 There are a few things we can do before publishing the mod:
 - [[#Check for floaters and buried objects]]
