@@ -1,4 +1,6 @@
 ---
+title:
+aliases:
 tags:
 description:
 ---
