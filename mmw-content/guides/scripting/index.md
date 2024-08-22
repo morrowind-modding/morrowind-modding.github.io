@@ -9,4 +9,7 @@ tags:
   - Construction-Set
 description: Morrowind Scripting - MWScript, MWSE-Lua and OpenMW-Lua
 ---
-## Morrowind Scripting - MWScript, MWSE-Lua and OpenMW-Lua:
+## Morrowind Scripting - MWScript, MWSE-Lua and OpenMW-Lua
+
+![[maintenance-expand-article#^6fc39d|clean]]
+![[maintenance-underpopulated-category#^185a87|clean]]

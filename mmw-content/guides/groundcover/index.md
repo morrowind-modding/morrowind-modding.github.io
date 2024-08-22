@@ -12,6 +12,8 @@ description: Creating and managing animated grass for MGE-XE and OpenMW
 ---
 ## Creating and managing animated grass for MGE-XE and OpenMW
 
+![[maintenance-underpopulated-category#^185a87|clean]]
+
 Both [[MGE-XE]] and [[OpenMW]] support animated, instanced grass called **groundcover**. 
 
 Groundcover allows the rendering of hundreds of grass meshes per cell at low performance cost. In addition, these meshes are animated to simulate blowing in the wind ('grass-swaying') and will deform as if pushed aside when colliding with the player ('grass-stomping'). To achieve this, mods adding groundcover must be handled differently from regular plugins.
