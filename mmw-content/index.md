@@ -21,3 +21,4 @@ Work-in-progress articles:
 - [[creating-a-patch-for-an-esp|Creating a Patch for an ESP]]
 - [[contributing-to-mlox-rules|Contributing to Mlox Rules]]
 - [[tutorial-how-to-add-rules-to-the-mlox-rules-repository|Tutorial - How to Add Rules to the mlox-rules Repository]]
+- [[guides/groundcover/index|Groundcover]]
