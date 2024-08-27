@@ -5,7 +5,7 @@ aliases:
 tags:
   - Merge_to_Master
   - Combining-plugins
-description:
+description: A simple command-line tool that lets you merge TES3 plugins into their masters.
 ---
 
 ![[maintenance-expand-article#^6fc39d|clean]]
@@ -22,5 +22,7 @@ description:
 > 
 > | Type | Name |
 > | --- | --- |
-> | **Links** | (G7 won't share 😪) |
+> | **Links** | [Github](https://github.com/Greatness7/merge_to_master) |
 > | **Requirements** | None |
+
+A simple command-line tool that lets you merge TES3 plugins into their masters.

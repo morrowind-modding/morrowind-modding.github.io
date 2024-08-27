@@ -114,6 +114,8 @@ This can be repeated for any plugins you wish to compare the groundcover against
 
 > [!tip|txt-s] Using Lawnmower with your Entire Mod-List
 > Some tools for [[modding-tools/merging-plugins/index|merging plugins]], such as [[habasi|Habasi]], can generate a single merged plugin of your entire mod list. This merged plugin can be used as the `input` plugin for Lawnmower, saving you the trouble of running the script on individual mods.
+> 
+> To generate a merged plugin with **Habasi**, run the command `habasi -O` in a terminal.
 
 ## Utilizing Autoclean Plugins
 

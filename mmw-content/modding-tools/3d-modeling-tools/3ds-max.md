@@ -1,27 +1,34 @@
 ---
-title: 3DS-Max
+title: 3ds Max
 aliases:
-  - 3DS-Max
+  - 3ds Max
+  - Autodesk 3ds Max
 tags:
   - Animation
   - Modeling
-  - 3DS-Max
-description:
+  - 3ds-Max
+description: A professional 3D computer graphics program whose early versions were used in the development of Morrowind.
 ---
 
 ![[maintenance-expand-article#^6fc39d|clean]]
 
 ## About
 
-> [!infobox]
+> [!infobox|n-th]
 > 
 > ## 3DS-Max
 > 
-> %%![[insert image]]%%
+> > [!caption|wfull txt-s]
+> > ![[3ds-max-logo-2022.jpg|150x150]]
+> > 3ds Max logo from 2022
 > 
 > ### Table Heading
 > 
 > | Type | Name |
 > | --- | --- |
-> | **Links** | [Wikipedia](https://en.m.wikipedia.org/wiki/Autodesk_3ds_Max)<br>[Website](https://www.autodesk.com) |
+> | **Links** | [Wikipedia](https://en.m.wikipedia.org/wiki/Autodesk_3ds_Max)<br>[Official Site](https://www.autodesk.com) |
 > | Row | Row |
+
+Autodesk [3ds Max](https://www.autodesk.com/products/3ds-max/overview?term=1-YEAR&tab=subscription&plc=3DSMAX) is a professional 3D computer graphics program whose early versions were used in the development of Morrowind.[^1]
+
+[^1]: SymphonyTeam, "3DS MAX 3", Notes for Modmakers 3.3, 2022, accessed 27 August 2024, https://morrowind-nif.github.io/Notes_EN/module_2_10_1_1.htm?ms=QgAAAAAAAAAAAAAAAAAAAAAAAAAAABAg&st=MA%3D%3D&sct=MA%3D%3D&mw=MzIw
