@@ -16,6 +16,8 @@ Completed articles so far include:
 - [[esp-replacer-patch-beginner-tutorial|ESP-Replacer Patch Beginner Tutorial]]
 - [[morrowind-interiors-project|Morrowind Interiors Project]]
 - [[simple-texture-animation-in-blender|Simple Texture Animation in Blender]]
+- [[the-lawnmower|Lawnmower]]
+- [[lawnmower-tutorial|Lawnmower Groundcover Tutorial]]
 
 Work-in-progress articles:
 - [[creating-a-patch-for-an-esp|Creating a Patch for an ESP]]
