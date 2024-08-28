@@ -11,6 +11,16 @@
   margin-left: 8px;
 }
 
+@media screen and (max-width: 767px) {
+  .callout.callout.callout.callout[data-callout-metadata~=right]:not(.callout[data-callout-metadata~=fixed]), .callout.callout.callout.callout[data-callout-metadata~=left]:not(.callout[data-callout-metadata~=fixed]) {
+    float: unset;
+    margin: auto;
+    width: 100%;
+    max-width: 100%;
+    /* floating callouts lose float and expand to full width on mobile */
+  }
+}
+
 .callout.callout.callout[data-callout-metadata~=center] {
   display: block;
   margin: auto;

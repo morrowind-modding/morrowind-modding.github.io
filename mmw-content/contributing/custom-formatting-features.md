@@ -75,7 +75,7 @@ MMW borrows a large number of [Callout Adjustments](https://publish.obsidian.md/
 | Abbr.  | Full Title        | Description                                                 |
 | ------ | ----------------- | ----------------------------------------------------------- |
 |        | `embed`           | Remove callout padding to expand embed                      |
-|        | `clean`           | Remove callout Styling                                      |
+|        | `clean`           | Remove callout styling                                      |
 |        | `collapse`        | Remove all padding and margins for ultra compact look       |
 | `nbrd` | `no-border`       | Borderless callout                                          |
 |        | `clear`           | Move any other floating elements near to under this callout |
@@ -91,15 +91,16 @@ MMW borrows a large number of [Callout Adjustments](https://publish.obsidian.md/
 
 ### Callout Positioning
 
-| Attribute | Description                |
-| --------- | -------------------------- |
-| `left`    | Float callout to the left  |
-| `right`   | Float callout to the right |
-| `center`  | Center the callout         |
+| Attribute | Description                                    |
+| --------- | ---------------------------------------------- |
+| `left`    | Float callout to the left                      |
+| `right`   | Float callout to the right                     |
+| `center`  | Center the callout                             |
+| `fixed`   | Maintains a callout's float position on mobile |
 
 ### Callout Sizing
 
-Callouts can be resized using the keywords below.
+Callouts can be resized using the keywords below (sizing is the same as [[custom-formatting-features#SIRvb's Image Adjustments|SIRvb's Image Adjustments]])
 
 The sizing is a percentage, relative to the callout's parent. Using `|wmed` as an example:
 
@@ -108,33 +109,18 @@ The sizing is a percentage, relative to the callout's parent. Using `|wmed` as a
 
 Sizing can be made to use pixels instead of percentage by adding `|static`.
 
-> [!column|flex 2] 
-> 
-> > [!note|clean no-t]
-> > 
-> > |Attributes|Callout Width `%`|Callout Width `px`|
-> > |---|:-:|:-:|
-> > |`wmicro`|10%|50px|
-> > |`wtiny`|20%|100px|
-> > |`wsmall`|30%|200px|
-> > |`ws-med`|40%|300px|
-> > |`wm-sm`|50%|400px|
-> > |`wmed`|60%|500px|
-> > |`wm-tl`|80%|600px|
-> > |`wtall`|95%|700px|
-> > |`wfull`|100%||
-> > |`wfit`|Auto|Auto|
-> 
-> > [!note|clean no-t]
-> > 
-> > > [!note] Add `|static` for sizing with pixels
-> > >
-> > > Callout sizing uses percentages by default. `|static` switches to pixels to use static sizing.
-> > 
-> > > [!tip]
-> > > 
-> > > Callout sizing is the same as [[custom-formatting-features#SIRvb's Image Adjustments|SIRvb's Image Adjustments]]
- 
+|Attributes|Callout Width `%`|Callout Width `px`|
+|---|:-:|:-:|
+|`wmicro`|10%|50px|
+|`wtiny`|20%|100px|
+|`wsmall`|30%|200px|
+|`ws-med`|40%|300px|
+|`wm-sm`|50%|400px|
+|`wmed`|60%|500px|
+|`wm-tl`|80%|600px|
+|`wtall`|95%|700px|
+|`wfull`|100%||
+|`wfit`|Auto|Auto|
 
 ---
 
