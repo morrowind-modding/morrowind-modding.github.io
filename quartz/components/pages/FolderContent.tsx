@@ -18,7 +18,7 @@ interface FolderContentOptions {
 }
 
 const defaultOptions: FolderContentOptions = {
-  showFolderCount: false,
+  showFolderCount: true,
 }
 
 export default ((opts?: Partial<FolderContentOptions>) => {
@@ -53,11 +53,11 @@ export default ((opts?: Partial<FolderContentOptions>) => {
         <article>{content}</article>
         <div class="page-listing">
           {options.showFolderCount && (
-            <p>
+            <h2 class="foldercount-heading">
               {i18n(cfg.locale).pages.folderContent.itemsUnderFolder({
                 count: allPagesInFolder.length,
               })}
-            </p>
+            </h2>
           )}
           <div>
             <PageList {...listProps} />
