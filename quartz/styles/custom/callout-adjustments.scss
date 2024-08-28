@@ -16,6 +16,16 @@
   margin-left: 8px;
 }
 
+@media screen and (max-width: $mobileBreakpoint) {
+  .callout.callout.callout.callout[data-callout-metadata~=right]:not(.callout[data-callout-metadata~=fixed]), .callout.callout.callout.callout[data-callout-metadata~=left]:not(.callout[data-callout-metadata~=fixed]) {
+    float: unset;
+    margin: auto;
+    width: 100%;
+    max-width: 100%;
+    /* floating callouts lose float and expand to full width on mobile */
+  }
+}
+
 .callout.callout.callout[data-callout-metadata~=center] {
   display: block;
   margin: auto;
@@ -214,9 +224,20 @@
 }
 
 .callout.callout:is([data-callout-metadata~=text-small],
-[data-callout-metadata~=txt-s]) > .callout-content > * {
+[data-callout-metadata~=txt-s]) > .callout-content * {
   font-size: 0.8rem;
-  line-height: 1rem;
+  line-height: 1.3rem;
+}
+
+.callout.callout.callout:is([data-callout-metadata~=text-small],
+[data-callout-metadata~=txt-s]) > .callout-content sup:has(a), .callout.callout.callout:is([data-callout-metadata~=text-small],
+[data-callout-metadata~=txt-s]) > .callout-content sup a {
+  /* prevents sup elements like footnotes from pushing up line-height. Quartz-only; not needed for Obsidian */
+  font-size: 0.6rem;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+  top: -0.3em;
 }
 
 .callout:is([data-callout-metadata~=n-th],
