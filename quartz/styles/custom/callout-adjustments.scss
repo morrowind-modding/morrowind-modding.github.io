@@ -214,9 +214,9 @@
 }
 
 .callout.callout:is([data-callout-metadata~=text-small],
-[data-callout-metadata~=txt-s]) > .callout-content > * {
+[data-callout-metadata~=txt-s]) > .callout-content * {
   font-size: 0.8rem;
-  line-height: 1rem;
+  line-height: 1.2rem;
 }
 
 .callout:is([data-callout-metadata~=n-th],
