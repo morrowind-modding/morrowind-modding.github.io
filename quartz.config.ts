@@ -15,7 +15,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "morrowind-modding.github.io/",
+    baseUrl: "morrowind-modding.github.io",
     ignorePatterns: ["private", "**/templates/", ".obsidian"],
     defaultDateType: "created",
     theme: {
