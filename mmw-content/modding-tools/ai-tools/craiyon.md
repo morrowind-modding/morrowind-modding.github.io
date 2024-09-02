@@ -6,22 +6,27 @@ tags:
   - Concept-Art
   - Textures
   - AI
-description:
+description: A free AI image generator capable of creating textures and concept art.
 ---
 
 ![[maintenance-expand-article#^6fc39d|clean]]
 
 ## About
 
-> [!infobox]
+> [!infobox|n-th]
 > 
-> ## Article Title
+> ## Craiyon
 > 
-> %%![[insert image]]%%
+> > [!caption|center wfull txt-s]
+> > 
+> > ![[craiyon-ai-logo.png|center]]
 > 
-> ### Table Heading
+> ### Details
 > 
 > | Type | Name |
 > | --- | --- |
-> | Row | Row |
-> | Row | Row |
+> | **Links** | [Official Site](https://www.craiyon.com/) |
+> | **Requirements** | none |
+> | **Author** | Craiyon LLC |
+
+**Craiyon** is a free AI image generator, capable of creating video game textures and concept art.

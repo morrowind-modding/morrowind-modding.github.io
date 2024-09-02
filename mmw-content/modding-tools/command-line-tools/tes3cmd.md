@@ -6,22 +6,28 @@ tags:
   - Tes3cmd
   - Cleaning-Mods
   - Dirty-Edits
-description:
+description: A command-line tool for analysing, modifying and cleaning TES3 plugins.
 ---
 
 ![[maintenance-expand-article#^6fc39d|clean]]
 
 ## About
 
-> [!infobox]
+> [!infobox|n-th]
 > 
 > ## Tes3cmd
 > 
-> %%![[insert image]]%%
+> > [!caption|wfull center txt-s]
+> > 
+> > ![[screenshot-of-tes3cmd-cleaning-a-plugin.png|center]]
+> > Tes3cmd cleaning a plugin of duplicate records.
 > 
-> ### Table Heading
+> ### Details
 > 
 > | Type | Name |
 > | --- | --- |
-> | Row | Row |
-> | Row | Row |
+> | **Links** | [Github](https://github.com/john-moonsugar/tes3cmd/blob/master/tes3cmd) |
+> | **Requirements** | none |
+> | **Author** | John Moonsugar |
+
+**Tes3cmd** is a command-line tool written in Perl for analysing, modifying and cleaning TES3 plugins.

@@ -9,15 +9,19 @@ description:
 
 ## About
 
-> [!infobox]
+> [!infobox|n-th]
 > 
 > ## Article Title
 > 
-> %%![[insert image]]%%
+> > [!caption|center wfull txt-s]
+> > 
+> > %%![[insert image]]%%
+> > 
 > 
-> ### Table Heading
+> ### Details
 > 
 > | Type | Name |
 > | --- | --- |
-> | Row | Row |
-> | Row | Row |
+> | **Links** |  |
+> | **Requirements** | Row |
+> | **Author** |  |

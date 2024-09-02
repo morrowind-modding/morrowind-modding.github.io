@@ -8,22 +8,25 @@ tags:
   - MWSE-Lua
   - OpenMW-Lua
   - Scripting
-description:
+description: An LLM virtual assistant and chatbot developed by OpenAI.
 ---
 
 ![[maintenance-expand-article#^6fc39d|clean]]
 
 ## About
 
-> [!infobox]
+> [!infobox|n-th]
 > 
-> ## Article Title
+> ## ChatGPT
 > 
 > %%![[insert image]]%%
 > 
-> ### Table Heading
+> ### Details
 > 
 > | Type | Name |
 > | --- | --- |
-> | Row | Row |
-> | Row | Row |
+> | **Links** | Row |
+> | **Requirements** | Row |
+> | **Author** | [OpenAI](https://openai.com/) |
+
+**ChatGPT** is an <abbr title="large language model">LLM</abbr> virtual assistant and chatbot developed by OpenAI.

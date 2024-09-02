@@ -27,7 +27,7 @@ description: An MWSE tool for selecting a group of objects in-game and exporting
 > 
 > | Type | Name |
 > | --- | --- |
-> | **Links** | [Download](https://www.nexusmods.com/morrowind/mods/52245?tab=files) (hosted on MIP Guide as it does not have its site)  |
+> | **Links** | [Github](https://gist.github.com/Greatness7/f683d80c22ef60342d589992eff0a0d0)  |
 > | **Requirements** | [MWSE](https://github.com/MWSE/MWSE/) |
 
 **Export Sphere** is an MWSE tool for selecting a group of objects in-game and exporting these to a single mesh.

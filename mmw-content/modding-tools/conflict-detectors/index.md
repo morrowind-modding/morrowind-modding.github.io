@@ -2,6 +2,7 @@
 title: Conflict Detectors
 aliases:
   - Conflict Detectors
+  - Conflict Detection
 tags:
   - Conflicts
   - Tes3EditX
