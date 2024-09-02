@@ -2,7 +2,7 @@ $pageWidth: 860px;
 $mobileBreakpoint: 600px;
 $tabletBreakpoint: 1000px;
 $sidePanelWidth: 340px;
-$topSpacing: 1rem;
+$topSpacing: 1rem; /* reduce empty space at top of page and likelihood of sidebar bottoms being cut off */
 $fullPageWidth: $pageWidth + 2 * $sidePanelWidth;
 $boldWeight: 700;
 $semiBoldWeight: 600;
