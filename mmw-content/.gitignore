@@ -1,0 +1,9 @@
+# Exclude Obsidian's settings and plugins, but include snippets
+.obsidian/!snippets
+.obsidian/!types.json
+.obsidian/*.json
+.obsidian/plugins
+
+# Exclude OS settings and caches
+.trash/
+.DS_Store
