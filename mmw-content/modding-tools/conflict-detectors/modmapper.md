@@ -5,7 +5,9 @@ aliases:
 tags:
   - ModMapper
   - Conflicts
-description:
+  - Python
+  - Tes3conv
+description: A conflict detection tool for generating heat-maps of exterior cells which indicate which cells are most affected by a given list of plugins.
 ---
 
 ![[maintenance-expand-article#^6fc39d|clean]]

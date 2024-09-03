@@ -4,6 +4,7 @@ aliases:
   - MWEdit
 tags:
   - MWEdit
+  - Low-level-editor
 description:
 ---
 

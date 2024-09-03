@@ -9,6 +9,8 @@ tags:
   - Tutorials
   - Grass
   - Cleaning-Mods
+  - Python
+  - Tes3conv
 description: How to use `lawnmower.py` script to clean groundcover mods of excess grass
 parent: "[[the-lawnmower|Lawnmower]]"
 related articles:

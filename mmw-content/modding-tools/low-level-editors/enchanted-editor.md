@@ -5,6 +5,7 @@ aliases:
   - Morrowind Enchanted Editor
 tags:
   - Enchanted-Editor
+  - Low-level-editor
 description:
 ---
 

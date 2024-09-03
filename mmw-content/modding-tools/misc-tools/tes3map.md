@@ -1,7 +1,9 @@
 ---
-title: 
+title: TES3MAP
 aliases:
+  - TES3MAP
 tags:
+  - Maps
 description:
 ---
 
@@ -22,6 +24,6 @@ description:
 > 
 > | Type | Name |
 > | --- | --- |
-> | **Links** |  |
+> | **Links** | [Nexus Mods](https://www.nexusmods.com/morrowind/mods/54791)<br>[Github](https://github.com/rfuzzo/tes3map) |
 > | **Requirements** |  |
-> | **Author** |  |
+> | **Author** | [rfuzzo](https://next.nexusmods.com/profile/rfuzzo/mods) |

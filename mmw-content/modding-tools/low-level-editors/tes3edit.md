@@ -1,7 +1,10 @@
 ---
-title: 
+title: Tes3Edit
 aliases:
+  - Tes3Edit
 tags:
+  - Low-level-editor
+  - Tes3Edit
 description:
 ---
 
@@ -11,11 +14,11 @@ description:
 
 > [!infobox|n-th]
 > 
-> ## Article Title
+> ## Tes3Edit
 > 
 > > [!caption|center wfull txt-s]
 > > 
-> > %%insert image%%
+> > %%![[insert image]]%%
 > > 
 > 
 > ### Details
@@ -23,5 +26,5 @@ description:
 > | Type | Name |
 > | --- | --- |
 > | **Links** |  |
-> | **Requirements** |  |
-> | **Author** |  |
+> | **Requirements** | Row |
+> | **Author** | rfuzzo |
