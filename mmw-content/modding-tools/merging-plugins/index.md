@@ -14,3 +14,8 @@ description: Tools for merging objects, leveled lists and even entire plugins
 ---
 ## Tools for merging objects, leveled lists and even entire plugins
 
+**Related Tools**:
+- [[merged-lands|Merged Lands]]
+- [[testool|TESTool]]
+- [[wrye-mash|Wrye Mash]]
+
