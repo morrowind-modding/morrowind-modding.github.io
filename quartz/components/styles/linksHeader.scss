@@ -8,6 +8,10 @@ header {
 #links-header {
   font-size: 1.2em;
   margin: 0 0.2em;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-content: space-between;
 
   svg {
     height: 1em;
@@ -15,9 +19,11 @@ header {
     vertical-align: middle;
   }
 
-  a {
+  a.links-header-item {
     display: inline-block;
     padding: 10px 15px;
+    box-sizing: border-box;
+    width: 20%;
   }  
 }
 
@@ -29,7 +35,13 @@ header {
 
 @media screen and (max-width: $mobileBreakpoint) {
   #links-header {
+    display: block;
     overflow: scroll;
     white-space: nowrap;
+  
+    & a.links-header-item {
+      box-sizing: unset;
+      width: unset;
+    }
   }
 }
