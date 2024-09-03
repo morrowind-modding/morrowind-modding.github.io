@@ -1,0 +1,1 @@
+npx quartz build --serve -d mmw-content
