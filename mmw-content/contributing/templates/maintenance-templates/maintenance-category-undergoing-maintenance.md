@@ -1,3 +1,6 @@
+---
+tags: graph-exclude
+---
 > [!maintenance] 
 > 
 > ![[picture-of-ash-zombie.png|left wtiny]]

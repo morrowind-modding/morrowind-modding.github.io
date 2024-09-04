@@ -1,3 +1,6 @@
+---
+tags: graph-exclude
+---
 > [!maintenance] 
 > 
 > ![[picture-of-guard.png|left wtiny]]

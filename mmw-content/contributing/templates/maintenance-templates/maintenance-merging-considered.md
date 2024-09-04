@@ -1,3 +1,6 @@
+---
+tags: graph-exclude
+---
 > [!maintenance] 
 > 
 > ![[picture-of-dunmer-gondolier.png|left wtiny]]

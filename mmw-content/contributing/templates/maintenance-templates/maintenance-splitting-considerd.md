@@ -1,3 +1,6 @@
+---
+tags: graph-exclude
+---
 > [!maintenance] 
 > 
 > ![[picture-of-sotha-sil-dead.png|left wtiny]]

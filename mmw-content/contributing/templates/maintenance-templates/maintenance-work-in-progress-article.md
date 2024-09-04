@@ -1,3 +1,6 @@
+---
+tags: graph-exclude
+---
 > [!maintenance] 
 > 
 > ![[picture-of-duma-gro-lag.png|left wtiny]]

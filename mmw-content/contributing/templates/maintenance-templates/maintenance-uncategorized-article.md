@@ -1,3 +1,6 @@
+---
+tags: graph-exclude
+---
 > [!maintenance] Uncategorized Article
 > 
 > ![[picture-of-guard.png|left wtiny]]
