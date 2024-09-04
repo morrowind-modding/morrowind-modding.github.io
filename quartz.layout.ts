@@ -1,6 +1,19 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 
+// MMW: hiding notes from graph via tags
+const tagsToRemove = ["graph-exclude"]
+const graphConfig = {
+  localGraph: {
+    removeTags: tagsToRemove,
+    excludeTags: ["graph-exclude"]
+  },
+  globalGraph: {
+    removeTags: tagsToRemove,
+    excludeTags: ["graph-exclude"]
+  }
+};
+
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
@@ -52,7 +65,7 @@ export const defaultContentPageLayout: PageLayout = {
       folderClickBehavior: "link", 
       filterFn: (node) => node.name !== "Templates",
     })),
-    Component.DesktopOnly(Component.Graph()),
+    Component.DesktopOnly(Component.Graph(graphConfig)),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
   ],
@@ -76,7 +89,7 @@ export const defaultListPageLayout: PageLayout = {
       folderClickBehavior: "link", 
       filterFn: (node) => node.name !== "Templates",
     })),
-    Component.DesktopOnly(Component.Graph()),
+    Component.DesktopOnly(Component.Graph(graphConfig)),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
   ],
