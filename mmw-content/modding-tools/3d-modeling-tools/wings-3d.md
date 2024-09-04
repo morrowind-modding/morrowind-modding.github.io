@@ -17,6 +17,7 @@ description: A free, open-source subdivision 3d modeler. Simple, but requires th
 > ## Wings 3D
 > 
 > > [!caption|wfull]
+> > 
 > > ![[wings-3d-logo.webp|center]]
 > 
 > ### Details
@@ -28,6 +29,6 @@ description: A free, open-source subdivision 3d modeler. Simple, but requires th
 
 **Wings 3D** is a free, open-source subdivision 3d modeler. Whilst simple to use, it requires third party tools in order to import and export NIF files.
 
-## Further Reading
+## External Links
 
 [Modeling for Morrowind with Rubberman](https://www.nexusmods.com/morrowind/mods/45609) - A guide on how to create meshes for Morrowind using Wings 3D.

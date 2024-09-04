@@ -47,14 +47,15 @@ description: A utility for moving, duplicating or removing landmasses from plugi
 > 
 > | Type | Name |
 > | --- | --- |
-> | **Links** | - [Nexus Mods](https://www.nexusmods.com/morrowind/mods/43577)<br>- [SourceForge](https://timeslip.users.sourceforge.net/morrow.html)<br>- [abitoftaste](https://abitoftaste.altervista.org/morrowind/index.php?option=weblinks&catid=53&Itemid=2&-Morrowind-modding-tools) |
+> | **Links** | - [Nexus Mods](https://www.nexusmods.com/morrowind/mods/43577)<br>- [SourceForge](https://timeslip.users.sourceforge.net/morrow.html)<br>- [Morrowind is Home](https://abitoftaste.altervista.org/morrowind/index.php?option=weblinks&catid=53&Itemid=2&-Morrowind-modding-tools) |
 > | **Requirements** | [Microsoft .Net Framework v1.1+](https://dotnet.microsoft.com/en-us/download/dotnet-framework) |
 > | **Author** | Timeslip, Lightwave |
 
 **TESfaith Sharp** is a graphical implementation of TESfaith, developed by Timeslip.
 
-## Further Reading
+## External Links
 
-- Nexus Mods, ["Moving a Landmass with TESfaith"](https://www.nexusmods.com/morrowind/mods/53004), GrumblingVomit, June 02, 2023.
-- UESP, ["TES Faith"](https://en.uesp.net/wiki/Morrowind_Mod:TES_Faith), revised July 09, 2024.
-- YouTube, ["Moving a mod tutorial, part 2"](https://www.youtube.com/live/qIuG7HYuqr4), abot abitoftaste, July 19, 2017
+- GrumblingVomit, **Nexus Mods**, ["Moving a Landmass with TESfaith"](https://www.nexusmods.com/morrowind/mods/53004)
+- **UESP**, ["TES Faith"](https://en.uesp.net/wiki/Morrowind_Mod:TES_Faith)
+- Abot, **YouTube**, ["Moving a mod tutorial, part 2"](https://www.youtube.com/live/qIuG7HYuqr4)
+- Abot, **Morrowind is Home**, ["TESfaithCFGgen"](https://abitoftaste.altervista.org/morrowind/index.php?option=downloads&task=info&id=25&Itemid=50&-TESfaithCFGgen) - A small GUI utility by Abot for generating TESfaith console commands

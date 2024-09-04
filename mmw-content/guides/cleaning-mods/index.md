@@ -2,6 +2,7 @@
 title: Cleaning Mods
 aliases:
   - Cleaning Mods
+  - cleaning
 tags:
   - Dirty-Edits
   - Cleaning-Mods

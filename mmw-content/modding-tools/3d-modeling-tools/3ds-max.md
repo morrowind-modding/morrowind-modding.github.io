@@ -19,6 +19,7 @@ description: A professional 3D computer graphics program whose early versions we
 > ## 3DS-Max
 > 
 > > [!caption|wfull txt-s]
+> > 
 > > ![[3ds-max-logo-2022.jpg|150x150]]
 > > 3ds Max logo from 2022
 > 

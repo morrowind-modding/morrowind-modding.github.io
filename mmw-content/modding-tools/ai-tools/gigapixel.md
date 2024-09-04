@@ -19,6 +19,7 @@ description: An AI image upscaling app by Topaz Labs, capable of upscaling Morro
 > ## Gigapixel AI
 > 
 > > [!caption|wfull txt-s]
+> > 
 > > ![[gigapixel-7-logo.jpg|center]]
 > > [source](https://cdn.prod.website-files.com/6005fac27a49a9cd477afb63/662078e2f9fb43094b64e271_opengraph-gigapixel.jpg)
 > 

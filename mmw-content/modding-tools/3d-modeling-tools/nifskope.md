@@ -18,6 +18,7 @@ description: NifSkope is a tool by NifTools for opening and editing the NIF file
 > ## Nifskope
 > 
 > > [!caption|wfull]
+> > 
 > > ![[nifskope-icon.png|center]]
 > 
 > ### Details

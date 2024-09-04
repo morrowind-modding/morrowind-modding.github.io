@@ -20,6 +20,7 @@ description: An MWSE tool for selecting a group of objects in-game and exporting
 > ## Export Sphere
 > 
 > > [!caption|wfull txt-s]
+> > 
 > > ![[export-sphere-in-game-screenshot.webp]]
 > > In-game screenshot of Export Sphere.
 > 

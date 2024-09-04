@@ -34,3 +34,8 @@ description: A tool which allows the creation of a 52x52 cell landmass, with opt
 > ![[Littoral131.zip|Littoral v1.3.1]]
 
 **Littoral** is a tool developed by Kevin Fishburne which allows the creation of a 52x52 cell landmass, with options for controlling landscape height, vertex shading and object placement.
+
+## External Links
+
+- **UESP**, ["Morrowind Mod:Littoral"](https://en.uesp.net/wiki/Morrowind_Mod:Littoral)
+- **UtimaCodex**, ["Restored: Littoral"](https://ultimacodex.com/2010/10/restored-littoral/)

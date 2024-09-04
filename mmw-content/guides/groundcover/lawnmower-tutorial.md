@@ -183,4 +183,4 @@ Simply run TESTool `Clean ESP/ESM files` on the output plugin.
 - [[mesh-gen|Mesh Generator]]
 - [[habasi|Habasi]]
 
-[^1]: "Python for Beginners: Installing", Python.org, accessed August 24, 2024, https://www.python.org/about/gettingstarted/
+[^1]: ["Python for Beginners: Installing", Python.org, accessed August 24, 2024](https://www.python.org/about/gettingstarted/)

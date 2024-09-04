@@ -30,6 +30,6 @@ description: An SQL-based tool for editing ESP, ESM and ESS files.
 
 **Esp Quick-Editor** is an SQL-based tool for editing ESP, ESM and ESS files.
 
-## Further Reading
+## External Links
 
-- [Project Tamriel Wiki, 'Esp QuickEditor](https://wiki.project-tamriel.com/wiki/Esp-QuickEditor)
+- **Project Tamriel Wiki**, ["Esp QuickEditor"](https://wiki.project-tamriel.com/wiki/Esp-QuickEditor)

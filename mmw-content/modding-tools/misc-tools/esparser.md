@@ -31,6 +31,6 @@ description:
 
 **ESX File Parser**, also known as **ESParser**, is a tool for proofreading Morrowind dialogue for spelling, conversation loops and other common errors. 
 
-## Further Reading
+## External Links
 
-[Morrowind is Home, "Morrowind modding tools"](https://abitoftaste.altervista.org/morrowind/index.php?option=weblinks&catid=53&Itemid=2&-Morrowind-modding-tools)
+**Morrowind is Home**, ["Morrowind modding tools"](https://abitoftaste.altervista.org/morrowind/index.php?option=weblinks&catid=53&Itemid=2&-Morrowind-modding-tools)

@@ -55,8 +55,8 @@ description: A tool for importing or exporting landscape heightmaps from RAW and
 
 Only the source code has been published, not an official release, so TES3Annwyn must be built from the source code before it can be used.
 
-## Further Reading
+## External Links
 
-- **forum.openmw.org**, ["Opensource TESAnnwyn, a possible plugin for the Editor"](https://forum.openmw.org/viewtopic.php?p=9936#p9936), psi29a, September 12, 2012
-- **Project Tamriel Wiki**, ["Heightmaps"](https://wiki.project-tamriel.com/wiki/Heightmaps), revised October 21, 2023
-- **UESP**, ["TES Annwyn"](https://en.uesp.net/wiki/Morrowind_Mod:TES_Annwyn), revised August 03, 2024
+- **forum.openmw.org**, ["Opensource TESAnnwyn, a possible plugin for the Editor"](https://forum.openmw.org/viewtopic.php?p=9936#p9936)
+- **Project Tamriel Wiki**, ["Heightmaps"](https://wiki.project-tamriel.com/wiki/Heightmaps)
+- **UESP**, ["TES Annwyn"](https://en.uesp.net/wiki/Morrowind_Mod:TES_Annwyn)
