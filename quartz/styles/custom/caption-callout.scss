@@ -33,6 +33,10 @@
     margin-block-start: 0;
     margin-block-end: 0;
     color: var(--gray);
+
+    & strong {
+      color: var(--gray);
+    }
   }
   .callout.callout[data-callout~=caption]:is([data-callout-metadata~=sban], [data-callout-metadata~=banner]) .image-embed img {
     width: 100%;
