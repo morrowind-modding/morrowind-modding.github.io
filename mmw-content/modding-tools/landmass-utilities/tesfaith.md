@@ -2,7 +2,8 @@
 title: TESfaith
 aliases:
   - TESfaith
-  - TES3faith
+  - TESfaith
+  - TESfaith Sharp
 tags:
   - TESfaith
 description: A utility for moving, duplicating or removing landmasses from plugins, including their associated objects, path-grids, and dialogue and script commands.
@@ -30,6 +31,27 @@ description: A utility for moving, duplicating or removing landmasses from plugi
 > | **Author** | Lightwave (Paul Halliday) |
 
 **TESfaith** is a utility developed by Lightwave for moving, duplicating or removing landmasses from plugins, including their associated objects, path-grids, and dialogue and script commands.
+
+## TESfaith Sharp
+
+> [!infobox|n-th]
+> 
+> ## TESfaith Sharp
+> 
+> > [!caption|center wfull txt-s]
+> > 
+> > ![[tesfaith-sharp-with-bloodmoon-open.png|center]]
+> > Examining `Bloodmoon.esm` in TESfaith Sharp
+> 
+> ### Details
+> 
+> | Type | Name |
+> | --- | --- |
+> | **Links** | - [Nexus Mods](https://www.nexusmods.com/morrowind/mods/43577)<br>- [SourceForge](https://timeslip.users.sourceforge.net/morrow.html)<br>- [abitoftaste](https://abitoftaste.altervista.org/morrowind/index.php?option=weblinks&catid=53&Itemid=2&-Morrowind-modding-tools) |
+> | **Requirements** | [Microsoft .Net Framework v1.1+](https://dotnet.microsoft.com/en-us/download/dotnet-framework) |
+> | **Author** | Timeslip, Lightwave |
+
+**TESfaith Sharp** is a graphical implementation of TESfaith, developed by Timeslip.
 
 ## Further Reading
 

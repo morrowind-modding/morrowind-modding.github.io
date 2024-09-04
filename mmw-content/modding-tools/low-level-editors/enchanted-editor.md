@@ -13,15 +13,19 @@ description:
 
 ## About
 
-> [!infobox]
+> [!infobox|n-th]
 > 
-> ## Enchanted Editor
+> ## Morrowind Enchanted Editor
 > 
-> %%![[insert image]]%%
+> > [!caption|center wfull txt-s]
+> > 
+> > ![[morrowind-enchanted-editor-startup-image.png|center]]
+> > The startup image of **Enchanted Editor**.
 > 
-> ### Table Heading
+> ### Details
 > 
 > | Type | Name |
 > | --- | --- |
-> | Row | Row |
-> | Row | Row |
+> | **Links** |  |
+> | **Requirements** |  |
+> | **Author** |  |
