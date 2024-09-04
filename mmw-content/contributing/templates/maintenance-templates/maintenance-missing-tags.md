@@ -1,3 +1,6 @@
+---
+tags: graph-exclude
+---
 > [!maintenance] Article Contains no Tags
 > 
 > ![[picture-of-socucius-ergalla.png|left wtiny]]
