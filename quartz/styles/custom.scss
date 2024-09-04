@@ -136,6 +136,7 @@ a.mmw-download-link:link, a.mmw-download-link:visited {
   width: 100%;
   transition: .4s;
   padding: 6px;
+  box-sizing: border-box;
 }
 
 a.mmw-download-link:hover, a.mmw-download-link:active {
