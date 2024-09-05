@@ -8,22 +8,29 @@ tags:
   - Leveled-Items
   - Leveled-Lists
   - Leveled-Creatures
-description:
+description: A command-line-tool for merging leveled lists, comparing leveled lists between plugins, and optionally 'deleveling' like Abot's Deleveler.
 ---
 
 ![[maintenance-expand-article#^6fc39d|clean]]
 
 ## About
 
-> [!infobox]
+> [!infobox|n-th]
 > 
 > ## Jobasha
 > 
-> %%![[insert image]]%%
+> > [!caption|center wfull txt-s]
+> > 
+> > ![[screenshot-of-morrowind-npc-jobasha.jpg|profile ws-med hs-med center]]
+> > Jobasha, whom the tool takes its name from.
+> > [source](https://en.m.uesp.net/wiki/File:MW-npc-Jobasha.jpg)
 > 
-> ### Table Heading
+> ### Details
 > 
 > | Type | Name |
 > | --- | --- |
-> | Row | Row |
-> | Row | Row |
+> | **Links** | [Nexus Mods](https://www.nexusmods.com/morrowind/mods/52707)<br>[Github](https://github.com/alvazir/jobasha/) |
+> | **Requirements** | none |
+> | **Author** | [alvazir](https://next.nexusmods.com/profile/alvazir/about-me?gameId=100) |
+
+**Jobasha** is a [[modding-tools/command-line-tools/index|command-line-tool]] for [[modding-tools/merging-plugins/index|merging leveled lists]], comparing leveled lists between plugins, and optionally 'deleveling' like [[abots-deleveler|Abot's Deleveler]].

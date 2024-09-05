@@ -5,7 +5,8 @@ aliases:
 tags:
   - Habasi
   - Combining-plugins
-description: Habasi is a command-line tool for merging multiple plugins into one.
+  - Groundcover
+description: A command-line tool for merging plugins into a single combined plugin, and optionally turn static grass references into groundcover for OpenMW and MGE-XE.
 parent: "[[modding-tools/merging-plugins/index|Merging Plugins]]"
 related articles:
   - "[[lawnmower-tutorial|Lawnmower Groundcover Tutorial]]"
@@ -21,8 +22,10 @@ related articles:
 > ## Habasi
 > 
 > > [!caption|wfull txt-s]
-> > ![[picture-of-habasi-from-uesp.webp|profile ws-med hs-med]]
-> > (image credit: [UESP](https://en.uesp.net/wiki/File:MW-npc-Sugar-Lips_Habasi.jpg))
+> > 
+> > ![[picture-of-habasi-from-uesp.webp|profile ws-med hs-med center]]
+> > Sugar-Lips Habasi, whom the tool is named after.
+> > [source](https://en.uesp.net/wiki/File:MW-npc-Sugar-Lips_Habasi.jpg))
 > 
 > ### Details
 > 
@@ -32,4 +35,4 @@ related articles:
 > | **Requirements** | None |
 > | **License** | [GNU GPLv3](https://github.com/alvazir/habasi/blob/master/LICENSE) |
 
-**Habasi** is a command-line tool for merging multiple plugins into one.
+**Habasi** is a [[modding-tools/command-line-tools/index|command-line tool]] for [[modding-tools/merging-plugins/index|merging plugins]], featuring the ability to merge one's entire load order into a single plugin, and optionally turn static grass references into groundcover for OpenMW and MGE-XE.

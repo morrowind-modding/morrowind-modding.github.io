@@ -1,11 +1,12 @@
 ---
-title: Tes3Edit
+title: Tes3edit-rs
 aliases:
-  - Tes3Edit
+  - Tes3edit-rs
+  - Tes3edit
 tags:
   - Low-level-editor
-  - Tes3Edit
-description:
+  - Tes3edit-rs
+description: A simple egui-rust low-level editor for Morrowind.
 ---
 
 ![[maintenance-expand-article#^6fc39d|clean]]
@@ -18,13 +19,15 @@ description:
 > 
 > > [!caption|center wfull txt-s]
 > > 
-> > %%![[insert image]]%%
+> > ![[screenshot-of-tes3edit-rs-gui.png|center]]
 > > 
 > 
 > ### Details
 > 
 > | Type | Name |
 > | --- | --- |
-> | **Links** |  |
-> | **Requirements** | Row |
-> | **Author** | rfuzzo |
+> | **Links** | [Github](https://github.com/rfuzzo/tes3edit) |
+> | **Requirements** | none |
+> | **Author** | [rfuzzo](https://github.com/rfuzzo) |
+
+**Tes3edit-rs** is a simple [[modding-tools/low-level-editors/index|low-level editor]] for Morrowind, developed by rfuzzo with egui-rust.
