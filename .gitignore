@@ -8,8 +8,8 @@ tsconfig.tsbuildinfo
 .obsidian/*.json
 *-content/.obsidian/!snippets
 *-content/.obsidian/plugins
-*-content/.obsidian/!types.json
 *-content/.obsidian/*.json
+!*-content/.obsidian/types.json
 .quartz-cache
 private/
 .replit
