@@ -30,7 +30,7 @@ description: NifSkope is a tool by NifTools for opening and editing the NIF file
 
 **NifSkope** is a tool by [NifTools](https://www.niftools.org/) for opening and editing the NetImmerse file format (NIF), used by 3D models in Morrowind and other Bethesda titles.
 
-## To Do
+## External Links
 
-- Replacing `nif.xml` file
-- comparing the uses of different versions of nifskope
+- Hedgehog12, **Nexus Mods**, ["Nifskope 1.1.3 special build for MW meshes only"](https://www.nexusmods.com/morrowind/mods/54127)
+- **Notes for Modmakers**, [Chapter 4. Nifskope](https://morrowind-nif.github.io/Notes_EN/module_2_6.htm?ms=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA%3D%3D&st=MA%3D%3D&sct=MA%3D%3D&mw=NDAw) #Russian

@@ -1,7 +1,8 @@
 ---
-title: Merge_to_Master
+title: merge_to_master
 aliases:
-  - Merge_to_Master
+  - merge_to_master
+  - MTM
 tags:
   - Merge_to_Master
   - Combining-plugins
@@ -14,15 +15,19 @@ description: A simple command-line tool that lets you merge TES3 plugins into th
 
 > [!infobox|n-th]
 > 
-> ## Merge_to_Master
+> ## merge_to_master
 > 
-> ![](https://avatars.githubusercontent.com/u/12927912?v=4)
+> > [!caption|center wfull txt-s]
+> > 
+> > ![Greatness7's user avatar](https://avatars.githubusercontent.com/u/12927912?v=4)
+> > 
 > 
 > ### Table Heading
 > 
 > | Type | Name |
 > | --- | --- |
 > | **Links** | [Github](https://github.com/Greatness7/merge_to_master) |
-> | **Requirements** | None |
+> | **Requirements** | none |
+> | **Author** | [Greatness7](https://github.com/Greatness7) |
 
 A simple command-line tool that lets you merge TES3 plugins into their masters.

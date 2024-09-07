@@ -30,4 +30,8 @@ description: A command-line tool for analysing, modifying and cleaning TES3 plug
 > | **Requirements** | none |
 > | **Author** | John Moonsugar |
 
-**Tes3cmd** is a command-line tool written in Perl for analysing, modifying and cleaning TES3 plugins.
+**Tes3cmd** is a [[modding-tools/command-line-tools/index|command-line-tool]] written in Perl for analysing, modifying and cleaning TES3 plugins.
+
+## External Links
+
+- **Danae's Journal**, ["Good Modding Practice: Checking Mods"](https://danaeplays.thenet.sk/good-modding-practice/)

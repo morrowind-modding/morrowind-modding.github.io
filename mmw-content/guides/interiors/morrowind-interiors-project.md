@@ -13,59 +13,55 @@ title: Morrowind Interiors Project
 aliases:
   - Morrowind Interiors Project
 ---
-How to Build Fake Exteriors Using Export Sphere
+How to Build Fake Exteriors Using [[export-sphere|Export Sphere]]
 
 ## Prerequisites:
 
 1. The first thing you are going to want to do is make a copy of the exterior cell you want to turn into an interior. 
-2. Make sure you have [G7’s Export Sphere ](https://www.nexusmods.com/morrowind/mods/52245?tab=files)installed. You can find it here: You will need MWSE. After it is installed, go to MWSE/mods/exportSphere, open the script, and comment out everything except for statics. If you try exporting things like animated activators, it will cause complications down the line.
-3. [Blender](https://www.blender.org/download/)
+2. Make sure you have [[export-sphere|Export Sphere]] installed. You will need MWSE. After it is installed, go to `MWSE/mods/exportSphere`, open the script, and comment out everything except for statics. If you try exporting things like animated activators, it will cause complications down the line.
+3. [[blender|Blender]]
 4. [Greatness7's NIF plugin](https://github.com/Greatness7/io_scene_mw)
-5. (Optional) [NifSkope]()
-6. (Optional) [GIMP](https://www.gimp.org/downloads/)
+5. (Optional) [[nifskope|NifSkope]]
+6. (Optional) [[gimp|Gimp]]
 7. (Optional) BSA Unpacking tool, such as [BSArch](https://www.nexusmods.com/fallout4/mods/63243)
 
 
-# Create the World Mesh
-Now we're ready to work! Go to the cell you want to copy and hit ctrl+shift+e. This will bring up the export sphere. You can scroll up on the mouse wheel to increase the size of the sphere. Since you will want the cell you are in (along with the 8 surrounding cells), scroll all the way up to 3000 units.
+## Create the World Mesh
+Now we're ready to work! Go to the cell you want to copy and hit <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>e</kbd>. This will bring up the export sphere. You can scroll up on the mouse wheel to increase the size of the sphere. Since you will want the cell you are in (along with the 8 surrounding cells), scroll all the way up to 3000 units.
 
 In Blender, import the nif file. You'll normally find it under `Meshes/g7`. Locate the building you are creating an exterior view for. Select everything that cannot be seen from the windows of your interior cell and delete it:
+
 ![[morrowind-cell-exported-to-nif-file.png]]
-
-
 
 There are even more optimizations you can do, but this is a start. Next, find the exterior
 portion of your interior and delete everything except the windows:
 
 ![[optimizing-cell-export-nif-in-blender.png]]
 
-
 ### Match It Up in the Construction Set
 
 Since Morrowind buildings are often bigger on the inside, you will not be able to perfectly
-match all of the windows most of the time. Export your nif (don’t close Blender if you can handle it), create a new static with it in the construction set, and move it into your interior. Do your best to match the windows:
+match all of the windows most of the time. Export your `nif` (don’t close Blender if you can handle it), create a new static with it in the construction set, and move it into your interior. Do your best to match the windows:
 
 ![[matching-window-interior-position-to-exterior.png]]
 
-Once you have roughly matched the windows, delete the windows in your nif back in Blender and re-export. Resist the urge to close and re-open the Construction Set to get the updates, as it will make replacing parts of the exterior nif with the matching statics more difficult.
+Once you have roughly matched the windows, delete the windows in your `nif` back in Blender and re-export. Resist the urge to close and re-open the Construction Set to get the updates, as it will make replacing parts of the exterior `nif` with the matching statics more difficult.
 
+## Handling Visibility From the Inside
 
-# Handling Visibility From the Inside
-
-## Window Textures
+### Window Textures
 
 You will need windows with transparent textures if Morrowind Interiors Project has not already created them. This is when you will need GIMP and NifSkope. You will also want to unpack your BSAs at this time so that you may access the assets. Open up the mesh in NifSkope and click the window if you don’t know what texture you need.
 
 ![[locating-window-source-texture-in-nifskope.png]]
 
-
 Locate your texture, drag and drop it into GIMP
+
 ![[opening-window-texture-in-gimp.png]]
 
 Since we don't want the lead between the glass pieces to be transparent, select it all and then invert the selection so that only the glass is selected:
 
 ![[inverted-selection-of-window-in-gimp.png]]
-
 
 Now select the Eraser, set it to something like 50% (or however clear you want the glass to be), and erase the glass:
 
@@ -77,7 +73,8 @@ After you export it, go back into NifSkope and select the texture you just expor
 
 Now you can go back into the Construction Set and replace the mesh with your new mesh.
 
-## (Optional) Make Your Own Windows
+### (Optional) Make Your Own Windows
+
 If your mesh does not have a window built into it, there are a few extra steps. Write down the X, Y, Z location and rotation of both objects (window mesh and the mesh the window is cutting into). Import both meshes into Blender, and set their X, Y, Z position to their positions in the Construction Set divided by 100 (4416.123 to 44.16123, etc.). The Z rotation should be the same (sometimes you have to add/subtract 180 degrees), but for the Y rotation in Blender, you need to use the X rotation in the Construction Set (This is also sometimes off and needed to be mirrored). Other than the division by 100, this can be hit-or-miss. 
 
 After some fiddling, you should be able to get both objects within Blender
@@ -108,7 +105,7 @@ As can be seen, the door should be visible from the window:
 
 ![[view-of-caldera-inside-ghorak-manor.png]]
 
-However, the exterior nif will probably conflict with the interior. Here, the door was altered so that it can be seen from the window, but also not blocking the interior door:
+However, the exterior `nif` will probably conflict with the interior. Here, the door was altered so that it can be seen from the window, but also not blocking the interior door:
 
 ![[preventing-doorway-from-clipping-into-interior.png]]
 
@@ -142,5 +139,4 @@ Now that everything has been placed, toggle collision and see what can’t be se
 window. If something is covered by a mountain or building, delete it from the nif.
 Lastly, check the Behave Like Exterior box for the interior cell. The water level may now be
 higher than needed. What you will want to do is place an activator in the interior that will use
-SetWaterLevel on cellChanged == 1 to the water level you need. You may need to experiment to get
-this just right. If OpenMW does not yet support interior weather, feel free to look at how Morrowind Interiors Project fakes interior weather: https://www.nexusmods.com/morrowind/mods/52237
+`SetWaterLevel on cellChanged == 1` to the water level you need. You may need to experiment to get this just right. If OpenMW does not yet support interior weather, feel free to look at [how Morrowind Interiors Project fakes interior weather](https://www.nexusmods.com/morrowind/mods/52237).

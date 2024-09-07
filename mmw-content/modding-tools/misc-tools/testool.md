@@ -25,3 +25,9 @@ description:
 > | --- | --- |
 > | Row | Row |
 > | Row | Row |
+
+
+
+## External Links
+
+- **Danae's Journal**, ["Good Modding Practice: Checking Mods"](https://danaeplays.thenet.sk/good-modding-practice/)

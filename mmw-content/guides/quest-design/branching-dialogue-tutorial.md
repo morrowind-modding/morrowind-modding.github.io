@@ -11,14 +11,15 @@ aliases:
   - Branching Dialogue Tutorial
 ---
 
-*This page is an intermediate-level tutorial on creating branching choices for dialogue with NPCs.*
+_This page is an intermediate-level tutorial on creating branching choices for dialogue with NPCs._
 
 See the Project Tamriel Wiki article [Writing and Diagloue Guides](https://wiki.project-tamriel.com/wiki/Writing_and_Dialogue_Guidelines#Dialogue_2)  %% replace with MMW article %% for an introduction to working with dialogue in Morrowind.
 
 # Tutorial: 
 >[!figure]
+>
 >![[example-of-branching-dialogue-in-morrowind.png]]
->*Morrowind dialogue uses a topic-based system rather than a dialogue tree system, but with a little bit of MWScript you can create branching dialogue trees as complex as you like*
+>_Morrowind dialogue uses a topic-based system rather than a dialogue tree system, but with a little bit of MWScript you can create branching dialogue trees as complex as you like*
 * **Difficulty level:** Intermediate
 * **Requirements:**
      * Morrowind, Tribunal and Bloodmoon

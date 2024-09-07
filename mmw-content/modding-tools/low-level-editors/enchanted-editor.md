@@ -39,3 +39,4 @@ description: A low-level editor for modifying, cleaning and merging TES3 plugin 
 
 - **UESP**, ["Morrowind Mod:Enchanted Editor"](https://en.uesp.net/wiki/Morrowind_Mod:Enchanted_Editor).
 - **YouTube**, ["Morrowind modding tutorial: episode 9 Cleaning with tes3cmd and ME"](https://youtu.be/Zy-boQiI1YI?si=wZiQKxL5J_isBDLB), DanaePlays.
+- **Notes for Modmakers**, ["Enchanted Editor"](https://morrowind-nif.github.io/Notes_RU/enchanted_editor.htm) #Russian.

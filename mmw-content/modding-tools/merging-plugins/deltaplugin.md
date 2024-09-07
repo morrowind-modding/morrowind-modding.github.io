@@ -9,6 +9,7 @@ tags:
   - Leveled-Lists
   - Leveled-Creatures
   - OpenMW
+  - YAML
 description: A multi-purpose command-Line tool tool, capable of merging objects and leveled lists, converting OpenMW and TES3 plugins to YAML, and creating plugin diffs.
 ---
 
@@ -39,4 +40,5 @@ description: A multi-purpose command-Line tool tool, capable of merging objects 
 
 ## External Links
 
-- **Modding-Openmw.com**, ["Delta Plugin](https://modding-openmw.com/mods/delta-plugin/)
+- **Modding-Openmw.com**, ["Delta Plugin"](https://modding-openmw.com/mods/delta-plugin/)
+- **Modding-Openmw.com**, ["Tips: Merging Objects"](https://modding-openmw.com/tips/merging-objects/)

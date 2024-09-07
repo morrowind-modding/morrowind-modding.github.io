@@ -5,6 +5,7 @@ aliases:
 tags:
   - Tes3conv
   - Git
+  - JSON
 description: A command-line tool that converts TES3 plugins to JSON and vice-versa.
 ---
 

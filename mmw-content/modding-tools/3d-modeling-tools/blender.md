@@ -21,7 +21,13 @@ description: A free 3D modeling program commonly used for Morrowind modding
 > 
 > | Type | Name |
 > | --- | --- |
-> | **Links** | [Wikipedia](https://en.m.wikipedia.org/wiki/Blender_(software))<br>[Website](https://www.blender.org/)
+> | **Links** | [Wikipedia](https://en.m.wikipedia.org/wiki/Blender_(software))<br>[Official Site](https://www.blender.org/)
 > | **Requirements** | [ic_scene_mw](https://github.com/Greatness7/io_scene_mw) (to work with Morrowind NIFs) |
+> | **Author** | [Blender Foundation](https://www.blender.org/about/foundation/) |
 
 **Blender** is a free 3D modeling program, commonly used for Morrowind modding.
+
+## External Links
+
+- Mack Of Trades69 1982, **Nexus Mods**, ["Morrowind Race Making Tutorial"](https://www.nexusmods.com/morrowind/mods/47511), ["Morrowind Creature Making Tutorial"](https://www.nexusmods.com/morrowind/mods/47736)
+- Arcimaestro Antares, **Nexus Mods**, [Morrowind Animations with Blender tutorial](https://www.nexusmods.com/morrowind/mods/44187)

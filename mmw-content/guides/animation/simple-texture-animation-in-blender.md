@@ -9,7 +9,7 @@ aliases:
   - Simple Texture Animation in Blender
 ---
 ## Prerequisites:
-1. [Blender](https://www.blender.org/download/)
+1. [[blender|Blender]]
 2. [io_scene_mw](https://github.com/Greatness7/io_scene_mw)
 
 

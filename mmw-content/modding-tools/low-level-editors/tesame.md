@@ -29,7 +29,7 @@ description: A low-level editor for manually cleaning edits from TES3 plugins, a
 > 
 > | Type | Name |
 > | --- | --- |
-> | **Links** | [Nexus Mods](https://www.nexusmods.com/morrowind/mods/50810)<br>[Project Tamriel Wiki](https://wiki.project-tamriel.com/wiki/TESAME) |
+> | **Links** | [MMH web archive](https://web.archive.org/web/20221002140511/http://mw.modhistory.com/download-95-5289)<br>[Nexus Mods](https://www.nexusmods.com/morrowind/mods/50810) |
 > | **Requirements** | none |
 > | **Author** | Searabus (Erik Benerdal) |
 
@@ -37,4 +37,7 @@ description: A low-level editor for manually cleaning edits from TES3 plugins, a
 
 ## External Links
 
+- **Project Tamriel Wiki** [TESAME](https://wiki.project-tamriel.com/wiki/TESAME).
 - **UESP**, ["Morrowind Mod:TESAME"](https://en.m.uesp.net/wiki/Morrowind_Mod:TESAME)
+- **Notes for Modmakers**, ["TES Advanced Mod Editor"](https://morrowind-nif.github.io/Notes_RU/tes_advanced_mod_editor.htm) #Russian
+- **Tiarum.com**, ["Modding:TES Advanced Mod Editor (TESAME)"](https://web.archive.org/web/20180809031619/http://tiarum.com/wiki/Modding:TES_Advanced_Mod_Editor_(TESAME)) (Russian, web archive).

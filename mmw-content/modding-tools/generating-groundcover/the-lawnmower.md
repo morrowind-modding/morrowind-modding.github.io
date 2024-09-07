@@ -18,9 +18,7 @@ related articles:
   - "[[lawnmower-tutorial|Lawnmower Groundcover Tutorial]]"
 ---
 
-![[lawnmower-for-morrowind-banner.webp|sban]]
-
-![[maintenance-expand-article#^6fc39d|clean]]
+![[lawnmower-for-morrowind-logo-wide.webp|sban]]
 
 ## About
 
@@ -35,7 +33,7 @@ related articles:
 > | Type | Name |
 > | --- | --- |
 > | **Links** | - [NexusMods](https://www.nexusmods.com/morrowind/mods/53034)<br>- [Github](https://github.com/acidzebra/lawnmower) |
-> | **Requirements** | - [Python]()<br>- [[tes3conv\|Tes3conv]] |
+> | **Requirements** | - [Python 3.5+](https://www.python.org/downloads/)<br>- [[tes3conv\|Tes3conv]] |
 
 **The Lawnmower** is a tool for cleaning [[guides/groundcover/index|groundcover]] mods of excess grass using Python scripts and Tes3conv.
 
@@ -100,6 +98,25 @@ This is achieved by utilizing the `grassblocker_` meshes included with Lawnmower
 - `grassblocker_xxl.nif`
 
 These invisible marker meshes will appear in the Construction Set, but not in-game, and will be detected by `lawnmower.py` like any other reference when checking for grass which clips through other objects.
+
+## Advanced Usage
+
+![[maintenance-expand-article#^6fc39d|clean]]
+
+### Run Lawnmower on Entire Load Order
+
+Using [[habasi|Habasi]] and [[tes3cmd|Tes3cmd]], Lawnmower can be ran on one's entire load order with the help of a BAT script.
+
+```
+rem generate cut grass mods
+FOR %%A IN ( grass_*.es? ) DO python lawnmower.py MergedLoadOrder2.esp "%%A" "_%%A" >> out.txt
+ 
+rem delete grass at Z 20000
+FOR %%A IN ( _grass_*.es? ) DO tes3cmd.exe delete --instance-match "Z\:\-20000" "%%A" >> out2.txt
+```
+
+- Credit: Abot
+- Source: [Discord](https://discord.com/channels/210394599246659585/976440577044402217/1281183682295627788), [PasteBin](https://pastebin.com/iLV8MkKz)
 
 ## Troubleshooting
 

@@ -58,4 +58,5 @@ description: A utility for moving, duplicating or removing landmasses from plugi
 - GrumblingVomit, **Nexus Mods**, ["Moving a Landmass with TESfaith"](https://www.nexusmods.com/morrowind/mods/53004)
 - **UESP**, ["TES Faith"](https://en.uesp.net/wiki/Morrowind_Mod:TES_Faith)
 - Abot, **YouTube**, ["Moving a mod tutorial, part 2"](https://www.youtube.com/live/qIuG7HYuqr4)
-- Abot, **Morrowind is Home**, ["TESfaithCFGgen"](https://abitoftaste.altervista.org/morrowind/index.php?option=downloads&task=info&id=25&Itemid=50&-TESfaithCFGgen) - A small GUI utility by Abot for generating TESfaith console commands
+- Abot, **Morrowind is Home**, ["TESfaithCFGgen"](https://abitoftaste.altervista.org/morrowind/index.php?option=downloads&task=info&id=25&Itemid=50&-TESfaithCFGgen) - A small GUI utility by Abot for generating TESfaith console commands.
+- **Notes for Modmakers**, ["TESfaith"](https://morrowind-nif.github.io/Notes_EN/module_2_7_2_2_3_9.htm?ms=EgAAAAACAAAAAAAQAAAAAAAAAAAAAAJQCCA%3D&st=MA%3D%3D&sct=NjEuMzYzNjM2MDE2ODQ1Nw%3D%3D&mw=MjU2) #Russian 

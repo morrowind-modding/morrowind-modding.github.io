@@ -28,7 +28,7 @@ related articles:
 > 
 > | Type | Name |
 > | --- | --- |
-> | **Requirements** | - [The Lawnmower](https://www.nexusmods.com/morrowind/mods/53034)<br>- [Tes3conv](https://github.com/Greatness7/tes3conv)<br>- [Python 3.5 or later](https://www.python.org/)<br>- [Tes3cmd](https://modding-openmw.com/mods/tes3cmd/) (optional)<br>- [TESTool](https://www.nexusmods.com/morrowind/mods/47473) (optional) |
+> | **Requirements** | - [[the-lawnmower\|The Lawnmower]]<br>- [[tes3conv\|Tes3conv]]<br>- [Python 3.5+](https://www.python.org/)<br>- [[tes3cmd\|Tes3cmd]] (optional)<br>- [[testool\|TESTool]] (optional) |
 > | **Tutorial Files** | Any groundcover plugin you like that has not already had Lawnmower ran on it (the mod description will likely state whether this is the case) |
 
 This tutorial covers how to use [[the-lawnmower|The Lawnmower]] tool to clean [[guides/groundcover/index|groundcover]] mods of excess grass - specifically, grass which clips through or is hidden under other objects.
@@ -53,7 +53,7 @@ By the end of this tutorial, you should be able to:
 > 
 > See Python [BeginnersGuide / Download](https://wiki.python.org/moin/BeginnersGuide/Download) for help.
 
-In addition to downloading The Lawnmower (tools only), the tool also requires that you have [Tes3conv](https://github.com/Greatness7/tes3conv) and [Python](https://www.python.org/) installed.
+In addition to downloading The Lawnmower (tools only), the tool also requires that you have [[tes3conv|Tes3conv]] and [Python](https://www.python.org/) installed.
 
 Copy `tes3conv.exe` to your Morrowind `Data Files` folder, or install it using a mod manager.
 

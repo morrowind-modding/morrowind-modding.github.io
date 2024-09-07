@@ -27,9 +27,10 @@ description: Converts Morrowind landscape to a nif, allowing you to design lands
 > | --- | --- |
 > | **Links** | [NexusMods](https://www.nexusmods.com/morrowind/mods/20928)<br>[Github](https://github.com/Yacoby/CellToNif) |
 > | **Requirements** | [Niflib](https://github.com/niftools/niflib) |
+> | **Author** | Yacoby |
 
 **CellToNif** converts Morrowind landscape to a `.nif`, allowing you to design landscape for interior cells.
 
 ## External Links
 
-- **Notes for Modmakers**, ["Cell to Nif file"](https://morrowind-nif.github.io/Notes_EN/module_2_7_2_2_6_2_4.htm)
+- **Notes for Modmakers**, ["Cell2Nif"](https://morrowind-nif.github.io/Notes_EN/module_2_7_2_2_3_3.htm?ms=EgAAAAACAAAAAAAQAAAAAAAAAAAAAAJQCCA%3D&st=MA%3D%3D&sct=MA%3D%3D&mw=MjU2) #Russian 
