@@ -3,7 +3,7 @@ title: Publishing Mods
 aliases:
   - Publishing Mods
 tags:
-  - Nexus
+  - Nexus-Mods
   - Permissions
   - Credits
   - Ethics

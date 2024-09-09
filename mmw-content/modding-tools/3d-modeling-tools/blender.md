@@ -15,7 +15,11 @@ description: A free 3D modeling program commonly used for Morrowind modding
 > 
 > ## Blender
 > 
-> ![[blender-logo.png]]
+> > [!caption|center wfull txt-s]
+> > 
+> > ![[blender-logo.png]]
+> > Official logo of the Blender Foundation.
+> > [source](https://download.blender.org/branding/blender_logo_socket.png)
 > 
 > ### Details
 > 

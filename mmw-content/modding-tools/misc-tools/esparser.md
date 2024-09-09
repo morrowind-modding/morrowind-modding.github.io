@@ -5,7 +5,7 @@ aliases:
   - ESX File Parser
 tags:
   - Dialogue
-description:
+description: A tool for proofreading Morrowind dialogue for spelling, conversation loops and other common errors.
 ---
 
 ![[maintenance-expand-article#^6fc39d|clean]]
@@ -18,8 +18,9 @@ description:
 > 
 > > [!caption|center wfull txt-s]
 > > 
-> > %%insert image%%
+> > ![[screenshot-of-esparser-app-gui.jpg|center]]
 > > 
+> > [source](https://static2.max99x.com/morrowind/esparser.jpg)
 > 
 > ### Details
 > 

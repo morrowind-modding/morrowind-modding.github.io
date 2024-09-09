@@ -5,7 +5,7 @@ tags:
   - Github
   - Beginner
   - Tutorials
-  - Nexus
+  - Nexus-Mods
 title: Tutorial - How to Add Rules to the mlox-rules Repository
 aliases:
   - Tutorial - How to Add Rules to the mlox-rules Repository
