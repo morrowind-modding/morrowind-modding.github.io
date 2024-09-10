@@ -36,6 +36,6 @@ description: An alternative editor to the Construction Set, particularly noted f
 - Abot, **Morrowind is Home**, ["Morrowind modding for smarties, part 2: Morrowind specific tools"](https://abitoftaste.altervista.org/morrowind/index.php?option=content&Itemid=10&task=viewpost&id=51)
 - Abot, **Morrowind is Home**, [Morrowind modding for smarties, part 4: MWEdit, MWSE, MSC, Mash, Notepad++](https://abitoftaste.altervista.org/morrowind/index.php?option=content&Itemid=10&task=view&id=54&-Morrowind-modding-for-smarties-part-4-MWEdit-MWSE-MSC-Mash-Notepad)
 - **Danae's Journal**, ["Good Modding Practice: Checking Mods"](https://danaeplays.thenet.sk/good-modding-practice/)
-- **Notes for Modmakers**, ["MWedit"](https://morrowind-nif.github.io/Notes_RU/mwedit.htm?ms=CiAAAAAAEAAAAAAAAAAAAAAAAAAAAAEQCBA%3D&st=MA%3D%3D&sct=MA%3D%3D&mw=NTEy) #Russian
+- **Notes for Modmakers**, ["MWedit"](https://morrowind-nif.github.io/Notes_RU/mwedit.htm?ms=CiAAAAAAEAAAAAAAAAAAAAAAAAAAAAEQCBA%3D&st=MA%3D%3D&sct=MA%3D%3D&mw=NTEy) #Language/Russian
 
 [^1]: [Morrowind is Home, "Morrowind modding for smarties, part 2: Morrowind specific tools", accessed September 9, 2024](https://abitoftaste.altervista.org/morrowind/index.php?option=content&Itemid=10&task=viewpost&id=51)

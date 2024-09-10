@@ -33,4 +33,4 @@ description: A utility for cleaning and exporting the contents of ESS, ESM and E
 
 ## External Links
 
-- **Fullrest**, [TES III: TES Construction Set, "Cleaning TES plugins"](https://www.fullrest.ru/forum/topic/41528-chistka-plaginov-tes/) - forum announcement thread for TES Parser #Russian
+- **Fullrest**, [TES III: TES Construction Set, "Cleaning TES plugins"](https://www.fullrest.ru/forum/topic/41528-chistka-plaginov-tes/) - forum announcement thread for TES Parser #Language/Russian

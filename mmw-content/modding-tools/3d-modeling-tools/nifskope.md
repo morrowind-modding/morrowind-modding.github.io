@@ -32,5 +32,6 @@ description: NifSkope is a tool by NifTools for opening and editing the NIF file
 
 ## External Links
 
+- **Project Tamriel Wiki**, ["Nifskope"](https://wiki.project-tamriel.com/wiki/Nifskope)
 - Hedgehog12, **Nexus Mods**, ["Nifskope 1.1.3 special build for MW meshes only"](https://www.nexusmods.com/morrowind/mods/54127)
-- **Notes for Modmakers**, [Chapter 4. Nifskope](https://morrowind-nif.github.io/Notes_EN/module_2_6.htm?ms=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA%3D%3D&st=MA%3D%3D&sct=MA%3D%3D&mw=NDAw) #Russian
+- **Notes for Modmakers**, [Chapter 4. Nifskope](https://morrowind-nif.github.io/Notes_EN/module_2_6.htm?ms=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA%3D%3D&st=MA%3D%3D&sct=MA%3D%3D&mw=NDAw) #Language/Russian

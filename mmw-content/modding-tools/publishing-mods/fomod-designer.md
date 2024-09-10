@@ -39,4 +39,4 @@ description: A tool for creating FOMOD Installers, developed by GandaG - no long
 
 - [Beermotor, "\[RELz\] Mertz's WizBAIN thread", AFK Mods, July 18, 2017](https://www.afkmods.com/index.php?/topic/4987-relz-mertzs-wizbain-thread/&do=findComment&comment=167500)
 - [bmw, "Re: \[PRE-REL\] For ALOT of scripts.", forum.openmw, August 17, 2022, 2.36 p.m.](https://forum.openmw.org/viewtopic.php?p=72797#p72797)
-- [liki, "FOMOD Designer", Tullius Channel, arca.live, March 22, 2022, 6.47 p.m.](https://arca.live/b/tullius/46798573) #Korean #NSFW
+- [liki, "FOMOD Designer", Tullius Channel, arca.live, March 22, 2022, 6.47 p.m.](https://arca.live/b/tullius/46798573) #Language/Korean #NSFW

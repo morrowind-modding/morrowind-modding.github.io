@@ -40,6 +40,6 @@ description: A tool for creating FOMOD Installers, recommended by Nexus Mods.
 
 - **Heavyset7491**, YouTube, ["How to create a FOMOD with Auto-Detect"](https://youtu.be/uBKZSpuhQAE?si=t8zLOz-UnpV1PmOb)
 - **Darkfox127**, YouTube, ["Creation Kit \(FOMOD Creation\)"](https://www.youtube.com/watch?v=rr79YmimJW0)
-- **yomox9**, note.com, ["How to use the FOMOD Creation Tool \(a tool to create FOMODs, the installer for Fallout 4\)"](https://note.com/yomox9/n/n817102e74b1e) #Japanese
+- **yomox9**, note.com, ["How to use the FOMOD Creation Tool \(a tool to create FOMODs, the installer for Fallout 4\)"](https://note.com/yomox9/n/n817102e74b1e) #Language/Japanese
 
 [^1]: [Nexus Mods, "How to create mod installers", accessed September 9, 2024](https://wiki.nexusmods.com/index.php/How_to_create_mod_installers)

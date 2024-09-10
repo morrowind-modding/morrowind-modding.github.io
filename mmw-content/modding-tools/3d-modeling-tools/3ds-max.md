@@ -35,6 +35,7 @@ Autodesk **3ds Max** is a professional 3D computer graphics program whose early 
 
 ## External Links
 
-- **Notes for Modmakers**, ["Chapter 8. 3DS MAX"](https://morrowind-nif.github.io/Notes_EN/module_2_10.htm?ms=EAAAAAAAAAAAAAAAAAAAAAAAAAAAADg%3D&st=MA%3D%3D&sct=MA%3D%3D&mw=MjU2) #Russian
+- **Project Tamriel Wiki**, ["3ds Max"](https://wiki.project-tamriel.com/wiki/3ds_Max)
+- **Notes for Modmakers**, ["Chapter 8. 3DS MAX"](https://morrowind-nif.github.io/Notes_EN/module_2_10.htm?ms=EAAAAAAAAAAAAAAAAAAAAAAAAAAAADg%3D&st=MA%3D%3D&sct=MA%3D%3D&mw=MjU2) #Language/Russian
 
 [^1]: [SymphonyTeam, "3DS MAX 3", Notes for Modmakers 3.3, 2022, accessed 27 August 2024](https://morrowind-nif.github.io/Notes_EN/module_2_10_1_1.htm?ms=QgAAAAAAAAAAAAAAAAAAAAAAAAAAABAg&st=MA%3D%3D&sct=MA%3D%3D&mw=MzIw)

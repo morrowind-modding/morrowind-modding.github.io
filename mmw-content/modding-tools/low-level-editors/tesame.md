@@ -39,5 +39,5 @@ description: A low-level editor for manually cleaning edits from TES3 plugins, a
 
 - **Project Tamriel Wiki** [TESAME](https://wiki.project-tamriel.com/wiki/TESAME).
 - **UESP**, ["Morrowind Mod:TESAME"](https://en.m.uesp.net/wiki/Morrowind_Mod:TESAME)
-- **Notes for Modmakers**, ["TES Advanced Mod Editor"](https://morrowind-nif.github.io/Notes_RU/tes_advanced_mod_editor.htm) #Russian
+- **Notes for Modmakers**, ["TES Advanced Mod Editor"](https://morrowind-nif.github.io/Notes_RU/tes_advanced_mod_editor.htm) #Language/Russian
 - **Tiarum.com**, ["Modding:TES Advanced Mod Editor (TESAME)"](https://web.archive.org/web/20180809031619/http://tiarum.com/wiki/Modding:TES_Advanced_Mod_Editor_(TESAME)) (Russian, web archive).
