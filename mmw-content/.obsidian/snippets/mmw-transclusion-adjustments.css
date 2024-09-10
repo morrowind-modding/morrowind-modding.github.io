@@ -14,7 +14,12 @@
     float: left;
     margin-right: 0.5em;
   }
+
+  .internal-embed[alt~=right].is-loaded:not(.image-embed), .internal-embed[alt~=right].is-loaded:not(.image-embed) {
+    clear: both;
+  }
   
+
   :not(.lp-embed-float) .is-live-preview .internal-embed:is([alt~=right], [alt~=left]) {
     float: unset;
   }
