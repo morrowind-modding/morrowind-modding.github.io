@@ -21,7 +21,7 @@ description: TES3View is a view-only implementation of xEdit for Morrowind, capa
 > > 
 > > ![[screenshot-of-tes3view-gui.webp|center]]
 > >  TES3view's interface
-> >  [Source](https://www.nexusmods.com/morrowind/mods/54508?tab=images)
+> >  [image source](https://www.nexusmods.com/morrowind/mods/54508?tab=images)
 > 
 > ### Table Heading
 > 

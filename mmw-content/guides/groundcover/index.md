@@ -10,9 +10,31 @@ tags:
   - Grass
 description: Creating and managing animated grass for MGE-XE and OpenMW
 ---
-## Creating and managing animated grass for MGE-XE and OpenMW
 
 ![[maintenance-underpopulated-category#^185a87|clean]]
+
+## Creating and managing animated grass for MGE-XE and OpenMW
+
+> [!infobox]
+> 
+> ## [[guides/groundcover/index|Groundcover]]
+> 
+> > [!caption|center wfull txt-s]
+> > 
+> > ![[screenshot-of-vurts-groundcover-gl.webp|center]]
+> > _[Vurt's Groundcover](https://www.nexusmods.com/morrowind/mods/31051)_, the most downloaded and endorsed Morrowind groundcover mod on _Nexus Mods_.
+> > [image source](https://staticdelivery.nexusmods.com/mods/100/images/31051-2-1320366552.jpg)
+> 
+> ### This article is part of a series on Groundcover
+> 
+> - [[modding-tools/generating-groundcover/index|Generating Groundcover]]
+> - [[the-lawnmower|The Lawnmower]]
+> - [[mesh-gen|MeshGen]]
+> - [[habasi|Habasi]]
+> - [[groundcoverify|Groundcoverify]]
+> - [[lawnmower-tutorial|Lawnmower Groundcover Tutorial]]
+
+^groundcover-navbox
 
 Both [[MGE-XE]] and [[OpenMW]] support animated, instanced grass called **groundcover**. 
 
@@ -22,17 +44,7 @@ Whilst each game engine differs in their exact handling of groundcover, the same
 
 ## To Do
 
-> [!maintenance] 
-> 
-> ![[picture-of-divayth-fyr.png|left wtiny]]
-> 
-> > [!maintenance|clean nbrd]
-> > 
-> > **"Say. That's an interesting Dwemer piece you have there. What can you tell me about it?**
-> > 
-> > It is requested that this article, or a section of this article, be expanded.
-
-^6fc39d
+![[maintenance-expand-article|clean]]
 
 - Contrary to popular belief, groundcover plugins can ESM files in both MGE-XE[^1] and OpenMW[^2], and other groundcover plugins can depend on and modify these masters just like regular plugins and master files.
 - Best documentation on how MGE-XE groundcover works ironically comes from OpenMW devs.[^3]

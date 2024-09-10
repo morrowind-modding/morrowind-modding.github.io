@@ -16,7 +16,7 @@ description:
 > 
 > ## ModOrganizer-to-OpenMW
 > 
-> %%![[insert image]]%%
+> %% insert image %%
 > 
 > ### Table Heading
 > 

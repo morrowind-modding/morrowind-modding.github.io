@@ -21,7 +21,7 @@ description: A Python library developed by NifTools, capable of batch processing
 > > 
 > > ![[niftools-logo.png|center]]
 > > The NifTools logo, used by **PyFFI**.
-> > [source](https://www.niftools.org/pyffi/)
+> > [image source](https://www.niftools.org/pyffi/)
 > 
 > ### Details
 > 

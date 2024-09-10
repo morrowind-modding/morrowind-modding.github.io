@@ -21,7 +21,7 @@ description: A tool for manipulating .kf animation files for Morrowind.
 > > 
 > > ![[liztails-animation-kit-logo.png|center]]
 > > The original **AnimKit** logo as seen on Liztail's now defunct website.
-> > [source](https://web.archive.org/web/20090503192618/http://www.liztail.com/projects.php)
+> > [image source](https://web.archive.org/web/20090503192618/http://www.liztail.com/projects.php)
 > 
 > ### Details
 > 

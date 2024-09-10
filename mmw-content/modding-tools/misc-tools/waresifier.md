@@ -16,7 +16,7 @@ description:
 > 
 > ## Waresifier
 > 
-> %%![[insert image]]%%
+> %% insert image %%
 > 
 > ### Table Heading
 > 

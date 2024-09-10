@@ -16,7 +16,7 @@ description:
 > 
 > ## Github
 > 
-> %%![[insert image]]%%
+> %% insert image %%
 > 
 > ### Table Heading
 > 

@@ -16,7 +16,7 @@ description:
 > 
 > ## MO2
 > 
-> %%![[insert image]]%%
+> %% insert image %%
 > 
 > ### Table Heading
 > 

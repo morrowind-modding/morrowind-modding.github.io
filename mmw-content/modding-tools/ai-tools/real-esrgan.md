@@ -23,7 +23,7 @@ description: A free, open-source image and video restoration tool, commonly used
 > > [!caption|center wfull txt-s]
 > > 
 > > ![[realesrgan_logo.png]]
-> > [source](https://github.com/xinntao/Real-ESRGAN/blob/master/assets/realesrgan_logo.png)
+> > [image source](https://github.com/xinntao/Real-ESRGAN/blob/master/assets/realesrgan_logo.png)
 > 
 > ### Details
 > 

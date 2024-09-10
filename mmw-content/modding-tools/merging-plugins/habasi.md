@@ -25,7 +25,7 @@ related articles:
 > > 
 > > ![[picture-of-habasi-from-uesp.webp|profile ws-med hs-med center]]
 > > Sugar-Lips Habasi, whom the tool is named after.
-> > [source](https://en.uesp.net/wiki/File:MW-npc-Sugar-Lips_Habasi.jpg))
+> > [image source](https://en.uesp.net/wiki/File:MW-npc-Sugar-Lips_Habasi.jpg)
 > 
 > ### Details
 > 
@@ -34,5 +34,7 @@ related articles:
 > | **Links** | [NexusMods](https://www.nexusmods.com/morrowind/mods/53002)<br>[Github](https://github.com/alvazir/habasi/) |
 > | **Requirements** | None |
 > | **License** | [GNU GPLv3](https://github.com/alvazir/habasi/blob/master/LICENSE) |
+
+![[guides/groundcover/index#^groundcover-navbox|clean right]]
 
 **Habasi** is a [[modding-tools/command-line-tools/index|command-line tool]] for [[modding-tools/merging-plugins/index|merging plugins]], featuring the ability to merge one's entire load order into a single plugin, and optionally turn static grass references into groundcover for OpenMW and MGE-XE.

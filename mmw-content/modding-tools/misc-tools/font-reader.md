@@ -15,7 +15,7 @@ description:
 > 
 > ## FontReader
 > 
-> %%![[insert image]]%%
+> %% insert image %%
 > 
 > ### Table Heading
 > 

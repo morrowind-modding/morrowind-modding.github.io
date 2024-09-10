@@ -16,7 +16,7 @@ description:
 > 
 > ## Gitlab
 > 
-> %%![[insert image]]%%
+> %% insert image %%
 > 
 > ### Table Heading
 > 

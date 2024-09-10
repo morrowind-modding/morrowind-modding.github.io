@@ -16,7 +16,7 @@ description:
 > 
 > ## Plox
 > 
-> %%![[insert image]]%%
+> %% insert image %%
 > 
 > ### Table Heading
 > 

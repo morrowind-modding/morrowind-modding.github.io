@@ -15,7 +15,7 @@ description:
 > 
 > ## Gimp
 > 
-> %%![[insert image]]%%
+> %% insert image %%
 > 
 > ### Table Heading
 > 

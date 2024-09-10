@@ -15,7 +15,7 @@ description: An object merging utility for patching mod conflicts for Morrowind,
 > 
 > ![[tes3merge-logo-wide.webp|sban]]
 > TES3Merge banner image from Nexus Mods.
-> [source](https://staticdelivery.nexusmods.com/mods/100/images/headers/46870_1688167570.jpg)
+> [image source](https://staticdelivery.nexusmods.com/mods/100/images/headers/46870_1688167570.jpg)
 
 ![[maintenance-expand-article#^6fc39d|clean]]
 
@@ -29,7 +29,7 @@ description: An object merging utility for patching mod conflicts for Morrowind,
 > > 
 > > ![[tes3merge-logo-by-markel.png|center]]
 > > **TES3Merge** logo designed by Markel.
-> > [source](https://raw.githubusercontent.com/NullCascade/TES3Merge/master/tes3merge_icon_by_markel.png)
+> > [image source](https://raw.githubusercontent.com/NullCascade/TES3Merge/master/tes3merge_icon_by_markel.png)
 > 
 > ### Details
 > 

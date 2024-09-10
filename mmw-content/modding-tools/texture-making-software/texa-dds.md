@@ -13,7 +13,7 @@ description:
 > 
 > ## TexA-DDS
 > 
-> %%![[insert image]]%%
+> %% insert image %%
 > 
 > ### Table Heading
 > 

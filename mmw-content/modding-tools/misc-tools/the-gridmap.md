@@ -13,7 +13,7 @@ description:
 > 
 > ## Article Title
 > 
-> %%![[insert image]]%%
+> %% insert image %%
 > 
 > ### Table Heading
 > 

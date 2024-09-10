@@ -21,7 +21,7 @@ description: A simple utility for checking FOMOD Installers for errors, featurin
 > > 
 > > ![[screenshot-of-fomod-validator-gui.webp|center]]
 > > 
-> > [source](https://staticdelivery.nexusmods.com/mods/110/images/75140/75140-1547074072-170806633.png)
+> > [image source](https://staticdelivery.nexusmods.com/mods/110/images/75140/75140-1547074072-170806633.png)
 > 
 > ### Details
 > 
@@ -30,6 +30,8 @@ description: A simple utility for checking FOMOD Installers for errors, featurin
 > | **Links** | [Nexus Mods](https://www.nexusmods.com/skyrim/mods/75140)<br>[Github](https://github.com/GandaG/fomod-validator)<br> |
 > | **Requirements** | none |
 > | **Author** | [GandaG](https://github.com/GandaG) |
+
+![[fomod-installers#^fomod-installers-navbox|clean right]]
 
 **FOMOD Validator** is a simple utility for checking [[fomod-installers|FOMOD Installers]] for errors, and features an experimental 'fix' option for fixing the most serious errors.
 

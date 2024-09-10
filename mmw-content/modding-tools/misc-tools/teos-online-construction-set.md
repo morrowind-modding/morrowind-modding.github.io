@@ -13,7 +13,7 @@ description:
 > 
 > ## Teo's Online Construction Set
 > 
-> %%![[insert image]]%%
+> %% insert image %%
 > 
 > ### Table Heading
 > 

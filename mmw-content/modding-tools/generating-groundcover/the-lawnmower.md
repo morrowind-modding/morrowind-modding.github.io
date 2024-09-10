@@ -26,7 +26,11 @@ related articles:
 > 
 > ## The Lawnmower
 > 
-> ![[lawnmower-for-morrowind-logo.webp]]
+> > [!caption|center wfull txt-s]
+> > 
+> > ![[lawnmower-for-morrowind-logo.webp|center]]
+> > 
+> > [image source](https://staticdelivery.nexusmods.com/mods/100/images/headers/53034_1686132090.jpg)
 > 
 > ### Details
 > 
@@ -34,6 +38,9 @@ related articles:
 > | --- | --- |
 > | **Links** | - [NexusMods](https://www.nexusmods.com/morrowind/mods/53034)<br>- [Github](https://github.com/acidzebra/lawnmower) |
 > | **Requirements** | - [Python 3.5+](https://www.python.org/downloads/)<br>- [[tes3conv\|Tes3conv]] |
+> | **Author** | [acidzebra](https://www.nexusmods.com/morrowind/users/5210688) |
+
+![[guides/groundcover/index#^groundcover-navbox|clean right]]
 
 **The Lawnmower** is a tool for cleaning [[guides/groundcover/index|groundcover]] mods of excess grass using Python scripts and Tes3conv.
 

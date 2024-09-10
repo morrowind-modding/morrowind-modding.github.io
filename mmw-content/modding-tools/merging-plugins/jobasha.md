@@ -23,7 +23,7 @@ description: A command-line-tool for merging leveled lists, comparing leveled li
 > > 
 > > ![[screenshot-of-morrowind-npc-jobasha.jpg|profile ws-med hs-med center]]
 > > Jobasha, whom the tool takes its name from.
-> > [source](https://en.m.uesp.net/wiki/File:MW-npc-Jobasha.jpg)
+> > [image source](https://en.m.uesp.net/wiki/File:MW-npc-Jobasha.jpg)
 > 
 > ### Details
 > 

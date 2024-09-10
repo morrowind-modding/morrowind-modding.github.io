@@ -15,7 +15,7 @@ description:
 > 
 > ## Kezyma's Map Builder
 > 
-> %%![[insert image]]%%
+> %% insert image %%
 > 
 > ### Table Heading
 > 

@@ -16,7 +16,7 @@ description:
 > 
 > ## Morrowind Texture Atlas Creator
 > 
-> %%![[insert image]]%%
+> %% insert image %%
 > 
 > ### Table Heading
 > 

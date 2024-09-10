@@ -17,7 +17,7 @@ description:
 > 
 > ## The Elder Scrolls Name Generator
 > 
-> %%![[insert image]]%%
+> %% insert image %%
 > 
 > ### Table Heading
 > 

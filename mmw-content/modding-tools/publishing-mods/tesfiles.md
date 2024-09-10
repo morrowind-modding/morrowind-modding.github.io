@@ -1,7 +1,9 @@
 ---
 title: TESFiles
-aliases: TESFiles
-tags: 
+aliases:
+  - TESFiles
+tags:
+  - TESFiles
 description:
 ---
 

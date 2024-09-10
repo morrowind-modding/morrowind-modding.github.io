@@ -1,8 +1,11 @@
 ---
 title: ModPackager
-aliases: ModPackager
-tags: 
-description:
+aliases:
+  - ModPackager
+tags:
+  - ModPackager
+  - Publishing-Mods
+description: A simple utility by Greatness7 for packaging together all assets of a plugin, ready for sharing or publishing.
 ---
 
 ![[maintenance-expand-article#^6fc39d|clean]]
@@ -13,14 +16,21 @@ description:
 > 
 > ## ModPackager
 > 
-> %%![[insert image]]%%
+> > [!caption|center wfull txt-s]
+> > 
+> > ![[greatness7-morrowind-modpackager-logo.png|center]]
+> > The **ModPackager** executable icon.
+> > source: `ModPackager.exe`
 > 
 > ### Table Heading
 > 
 > | Type | Name |
 > | --- | --- |
-> | Row | Row |
-> | Row | Row |
+> | **Links** | [MMC Discord](https://discord.com/channels/210394599246659585/766432467162497065/1251709054380675073) |
+> | **Requirements** | none |
+> | **Author** | [Greatness7](https://github.com/Greatness7) |
+
+**ModPackager** is a simple utility by Greatness7 for packaging together all assets of a plugin, ready for sharing or [[guides/publishing-mods/index|publishing]].
 
 ## External Links
 

@@ -22,7 +22,11 @@ related articles:
 > 
 > ## Lawnmower Groundcover Tutorial
 > 
-> ![[lawnmower-for-morrowind-logo.webp|center]]
+> > [!caption|center wfull txt-s]
+> > 
+> > ![[lawnmower-for-morrowind-logo.webp|center]]
+> > 
+> > [image source](https://staticdelivery.nexusmods.com/mods/100/images/headers/53034_1686132090.jpg)
 > 
 > ### Tutorial Info
 > 
@@ -30,6 +34,8 @@ related articles:
 > | --- | --- |
 > | **Requirements** | - [[the-lawnmower\|The Lawnmower]]<br>- [[tes3conv\|Tes3conv]]<br>- [Python 3.5+](https://www.python.org/)<br>- [[tes3cmd\|Tes3cmd]] (optional)<br>- [[testool\|TESTool]] (optional) |
 > | **Tutorial Files** | Any groundcover plugin you like that has not already had Lawnmower ran on it (the mod description will likely state whether this is the case) |
+
+![[guides/groundcover/index#^groundcover-navbox|clean right]]
 
 This tutorial covers how to use [[the-lawnmower|The Lawnmower]] tool to clean [[guides/groundcover/index|groundcover]] mods of excess grass - specifically, grass which clips through or is hidden under other objects.
 

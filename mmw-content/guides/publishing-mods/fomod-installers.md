@@ -10,5 +10,22 @@ tags:
 description:
 ---
 
-%% Populate the tags in Properties %%
-%% Description property adds a description to this article when it appears in another index's listings. Description should be concise and catchy %%
+> [!infobox]
+> 
+> ## [[fomod-installers|FOMOD Installers]]
+> 
+> > [!caption|center wfull txt-s]
+> > 
+> > %% insert image %%
+> > 
+> > 
+> 
+> ### This article is part of a series on FOMOD Installers
+> 
+> - [[fomod-installer-format|FOMOD File Format]]
+> - [[fomod-builder|FOMOD Builder]]
+> - [[fomod-creation-tool|FOMOD Creation Tool]]
+> - [[fomod-designer|FOMOD Designer]]
+> - [[fomod-validator|FOMOD Validator]]
+
+^fomod-installers-navbox

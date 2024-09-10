@@ -23,7 +23,7 @@ description: A batch processing tool for modifying NIF files for Morrowind and o
 > > 
 > > ![[screenshot-of-sniff-nif-helper-tool.webp|center]]
 > > 
-> > [source](https://staticdelivery.nexusmods.com/mods/130/images/67829/67829-1680446476-550381889.png)
+> > [image source](https://staticdelivery.nexusmods.com/mods/130/images/67829/67829-1680446476-550381889.png)
 > 
 > ### Details
 > 

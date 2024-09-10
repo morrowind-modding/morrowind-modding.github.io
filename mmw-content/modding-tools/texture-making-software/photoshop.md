@@ -16,7 +16,7 @@ description:
 > 
 > ## Photoshop
 > 
-> %%![[insert image]]%%
+> %% insert image %%
 > 
 > ### Table Heading
 > 

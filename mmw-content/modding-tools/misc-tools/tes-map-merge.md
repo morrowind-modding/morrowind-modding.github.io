@@ -15,7 +15,7 @@ description:
 > 
 > ## TES Map Merge
 > 
-> %%![[insert image]]%%
+> %% insert image %%
 > 
 > ### Table Heading
 > 

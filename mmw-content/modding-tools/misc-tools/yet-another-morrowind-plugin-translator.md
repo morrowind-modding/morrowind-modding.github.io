@@ -13,7 +13,7 @@ description:
 > 
 > ## Yet Another Morrowind Plugin Translator
 > 
-> %%![[insert image]]%%
+> %% insert image %%
 > 
 > ### Table Heading
 > 

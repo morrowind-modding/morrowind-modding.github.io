@@ -16,7 +16,7 @@ description:
 > 
 > ## Live Book Editing
 > 
-> %%![[insert image]]%%
+> %% insert image %%
 > 
 > ### Table Heading
 > 

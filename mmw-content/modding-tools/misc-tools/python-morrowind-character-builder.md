@@ -13,7 +13,7 @@ description:
 > 
 > ## Python Morrowind Character Builder
 > 
-> %%![[insert image]]%%
+> %% insert image %%
 > 
 > ### Table Heading
 > 

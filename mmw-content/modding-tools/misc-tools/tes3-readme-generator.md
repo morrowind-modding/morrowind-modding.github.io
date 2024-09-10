@@ -15,7 +15,7 @@ description:
 > 
 > ## TES3 Readme Generator
 > 
-> %%![[insert image]]%%
+> %% insert image %%
 > 
 > ### Table Heading
 > 

@@ -23,7 +23,7 @@ description: A low-level editor for manually cleaning edits from TES3 plugins, a
 > > 
 > > ![[screenshot-of-tesame-gui.webp|center]]
 > > Screenshot of TESAME analysing Bethesda's official _Area Effect Arrows_ plugin.
-> > [source](https://staticdelivery.nexusmods.com/mods/100/images/50810/50810-1645632971-1207342170.jpeg)
+> > [image source](https://staticdelivery.nexusmods.com/mods/100/images/50810/50810-1645632971-1207342170.jpeg)
 > 
 > ### Details
 > 

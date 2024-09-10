@@ -15,7 +15,7 @@ description:
 > 
 > ## LOOT
 > 
-> %%![[insert image]]%%
+> %% insert image %%
 > 
 > ### Table Heading
 > 

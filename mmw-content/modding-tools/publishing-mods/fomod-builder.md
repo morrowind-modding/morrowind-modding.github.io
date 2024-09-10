@@ -6,6 +6,7 @@ tags:
   - FOMOD
   - Mod-managers
   - Publishing-Mods
+  - FOMOD-Builder
 description: A browser-based visual editor for creating FOMOD installers
 ---
 
@@ -29,5 +30,7 @@ description: A browser-based visual editor for creating FOMOD installers
 > | **Links** | [FOMOD Builder](https://fomod.bellcube.dev/)<br>[Github](https://github.com/BellCubeDev/fomod-builder) |
 > | **Requirements** | none |
 > | **Author** | [BellCubeDev](https://github.com/BellCubeDev) |
+
+![[fomod-installers#^fomod-installers-navbox|clean right]]
 
 **FOMOD Builder** is a browser-based visual editor for creating [[fomod-installers|FOMOD Installers]] by BellCubeDev. 

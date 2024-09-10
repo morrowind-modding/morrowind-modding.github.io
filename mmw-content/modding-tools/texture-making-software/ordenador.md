@@ -15,7 +15,7 @@ description:
 > 
 > ## Ordenador
 > 
-> %%![[insert image]]%%
+> %% insert image %%
 > 
 > ### Table Heading
 > 

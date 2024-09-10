@@ -26,7 +26,7 @@ description: A multi-purpose command-Line tool tool, capable of merging objects 
 > > 
 > > ![[deltaplugin-greek-letter-logo.png|center]]
 > > DeltaPlugin's logo - the Greek letter 'delta'.
-> > [source](https://gitlab.com/uploads/-/system/project/avatar/18372672/Greek_lc_delta.png)
+> > [image source](https://gitlab.com/uploads/-/system/project/avatar/18372672/Greek_lc_delta.png)
 > 
 > ### Details
 > 

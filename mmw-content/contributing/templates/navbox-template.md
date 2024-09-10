@@ -1,6 +1,6 @@
-> [!infobox|n-th]
+> [!infobox]
 > 
-> ## %% Article Title %%
+> ## %% link to main article %%
 > 
 > > [!caption|center wfull txt-s]
 > > 
@@ -8,9 +8,6 @@
 > > %% caption text %%
 > > %% image source (if applicable) %%
 > 
-> ### Details
+> ### This article is part of a series on %% title %%
 > 
-> | Type | Name |
-> | --- | --- |
-> | Row | Row |
-> | Row | Row |
+> - % list articles %

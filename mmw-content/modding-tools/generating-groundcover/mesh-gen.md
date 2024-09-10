@@ -26,6 +26,8 @@ description: A program to automatically place meshes over the Morrowind landscap
 > | **Author** | Yacoby |
 > | **Current Version** | 0.5.3 |
 
+![[guides/groundcover/index#^groundcover-navbox|clean right]]
+
 ## About
 
 **Morrowind Groundcover Generator**, also known as Mesh Generator or <abbr title="Mesh Generator">Mesh-Gen</abbr>, is a program for generating randomly placed objects in [exterior cells](https://tes3cs.pages.dev/building-and-editing/world/exterior-cell).

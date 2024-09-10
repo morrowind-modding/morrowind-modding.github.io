@@ -19,7 +19,7 @@ description: A multi-purpose command-line-tool with a GUI overlay primarily used
 > > [!caption|center wfull txt-s]
 > > 
 > > ![[smartmerger-gui-data-files-demo.gif|center]]
-> > [source](https://web.archive.org/web/20131110023219im_/http://rtcvb32.herobo.com/MW_SmartMerger_Docs/use_selected.gif)
+> > [image source](https://web.archive.org/web/20131110023219im_/http://rtcvb32.herobo.com/MW_SmartMerger_Docs/use_selected.gif)
 > 
 > ### Table Heading
 > 

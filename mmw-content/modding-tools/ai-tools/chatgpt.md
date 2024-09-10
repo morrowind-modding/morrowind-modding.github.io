@@ -19,7 +19,7 @@ description: An LLM virtual assistant and chatbot developed by OpenAI.
 > 
 > ## ChatGPT
 > 
-> %%![[insert image]]%%
+> %% insert image %%
 > 
 > ### Details
 > 

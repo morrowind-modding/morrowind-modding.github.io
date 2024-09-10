@@ -6,6 +6,7 @@ tags:
   - MO2
   - FOMOD
   - Mod-managers
+  - FOMOD-Creation-Tool
 description: A tool for creating FOMOD Installers, recommended by Nexus Mods.
 ---
 
@@ -21,7 +22,7 @@ description: A tool for creating FOMOD Installers, recommended by Nexus Mods.
 > > 
 > > ![[fomod-creation-tool-logo.webp|center]]
 > > The logo of **FOMOD Creation Tool** as displayed on its _Nexus Mods_ page.
-> > [source](https://staticdelivery.nexusmods.com/mods/1151/images/6821-0-1453893047.jpg)
+> > [image source](https://staticdelivery.nexusmods.com/mods/1151/images/6821-0-1453893047.jpg)
 > 
 > ### Details
 > 
@@ -30,6 +31,8 @@ description: A tool for creating FOMOD Installers, recommended by Nexus Mods.
 > | **Links** | [Nexus Mods](https://www.nexusmods.com/fallout4/mods/6821)<br>[Documentation](https://www.nexusmods.com/fallout4/mods/6821?tab=docs) |
 > | **Requirements** | none |
 > | **Author** | [Wenderer](https://www.nexusmods.com/fallout4/users/10324035) |
+
+![[fomod-installers#^fomod-installers-navbox|clean right]]
 
 **FOMOD Creation Tool** is a tool for creating [[fomod-installers|FOMOD Installers]], and holds the distinction of being recommended by _Nexus Mods_ for the task.[^1]
 

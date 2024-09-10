@@ -15,7 +15,7 @@ description:
 > 
 > ## Northmarker Calculator
 > 
-> %%![[insert image]]%%
+> %% insert image %%
 > 
 > ### Table Heading
 > 

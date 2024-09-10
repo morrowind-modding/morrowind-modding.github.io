@@ -21,7 +21,7 @@ description: A tool for creating FOMOD Installers, developed by GandaG - no long
 > > 
 > > ![[screenshot-of-fomod-designer-gui.webp|center]]
 > > 
-> > [source](https://arca.live/b/tullius/46798573)
+> > [image source](https://arca.live/b/tullius/46798573)
 > 
 > ### Details
 > 
@@ -30,6 +30,8 @@ description: A tool for creating FOMOD Installers, developed by GandaG - no long
 > | **Links** | [Github](https://github.com/GandaG/fomod-designer)<br>[Documentation](https://fomod-designer.readthedocs.io/en/stable/#) |
 > | **Requirements** | none |
 > | **Author** | [GandaG](https://github.com/GandaG) |
+
+![[fomod-installers#^fomod-installers-navbox|clean right]]
 
 **FOMOD Designer** is a tool for creating [[fomod-installers|FOMOD Installers]], developed by GandaG; it is no longer maintained.
 

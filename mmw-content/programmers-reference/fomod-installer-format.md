@@ -31,6 +31,8 @@ description: FOMOD is a game-agnostic file format for installing mods, commonly 
 > | **Requirements** | none |
 > | **Author** | Original author unknown, now maintained by [GandaG](https://github.com/GandaG) |
 
+![[fomod-installers#^fomod-installers-navbox|clean right]]
+
 **FOMOD** is a game-agnostic file format for installing mods, commonly used for Bethesda games including _Morrowind_.
 
 ## External Links

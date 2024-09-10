@@ -15,7 +15,7 @@ description:
 > 
 > ## git
 > 
-> %%![[insert image]]%%
+> %% insert image %%
 > 
 > ### Table Heading
 > 

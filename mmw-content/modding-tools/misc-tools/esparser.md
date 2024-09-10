@@ -20,7 +20,7 @@ description: A tool for proofreading Morrowind dialogue for spelling, conversati
 > > 
 > > ![[screenshot-of-esparser-app-gui.jpg|center]]
 > > 
-> > [source](https://static2.max99x.com/morrowind/esparser.jpg)
+> > [image source](https://static2.max99x.com/morrowind/esparser.jpg)
 > 
 > ### Details
 > 

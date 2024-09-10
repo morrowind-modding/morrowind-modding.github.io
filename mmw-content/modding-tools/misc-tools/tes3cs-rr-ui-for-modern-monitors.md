@@ -17,7 +17,7 @@ description:
 > 
 > ## RR UI for Modern Monitors
 > 
-> %%![[insert image]]%%
+> %% insert image %%
 > 
 > ### Table Heading
 > 

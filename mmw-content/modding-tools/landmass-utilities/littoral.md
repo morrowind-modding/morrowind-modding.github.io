@@ -20,7 +20,7 @@ description: A tool which allows the creation of a 52x52 cell landmass, with opt
 > > 
 > > ![[screenshot-of-morrowind-littoral-gui.png|center]]
 > > **Littoral's** <abbr title="graphical user interface">GUI</abbr> allows users to control landscape height, textures and object placement.
-> > [source](https://web.archive.org/web/20161103164954/http://mw.modhistory.com/content/screenshots/1eeb43d1c89f4f9d.gif)
+> > [image source](https://web.archive.org/web/20161103164954/http://mw.modhistory.com/content/screenshots/1eeb43d1c89f4f9d.gif)
 > 
 > ### Details
 > 

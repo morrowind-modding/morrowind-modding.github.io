@@ -16,7 +16,7 @@ description:
 > 
 > ## Wrye Mash
 > 
-> %%![[insert image]]%%
+> %% insert image %%
 > 
 > ### Table Heading
 > 
