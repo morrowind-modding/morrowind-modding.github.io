@@ -258,7 +258,7 @@ Obsidian and Quartz support ordered lists styled with Arabic numerals (1, 2, 3).
 
 Use `---` to define a page break.
 
-Page breaks should only be added at the end of an \#\# H2 heading section, not after \#\#\# H3 or more subheading sections.
+Page breaks should only be added at the end of an `##` H2 heading section, not after `###` H3 or more subheading sections.
 
 > [!example]-
 > 

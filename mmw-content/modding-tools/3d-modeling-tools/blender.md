@@ -33,5 +33,7 @@ description: A free 3D modeling program commonly used for Morrowind modding
 
 ## External Links
 
+- **Project Tamriel Wiki**, ["Blender"](https://wiki.project-tamriel.com/wiki/Blender)
+- **Notes for Modmakers**, ["Blender"](https://morrowind-nif.github.io/Notes_RU/blender.htm?ms=RQAAAAAAAAAAAAAAAAAAAAAAAAAAACACQA%3D%3D&st=MA%3D%3D&sct=MA%3D%3D&mw=NTEy) #Language/Russian 
 - Mack Of Trades69 1982, **Nexus Mods**, ["Morrowind Race Making Tutorial"](https://www.nexusmods.com/morrowind/mods/47511), ["Morrowind Creature Making Tutorial"](https://www.nexusmods.com/morrowind/mods/47736)
 - Arcimaestro Antares, **Nexus Mods**, [Morrowind Animations with Blender tutorial](https://www.nexusmods.com/morrowind/mods/44187)

@@ -15,8 +15,9 @@ description: A program to automatically place meshes over the Morrowind landscap
 > ## Mesh Generator
 > 
 > > [!caption|center txt-s banner]
+> > 
 > > ![[screenshot-of-morrowind-groundcover-generator.png|"screenshot of Mesh Generator for Morrowind"]]
-> > Morrowind Groundcover Generator v0.5.3
+> > Part of the new UI introduced from **Morrowind Groundcover Generator** v0.2.
 > 
 > ### Info
 > 

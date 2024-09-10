@@ -294,8 +294,8 @@ or
 
     [SIZE !### A.esp]
 
-Where ### is the size of the file in bytes.
-(!### means that the filesize does not match the given number).
+Where `###` is the size of the file in bytes.
+(`!###` means that the filesize does not match the given number).
 
 The function must all be on one line.
 
