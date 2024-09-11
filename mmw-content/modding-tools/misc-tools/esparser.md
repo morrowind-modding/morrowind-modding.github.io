@@ -34,4 +34,5 @@ description: A tool for proofreading Morrowind dialogue for spelling, conversati
 
 ## External Links
 
-**Morrowind is Home**, ["Morrowind modding tools"](https://abitoftaste.altervista.org/morrowind/index.php?option=weblinks&catid=53&Itemid=2&-Morrowind-modding-tools)
+- **Morrowind is Home**, ["Morrowind modding tools"](https://abitoftaste.altervista.org/morrowind/index.php?option=weblinks&catid=53&Itemid=2&-Morrowind-modding-tools)
+- **Notes for Modmakers**, ["Short notes about some utilities"](https://morrowind-nif.github.io/Notes_RU/short_notes_about_some_utilities.htm?ms=CyAAAAAAEAAAAAAAAAAAAAAAAAAAAEABEAgY&st=MA%3D%3D&sct=MA%3D%3D&mw=MzIw) #Language/Russian 

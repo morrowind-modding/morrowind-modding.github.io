@@ -32,7 +32,7 @@ description: A utility for converting all Leveled Lists in a plugin to potential
 
 **Abot's Deleveler** is a utility for converting all [[guides/leveled-lists/index|Leveled Lists]] in a plugin to potentially spawn at level 1 - so called 'deleveling' - through the use of [[tes3cmd|Tes3cmd]] BAT and Perl scripts.
 
-The deleveling functionality has been adopted at least one other tool, [[habasi|Habasi]], and as an MWSE mod with Operator Jack's Deleveler.[^2] The utility's usefulness is primarily to players who wish to increase the difficulty of Morrowind gameplay. However, one could use it as an auxiliary tool in the process of creating [[guides/patches/index|patches]] or reworks of existing mods.
+The deleveling functionality has been adopted by at least one other tool, [[habasi|Habasi]], and as an MWSE mod with Operator Jack's Deleveler.[^2] The utility's usefulness is primarily to players who wish to increase the difficulty of Morrowind gameplay. However, one could use it as an auxiliary tool in the process of creating [[guides/patches/index|patches]] or reworks of existing mods.
 
 ## Usage
 

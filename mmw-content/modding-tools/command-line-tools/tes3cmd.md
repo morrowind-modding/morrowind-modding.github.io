@@ -35,3 +35,4 @@ description: A command-line tool for analysing, modifying and cleaning TES3 plug
 ## External Links
 
 - **Danae's Journal**, ["Good Modding Practice: Checking Mods"](https://danaeplays.thenet.sk/good-modding-practice/)
+- **Notes for Modmakers**, ["Tes3cmd"](https://morrowind-nif.github.io/Notes_RU/tes3cmd.htm?ms=CyAAAAAAEAAAAAAAABAAAAAAAAAAAEABEAgYQA%3D%3D&st=MA%3D%3D&sct=MA%3D%3D&mw=MzIw) #Language/Russian 

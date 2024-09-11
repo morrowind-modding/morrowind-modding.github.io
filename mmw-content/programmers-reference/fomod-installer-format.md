@@ -39,4 +39,4 @@ description: FOMOD is a game-agnostic file format for installing mods, commonly 
 
 - https://docs.fileformat.com/game/fomod/
 - https://github.com/GandaG/fomod-docs
-- https://wiki.nexusmods.com/index.php/How_to_create_mod_installers#What_do_I_need_to_know_to_make_a_mod_installer_for_my_mod?
+- https://wiki.nexusmods.com/index.php/How_to_create_mod_installers#What_do_I_need_to_know_to_make_a_mod_installer_for_my_mod
