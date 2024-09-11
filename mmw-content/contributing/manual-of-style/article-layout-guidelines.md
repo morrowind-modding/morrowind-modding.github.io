@@ -1,6 +1,6 @@
 ---
 tags:
-  - Manual-of-Style
+  - Wiki/Manual-of-Style
   - MMW-Development
 description: Guidelines for structuring wiki articles - Part of the Morrowind Modding Wiki Manual of Style
 title: Article Layout Guidelines

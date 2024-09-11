@@ -1,6 +1,6 @@
 ---
 tags:
-  - Manual-of-Style
+  - Wiki/Manual-of-Style
   - MMW-Development
 description: Guidelines for formatting Markdown text - Part of the Morrowind Modding Wiki Manual of Style
 title: Formatting Guidelines

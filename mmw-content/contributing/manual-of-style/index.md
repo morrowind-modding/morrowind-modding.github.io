@@ -3,7 +3,7 @@ title: Manual of Style - 36 Sermons of MMW
 aliases:
   - Manual of Style - 36 Sermons of MMW
 tags:
-  - Manual-of-Style
+  - Wiki/Manual-of-Style
 description: Morrowind Modding Wiki Manual of Style for how to write and edit articles
 ---
 > [!infobox]

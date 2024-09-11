@@ -1,7 +1,7 @@
 ---
 tags:
   - Policy
-  - Manual-of-Style
+  - Wiki/Manual-of-Style
 description: A list of inline cleanup tags, used to mark sections of article requiring editorial attention.
 title: Inline Cleanup Labels
 aliases:

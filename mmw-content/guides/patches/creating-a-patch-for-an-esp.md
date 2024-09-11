@@ -1,7 +1,7 @@
 ---
 description: In-depth guidelines on creating patches for ESP files
 tags:
-  - Guides
+  - Guide
   - Patches
   - Construction-Set
 title: Creating a Patch for an ESP

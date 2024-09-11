@@ -1,7 +1,7 @@
 ---
 tags:
   - Dialogue
-  - Tutorials
+  - Tutorial
   - Quest-Design
   - Construction-Set
   - MWScript

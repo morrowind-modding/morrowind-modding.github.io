@@ -3,7 +3,7 @@ tags:
   - mlox
   - Load-order
   - Conflicts
-  - Guides
+  - Guide
 description: Guidelines for Editors of the mlox rule-base
 title: Mlox Rule Guidelines
 aliases:

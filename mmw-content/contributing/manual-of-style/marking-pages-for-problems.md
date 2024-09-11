@@ -1,6 +1,6 @@
 ---
 tags:
-  - Manual-of-Style
+  - Wiki/Manual-of-Style
   - Policy
 description: Guidelines for editors on how to constructively mark pages for problems which require attention
 title: Marking Pages for Problems

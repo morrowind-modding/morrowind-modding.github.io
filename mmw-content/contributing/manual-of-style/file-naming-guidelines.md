@@ -3,7 +3,7 @@ title: File Naming Guidelines
 aliases:
   - File Naming Guidelines
 tags:
-  - Manual-of-Style
+  - Wiki/Manual-of-Style
 description: Guidelines on how to format filenames for the wiki.
 ---
 ## About

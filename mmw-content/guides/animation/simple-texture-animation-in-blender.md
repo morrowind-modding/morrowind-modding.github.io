@@ -3,7 +3,7 @@ description: Make a texture orbit around a sphere in this short Blender tutorial
 tags:
   - Blender
   - Modeling
-  - Tutorials
+  - Tutorial
 title: Simple Texture Animation in Blender
 aliases:
   - Simple Texture Animation in Blender

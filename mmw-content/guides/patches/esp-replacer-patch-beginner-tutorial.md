@@ -1,7 +1,7 @@
 ---
 description: Three tutorials of increasing difficulty on creating ESP Replacers
 tags:
-  - Tutorials
+  - Tutorial
   - Patches
   - Construction-Set
   - CSSE

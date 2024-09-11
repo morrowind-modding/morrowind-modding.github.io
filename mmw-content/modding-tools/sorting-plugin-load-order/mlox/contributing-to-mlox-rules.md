@@ -2,7 +2,7 @@
 tags:
   - mlox
   - Github
-  - Guides
+  - Guide
 description: Guidelines and tips on contributing to the rule-base of mlox
 title: Contributing to Mlox Rules
 aliases:

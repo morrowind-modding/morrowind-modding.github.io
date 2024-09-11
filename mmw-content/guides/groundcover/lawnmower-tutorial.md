@@ -6,7 +6,7 @@ aliases:
 tags:
   - Groundcover
   - Lawnmower
-  - Tutorials
+  - Tutorial
   - Grass
   - Cleaning-Mods
   - Python

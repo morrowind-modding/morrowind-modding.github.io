@@ -8,7 +8,7 @@ tags:
   - Exteriors
   - CSSE
   - Construction-Set
-  - Tutorials
+  - Tutorial
 title: Morrowind Interiors Project
 aliases:
   - Morrowind Interiors Project

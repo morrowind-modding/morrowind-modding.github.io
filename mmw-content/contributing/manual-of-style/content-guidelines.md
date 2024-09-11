@@ -1,6 +1,6 @@
 ---
 tags:
-  - Manual-of-Style
+  - Wiki/Manual-of-Style
   - MMW-Development
 description: Guidelines for wiki content - Part of the Morrowind Modding Wiki Manual of Style
 title: Content Guidelines
