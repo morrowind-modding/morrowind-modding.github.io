@@ -22,6 +22,7 @@ import Breadcrumbs from "./Breadcrumbs"
 import Comments from "./Comments"
 
 import LinksHeader from "./LinksHeader"
+import TableOfContents2 from "./TableOfContents2"
 
 export {
   ArticleTitle,
@@ -47,4 +48,6 @@ export {
   Breadcrumbs,
   LinksHeader,
   Comments,
+
+  TableOfContents2,
 }
