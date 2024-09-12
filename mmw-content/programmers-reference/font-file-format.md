@@ -13,6 +13,9 @@ description: A technical overview of the file format used for Morrowind fonts.
 
 A technical overview of the file format used for _Morrowind_ fonts.
 
+**Related Articles**:
+- [[make-mw-fonts|MakeMWFonts]]
+
 ## External Links
 
 - **Kamafi**, FullRest, ["Lesson: How to easily make your own font (for a game and for a computer in general)"](https://www.fullrest.ru/blogs/font_tutorial) - Describes how to create fonts for _Morrowind_ and _Oblivion_, with discussion on the relevant file formats. #Language/Russian 
