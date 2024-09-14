@@ -24,3 +24,8 @@ aliases:
 - Thanks to [fanteastick](https://github.com/fanteastick) for 'Eilleen's (online!) Everything Notebook', from whom the code for the site footer's 'Scroll to top' and 'Random page' buttons was borrowed. In addition, their guide ['Hiding tags from various components'](https://quartz.eilleeenz.com/meta/Hiding-tags-from-various-components) was used to exclude [[maintenance-templates|Maintenance Templates]] from Quartz' graph view via the use of tags.
 - **Github:** [fanteastick/quartz-test](https://github.com/fanteastick/quartz-test)
 - [License](https://github.com/fanteastick/quartz-test/blob/v4/LICENSE.txt)
+
+## [OMW Ayembedt font](https://github.com/georgd/OpenMW-Fonts)
+
+- OMW Ayembedt font created by [georgd](https://github.com/georgd) (Georg Duffner)
+- License: [SIL Open Font License](https://openfontlicense.org/)
