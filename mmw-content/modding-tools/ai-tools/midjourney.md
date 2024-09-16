@@ -81,7 +81,7 @@ Midjourney does not support painting over a starting image directly, However, if
 
 As a final point on portraits, varying specific regions of an image can be used to keep portions of an image that work while tweaking others. This can be done after generating an image and selecting the "Vary (Region)" option.
 
-> [!caption]
+> [!caption|wfull]
 > ![[vary-region.png]]
 > Image shows the "Vary (Region)" option in the Discord interface.
 
