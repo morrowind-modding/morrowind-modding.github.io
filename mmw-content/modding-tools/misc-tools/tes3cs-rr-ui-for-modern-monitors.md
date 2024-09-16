@@ -9,19 +9,24 @@ tags:
 description:
 ---
 
+
 ![[maintenance-expand-article#^6fc39d|clean]]
 
 ## About
 
 > [!infobox|n-th]
 > 
-> ## RR UI for Modern Monitors
+> ## TESCS RR UI
 > 
-> %% insert image %%
+> > [!caption|center wfull txt-s]
+> > 
+> > %%insert image%%
+> > 
 > 
-> ### Table Heading
+> ### Details
 > 
 > | Type | Name |
 > | --- | --- |
-> | Row | Row |
-> | Row | Row |
+> | **Links** |  |
+> | **Requirements** |  |
+> | **Author** | [SiberianCrab](https://www.nexusmods.com/morrowind/users/841275), Resdayn Revival |

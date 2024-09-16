@@ -2,9 +2,10 @@
 title: TES Map Merge
 aliases:
   - TES Map Merge
+  - MapMerge
 tags:
   - Maps
-description:
+description: A tool for merging the output of Morrowind's CreateMaps function into a single continuous Map.
 ---
 
 ![[maintenance-expand-article#^6fc39d|clean]]
@@ -15,11 +16,26 @@ description:
 > 
 > ## TES Map Merge
 > 
-> %% insert image %%
+> > [!caption|center wfull txt-s]
+> > 
+> > %% insert image %%
+> > 
+> > [image source]()
 > 
 > ### Table Heading
 > 
 > | Type | Name |
 > | --- | --- |
 > | **Links** | [NexusMods](https://www.nexusmods.com/morrowind/mods/43827) |
-> | Row | Row |
+> | **Requirements** | none |
+> | **Author** | Cougar |
+
+**TES Map Merge** is a tool for merging the output of Morrowind's `CreateMaps` function into a single continuous Map.
+
+Same functionality can possibly be achieved with xnview or an [[imagemagick|ImageMagick]] 'montage'.
+
+## External Links
+
+- **UESP**, ["Morrowind Mod:CreateMaps"](https://en.m.uesp.net/wiki/Morrowind_Mod:CreateMaps).
+- https://www.xnview.com/en/ - alternative
+- https://www.imagemagick.org/Usage/montage/ - ImageMagick montage
