@@ -7,10 +7,8 @@ tags:
   - Textures
   - Concept-Art
   - AI
-description: An AI text-to-image generator ran via Discord commands.
+description: A subscription-based AI text-to-image generator.
 ---
-
-
 ## About
 
 > [!infobox|n-th]
