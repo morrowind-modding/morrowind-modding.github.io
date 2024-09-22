@@ -6,6 +6,7 @@ tags:
   - Tes3conv
   - Git
   - JSON
+  - Command-line-tool
 description: A command-line tool that converts TES3 plugins to JSON and vice-versa.
 ---
 

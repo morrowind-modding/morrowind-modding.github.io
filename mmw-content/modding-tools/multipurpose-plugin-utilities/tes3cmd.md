@@ -6,6 +6,8 @@ tags:
   - Tes3cmd
   - Cleaning-Mods
   - Dirty-Edits
+  - Perl
+  - Command-line-tool
 description: A command-line tool for analysing, modifying and cleaning TES3 plugins.
 ---
 
@@ -30,7 +32,7 @@ description: A command-line tool for analysing, modifying and cleaning TES3 plug
 > | **Requirements** | none |
 > | **Author** | John Moonsugar |
 
-**Tes3cmd** is a [[modding-tools/command-line-tools/index|command-line-tool]] written in Perl for analysing, modifying and cleaning TES3 plugins.
+**Tes3cmd** is a multi-purpose command-line tool written in Perl for analyzing, modifying and cleaning TES3 plugins.
 
 ## External Links
 

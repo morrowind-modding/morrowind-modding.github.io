@@ -6,6 +6,7 @@ aliases:
 tags:
   - Python
   - NIF
+  - Command-line-tool
 description: A Python library developed by NifTools, capable of batch processing .NIF files as a command-line tool analogous to Tes3cmd.
 ---
 
@@ -31,7 +32,7 @@ description: A Python library developed by NifTools, capable of batch processing
 > | **Requirements** | Python |
 > | **Author** | [NifTools](https://www.niftools.org/) |
 
-The **Python File Format Interface** (previously **'Pyffi'**) is a Python library developed by NifTools, capable of batch processing `.NIF` files as a [[modding-tools/command-line-tools/index|command-line tool]] analogous to [[tes3cmd|Tes3cmd]].[^1]
+The **Python File Format Interface** (previously **'Pyffi'**) is a Python library developed by NifTools, capable of batch processing `.NIF` files as a command-line tool analogous to [[tes3cmd|Tes3cmd]].[^1]
 
 ## External Links
 

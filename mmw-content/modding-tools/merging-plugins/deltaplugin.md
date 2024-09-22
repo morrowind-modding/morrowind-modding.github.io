@@ -10,6 +10,7 @@ tags:
   - Leveled-Creatures
   - OpenMW
   - YAML
+  - Command-line-tool
 description: A multi-purpose command-Line tool tool, capable of merging objects and leveled lists, converting OpenMW and TES3 plugins to YAML, and creating plugin diffs.
 ---
 
@@ -36,7 +37,7 @@ description: A multi-purpose command-Line tool tool, capable of merging objects 
 > | **Requirements** | none |
 > | **Author** | [Benjamin Winger](https://gitlab.com/bmwinger) |
 
-**DeltaPlugin** is a multi-purpose [[modding-tools/command-line-tools/index|command-Line tool]] tool, capable of [[modding-tools/merging-plugins/index|merging objects and leveled lists]], converting OpenMW and TES3 plugins to YAML, and creating plugin diffs. 
+**DeltaPlugin** is a multi-purpose command-line tool, capable of [[modding-tools/merging-plugins/index|merging objects and leveled lists]], converting OpenMW and TES3 plugins to YAML, and creating plugin diffs. 
 
 ## External Links
 

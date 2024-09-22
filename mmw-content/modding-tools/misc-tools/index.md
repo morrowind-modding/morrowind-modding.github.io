@@ -3,7 +3,7 @@ title: Miscellaneous Tools
 aliases:
   - Miscellaneous Tools
 tags:
-  - TesTool
+  - TESTool
   - Cleaning-Mods
 description: Multipurpose and niche tools
 ---

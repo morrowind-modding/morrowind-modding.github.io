@@ -8,6 +8,7 @@ tags:
   - Leveled-Items
   - Leveled-Lists
   - Leveled-Creatures
+  - Command-line-tool
 description: A command-line-tool for merging leveled lists, comparing leveled lists between plugins, and optionally 'deleveling' like Abot's Deleveler.
 ---
 
@@ -33,4 +34,4 @@ description: A command-line-tool for merging leveled lists, comparing leveled li
 > | **Requirements** | none |
 > | **Author** | [alvazir](https://next.nexusmods.com/profile/alvazir/about-me?gameId=100) |
 
-**Jobasha** is a [[modding-tools/command-line-tools/index|command-line-tool]] for [[modding-tools/merging-plugins/index|merging leveled lists]], comparing leveled lists between plugins, and optionally 'deleveling' like [[abots-deleveler|Abot's Deleveler]].
+**Jobasha** is a command-line tool for [[modding-tools/merging-plugins/index|merging leveled lists]], comparing leveled lists between plugins, and optionally 'deleveling' like [[abots-deleveler|Abot's Deleveler]].

@@ -5,6 +5,7 @@ aliases:
 tags:
   - SmartMerger
   - Combining-plugins
+  - Command-line-tool
 description: A multi-purpose command-line-tool with a GUI overlay primarily used for merging plugins, as well as featuring cleaning, Diff and object merging capabilities.
 ---
 
@@ -29,7 +30,7 @@ description: A multi-purpose command-line-tool with a GUI overlay primarily used
 > | **Requirements** | none |
 > | **Author** | Era Scarecrow |
 
-**SmartMerger** is a multi-purpose [[modding-tools/command-line-tools/index|command-line-tool]] with a <abbr title="graphical user interface">GUI</abbr> overlay primarily used for [[modding-tools/merging-plugins/index|merging plugins]], as well as featuring [[guides/cleaning-mods/index|cleaning]], Diff and object merging capabilities.
+**SmartMerger** is a multi-purpose command-line tool with a <abbr title="graphical user interface">GUI</abbr> overlay primarily used for [[modding-tools/merging-plugins/index|merging plugins]], as well as featuring [[guides/cleaning-mods/index|cleaning]], Diff and object merging capabilities.
 
 ## External Links
 

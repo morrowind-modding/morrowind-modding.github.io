@@ -6,6 +6,7 @@ aliases:
 tags:
   - Interiors
   - Python
+  - Command-line-tool
 description: A Python script command-line-tool for calculating the Z-rotation of northmarkers for interior cells.
 ---
 
@@ -31,4 +32,4 @@ description: A Python script command-line-tool for calculating the Z-rotation of
 > | **Requirements** | [Python 2.7+](https://www.python.org/downloads/) |
 > | **Author** | Iskuss |
 
-**Northmarker Calculator** is a Python script [[modding-tools/command-line-tools/index|command-line-tool]] for calculating the Z-rotation of northmarkers for interior cells. 
+**Northmarker Calculator** is a Python script command-line tool for calculating the Z-rotation of northmarkers for interior cells. 

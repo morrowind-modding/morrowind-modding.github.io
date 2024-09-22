@@ -6,7 +6,7 @@ tags:
   - Enchanted-Editor
   - TESAME
   - MWEdit
-  - TesTool
+  - TESTool
   - Cleaning-Mods
 description: Low-level editors for examining, modifying and cleaning plugins
 ---

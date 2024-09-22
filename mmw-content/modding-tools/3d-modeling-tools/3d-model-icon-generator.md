@@ -6,6 +6,7 @@ tags:
   - Blender
   - Icons
   - Git
+  - Command-line-tool
 description: A command-line-tool developed by JE323 for generating icon or thumbnail images from a 3D model in Blender.
 ---
 
@@ -31,4 +32,4 @@ description: A command-line-tool developed by JE323 for generating icon or thumb
 > | **Requirements** | - [[blender\|Blender]]<br>- [[git]] |
 > | **Author** | [JE323](https://github.com/JE323) |
 
-**3D Model Icon Generator** is a [[modding-tools/command-line-tools/index|command-line-tool]] developed by JE323 for generating icon or thumbnail images from a 3D model in [[blender|Blender]].
+**3D Model Icon Generator** is a command-line tool developed by JE323 for generating icon or thumbnail images from a 3D model in [[blender|Blender]].
