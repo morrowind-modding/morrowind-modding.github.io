@@ -112,7 +112,7 @@ These invisible marker meshes will appear in the Construction Set, but not in-ga
 
 ### Run Lawnmower on Entire Load Order
 
-Using [[habasi|Habasi]] and [[tes3cmd|Tes3cmd]], Lawnmower can be ran on one's entire load order with the help of a BAT script.
+Using [[habasi|Habasi]] and [[MWModWiki/mmw-content/modding-tools/multipurpose-plugin-utilities/tes3cmd/index|Tes3cmd]], Lawnmower can be ran on one's entire load order with the help of a BAT script.
 
 ```
 rem generate cut grass mods

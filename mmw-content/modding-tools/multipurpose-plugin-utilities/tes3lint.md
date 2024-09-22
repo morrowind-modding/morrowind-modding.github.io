@@ -31,7 +31,7 @@ description:
 
 **Tes3lint** is a command-line tool by John Moonsugar for checking plugins for potential problems.
 
-In addition to detecting common problems which are cleaned automatically by other tools, including Moonsugar's other tool [[tes3cmd|Tes3cmd]], tes3lint's features include:
+In addition to detecting common problems which are cleaned automatically by other tools, including Moonsugar's other tool [[MWModWiki/mmw-content/modding-tools/multipurpose-plugin-utilities/tes3cmd/index|Tes3cmd]], tes3lint's features include:
 
 - Check for implicit dependency on Tribunal/Bloodmoon functions without having them as a master.
 - Display duplicate/modified INFO records.
@@ -43,5 +43,5 @@ In addition to detecting common problems which are cleaned automatically by othe
 
 ## Usage
 
-Like Moonsugar's other tool [[tes3cmd|Tes3cmd]], it is also written in Perl. However, unlike the former it requires that Perl itself is installed. Tes3lint is run via the command-line, but can also be run through [[wrye-mash|Wrye Mash Polemos Fork]] which features tes3lint support.
+Like Moonsugar's other tool [[MWModWiki/mmw-content/modding-tools/multipurpose-plugin-utilities/tes3cmd/index|Tes3cmd]], it is also written in Perl. However, unlike the former it requires that Perl itself is installed. Tes3lint is run via the command-line, but can also be run through [[wrye-mash|Wrye Mash Polemos Fork]] which features tes3lint support.
 

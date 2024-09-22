@@ -35,7 +35,7 @@ These use an additional ESP to make their changes and in most cases will need to
 
 ### Other ESP Patches
 - Utilizing Global Scripts - Built-in compatibility without the need for a separate patch
-- [[tes3cmd|Tes3cmd]] BAT File
+- [[MWModWiki/mmw-content/modding-tools/multipurpose-plugin-utilities/tes3cmd/index|Tes3cmd]] BAT File
 
 ***
 

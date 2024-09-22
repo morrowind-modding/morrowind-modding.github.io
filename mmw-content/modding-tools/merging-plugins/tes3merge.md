@@ -39,7 +39,7 @@ description: An object merging utility for patching mod conflicts for Morrowind,
 > | **Requirements** | [.NET 6 Runtime](https://dotnet.microsoft.com/en-us/download) |
 > | **Author** | [NullCascade](https://next.nexusmods.com/profile/NullCascade/about-me) |
 
-**TES3Merge** is an [[modding-tools/merging-plugins/index|object merging]] utility for patching mod conflicts for _Morrowind_, intended as a replacement for older object merging utilities such as [[wrye-mash|Wrye Mash's]] mashed patch and [[tes3cmd|Tes3cmd's]] multipatch. 
+**TES3Merge** is an [[modding-tools/merging-plugins/index|object merging]] utility for patching mod conflicts for _Morrowind_, intended as a replacement for older object merging utilities such as [[wrye-mash|Wrye Mash's]] mashed patch and [[MWModWiki/mmw-content/modding-tools/multipurpose-plugin-utilities/tes3cmd/index|Tes3cmd's]] multipatch. 
 
 ## External Links
 

@@ -32,7 +32,7 @@ description: A Python library developed by NifTools, capable of batch processing
 > | **Requirements** | Python |
 > | **Author** | [NifTools](https://www.niftools.org/) |
 
-The **Python File Format Interface** (previously **'Pyffi'**) is a Python library developed by NifTools, capable of batch processing `.NIF` files as a command-line tool analogous to [[tes3cmd|Tes3cmd]].[^1]
+The **Python File Format Interface** (previously **'Pyffi'**) is a Python library developed by NifTools, capable of batch processing `.NIF` files as a command-line tool analogous to [[MWModWiki/mmw-content/modding-tools/multipurpose-plugin-utilities/tes3cmd/index|Tes3cmd]].[^1]
 
 ## External Links
 

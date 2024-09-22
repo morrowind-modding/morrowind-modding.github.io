@@ -32,7 +32,7 @@ related articles:
 > 
 > | Type | Name |
 > | --- | --- |
-> | **Requirements** | - [[the-lawnmower\|The Lawnmower]]<br>- [[tes3conv\|Tes3conv]]<br>- [Python 3.5+](https://www.python.org/)<br>- [[tes3cmd\|Tes3cmd]] (optional)<br>- [[testool\|TESTool]] (optional) |
+> | **Requirements** | - [[the-lawnmower\|The Lawnmower]]<br>- [[tes3conv\|Tes3conv]]<br>- [Python 3.5+](https://www.python.org/)<br>- [[MWModWiki/mmw-content/modding-tools/multipurpose-plugin-utilities/tes3cmd/index\|Tes3cmd]] (optional)<br>- [[testool\|TESTool]] (optional) |
 > | **Tutorial Files** | Any groundcover plugin you like that has not already had Lawnmower ran on it (the mod description will likely state whether this is the case) |
 
 ![[guides/groundcover/index#^groundcover-navbox|clean right]]
@@ -160,7 +160,7 @@ With a couple of extra steps, the reference count of the output plugin can be gr
 
 Cleaning the output plugin of redundant `CELL` references involves two steps:
 
-1. Delete the moved grass with [[tes3cmd|Tes3cmd]].
+1. Delete the moved grass with [[MWModWiki/mmw-content/modding-tools/multipurpose-plugin-utilities/tes3cmd/index|Tes3cmd]].
 2. Clean the plugin of any empty cells with [[testool|TESTool]].
 
 The second step is useful for instances where Lawnmower has removed all grass from a cell, leaving an empty `CELL` record.
