@@ -13,11 +13,11 @@ li.section-li {
     display: grid;
     grid-template-columns: fit-content(8em) 3fr;
 
-    // @media all and (max-width: $mobileBreakpoint) {
-    //   & > .tags {
-    //     display: none;
-    //   }
-    // }
+    @media all and ($mobile) {
+      & > .tags {
+        display: none;
+      }
+    }
 
     & > .desc > h3 > a {
       background-color: transparent;
