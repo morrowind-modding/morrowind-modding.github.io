@@ -20,7 +20,6 @@ description: A tool for merging the output of Morrowind's CreateMaps function in
 > > 
 > > %% insert image %%
 > > 
-> > [image source]()
 > 
 > ### Table Heading
 > 
@@ -33,6 +32,11 @@ description: A tool for merging the output of Morrowind's CreateMaps function in
 **TES Map Merge** is a tool for merging the output of Morrowind's `CreateMaps` function into a single continuous Map.
 
 Same functionality can possibly be achieved with xnview or an [[imagemagick|ImageMagick]] 'montage'.
+
+## Alternative Tools
+
+- [[kezymas-map-builder|Kezyma's Map Builder]]
+- [[tes3map|TES3MAP]]
 
 ## External Links
 
