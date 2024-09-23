@@ -1,13 +1,13 @@
 ---
-title: The Lawnmower
+title: The LawnMower
 aliases:
-  - The Lawnmower
+  - The LawnMower
   - Lawnmower
   - Weedwhacker
   - Grassclipper
   - Grassblocker
 tags:
-  - Lawnmower
+  - LawnMower
   - Cleaning-Mods
   - Groundcover
   - Python
@@ -24,7 +24,7 @@ related articles:
 
 > [!infobox|n-th]
 > 
-> ## The Lawnmower
+> ## The LawnMower
 > 
 > > [!caption|center wfull txt-s]
 > > 
@@ -42,10 +42,10 @@ related articles:
 
 ![[guides/groundcover/index#^groundcover-navbox|clean right]]
 
-**The Lawnmower** is a tool for cleaning [[guides/groundcover/index|groundcover]] mods of excess grass using Python scripts and Tes3conv.
+**The LawnMower** is a tool for cleaning [[guides/groundcover/index|groundcover]] mods of excess grass using Python scripts and Tes3conv.
 
 > [!NOTE|clean no-t] %%outline of lawnmower tools%%
-> The Lawnmower actually comprises four separate tools:
+> The LawnMower actually comprises four separate tools:
 > 
 > - **[[the-lawnmower#Lawnmower|'Lawnmower']]**: removes clipping and unwanted grass
 > - **[[the-lawnmower#Weedwhacker|'Weedwhacker']]**: thins out grass

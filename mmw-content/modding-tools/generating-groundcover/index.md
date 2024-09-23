@@ -5,7 +5,7 @@ aliases:
 tags:
   - Groundcover
   - Mesh-Gen
-  - Lawnmower
+  - LawnMower
 description: Generating and culling groundcover and other meshes
 ---
 ## Generating and Culling Groundcover and Other Meshes

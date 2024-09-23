@@ -4,7 +4,7 @@ aliases:
   - Groundcover
 tags:
   - Groundcover
-  - Lawnmower
+  - LawnMower
   - Mesh-Gen
   - Groundcoverify
   - Grass
@@ -28,7 +28,7 @@ description: Creating and managing animated grass for MGE-XE and OpenMW
 > ### This article is part of a series on Groundcover
 > 
 > - [[modding-tools/generating-groundcover/index|Generating Groundcover]]
-> - [[the-lawnmower|The Lawnmower]]
+> - [[the-lawnmower|The LawnMower]]
 > - [[mesh-gen|MeshGen]]
 > - [[habasi|Habasi]]
 > - [[groundcoverify|Groundcoverify]]
