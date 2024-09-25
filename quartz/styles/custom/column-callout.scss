@@ -104,7 +104,7 @@
   }
   
   
-  .callout[data-callout*=column]>.callout-content>:first-child {
+  .callout[data-callout*=column]>.callout-content>:first-child:not(.callout) {
     margin-top: 16;
-    /* First-child needs a margin-top of 16 to match the margin-top of other grid items - except codeblocks */
+    /* First-child needs a margin-top of 16 to match the margin-top of other grid items - except codeblocks and nested callouts */
   }
