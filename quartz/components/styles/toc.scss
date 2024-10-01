@@ -74,6 +74,7 @@ button#toc, button#toc2 {
   }
   > ul.overflow {
     max-height: none;
+    width: 100%;
   }
 
   @for $i from 0 through 6 {
