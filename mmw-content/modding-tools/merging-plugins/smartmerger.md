@@ -40,4 +40,4 @@ description: A multi-purpose command-line-tool with a GUI overlay primarily used
 	- ["SmartMerger", November 13, 2010](https://web.archive.org/web/20200219162857/https://forums.bethsoft.com/topic/1140559-smartmerger/)
 	- ["SmartMerger number 2", December 5, 2010](https://web.archive.org/web/20200219162909/https://forums.bethsoft.com/topic/1146795-smartmerger-2/)
 	- ["SmartMerger number 3", April 15, 2012](https://web.archive.org/web/20200219143636/https://forums.bethsoft.com/topic/1367045-smartmerger-3/)
-- **Notes for Modmakers**, ["Short notes about some utilities"](https://morrowind-nif.github.io/Notes_RU/short_notes_about_some_utilities.htm?ms=CyAAAAAAEAAAAAAAAAAAAAAAAAAAAEABEAgY&st=MA%3D%3D&sct=MA%3D%3D&mw=MzIw) #Language/Russian 
+- **Notes for Modmakers**, ["Short notes about some utilities"](https://morrowind-nif.github.io/Notes_RU/short_notes_about_some_utilities.htm?ms=CyAAAAAAEAAAAAAAAAAAAAAAAAAAAEABEAgY&st=MA%3D%3D&sct=MA%3D%3D&mw=MzIw) (Russian) 

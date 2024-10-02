@@ -37,6 +37,6 @@ The **Python File Format Interface** (previously **'Pyffi'**) is a Python librar
 
 ## External Links
 
-- **Notes for Modmakers**, ["Pyffi"](https://morrowind-nif.github.io/Notes_EN/module_2_7_2_2_6_2.htm), ["Cell to Nif file"](https://morrowind-nif.github.io/Notes_EN/module_2_7_2_2_6_2_4.htm) #Language/Russian 
+- **Notes for Modmakers**, ["Pyffi"](https://morrowind-nif.github.io/Notes_EN/module_2_7_2_2_6_2.htm), ["Cell to Nif file"](https://morrowind-nif.github.io/Notes_EN/module_2_7_2_2_6_2_4.htm) (Russian) 
 
 [^1]: ["Pyffi", Notes for Modmakers, October 24, 2022](https://morrowind-nif.github.io/Notes_EN/module_2_7_2_2_6_2.htm)

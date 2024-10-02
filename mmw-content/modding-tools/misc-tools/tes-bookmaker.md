@@ -59,4 +59,4 @@ Once finished, the marked-up text is ready to be entered into a [book object](ht
 
 ## External Links
 
-- **Notes for Modmakers**, ["TES Bookmaker"](https://morrowind-nif.github.io/Notes_RU/tes_bookmaker.htm?ms=CyAAAAAAEAAAAAAAABAAAAAAAAAAAEABEAgYCA%3D%3D&st=MA%3D%3D&sct=MA%3D%3D&mw=MzIw) #Language/Russian 
+- **Notes for Modmakers**, ["TES Bookmaker"](https://morrowind-nif.github.io/Notes_RU/tes_bookmaker.htm?ms=CyAAAAAAEAAAAAAAABAAAAAAAAAAAEABEAgYCA%3D%3D&st=MA%3D%3D&sct=MA%3D%3D&mw=MzIw) (Russian) 

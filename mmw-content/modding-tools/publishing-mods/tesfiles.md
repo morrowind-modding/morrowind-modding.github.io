@@ -31,4 +31,4 @@ description:
 
 ## External Links
 
-**Notes for Modmakers**, ["TESFILES"](https://morrowind-nif.github.io/Notes_EN/module_2_7_2_2_5_6.htm?ms=EgAAAAACAAAAAAAgAAAAAAAAAAAAAAJQCAE%3D&st=MA%3D%3D&sct=MA%3D%3D&mw=MjU2) #Language/Russian
+**Notes for Modmakers**, ["TESFILES"](https://morrowind-nif.github.io/Notes_EN/module_2_7_2_2_5_6.htm?ms=EgAAAAACAAAAAAAgAAAAAAAAAAAAAAJQCAE%3D&st=MA%3D%3D&sct=MA%3D%3D&mw=MjU2) (Russian)

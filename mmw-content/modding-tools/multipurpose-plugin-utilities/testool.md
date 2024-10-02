@@ -43,4 +43,4 @@ description: A general-purpose tool developed by Ghostwheel for cleaning, analyz
 	- [Morrowind modding for smarties, part 3: tes3lint, tes3cmd and TESTool](http://norrowind.abitoftaste.altervista.org/morrowind/index.php?option=content&Itemid=10&task=view&id=53&-Morrowind-modding-for-smarties-part-3-tes3lint-tes3cmd-and-TESTool)
 - **Danae's Journal**, ["Good Modding Practice: Checking Mods"](https://danaeplays.thenet.sk/good-modding-practice/)
 - **UESP**, ["Morrowind Mod:TESTool"](https://en.uesp.net/wiki/Morrowind_Mod:TESTool)
-- **Notes for Modmakers**, ["TESTool"](https://morrowind-nif.github.io/Notes_RU/testool.htm?ms=CyAAAAAAEAAAAAAAABAAAAAAAAAAAEABEAgYIA%3D%3D&st=MA%3D%3D&sct=MA%3D%3D&mw=MzIw) #Language/Russian 
+- **Notes for Modmakers**, ["TESTool"](https://morrowind-nif.github.io/Notes_RU/testool.htm?ms=CyAAAAAAEAAAAAAAABAAAAAAAAAAAEABEAgYIA%3D%3D&st=MA%3D%3D&sct=MA%3D%3D&mw=MzIw) (Russian) 

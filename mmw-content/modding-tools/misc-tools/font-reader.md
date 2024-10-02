@@ -35,4 +35,4 @@ description: A tool for viewing, editing and saving Morrowind font files.
 
 ## External Links
 
-- **Kamafi**, FullRest, ["Lesson: How to easily make your own font (for a game and for a computer in general)"](https://www.fullrest.ru/blogs/font_tutorial) - Comprehensive tutorial on how to create fonts for _Morrowind_ and _Oblivion_, including usage of FontReader #Language/Russian
+- **Kamafi**, FullRest, ["Lesson: How to easily make your own font (for a game and for a computer in general)"](https://www.fullrest.ru/blogs/font_tutorial) - Comprehensive tutorial on how to create fonts for _Morrowind_ and _Oblivion_, including usage of FontReader (Russian)

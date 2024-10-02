@@ -36,7 +36,7 @@ description: A tool for manipulating .kf animation files for Morrowind.
 
 ## External Links
 
-- **Notes for Modmakers**, ["Animation Kit"](https://morrowind-nif.github.io/Notes_RU/animation_kit.htm?ms=CyAAAAAAEAAAAAAAABAAAAAAAAAAAEABEAgYCA%3D%3D&st=MA%3D%3D&sct=MA%3D%3D&mw=MzIw) #Language/Russian 
+- **Notes for Modmakers**, ["Animation Kit"](https://morrowind-nif.github.io/Notes_RU/animation_kit.htm?ms=CyAAAAAAEAAAAAAAABAAAAAAAAAAAEABEAgYCA%3D%3D&st=MA%3D%3D&sct=MA%3D%3D&mw=MzIw) (Russian) 
 
 [^1]: ["Morrowind Animation Kit v2.1", Morrowind Modding History, Januray 30, 2014](https://web.archive.org/web/20161103122856/http://mw.modhistory.com/download-95-6027) (web archive)
 [^2]: [Knowledgable, "Liztail's Animation Kit", Nexus Mods, May 6, 2015](https://www.nexusmods.com/morrowind/mods/43606)

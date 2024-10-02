@@ -35,5 +35,5 @@ description: A tool for detecting, analysing and resolving TES3 mod conflicts.
 ## External Links
 
 - **Danae's Journal**, ["Good Modding Practice: Checking Mods"](https://danaeplays.thenet.sk/good-modding-practice/)
-- **Notes for Modmakers**, ["TESPCD"](https://morrowind-nif.github.io/Notes_EN/module_2_7_2_2_5_3.htm?ms=EgAAAAACAAAAAAAgAAAAAAAAAAAAAAJQCAE%3D&st=MA%3D%3D&sct=MA%3D%3D&mw=MjU2) #Language/Russian
+- **Notes for Modmakers**, ["TESPCD"](https://morrowind-nif.github.io/Notes_EN/module_2_7_2_2_5_3.htm?ms=EgAAAAACAAAAAAAgAAAAAAAAAAAAAAJQCAE%3D&st=MA%3D%3D&sct=MA%3D%3D&mw=MjU2) (Russian)
 - **UESP**, ["Morrowind Mod:TES Plugin Conflict Detector"](https://en.uesp.net/wiki/Morrowind_Mod:TES_Plugin_Conflict_Detector)

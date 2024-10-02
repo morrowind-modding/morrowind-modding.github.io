@@ -34,4 +34,4 @@ description: Converts Morrowind landscape to a nif, allowing you to design lands
 
 ## External Links
 
-- **Notes for Modmakers**, ["Cell2Nif"](https://morrowind-nif.github.io/Notes_EN/module_2_7_2_2_3_3.htm?ms=EgAAAAACAAAAAAAQAAAAAAAAAAAAAAJQCCA%3D&st=MA%3D%3D&sct=MA%3D%3D&mw=MjU2) #Language/Russian 
+- **Notes for Modmakers**, ["Cell2Nif"](https://morrowind-nif.github.io/Notes_EN/module_2_7_2_2_3_3.htm?ms=EgAAAAACAAAAAAAQAAAAAAAAAAAAAAJQCCA%3D&st=MA%3D%3D&sct=MA%3D%3D&mw=MjU2) (Russian) 

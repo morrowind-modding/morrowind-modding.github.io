@@ -37,7 +37,7 @@ description: A tool for editing NPC schedule scripts, intended as a way to simpl
 
 ## External Links
 
-- **Notes for Modmakers**, ["Short notes about some utilities"](https://morrowind-nif.github.io/Notes_RU/short_notes_about_some_utilities.htm?ms=CyAAAAAAEAAAAAAAAAAAAAAAAAAAAEABEAgY&st=MA%3D%3D&sct=MA%3D%3D&mw=MzIw) #Language/Russian 
-- **elderscrolls.net**, ["Nota Bene"](https://elderscrolls.net/2005/05/08/8419-nota-bene-2/) - mentions that MWScheduler only works on Windows XP.<sup>\[_[[inline-disputed|Disputed]]_\]</sup> #Language/Russian 
+- **Notes for Modmakers**, ["Short notes about some utilities"](https://morrowind-nif.github.io/Notes_RU/short_notes_about_some_utilities.htm?ms=CyAAAAAAEAAAAAAAAAAAAAAAAAAAAEABEAgY&st=MA%3D%3D&sct=MA%3D%3D&mw=MzIw) (Russian) 
+- **elderscrolls.net**, ["Nota Bene"](https://elderscrolls.net/2005/05/08/8419-nota-bene-2/) - mentions that MWScheduler only works on Windows XP.<sup>\[_[[inline-disputed|Disputed]]_\]</sup> (Russian) 
 
 [^1]: [Max Shawabkeh, "Tools: MWScheduler", max99x.com, accessed September 12, 2024](https://max99x.com/morrowind/tools)
