@@ -5,6 +5,7 @@ aliases:
 tags:
   - Cleaning-Mods
   - Low-level-editor
+  - Modding-tool
 description: A utility for cleaning and exporting the contents of ESS, ESM and ESP files for Morrowind, Oblivion, Skyrim, Fallout 3 and Fallout 4.
 ---
 

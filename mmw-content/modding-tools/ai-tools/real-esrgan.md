@@ -9,6 +9,7 @@ tags:
   - Textures
   - Upscaling
   - Videos
+  - Modding-tool
 description: A free, open-source image and video restoration tool, commonly used in upscaling Morrowind textures.
 ---
 

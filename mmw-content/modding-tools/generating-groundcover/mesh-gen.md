@@ -8,6 +8,7 @@ aliases:
 tags:
   - Mesh-Gen
   - Groundcover
+  - Modding-tool
 description: A program to automatically place meshes over the Morrowind landscape according to landscape texture. Primarily used for groundcover creation.
 ---
 > [!infobox|n-th]

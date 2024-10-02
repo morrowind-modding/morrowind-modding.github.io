@@ -3,7 +3,7 @@ title: Esp-QuickEditor
 aliases:
   - Esp-QuickEditor
 tags:
-  - Esp-QuickEditor
+  - Modding-tool
 description: An SQL-based tool for editing ESP, ESM and ESS files.
 ---
 

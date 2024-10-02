@@ -12,6 +12,7 @@ tags:
   - Groundcover
   - Python
   - Tes3conv
+  - Modding-tool
 description: A tool for cleaning groundcover mods of excess grass using Python scripts and Tes3conv.
 parent: "[[modding-tools/generating-groundcover/index|Generating Groundcover]]"
 related articles:

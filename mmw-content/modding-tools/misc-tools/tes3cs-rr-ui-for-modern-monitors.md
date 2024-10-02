@@ -6,6 +6,7 @@ aliases:
   - TES III Construction Set - RR UI
 tags:
   - Construction-Set
+  - Modding-tool
 description: A widescreen replacer for TES Construction Set.exe, compatible with CSSE.
 ---
 

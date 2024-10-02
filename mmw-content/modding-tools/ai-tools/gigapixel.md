@@ -7,6 +7,7 @@ tags:
   - Textures
   - AI
   - Upscaling
+  - Modding-tool
 description: An AI image upscaling app by Topaz Labs, capable of upscaling Morrowind textures.
 ---
 

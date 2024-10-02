@@ -7,6 +7,7 @@ tags:
   - Icons
   - Git
   - Command-line-tool
+  - Modding-tool
 description: A command-line-tool developed by JE323 for generating icon or thumbnail images from a 3D model in Blender.
 ---
 

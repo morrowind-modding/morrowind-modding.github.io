@@ -5,7 +5,7 @@ aliases:
 tags:
   - Books
   - Language/Russian
-  - TES-Bookmaker
+  - Modding-tool
 description: A simple text editor for creating Morrowind books, capable of converting plain text into Morrowind's bespoke HTML format and featuring a GUI with buttons for text-formatting.
 ---
 

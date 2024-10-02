@@ -7,7 +7,6 @@ tags:
   - Blender
   - Nifskope
   - 3DS-Max
-  - Wings-3D
   - Export-Sphere
   - Animation
 description: Tools for creating and modifying meshes and animations for Morrowind

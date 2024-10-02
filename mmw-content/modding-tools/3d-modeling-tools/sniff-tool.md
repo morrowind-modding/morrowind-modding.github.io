@@ -8,6 +8,7 @@ tags:
   - Modeling
   - Animation
   - JSON
+  - Modding-tool
 description: A batch processing tool for modifying NIF files for Morrowind and other Bethesda titles, including the ability to convert NIFs to and from JSON.
 ---
 

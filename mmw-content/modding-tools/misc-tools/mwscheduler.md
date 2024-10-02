@@ -7,6 +7,7 @@ tags:
   - NPC
   - AI
   - MWScript
+  - Modding-tool
 description: A tool for editing NPC schedule scripts, intended as a way to simplify the process for non-programmers.
 ---
 

@@ -5,6 +5,7 @@ aliases:
   - MapMerge
 tags:
   - Maps
+  - Modding-tool
 description: A tool for merging the output of Morrowind's CreateMaps function into a single continuous Map.
 ---
 

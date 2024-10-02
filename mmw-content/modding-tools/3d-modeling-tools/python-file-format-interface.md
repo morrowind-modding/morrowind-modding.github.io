@@ -7,6 +7,7 @@ tags:
   - Python
   - NIF
   - Command-line-tool
+  - Modding-tool
 description: A Python library developed by NifTools, capable of batch processing .NIF files as a command-line tool analogous to Tes3cmd.
 ---
 

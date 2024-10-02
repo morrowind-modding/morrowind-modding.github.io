@@ -5,7 +5,8 @@ aliases:
 tags:
   - MWScript
   - Scripting
-description:
+  - Modding-tool
+description: 
 ---
 
 ![[maintenance-expand-article#^6fc39d|clean]]

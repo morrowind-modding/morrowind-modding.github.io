@@ -6,6 +6,7 @@ tags:
   - SmartMerger
   - Combining-plugins
   - Command-line-tool
+  - Modding-tool
 description: A multi-purpose command-line-tool with a GUI overlay primarily used for merging plugins, as well as featuring cleaning, Diff and object merging capabilities.
 ---
 

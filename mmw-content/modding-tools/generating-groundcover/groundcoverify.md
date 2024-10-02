@@ -8,6 +8,7 @@ tags:
   - Python
   - DeltaPlugin
   - OpenMW
+  - Modding-tool
 description: A Python script utilizing DeltaPlugin to turn regular static grass into groundcover for OpenMW.
 ---
 

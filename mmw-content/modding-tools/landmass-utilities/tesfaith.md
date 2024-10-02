@@ -6,6 +6,7 @@ aliases:
   - TESfaith Sharp
 tags:
   - TESfaith
+  - Modding-tool
 description: A utility for moving, duplicating or removing landmasses from plugins, including their associated objects, path-grids, and dialogue and script commands.
 ---
 

@@ -6,6 +6,7 @@ tags:
   - Character
   - NPC
   - Name-generator
+  - Modding-tool
 description: A simple browser-based utility for generating names for Elder Scrolls characters.
 ---
 

@@ -8,6 +8,7 @@ tags:
   - Dirty-Edits
   - Perl
   - Command-line-tool
+  - Modding-tool
 description: A command-line tool for analysing, modifying and cleaning TES3 plugins.
 ---
 

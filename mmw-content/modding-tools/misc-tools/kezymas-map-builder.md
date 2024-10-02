@@ -5,6 +5,7 @@ aliases:
   - Kezyma's Map Builder
 tags:
   - Maps
+  - Modding-tool
 description: A tool for generating interactive Leaflet.js maps for Morrowind based on a user's modlist, or exporting as a png.
 ---
 

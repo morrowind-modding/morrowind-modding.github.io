@@ -4,6 +4,7 @@ aliases:
   - TES3MAP
 tags:
   - Maps
+  - Modding-tool
 description: A tool for generating and viewing a world map of all loaded plugins, featuring multiple visual overlays and image exporting.
 ---
 

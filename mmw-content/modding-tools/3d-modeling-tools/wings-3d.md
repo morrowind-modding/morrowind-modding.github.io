@@ -3,8 +3,8 @@ title: Wings 3D
 aliases:
   - Wings 3D
 tags:
-  - Wings-3D
   - Modeling
+  - Modding-tool
 description: A free, open-source subdivision 3d modeler. Simple, but requires third party tools to import and export NIF files
 ---
 

@@ -5,6 +5,7 @@ aliases:
   - ESX File Parser
 tags:
   - Dialogue
+  - Modding-tool
 description: A tool for proofreading Morrowind dialogue for spelling, conversation loops and other common errors.
 ---
 

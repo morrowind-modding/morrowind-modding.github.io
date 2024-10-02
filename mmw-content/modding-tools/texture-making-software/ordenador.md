@@ -3,8 +3,8 @@ title: Optimizer Textures (Ordenador)
 aliases:
   - Ordenador
   - Optimizer Textures (Ordenador)
-tags: 
-description:
+tags: Modding-tool
+description: 
 ---
 
 ![[maintenance-expand-article#^6fc39d|clean]]

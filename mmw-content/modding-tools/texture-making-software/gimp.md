@@ -4,7 +4,8 @@ aliases:
   - Gimp
 tags:
   - Gimp
-description:
+  - Modding-tool
+description: 
 ---
 
 ![[maintenance-expand-article#^6fc39d|clean]]

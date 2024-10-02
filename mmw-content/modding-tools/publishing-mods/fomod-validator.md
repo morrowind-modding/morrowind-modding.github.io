@@ -6,6 +6,7 @@ tags:
   - FOMOD
   - Mod-managers
   - Publishing-Mods
+  - Modding-tool
 description: A simple utility for checking FOMOD Installers for errors, featuring an experimental 'fix' option for fixing the most serious errors.
 ---
 

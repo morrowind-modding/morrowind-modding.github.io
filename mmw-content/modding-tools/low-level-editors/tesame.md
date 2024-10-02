@@ -8,6 +8,7 @@ tags:
   - Low-level-editor
   - Cleaning-Mods
   - Combining-plugins
+  - Modding-tool
 description: A low-level editor for manually cleaning edits from TES3 plugins, and additionally features limited plugin merging capabilities.
 ---
 

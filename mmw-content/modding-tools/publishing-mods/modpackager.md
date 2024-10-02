@@ -3,8 +3,8 @@ title: ModPackager
 aliases:
   - ModPackager
 tags:
-  - ModPackager
   - Publishing-Mods
+  - Modding-tool
 description: A simple utility by Greatness7 for packaging together all assets of a plugin, ready for sharing or publishing.
 ---
 

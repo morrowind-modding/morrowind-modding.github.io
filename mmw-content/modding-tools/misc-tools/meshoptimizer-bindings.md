@@ -6,6 +6,7 @@ tags:
   - Blender
   - Modeling
   - Python
+  - Modding-tool
 description: A utility which adds basic Python bindings for the Meshoptimizer library to Blender.
 ---
 

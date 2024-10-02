@@ -6,6 +6,7 @@ tags:
   - mlox
   - Load-order
   - Plox
+  - Modding-tool
 description: mlox is a tool for analyzing and sorting your Morrowind plugin load order.
 ---
 ![[mlox-logo.png|left]] mlox is a mini "expert system" for advising you on your set of plugins.

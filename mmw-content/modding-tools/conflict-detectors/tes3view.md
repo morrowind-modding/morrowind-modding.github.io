@@ -6,6 +6,7 @@ tags:
   - xEdit
   - TES3View
   - Conflicts
+  - Modding-tool
 description: TES3View is a view-only implementation of xEdit for Morrowind, capable of viewing and comparing TES3 plugins for conflicts.
 ---
 

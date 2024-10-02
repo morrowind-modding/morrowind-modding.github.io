@@ -8,6 +8,7 @@ tags:
   - MWSE-Lua
   - OpenMW-Lua
   - Scripting
+  - Modding-tool
 description: An LLM virtual assistant and chatbot developed by OpenAI.
 ---
 

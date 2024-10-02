@@ -6,6 +6,7 @@ tags:
   - Animation
   - Modeling
   - Nifskope
+  - Modding-tool
 description: NifSkope is a tool by NifTools for opening and editing the NIF file format used by 3D models in Morrowind and other Bethesda titles.
 ---
 

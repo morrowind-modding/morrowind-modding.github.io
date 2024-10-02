@@ -7,6 +7,7 @@ tags:
   - Merge_to_Master
   - Combining-plugins
   - Command-line-tool
+  - Modding-tool
 description: A simple command-line tool that lets you merge TES3 plugins into their masters.
 ---
 

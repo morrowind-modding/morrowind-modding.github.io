@@ -3,8 +3,8 @@ title: Littoral
 aliases:
   - Littoral
 tags:
-  - Littoral
   - Landscaping
+  - Modding-tool
 description: A tool which allows the creation of a 52x52 cell landmass, with options for controlling landscape height, vertex shading and object placement.
 ---
 

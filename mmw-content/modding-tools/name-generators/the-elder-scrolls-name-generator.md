@@ -6,6 +6,7 @@ tags:
   - NPC
   - Character
   - Name-generator
+  - Modding-tool
 description: A utility for generating random characters with attributes including name, class, race and more.
 ---
 

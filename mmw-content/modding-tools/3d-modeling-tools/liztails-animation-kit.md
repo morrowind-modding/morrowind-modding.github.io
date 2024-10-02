@@ -6,6 +6,7 @@ aliases:
   - AnimKit
 tags:
   - Animation
+  - Modding-tool
 description: A tool for manipulating .kf animation files for Morrowind.
 ---
 

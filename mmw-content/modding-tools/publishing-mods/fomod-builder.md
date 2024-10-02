@@ -6,7 +6,7 @@ tags:
   - FOMOD
   - Mod-managers
   - Publishing-Mods
-  - FOMOD-Builder
+  - Modding-tool
 description: A browser-based visual editor for creating FOMOD installers
 ---
 

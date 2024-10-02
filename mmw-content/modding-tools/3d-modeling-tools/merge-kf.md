@@ -4,6 +4,7 @@ aliases:
   - Merge_kf
 tags:
   - Animation
+  - Modding-tool
 description: A browser-based app for merging NIF kf files into a single base_anim.kf file.
 ---
 

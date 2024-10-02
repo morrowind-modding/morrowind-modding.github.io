@@ -9,6 +9,7 @@ tags:
   - Leveled-Lists
   - Leveled-Creatures
   - Command-line-tool
+  - Modding-tool
 description: A command-line-tool for merging leveled lists, comparing leveled lists between plugins, and optionally 'deleveling' like Abot's Deleveler.
 ---
 

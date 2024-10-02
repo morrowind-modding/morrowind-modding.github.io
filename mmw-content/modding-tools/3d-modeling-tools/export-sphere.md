@@ -8,6 +8,7 @@ tags:
   - Modeling
   - MWSE
   - Interiors
+  - Modding-tool
 description: An MWSE tool for selecting a group of objects in-game and exporting these to a single mesh
 ---
 

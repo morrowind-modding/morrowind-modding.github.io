@@ -7,6 +7,7 @@ tags:
   - Combining-plugins
   - Groundcover
   - Command-line-tool
+  - Modding-tool
 description: A command-line tool for merging plugins into a single combined plugin, and optionally turn static grass references into groundcover for OpenMW and MGE-XE.
 parent: "[[modding-tools/merging-plugins/index|Merging Plugins]]"
 related articles:

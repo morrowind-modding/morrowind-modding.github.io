@@ -7,6 +7,7 @@ tags:
   - Interiors
   - Python
   - Command-line-tool
+  - Modding-tool
 description: A Python script command-line-tool for calculating the Z-rotation of northmarkers for interior cells.
 ---
 

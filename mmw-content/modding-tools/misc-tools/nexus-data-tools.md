@@ -5,6 +5,7 @@ aliases:
   - NDT
 tags:
   - Nexus-Mods
+  - Modding-tool
 description: A broweser-based set of tools for gathering, visualising manipulating and data from Nexus Mods
 ---
 

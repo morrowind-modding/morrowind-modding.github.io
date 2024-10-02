@@ -5,7 +5,7 @@ aliases:
   - Tes3edit
 tags:
   - Low-level-editor
-  - Tes3edit-rs
+  - Modding-tool
 description: A simple egui-rust low-level editor for Morrowind.
 ---
 

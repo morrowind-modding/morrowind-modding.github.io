@@ -5,6 +5,7 @@ aliases:
 tags:
   - Leveled-Items
   - Leveled-Lists
+  - Modding-tool
 description: A utility developed by Danae123 and Aurel300 which converts plugins to utilize leveled lists from Wares.
 ---
 

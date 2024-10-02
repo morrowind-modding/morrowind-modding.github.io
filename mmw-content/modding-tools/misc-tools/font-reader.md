@@ -4,6 +4,7 @@ aliases:
   - FontReader
 tags:
   - Books
+  - Modding-tool
 description: A tool for viewing, editing and saving Morrowind font files.
 ---
 

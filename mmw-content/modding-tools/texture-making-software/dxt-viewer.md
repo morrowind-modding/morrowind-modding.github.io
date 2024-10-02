@@ -3,8 +3,8 @@ title: DXTViewer
 aliases:
   - DXTViewer
   - DXT Viewer
-tags: 
-description:
+tags: Modding-tool
+description: 
 ---
 
 ![[maintenance-expand-article#^6fc39d|clean]]

@@ -6,7 +6,6 @@ aliases:
   - OdaiHTN - The AI Framework
 tags:
   - AI
-  - OdaiHTN
   - MWSE
 description:
 ---

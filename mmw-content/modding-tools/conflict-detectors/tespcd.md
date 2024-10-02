@@ -6,6 +6,7 @@ aliases:
 tags:
   - TESPCD
   - Conflicts
+  - Modding-tool
 description: A tool for detecting, analysing and resolving TES3 mod conflicts.
 ---
 

@@ -5,6 +5,7 @@ aliases:
 tags:
   - MWSE
   - Books
+  - Modding-tool
 description: An MWSE mod which enables edits made to books or scrolls in a text editor to be previewed live in-game.
 ---
 

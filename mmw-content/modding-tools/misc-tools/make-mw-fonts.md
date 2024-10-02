@@ -5,6 +5,7 @@ aliases:
   - MakeMWFonts
 tags:
   - Font
+  - Modding-tool
 description: A tool by Digital Monk for vanilla Morrowind, enabling users to replace the game's fonts with True Type fonts.
 ---
 
@@ -37,7 +38,7 @@ description: A tool by Digital Monk for vanilla Morrowind, enabling users to rep
 ## External Links
 
 - **Digital Monk**, Planet Elder Scrolls, ["Make MW Fonts"](https://web.archive.org/web/20121028165720/http://planetelderscrolls.gamespy.com/View.php?view=Utilities.Detail&id=69#Files) - Original upload location by Digital Monk. Includes comments section with comments made by the author on usage of the tool.
-- **Azura-sama Watches Wiki**, ["Make MW Fonts"](https://wikiwiki.jp/morrowind/Make%20MW%20Fonts%20%7B%2A%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0%7D%20%7B%E3%81%8A%E3%81%99%E3%81%99%E3%82%81%7D%20%7B%E3%83%95%E3%82%A9%E3%83%B3%E3%83%88%7D) - a concise explanation of the tool's usage, including screenshots and user comments section. #Language/Japanese
+- **Azura-sama Watches Wiki**, ["Make MW Fonts"](https://wikiwiki.jp/morrowind/Make%20MW%20Fonts%20%7B%2A%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0%7D%20%7B%E3%81%8A%E3%81%99%E3%81%99%E3%82%81%7D%20%7B%E3%83%95%E3%82%A9%E3%83%B3%E3%83%88%7D) - a concise explanation of the tool's usage, including screenshots and user comments section. (Japanese)
 - **pvdk**, forum.openmw, ["OpenMW Font"](https://forum.openmw.org/viewtopic.php?t=561) - reference to MakeMWFonts in a discussion on implemting a 'Magic Cards'-style font for OpenMW.
 
 

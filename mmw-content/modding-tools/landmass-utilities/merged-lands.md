@@ -4,7 +4,7 @@ aliases:
   - Merged Lands
   - merged_lands
 tags:
-  - Merged_Lands
+  - Modding-tool
 description: A utility for resolving mod landscape conflicts by merging landscape height and texture records.
 ---
 ![[maintenance-expand-article#^6fc39d|clean]]

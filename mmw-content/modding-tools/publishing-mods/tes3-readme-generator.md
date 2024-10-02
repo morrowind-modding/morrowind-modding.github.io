@@ -4,6 +4,7 @@ aliases:
   - TES3 Readme Generator
 tags:
   - Publishing-Mods
+  - Modding-tool
 description: A utility for generating text file documentation for mods.
 ---
 

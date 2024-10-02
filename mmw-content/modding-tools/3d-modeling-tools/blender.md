@@ -6,6 +6,7 @@ tags:
   - Blender
   - Modeling
   - Animation
+  - Modding-tool
 description: A free 3D modeling program commonly used for Morrowind modding
 ---
 

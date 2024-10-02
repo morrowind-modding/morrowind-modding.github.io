@@ -1,8 +1,8 @@
 ---
 title: Yet Another Morrowind Plugin Translator
 aliases: Yet Another Morrowind Plugin Translator
-tags: 
-description:
+tags: Modding-tool
+description: 
 ---
 
 ![[maintenance-expand-article#^6fc39d|clean]]

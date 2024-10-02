@@ -3,8 +3,8 @@ title: Vortex Mod Manager
 aliases:
   - Vortex
   - Vortex Mod Manager
-tags: 
-description:
+tags: Modding-tool
+description: 
 ---
 
 ![[maintenance-expand-article#^6fc39d|clean]]

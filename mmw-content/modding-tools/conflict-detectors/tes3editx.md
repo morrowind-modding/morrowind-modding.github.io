@@ -5,8 +5,8 @@ aliases:
   - Conflict Viewer
   - TES3 Conflict viewer
 tags:
-  - Tes3EditX
   - Conflicts
+  - Modding-tool
 description: A GUI tool for comparing TES3 plugins and viewing conflicts.
 ---
 

@@ -5,6 +5,7 @@ aliases:
 tags:
   - MWEdit
   - Low-level-editor
+  - Modding-tool
 description: An alternative editor to the Construction Set, particularly noted for its more sophisticated script editor and quality-of-life features, albeit without 3D support.
 ---
 
