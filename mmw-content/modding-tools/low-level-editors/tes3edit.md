@@ -26,7 +26,7 @@ description: A simple egui-rust low-level editor for Morrowind.
 > 
 > | Type | Name |
 > | --- | --- |
-> | **Links** | [Github](https://github.com/rfuzzo/tes3edit) |
+> | **Links** | [Documentation](https://rfuzzo.github.io/tes3edit/)<br>[Github](https://github.com/rfuzzo/tes3edit) |
 > | **Requirements** | none |
 > | **Author** | [rfuzzo](https://github.com/rfuzzo) |
 

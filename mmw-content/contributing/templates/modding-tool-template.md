@@ -16,7 +16,8 @@ description:
 > > [!caption|center wfull txt-s]
 > > 
 > > %%insert image%%
-> > 
+> > %%caption%%
+> > %%[(image source)]()%%
 > 
 > ### Details
 > 

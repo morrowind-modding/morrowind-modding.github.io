@@ -6,7 +6,7 @@ tags:
   - OpenMW-Lua
   - Scripting
   - Modding-tool
-description: 
+description: A library of OpenMW Lua functions for OpenMW 0.49 and up, intended to assist with debugging and testing mods.
 ---
 
 ![[maintenance-expand-article#^6fc39d|clean]]
@@ -29,3 +29,5 @@ description:
 > | **Links** | [Nexus Mods](https://www.nexusmods.com/morrowind/mods/52975)<br>[Gitlab](https://gitlab.com/zackhasacat/zackutils/) |
 > | **Requirements** | OpenMW 0.49+ |
 > | **Author** | [Zackhasacat](https://www.nexusmods.com/morrowind/users/790766) |
+
+**ZachUtils**, developed by [Zackhasacat](https://www.nexusmods.com/morrowind/users/790766), is a library of [[guides/scripting/openmw-lua/index|OpenMW Lua]] functions for OpenMW 0.49+ intended to assist with debugging and testing mods.
