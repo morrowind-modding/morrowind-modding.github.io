@@ -26,7 +26,7 @@ Glow in the Dahrk (GitD) is a modern replacement of the old Windows Glow mods. G
 
 In order to work with most GitD meshes in [[nifskope|NifSkope]], a [custom "nif.xml"](https://wiki.project-tamriel.com/wiki/Nifskope#Replacing_nif.xml_to_work_with_advanced_node_types) file is required in order to read the NiCollisionSwitch node type which is used for light rays.
 
-> [!Warning]
+> [!Info]
 > Some features in GitD 3.0.0 and beyond only function with MWSE and are not supported by OpenMW as of the time of writing. Sections which detail those features will be placed into "MWSE-Only" callouts.
 ## NIF Format
 Many details of the NIF must use specific naming conventions and sequencing in order to function properly. Below is an example NIF which will be referenced in the following sections:
@@ -60,25 +60,25 @@ INT-DAY is not used at all for exterior objects. It is displayed during the day 
 
 If a model uses light ray effects, they should be all be placed within the first node underneath INT-DAY and named "rays". This allows players using MWSE to switch the rays off in the MCM. Any nodes or shapes can follow after the "rays" node.
 
-> [!Warning] MWSE-Only
-As of GitD 3.0.0, the Lua code controls the material settings of all shapes underneath the INT-DAY node to match the time of day and weather. And it will gradually fade between INT-DAY to OFF at dusk and the reverse at dawn. Therefore, it's important to note a few things:
+> [!Abstract] MWSE-Only
+> As of GitD 3.0.0, the Lua code controls the material settings of all shapes underneath the INT-DAY node to match the time of day and weather. And it will gradually fade between INT-DAY to OFF at dusk and the reverse at dawn. Therefore, it's important to note a few things:
 > 
 > - Avoid using vertex coloring (vcol) on the switchable portion of interior objects. Vcol and NiMaterialProperty settings are mutually exclusive. Using vcol on the new shape will break this functionality.
 > - The INT-DAY and OFF shapes should use the same textures to hide the switch between them.
 > - The INT-DAY shapes should not use a glow map since the code controls the emissivity and it will also noticeably turn off when switching to the OFF shape(s).
 > - Interior shapes' OFF materials dictate how dark windows will appear at night. Darker settings than normal for Ambient and Diffuse are recommended. GitD meshes mostly use `0.3 0.3 0.3` by default.
 ### AttachLight
-> [!Warning] MWSE-Only
- Similar to NightDaySwitch, the relative position of AttachLight in the NIF file structure isn't important, but it must be at the top level. If the option is enabled in the MWSE MCM, AttachLight tells the code where to place a light for a given GitD object. It will be placed directly at the AttachLight NiNode location in the NIF. By default, the code will create a pure white light with a radius of 200 units.
+> [!Abstract] MWSE-Only
+ > Similar to NightDaySwitch, the relative position of AttachLight in the NIF file structure isn't important, but it must be at the top level. If the option is enabled in the MWSE MCM, AttachLight tells the code where to place a light for a given GitD object. It will be placed directly at the AttachLight NiNode location in the NIF. By default, the code will create a pure white light with a radius of 200 units.
  > 
- Optionally, a NiPointLight can be added as a child to the AttachLight node to control the color and radius of the light. Only two properties of the NiPointLight matter: Diffuse and Scale. The former is multiplied with sky color to modify the light through the window (can simulate colored or thick glass). The latter is directly used to modify the scale of the light source (e.g. scale of 500 is converted to a radius of 500 units in game).
+ > Optionally, a NiPointLight can be added as a child to the AttachLight node to control the color and radius of the light. Only two properties of the NiPointLight matter: Diffuse and Scale. The former is multiplied with sky color to modify the light through the window (can simulate colored or thick glass). The latter is directly used to modify the scale of the light source (e.g. scale of 500 is converted to a radius of 500 units in game).
 > 
-For example, the image below shows a NIF which will create a light with a radius of 200 units and a green hue.
+> For example, the image below shows a NIF which will create a light with a radius of 200 units and a green hue.
 > 
-![[nipointlight-example.png]]
+> ![[nipointlight-example.png]]
 ## Method for determining final interior window coloring and properties
-> [!Warning] MWSE-Only
-For advanced users, this process was written by NullCascade to explain how the new color settings in GitD 3.0.0 and beyond are achieved.
+> [!Abstract] MWSE-Only
+> For advanced users, this process was written by NullCascade to explain how the new color settings in GitD 3.0.0 and beyond are achieved.
 > 
 > - First, find the region sun color. This is calculated based on the time of day, current weather, and transitioning weather. This is the starting point for the color.
 > - If this color is "darker" than the hardcoded `0.3 0.3 0.3` minimum value, it will be scaled up to the minimum brightness.
