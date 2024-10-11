@@ -6,22 +6,27 @@ aliases:
 tags:
   - MO2
   - Modding-tool
-description: 
+description:
 ---
 
 ![[maintenance-expand-article#^6fc39d|clean]]
 
 ## About
 
-> [!infobox]
+> [!infobox|n-th]
 > 
 > ## MO2
 > 
-> %% insert image %%
+> > [!caption|center wfull txt-s]
+> > 
+> > %%insert image%%
+> > %%caption%%
+> > %%[(image source)]()%%
 > 
-> ### Table Heading
+> ### Details
 > 
 > | Type | Name |
 > | --- | --- |
-> | Row | Row |
-> | Row | Row |
+> | **Links** | - [modorganizer.org](https://www.modorganizer.org/)<br>- [Nexus Mods](https://www.nexusmods.com/skyrimspecialedition/mods/6194)<br>- [Github](https://github.com/ModOrganizer2/modorganizer) |
+> | **Requirements** |  |
+> | **Author** |  |
