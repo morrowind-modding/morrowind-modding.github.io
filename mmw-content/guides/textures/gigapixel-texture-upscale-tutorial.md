@@ -27,7 +27,7 @@ description:
 > | Type | Name |
 > | --- | --- |
 > | **Difficulty** | #advanced |
-> | **Requirements** | - [[gigapixel\|Gigapixel]]<br>- [Python](https://www.python.org/downloads/)<br>- A bulk file renaming utility (recommended)<br> - [XnConvert](https://www.xnview.com/en/xnconvert/)<br>- [[normalmap-generator\|NormalmapGenerator]] (optional)<br>- [[nvidia-texture-tools\|NVIDIA Texture Tools 3]] |
+> | **Requirements** | - [[gigapixel\|Gigapixel]]<br>- [Python](https://www.python.org/downloads/)<br>- [Pillow (PIL fork)](https://pillow.readthedocs.io/en/stable/)<br>- [PNGtoDDSTextureScripts](https://github.com/staticnation/PNGtoDDSTextureScripts)<br>- A bulk file renaming utility (recommended)<br> - [XnConvert](https://www.xnview.com/en/xnconvert/)<br>- [[normalmap-generator\|NormalmapGenerator]] (optional)<br>- [[nvidia-texture-tools\|NVIDIA Texture Tools 3]] |
 > | **Tutorial Files** | Any vanilla Morrowind textures will do |
 > 
 > %% embed download link to tutorial files if applicable %%
@@ -38,12 +38,14 @@ This step-by-step tutorial describes a workflow for upscaling textures with AI, 
 
 By the end of this tutorial, you should be able to:
 
-1. Convert textures in bulk from TGM/DDS format to PNG, ready to be upscaled.
+1. Convert textures in bulk from TGA/DDS format to PNG, ready to be upscaled.
 2. Upscale textures using Gigapixel 7
 3. Optionally generate normal maps and specular maps using [[normalmap-generator|NormalmapGenerator]].
 4. Convert the upscaled textures back to the appropriate DDS format using [[nvidia-texture-tools|NVIDIA Texture Tools 3]] via Python batch scripts
 
 ### Prerequisites
+
+The tools outlined here are required in order to follow this tutorial. Several of these have equivalent tools which could be used instead by experienced users. However, this tutorial will assume the user is using the tools described below.
 
 #### Gigapixel 7
 
@@ -51,13 +53,21 @@ Gigapixel 7 (personal) is required. Theoretically the trial version will suffice
 
 #### XnConvert
 
-[XnConvert](https://www.xnview.com/en/xnconvert/) will be used to convert the original textures from DDS or TGM into DDS format in bulk. Equivalent batch image converters can be used instead, but the tutorial will assume usage of XnConvert.
+[XnConvert](https://www.xnview.com/en/xnconvert/) will be used to convert the original textures from DDS or TGA into DDS format in bulk. Equivalent batch image converters can be used instead. If only working on a handful of textures, even [[gimp|Gimp]] or [[photoshop|Photoshop]] will suffice, but these are not suitable for batch processing large amounts of images.
 
-#### Python
+#### NVIDIA Texture Tools 3
 
-This is required in order to run BAT files used for processing the textures through NTT3.
+[[nvidia-texture-tools|NTT3]] is used for converting the Gigapixel-upscaled textures to the appropriate DDS format. NTT3 must be used, as opposed to [[nvidia-texture-tools|NVIDIA Texture Tools]], because PNGtoDDSTextureScripts utilizes NTT3's API.
 
-#### 
+#### Python + PIL
+
+[Python](https://www.python.org/downloads/) is required in order to run the PNGtoDDSTextureScripts used for processing the textures through NTT3.
+
+In addition, the scripts utilize [PIL](https://pillow.readthedocs.io/en/stable/), which can be installed via [pip](https://pypi.org/project/pip/).
+
+#### PNGtoDDSTextureScripts
+
+[[pngtodds-texture-scripts|PNGtoDDSTextureScripts]]
 
 ---
 
