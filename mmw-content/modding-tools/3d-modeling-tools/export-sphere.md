@@ -34,6 +34,11 @@ description: An MWSE tool for selecting a group of objects in-game and exporting
 
 **Export Sphere** is an MWSE tool for selecting a group of objects in-game and exporting these to a single mesh.
 
+## Installation
+
+- Download 'exportSphere.lua' from the [Github](https://gist.github.com/Greatness7/f683d80c22ef60342d589992eff0a0d0) Gist.
+- Rename 'exportSphere.lua' to **'main.lua'**
+- Place the file at `Data Files/mwse/mods/exportSphere/main.lua`. Create the folders if they do not exist.
 
 ## Usage
 
@@ -50,6 +55,8 @@ The mesh will be exported to the directory `Data Files/meshes/g7`.
 Using [[CSSE|CSSE's]] ability to test plugins from within the Construction Set, Export Sphere can also be ran. Extract `mwse/mods/exportSphere/main.lua` to your Morrowind modding install's `Data Files` folder, or alternatively install it using a mod manager. **Note** that since the tool requires MWSE, it will only work while running vanilla Morrowind through the <abbr title="Construction Set">CS</abbr>, not OpenMW.
 
 ## Exporting an Entire Cell
+
+![[maintenance-accuracy#^8285e2|clean]]
 
 By running a Lua command through the console, Export Sphere can be leveraged to export an entire cell.
 
