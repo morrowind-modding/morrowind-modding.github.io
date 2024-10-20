@@ -14,7 +14,7 @@ description: PNGtoDDSTextureScripts by StaticNation are a set of Python scripts 
 
 > [!infobox|n-th]
 > 
-> ## Article Title
+> ## PNGtoDDSTextureScripts
 > 
 > > [!caption|center wfull txt-s]
 > > 

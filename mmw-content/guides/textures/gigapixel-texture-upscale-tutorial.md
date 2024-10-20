@@ -53,11 +53,11 @@ Gigapixel 7 (personal) is required. Theoretically the trial version will suffice
 
 #### XnConvert
 
-[XnConvert](https://www.xnview.com/en/xnconvert/) will be used to convert the original textures from DDS or TGA into DDS format in bulk. Equivalent batch image converters can be used instead. If only working on a handful of textures, even [[gimp|Gimp]] or [[photoshop|Photoshop]] will suffice, but these are not suitable for batch processing large amounts of images.
+[XnConvert](https://www.xnview.com/en/xnconvert/) will be used to convert the original textures from DDS or TGA into DDS format in bulk. Equivalent batch image converters can be used instead. If only working on a handful of textures, even [[gimp|Gimp]] or [[photoshop|Photoshop]] will suffice, but these are generally not suitable for batch processing large amounts of images.
 
 #### NVIDIA Texture Tools 3
 
-[[nvidia-texture-tools|NTT3]] is used for converting the Gigapixel-upscaled textures to the appropriate DDS format. NTT3 must be used, as opposed to [[nvidia-texture-tools|NVIDIA Texture Tools]], because PNGtoDDSTextureScripts utilizes NTT3's API.
+[[nvidia-texture-tools|NTT3]] will be used for converting the Gigapixel-upscaled textures to the appropriate DDS format. NTT3 must be used, as opposed to [[nvidia-texture-tools|NVIDIA Texture Tools]], because PNGtoDDSTextureScripts utilizes NTT3's API.
 
 #### Python + PIL
 
@@ -67,11 +67,11 @@ In addition, the scripts utilize [PIL](https://pillow.readthedocs.io/en/stable/)
 
 #### PNGtoDDSTextureScripts
 
-[[pngtodds-texture-scripts|PNGtoDDSTextureScripts]]
+[[pngtodds-texture-scripts|These Python scripts]] will be used to convert the upscaled images in bulk to the appropriate DDS format, via NNT3's API. They can be downloaded from [Github](https://github.com/staticnation/PNGtoDDSTextureScripts/tree/main).
 
 ---
 
-## H2 (step 1)
+## Create a working directory
 
 %% elaborate on goal 1 %%
 
