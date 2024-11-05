@@ -587,7 +587,7 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
   function hideGlobalGraph() {
     container?.classList.remove("active")
     if (sidebar) {
-      sidebar.style.zIndex = "unset"
+      sidebar.style.zIndex = ""
     }
   }
 
