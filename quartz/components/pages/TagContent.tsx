@@ -28,7 +28,7 @@ export default ((opts?: { sort?: (f1: QuartzPluginData, f2: QuartzPluginData) =>
         ? fileData.description
         : htmlToJsx(fileData.filePath!, tree)
     const cssClasses: string[] = fileData.frontmatter?.cssclasses ?? []
-    const classes = ["popover-hint", ...cssClasses].join(" ")
+    const classes = cssClasses.join(" ")
     if (tag === "/") {
       const tags = [
         ...new Set(
@@ -40,8 +40,8 @@ export default ((opts?: { sort?: (f1: QuartzPluginData, f2: QuartzPluginData) =>
         tagItemMap.set(tag, allPagesWithTag(tag))
       }
       return (
-        <div class={classes}>
-          <article>
+        <div class="popover-hint">
+          <article class={classes}>
             <p>{content}</p>
           </article>
           <p>{i18n(cfg.locale).pages.tagContent.totalTags({ count: tags.length })}</p>
