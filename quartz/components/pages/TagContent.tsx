@@ -98,7 +98,7 @@ export default ((opts?: { sort?: (f1: QuartzPluginData, f2: QuartzPluginData) =>
 
       return (
         <div class={classes}>
-          <article>{content}</article>
+          <article class="popover-hint">{content}</article>
           <div class="page-listing">
             <p>{i18n(cfg.locale).pages.tagContent.itemsUnderTag({ count: pages.length })}</p>
             <div>
