@@ -588,5 +588,16 @@ iframe.pdf {
   border-radius: 5px;
 }
 
+.navigation-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background: var(--secondary);
+  transition: width 0.2s ease;
+  z-index: 9999;
+}
+
 /* ====================================== */
 /* -- Below are MMW Edits to base.scss -- */
