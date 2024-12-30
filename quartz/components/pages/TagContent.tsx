@@ -81,7 +81,7 @@ export default ((opts?: { sort?: (f1: QuartzPluginData, f2: QuartzPluginData) =>
                         </>
                       )}
                     </p>
-                    <PageList limit={numPages} {...listProps} sort={opts?.sort} />
+                    <PageList limit={options.numPages} {...listProps} sort={options?.sort} />
                   </div>
                 </div>
               )
@@ -102,7 +102,7 @@ export default ((opts?: { sort?: (f1: QuartzPluginData, f2: QuartzPluginData) =>
           <div class="page-listing">
             <p>{i18n(cfg.locale).pages.tagContent.itemsUnderTag({ count: pages.length })}</p>
             <div>
-              <PageList {...listProps} />
+              <PageList {...listProps} sort={options?.sort} />
             </div>
           </div>
         </div>
