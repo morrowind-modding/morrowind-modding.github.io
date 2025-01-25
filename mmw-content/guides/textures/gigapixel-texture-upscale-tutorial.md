@@ -71,25 +71,23 @@ In addition, the scripts utilize [PIL](https://pillow.readthedocs.io/en/stable/)
 
 ---
 
-## Create a working directory
+## Prepare Textures to be Upscaled
 
-%% elaborate on goal 1 %%
+
+
+### Create a working directory
+
+Extract the textures to be upscaled into a folder of your choice. 
+
+### Convert to PNG with XnConvert
+
+Use XnConvert to convert the chosen textures in bulk to PNG format.
 
 ---
 
-## H2 (step 2)
+## Upscale Textures with Gigapixel
 
-%% elaborate on goal 2 %%
 
-### H3 (elaborate on aspect of H2 step, or break it down into smaller sub-steps)
-
----
-
-## H3 (step 3)
-
-%% elaborate on goal 3 %%
-
-%% further steps can be added as needed %%
 
 ---
 

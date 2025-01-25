@@ -44,6 +44,18 @@ Gigapixel offers three versions:
 - **Gigapixel Pro** (commercial): Intended for commercial use, it offers advanced features over the personal version but is significantly more expensive and unnecessary for modding.
 - **Gigapixel Trial**: A full trial of Gigapixel 7 with no time limit, with the caveat that it adds a 'Topaz Labs' watermark to all images.
 
+---
+
+## Texture Size
+
+Morrowind can only handle textures which have dimensions in powers of two, e.g., 512x512, 1024x1024, 2048x2048 and so on. Accordingly, textures can be upscaled 2x, 4x and even 6x their original size with Gigapixel.
+
+---
+
+## Settings
+
+
+
 [^1]: [StaticNation, "Morrowind Upscale Project", Nexus Mods, June 6, 2023](https://www.nexusmods.com/morrowind/mods/53032)
 [^2]: [StaticNation, "Tamriel Data Texture Upscale", Nexus Mods, June 11, 2024](https://www.nexusmods.com/morrowind/mods/54947)
 [^3]: [Jack Wright, "Gigapixel AI Review + How To Try It For FREE In 2024!", FreeVisuals, May 30, 2024](https://www.freevisuals.net/post/gigapixel-ai-review)

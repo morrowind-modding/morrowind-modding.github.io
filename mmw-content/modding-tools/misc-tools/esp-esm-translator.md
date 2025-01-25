@@ -5,6 +5,7 @@ aliases:
   - EET
 tags:
   - Translator
+  - Modding-tool
 description: A mod-translation tool for Morrowind and other Bethesda titles, as well as a number of other older video games.
 ---
 
