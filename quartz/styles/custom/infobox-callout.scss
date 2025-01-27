@@ -13,7 +13,7 @@
   }
 
 /* mobile breakpoint */
-@media screen and (max-width: $mobileBreakpoint) {
+@media screen and ($mobile) {
   .callout[data-callout="infobox"] {
     width: 100%;
     float: none;

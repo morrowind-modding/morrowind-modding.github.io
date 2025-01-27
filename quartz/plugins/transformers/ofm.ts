@@ -120,7 +120,7 @@ export const tableWikilinkRegex = new RegExp(/(!?\[\[[^\]]*?\]\])/g)
 const highlightRegex = new RegExp(/==([^=]+)==/g)
 const commentRegex = new RegExp(/%%[\s\S]*?%%/g)
 // from https://github.com/escwxyz/remark-obsidian-callout/blob/main/src/index.ts
-const calloutRegex = new RegExp(/^\[\!(\w+)\|?(.+?)?\]([+-]?)/)
+const calloutRegex = new RegExp(/^\[\!([\w-]+)\|?(.+?)?\]([+-]?)/)
 const calloutLineRegex = new RegExp(/^> *\[\!\w+\|?.*?\][+-]?.*$/gm)
 // (?:^| )              -> non-capturing group, tag should start be separated by a space or be the start of the line
 // #(...)               -> capturing group, tag itself must start with #
@@ -438,7 +438,9 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options>>
                   children: [
                     {
                       type: "text",
-                      value: useDefaultTitle ? capitalize(typeString) : titleContent + " ",
+                      value: useDefaultTitle
+                        ? capitalize(typeString).replace(/-/g, " ")
+                        : titleContent + " ",
                     },
                     ...restOfTitle,
                   ],

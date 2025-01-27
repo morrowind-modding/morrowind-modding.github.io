@@ -16,7 +16,7 @@
   margin-left: 8px;
 }
 
-@media screen and (max-width: $mobileBreakpoint) {
+@media screen and ($mobile) {
   .callout.callout.callout.callout[data-callout-metadata~=right]:not(.callout[data-callout-metadata~=fixed]), .callout.callout.callout.callout[data-callout-metadata~=left]:not(.callout[data-callout-metadata~=fixed]) {
     float: unset;
     margin: auto;
