@@ -18,6 +18,7 @@ export interface D3Config {
   removeTags: string[]
   showTags: boolean
   focusOnHover?: boolean
+  enableRadial?: boolean
   excludeTags: string[]
 }
 
@@ -40,6 +41,7 @@ const defaultOptions: GraphOptions = {
     showTags: true,
     removeTags: [],
     focusOnHover: false,
+    enableRadial: false,
     excludeTags: [],
   },
   globalGraph: {
@@ -55,11 +57,12 @@ const defaultOptions: GraphOptions = {
     showTags: true,
     removeTags: [],
     focusOnHover: true,
+    enableRadial: true,
     excludeTags: [],
   },
 }
 
-export default ((opts?: GraphOptions) => {
+export default ((opts?: Partial<GraphOptions>) => {
   const Graph: QuartzComponent = ({ displayClass, cfg }: QuartzComponentProps) => {
     const localGraph = { ...defaultOptions.localGraph, ...opts?.localGraph }
     const globalGraph = { ...defaultOptions.globalGraph, ...opts?.globalGraph }
