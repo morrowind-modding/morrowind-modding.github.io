@@ -55,10 +55,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.DesktopOnly(Component.Explorer({
-      folderClickBehavior: "link", 
-      filterFn: (node) => node.name !== "templates",
-    })),
+    Component.Explorer(),
   ],
   right: [
     Component.MobileOnly(Component.Explorer({
@@ -79,10 +76,7 @@ export const defaultListPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.DesktopOnly(Component.Explorer({
-      folderClickBehavior: "link", 
-      filterFn: (node) => node.name !== "templates",
-    })),
+    Component.Explorer(),
   ],
   right: [
     Component.MobileOnly(Component.Explorer({
