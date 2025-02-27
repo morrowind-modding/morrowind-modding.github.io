@@ -122,12 +122,14 @@ function addGlobalPageResources(ctx: BuildCtx, componentResources: ComponentReso
     `)
   } else if (cfg.analytics?.provider === "goatcounter") {
     componentResources.afterDOMLoaded.push(`
-      const goatcounterScript = document.createElement("script")
-      goatcounterScript.src = "${cfg.analytics.scriptSrc ?? "https://gc.zgo.at/count.js"}"
-      goatcounterScript.async = true
-      goatcounterScript.setAttribute("data-goatcounter",
-        "https://${cfg.analytics.websiteId}.${cfg.analytics.host ?? "goatcounter.com"}/count")
-      document.head.appendChild(goatcounterScript)
+      document.addEventListener("nav", () => {
+        const goatcounterScript = document.createElement("script")
+        goatcounterScript.src = "${cfg.analytics.scriptSrc ?? "https://gc.zgo.at/count.js"}"
+        goatcounterScript.async = true
+        goatcounterScript.setAttribute("data-goatcounter",
+          "https://${cfg.analytics.websiteId}.${cfg.analytics.host ?? "goatcounter.com"}/count")
+        document.head.appendChild(goatcounterScript)
+      })
     `)
   } else if (cfg.analytics?.provider === "posthog") {
     componentResources.afterDOMLoaded.push(`
