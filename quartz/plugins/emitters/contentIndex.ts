@@ -25,6 +25,7 @@ interface Options {
   enableRSS: boolean
   rssLimit?: number
   rssFullHtml: boolean
+  rssSlug: string
   includeEmptyFiles: boolean
 }
 
@@ -33,6 +34,7 @@ const defaultOptions: Options = {
   enableRSS: true,
   rssLimit: 10,
   rssFullHtml: false,
+  rssSlug: "index",
   includeEmptyFiles: true,
 }
 
@@ -151,7 +153,7 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
           await write({
             ctx,
             content: generateRSSFeed(cfg, linkIndex, opts.rssLimit),
-            slug: "index" as FullSlug,
+            slug: (opts?.rssSlug ?? "index") as FullSlug,
             ext: ".xml",
           }),
         )
