@@ -1,7 +1,7 @@
 import { i18n } from "../i18n"
 import { FullSlug, joinSegments, pathToRoot } from "../util/path"
 import { CSSResourceToStyleElement, JSResourceToScriptElement } from "../util/resources"
-import { googleFontHref } from "../util/theme"
+import { getFontSpecificationName, googleFontHref } from "../util/theme"
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import satori, { SatoriOptions } from "satori"
 import { loadEmoji, getIconCode } from "../util/emoji"
@@ -77,7 +77,9 @@ export default (() => {
 
     // Memoize google fonts
     if (!fontsPromise && cfg.generateSocialImages) {
-      fontsPromise = getSatoriFont(cfg.theme.typography.header, cfg.theme.typography.body)
+      const headerFont = getFontSpecificationName(cfg.theme.typography.header)
+      const bodyFont = getFontSpecificationName(cfg.theme.typography.body)
+      fontsPromise = getSatoriFont(headerFont, bodyFont)
     }
 
     const slug = fileData.filePath
