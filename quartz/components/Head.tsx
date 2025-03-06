@@ -98,7 +98,7 @@ export default (() => {
 
       if (fileName) {
         // Generate social image (happens async)
-        generateSocialImage(
+        void generateSocialImage(
           {
             title,
             description,
