@@ -39,7 +39,12 @@ export type QuartzEmitterPlugin<Options extends OptionType = undefined> = (
 export type QuartzEmitterPluginInstance = {
   name: string
   emit(ctx: BuildCtx, content: ProcessedContent[], resources: StaticResources): Promise<FilePath[]>
-  getQuartzComponents(ctx: BuildCtx): QuartzComponent[]
+  /**
+   * Returns the components (if any) that are used in rendering the page.
+   * This helps Quartz optimize the page by only including necessary resources
+   * for components that are actually used.
+   */
+  getQuartzComponents?: (ctx: BuildCtx) => QuartzComponent[]
   getDependencyGraph?(
     ctx: BuildCtx,
     content: ProcessedContent[],

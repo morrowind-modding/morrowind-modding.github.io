@@ -196,6 +196,5 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
         }
       }
     },
-    getQuartzComponents: () => [],
   }
 }
