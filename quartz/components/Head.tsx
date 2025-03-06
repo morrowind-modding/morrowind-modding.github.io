@@ -127,7 +127,7 @@ export default (() => {
       }
     }
 
-    const { css, js } = externalResources
+    const { css, js, additionalHead } = externalResources
 
     const url = new URL(`https://${cfg.baseUrl ?? "example.com"}`)
     const path = url.pathname as FullSlug
@@ -177,7 +177,7 @@ export default (() => {
             <link rel="stylesheet" href={googleFontHref(cfg.theme)} />
           </>
         )}
-        <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossOrigin={"anonymous"} />
+        <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossOrigin="anonymous" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         {/* OG/Twitter meta tags */}
         <meta name="og:site_name" content={cfg.pageTitle}></meta>
@@ -213,6 +213,13 @@ export default (() => {
         {js
           .filter((resource) => resource.loadTime === "beforeDOMReady")
           .map((res) => JSResourceToScriptElement(res, true))}
+        {additionalHead.map((resource) => {
+          if (typeof resource === "function") {
+            return resource(fileData)
+          } else {
+            return resource
+          }
+        })}
         <meta name="google-site-verification" content="foXMGhryV_jc3zDQXTna-V0A_ZVWFrlDf5wCZlUfTYI" />
       </head>
     )

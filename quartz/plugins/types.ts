@@ -13,6 +13,7 @@ export interface PluginTypes {
 }
 
 type OptionType = object | undefined
+type ExternalResourcesFn = (ctx: BuildCtx) => Partial<StaticResources> | undefined
 export type QuartzTransformerPlugin<Options extends OptionType = undefined> = (
   opts?: Options,
 ) => QuartzTransformerPluginInstance
@@ -21,7 +22,7 @@ export type QuartzTransformerPluginInstance = {
   textTransform?: (ctx: BuildCtx, src: string) => string
   markdownPlugins?: (ctx: BuildCtx) => PluggableList
   htmlPlugins?: (ctx: BuildCtx) => PluggableList
-  externalResources?: (ctx: BuildCtx) => Partial<StaticResources>
+  externalResources?: ExternalResourcesFn
 }
 
 export type QuartzFilterPlugin<Options extends OptionType = undefined> = (
@@ -44,4 +45,5 @@ export type QuartzEmitterPluginInstance = {
     content: ProcessedContent[],
     resources: StaticResources,
   ): Promise<DepGraph<FilePath>>
+  externalResources?: ExternalResourcesFn
 }
