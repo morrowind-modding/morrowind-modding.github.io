@@ -4,6 +4,7 @@ import { CSSResourceToStyleElement, JSResourceToScriptElement } from "../util/re
 import { googleFontHref } from "../util/theme"
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import satori, { SatoriOptions } from "satori"
+import { loadEmoji, getIconCode } from "../util/emoji"
 import fs from "fs"
 import sharp from "sharp"
 import { ImageOptions, SocialImageOptions, getSatoriFont, defaultImage } from "../util/og"
@@ -24,7 +25,21 @@ async function generateSocialImage(
   // JSX that will be used to generate satori svg
   const imageComponent = userOpts.imageStructure(cfg, userOpts, title, description, fonts, fileData)
 
-  const svg = await satori(imageComponent, { width, height, fonts })
+  const svg = await satori(imageComponent, {
+    width,
+    height,
+    fonts,
+    // `code` will be the detected language code, `emoji` if it's an Emoji, or `unknown` if not able to tell.
+    // `segment` will be the content to render.
+    loadAdditionalAsset: async (code: string, segment: string) => {
+      if (code === "emoji") {
+        // if segment is an emoji, load the image.
+        return `data:image/svg+xml;base64,${btoa(await loadEmoji("twemoji", getIconCode(segment)))}`
+      }
+      // if segment is normal text
+      return code
+    },
+  })
 
   // Convert svg directly to webp (with additional compression)
   const compressed = await sharp(Buffer.from(svg)).webp({ quality: 40 }).toBuffer()
