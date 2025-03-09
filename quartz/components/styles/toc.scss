@@ -6,18 +6,18 @@
 
   overflow-y: hidden;
   flex: 0 1 auto;
-  &:has(button#toc.collapsed) {
+  &:has(button.toc-header.collapsed) {
     flex: 0 1 1.2rem;
   }
 }
 
 @media all and not ($mobile) {
-  .toc {
+  .toc-header {
     display: flex;
   }
 }
 
-button#toc, button#toc2 {
+button.toc-header {
   background-color: transparent;
   border: none;
   text-align: left;
@@ -44,7 +44,7 @@ button#toc, button#toc2 {
   }
 }
 
-#toc-content {
+.toc-content {
   list-style: none;
   position: relative;
 

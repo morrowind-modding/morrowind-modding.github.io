@@ -29,8 +29,7 @@ const TableOfContents: QuartzComponent = ({
     <div class={classNames(displayClass, "toc")}>
       <button
         type="button"
-        id="toc"
-        class={fileData.collapseToc ? "collapsed" : ""}
+        class={fileData.collapseToc ? "collapsed toc-header" : "toc-header"}
         aria-controls="toc-content"
         aria-expanded={!fileData.collapseToc}
       >
@@ -50,7 +49,7 @@ const TableOfContents: QuartzComponent = ({
           <polyline points="6 9 12 15 18 9"></polyline>
         </svg>
       </button>
-      <div id="toc-content" class={fileData.collapseToc ? "collapsed" : ""}>
+      <div class={fileData.collapseToc ? "collapsed toc-content" : "toc-content"}>
         <OverflowList id="toc-ul">
           {fileData.toc.map((tocEntry) => (
             <li key={tocEntry.slug} class={`depth-${tocEntry.depth}`}>
@@ -72,7 +71,7 @@ const LegacyTableOfContents: QuartzComponent = ({ fileData, cfg }: QuartzCompone
     return null
   }
   return (
-    <details id="toc" open={!fileData.collapseToc}>
+    <details class="toc" open={!fileData.collapseToc}>
       <summary>
         <h3>{i18n(cfg.locale).components.tableOfContents.title}</h3>
       </summary>
