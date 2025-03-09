@@ -6,6 +6,7 @@ import { classNames } from "../util/lang"
 // @ts-ignore
 import script from "./scripts/toc.inline"
 import { i18n } from "../i18n"
+import OverflowList from "./OverflowList"
 
 interface Options {
   layout: "modern" | "legacy"
@@ -50,7 +51,7 @@ const TableOfContents: QuartzComponent = ({
         </svg>
       </button>
       <div id="toc-content" class={fileData.collapseToc ? "collapsed" : ""}>
-        <ul class="overflow">
+        <OverflowList id="toc-ul">
           {fileData.toc.map((tocEntry) => (
             <li key={tocEntry.slug} class={`depth-${tocEntry.depth}`}>
               <a href={`#${tocEntry.slug}`} data-for={tocEntry.slug}>
@@ -58,13 +59,13 @@ const TableOfContents: QuartzComponent = ({
               </a>
             </li>
           ))}
-        </ul>
+        </OverflowList>
       </div>
     </div>
   )
 }
 TableOfContents.css = modernStyle
-TableOfContents.afterDOMLoaded = script
+TableOfContents.afterDOMLoaded = script + OverflowList.afterDOMLoaded("toc-ul")
 
 const LegacyTableOfContents: QuartzComponent = ({ fileData, cfg }: QuartzComponentProps) => {
   if (!fileData.toc) {

@@ -543,7 +543,6 @@ video {
 
 div:has(> .overflow) {
   display: flex;
-  overflow-y: auto;
   max-height: 100%;
 }
 
@@ -551,6 +550,7 @@ ul.overflow,
 ol.overflow {
   max-height: 100%;
   overflow-y: auto;
+  width: 100%;
 
   // clearfix
   content: "";
@@ -559,18 +559,15 @@ ol.overflow {
   & > li:last-of-type {
     margin-bottom: 30px;
   }
-  /*&:after {
-    pointer-events: none;
-    content: "";
-    width: 100%;
-    height: 50px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    opacity: 1;
-    transition: opacity 0.3s ease;
-    background: linear-gradient(transparent 0px, var(--light));
-  }*/
+
+  & > li.overflow-end {
+    height: 4px;
+    margin: 0;
+  }
+
+  &.gradient-active {
+    mask-image: linear-gradient(to bottom, black calc(100% - 50px), transparent 100%);
+  }
 }
 
 .transclude {

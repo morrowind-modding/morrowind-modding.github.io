@@ -4,8 +4,10 @@
   display: flex;
   flex-direction: column;
 
-  &.desktop-only {
-    max-height: 40%;
+  overflow-y: hidden;
+  flex: 0 1 auto;
+  &:has(button#toc.collapsed) {
+    flex: 0 1 1.2rem;
   }
 }
 
@@ -44,26 +46,7 @@ button#toc, button#toc2 {
 
 #toc-content {
   list-style: none;
-  overflow: hidden;
-  overflow-y: auto;
-  max-height: 100%;
-  transition:
-    max-height 0.35s ease,
-    visibility 0s linear 0s;
   position: relative;
-  visibility: visible;
-
-  &.collapsed {
-    max-height: 0;
-    transition:
-      max-height 0.35s ease,
-      visibility 0s linear 0.35s;
-    visibility: hidden;
-  }
-
-  &.collapsed > .overflow::after {
-    opacity: 0;
-  }
 
   & ul {
     list-style: none;
@@ -79,10 +62,6 @@ button#toc, button#toc2 {
         opacity: 0.75;
       }
     }
-  }
-  > ul.overflow {
-    max-height: none;
-    width: 100%;
   }
 
   @for $i from 0 through 6 {

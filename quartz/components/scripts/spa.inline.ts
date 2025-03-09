@@ -75,6 +75,10 @@ async function navigate(url: URL, isBack: boolean = false) {
 
   if (!contents) return
 
+  // notify about to nav
+  const event: CustomEventMap["prenav"] = new CustomEvent("prenav", { detail: {} })
+  document.dispatchEvent(event)
+
   // cleanup old
   cleanupFns.forEach((fn) => fn())
   cleanupFns.clear()
@@ -108,7 +112,7 @@ async function navigate(url: URL, isBack: boolean = false) {
     }
   }
 
-  // now, patch head
+  // now, patch head, re-executing scripts
   const elementsToRemove = document.head.querySelectorAll(":not([spa-preserve])")
   elementsToRemove.forEach((el) => el.remove())
   const elementsToAdd = html.head.querySelectorAll(":not([spa-preserve])")

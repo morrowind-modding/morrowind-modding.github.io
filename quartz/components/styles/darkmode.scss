@@ -8,6 +8,7 @@
   height: 20px;
   margin: 0 10px;
   text-align: inherit;
+  flex-shrink: 0;
 
   & svg {
     position: absolute;
