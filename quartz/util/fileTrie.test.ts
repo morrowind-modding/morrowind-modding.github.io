@@ -11,16 +11,15 @@ describe("FileTrie", () => {
   let trie: FileTrieNode<TestData>
 
   beforeEach(() => {
-    trie = new FileTrieNode<TestData>("")
+    trie = new FileTrieNode<TestData>([])
   })
 
   describe("constructor", () => {
     test("should create an empty trie", () => {
       assert.deepStrictEqual(trie.children, [])
-      assert.strictEqual(trie.slugSegment, "")
+      assert.strictEqual(trie.slug, "")
       assert.strictEqual(trie.displayName, "")
       assert.strictEqual(trie.data, null)
-      assert.strictEqual(trie.depth, 0)
     })
 
     test("should set displayName from data title", () => {
@@ -43,7 +42,7 @@ describe("FileTrie", () => {
 
       trie.add(data)
       assert.strictEqual(trie.children.length, 1)
-      assert.strictEqual(trie.children[0].slugSegment, "test")
+      assert.strictEqual(trie.children[0].slug, "test")
       assert.strictEqual(trie.children[0].data, data)
     })
 
@@ -72,20 +71,20 @@ describe("FileTrie", () => {
       trie.add(data1)
       trie.add(data2)
       assert.strictEqual(trie.children.length, 2)
-      assert.strictEqual(trie.children[0].slugSegment, "folder")
+      assert.strictEqual(trie.children[0].slug, "folder/index")
       assert.strictEqual(trie.children[0].children.length, 1)
-      assert.strictEqual(trie.children[0].children[0].slugSegment, "test")
+      assert.strictEqual(trie.children[0].children[0].slug, "folder/test")
       assert.strictEqual(trie.children[0].children[0].data, data1)
 
-      assert.strictEqual(trie.children[1].slugSegment, "a")
+      assert.strictEqual(trie.children[1].slug, "a/index")
       assert.strictEqual(trie.children[1].children.length, 1)
       assert.strictEqual(trie.children[1].data, null)
 
-      assert.strictEqual(trie.children[1].children[0].slugSegment, "b")
+      assert.strictEqual(trie.children[1].children[0].slug, "a/b/index")
       assert.strictEqual(trie.children[1].children[0].children.length, 1)
       assert.strictEqual(trie.children[1].children[0].data, null)
 
-      assert.strictEqual(trie.children[1].children[0].children[0].slugSegment, "c")
+      assert.strictEqual(trie.children[1].children[0].children[0].slug, "a/b/c/index")
       assert.strictEqual(trie.children[1].children[0].children[0].data, data2)
       assert.strictEqual(trie.children[1].children[0].children[0].children.length, 0)
     })
@@ -99,9 +98,9 @@ describe("FileTrie", () => {
       trie.add(data1)
       trie.add(data2)
 
-      trie.filter((node) => node.slugSegment !== "test1")
+      trie.filter((node) => node.slug !== "test1")
       assert.strictEqual(trie.children.length, 1)
-      assert.strictEqual(trie.children[0].slugSegment, "test2")
+      assert.strictEqual(trie.children[0].slug, "test2")
     })
   })
 
@@ -115,7 +114,7 @@ describe("FileTrie", () => {
 
       trie.map((node) => {
         if (node.data) {
-          node.displayName = "Modified"
+          node.data.title = "Modified"
         }
       })
 
@@ -136,7 +135,7 @@ describe("FileTrie", () => {
       assert.deepStrictEqual(
         entries.map(([path, node]) => [path, node.data]),
         [
-          ["", trie.data],
+          ["index", trie.data],
           ["test1", data1],
           ["a/index", null],
           ["a/b/index", null],
@@ -166,7 +165,12 @@ describe("FileTrie", () => {
       trie.add(data3)
       const paths = trie.getFolderPaths()
 
-      assert.deepStrictEqual(paths, ["folder/index", "folder/subfolder/index", "abc/index"])
+      assert.deepStrictEqual(paths, [
+        "index",
+        "folder/index",
+        "folder/subfolder/index",
+        "abc/index",
+      ])
     })
   })
 
@@ -180,9 +184,9 @@ describe("FileTrie", () => {
       trie.add(data1)
       trie.add(data2)
 
-      trie.sort((a, b) => a.slugSegment.localeCompare(b.slugSegment))
+      trie.sort((a, b) => a.slug.localeCompare(b.slug))
       assert.deepStrictEqual(
-        trie.children.map((n) => n.slugSegment),
+        trie.children.map((n) => n.slug),
         ["a", "b", "c"],
       )
     })

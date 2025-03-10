@@ -78,11 +78,11 @@ function createFileNode(currentSlug: FullSlug, node: FileTrieNode): HTMLLIElemen
   const clone = template.content.cloneNode(true) as DocumentFragment
   const li = clone.querySelector("li") as HTMLLIElement
   const a = li.querySelector("a") as HTMLAnchorElement
-  a.href = resolveRelative(currentSlug, node.data?.slug!)
-  a.dataset.for = node.data?.slug
+  a.href = resolveRelative(currentSlug, node.slug)
+  a.dataset.for = node.slug
   a.textContent = node.displayName
 
-  if (currentSlug === node.data?.slug) {
+  if (currentSlug === node.slug) {
     a.classList.add("active")
   }
 
@@ -102,7 +102,7 @@ function createFolderNode(
   const folderOuter = li.querySelector(".folder-outer") as HTMLElement
   const ul = folderOuter.querySelector("ul") as HTMLUListElement
 
-  const folderPath = node.data?.slug!
+  const folderPath = node.slug
   folderContainer.dataset.folderpath = folderPath
 
   if (opts.folderClickBehavior === "link") {
@@ -110,7 +110,7 @@ function createFolderNode(
     const button = titleContainer.querySelector(".folder-button") as HTMLElement
     const a = document.createElement("a")
     a.href = resolveRelative(currentSlug, folderPath)
-    a.dataset.for = node.data?.slug
+    a.dataset.for = folderPath
     a.className = "folder-title"
     a.textContent = node.displayName
     button.replaceWith(a)
