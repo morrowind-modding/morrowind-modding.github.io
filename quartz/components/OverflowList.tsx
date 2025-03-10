@@ -1,22 +1,31 @@
 import { JSX } from "preact"
+import { randomIdNonSecure } from "../util/random"
 
 const OverflowList = ({
   children,
   ...props
 }: JSX.HTMLAttributes<HTMLUListElement> & { id: string }) => {
   return (
-    <ul class="overflow" {...props}>
+    <ul {...props} class={[props.class, "overflow"].filter(Boolean).join(" ")} id={props.id}>
       {children}
       <li class="overflow-end" />
     </ul>
   )
 }
 
-OverflowList.afterDOMLoaded = (id: string) => `
+export default () => {
+  const id = randomIdNonSecure()
+
+  return {
+    OverflowList: (props: JSX.HTMLAttributes<HTMLUListElement>) => (
+      <OverflowList {...props} id={id} />
+    ),
+    overflowListAfterDOMLoaded: `
 document.addEventListener("nav", (e) => {
   const observer = new IntersectionObserver((entries) => {
     for (const entry of entries) {
       const parentUl = entry.target.parentElement
+      if (!parentUl) return
       if (entry.isIntersecting) {
         parentUl.classList.remove("gradient-active")
       } else {
@@ -34,6 +43,6 @@ document.addEventListener("nav", (e) => {
   observer.observe(end)
   window.addCleanup(() => observer.disconnect())
 })
-`
-
-export default OverflowList
+`,
+  }
+}

@@ -36,17 +36,21 @@ function getComponentResources(ctx: BuildCtx): ComponentResources {
     afterDOMLoaded: new Set<string>(),
   }
 
+  function normalizeResource(resource: string | string[] | undefined): string[] {
+    if (!resource) return []
+    if (Array.isArray(resource)) return resource
+    return [resource]
+  }
+
   for (const component of allComponents) {
     const { css, beforeDOMLoaded, afterDOMLoaded } = component
-    if (css) {
-      componentResources.css.add(css)
-    }
-    if (beforeDOMLoaded) {
-      componentResources.beforeDOMLoaded.add(beforeDOMLoaded)
-    }
-    if (afterDOMLoaded) {
-      componentResources.afterDOMLoaded.add(afterDOMLoaded)
-    }
+    const normalizedCss = normalizeResource(css)
+    const normalizedBeforeDOMLoaded = normalizeResource(beforeDOMLoaded)
+    const normalizedAfterDOMLoaded = normalizeResource(afterDOMLoaded)
+
+    normalizedCss.forEach((c) => componentResources.css.add(c))
+    normalizedBeforeDOMLoaded.forEach((b) => componentResources.beforeDOMLoaded.add(b))
+    normalizedAfterDOMLoaded.forEach((a) => componentResources.afterDOMLoaded.add(a))
   }
 
   return {

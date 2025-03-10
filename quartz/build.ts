@@ -19,6 +19,7 @@ import { options } from "./util/sourcemap"
 import { Mutex } from "async-mutex"
 import DepGraph from "./depgraph"
 import { getStaticResourcesFromPlugins } from "./plugins"
+import { randomIdNonSecure } from "./util/random"
 
 type Dependencies = Record<string, DepGraph<FilePath> | null>
 
@@ -38,13 +39,9 @@ type BuildData = {
 
 type FileEvent = "add" | "change" | "delete"
 
-function newBuildId() {
-  return Math.random().toString(36).substring(2, 8)
-}
-
 async function buildQuartz(argv: Argv, mut: Mutex, clientRefresh: () => void) {
   const ctx: BuildCtx = {
-    buildId: newBuildId(),
+    buildId: randomIdNonSecure(),
     argv,
     cfg,
     allSlugs: [],
@@ -162,7 +159,7 @@ async function partialRebuildFromEntrypoint(
     return
   }
 
-  const buildId = newBuildId()
+  const buildId = randomIdNonSecure()
   ctx.buildId = buildId
   buildData.lastBuildMs = new Date().getTime()
   const release = await mut.acquire()
@@ -359,7 +356,7 @@ async function rebuildFromEntrypoint(
     toRemove.add(filePath)
   }
 
-  const buildId = newBuildId()
+  const buildId = randomIdNonSecure()
   ctx.buildId = buildId
   buildData.lastBuildMs = new Date().getTime()
   const release = await mut.acquire()

@@ -542,7 +542,7 @@ video {
 }
 
 .spacer {
-  flex: 1 1 auto;
+  flex: 2 1 auto;
 }
 
 div:has(> .overflow) {
@@ -555,17 +555,14 @@ ol.overflow {
   max-height: 100%;
   overflow-y: auto;
   width: 100%;
+  margin-bottom: 0;
 
   // clearfix
   content: "";
   clear: both;
 
-  & > li:last-of-type {
-    margin-bottom: 30px;
-  }
-
   & > li.overflow-end {
-    height: 4px;
+    height: 1rem;
     margin: 0;
   }
 
