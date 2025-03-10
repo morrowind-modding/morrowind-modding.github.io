@@ -384,7 +384,7 @@ async function setupSearch(searchElement: Element, currentSlug: FullSlug, data: 
     preview.replaceChildren(previewInner)
 
     // scroll to longest
-    const highlights = [...preview.querySelectorAll(".highlight")].sort(
+    const highlights = [...preview.getElementsByClassName("highlight")].sort(
       (a, b) => b.innerHTML.length - a.innerHTML.length,
     )
     highlights[0]?.scrollIntoView({ block: "start" })
@@ -488,7 +488,7 @@ async function fillDocument(data: ContentIndex) {
 document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
   const currentSlug = e.detail.url
   const data = await fetchData
-  const searchElement = document.querySelectorAll(".search")
+  const searchElement = document.getElementsByClassName("search")
   for (const element of searchElement) {
     await setupSearch(element, currentSlug, data)
   }
