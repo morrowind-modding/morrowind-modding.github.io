@@ -58,6 +58,14 @@ export function pageResources(
     additionalHead: staticResources.additionalHead,
   }
 
+  resources.js.push({
+    src: joinSegments(baseDir, "postscript.js"),
+    loadTime: "afterDOMReady",
+    moduleType: "module",
+    contentType: "external",
+  })
+
+  // dynamic afterDOMReady must come after postscript.js
   if (fileData.hasMermaidDiagram) {
     resources.js.push({
       script: mermaidScript,
@@ -67,14 +75,6 @@ export function pageResources(
     })
     resources.css.push({ content: mermaidStyle, inline: true })
   }
-
-  // NOTE: we have to put this last to make sure spa.inline.ts is the last item.
-  resources.js.push({
-    src: joinSegments(baseDir, "postscript.js"),
-    loadTime: "afterDOMReady",
-    moduleType: "module",
-    contentType: "external",
-  })
 
   return resources
 }
