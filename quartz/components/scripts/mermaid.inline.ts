@@ -1,4 +1,4 @@
-import { removeAllChildren } from "./util"
+import { registerEscapeHandler, removeAllChildren } from "./util"
 
 interface Position {
   x: number
@@ -158,7 +158,7 @@ document.addEventListener("nav", async () => {
   )
 
   mermaidImport ||= await import(
-    //@ts-ignore
+    // @ts-ignore
     "https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs"
   )
   const mermaid = mermaidImport.default
@@ -237,12 +237,12 @@ document.addEventListener("nav", async () => {
 
     closeBtn.addEventListener("click", hideMermaid)
     expandBtn.addEventListener("click", showMermaid)
+    registerEscapeHandler(popupContainer, hideMermaid)
     document.addEventListener("keydown", handleEscape)
 
     window.addCleanup(() => {
       closeBtn.removeEventListener("click", hideMermaid)
       expandBtn.removeEventListener("click", showMermaid)
-      document.removeEventListener("keydown", handleEscape)
     })
   }
 })

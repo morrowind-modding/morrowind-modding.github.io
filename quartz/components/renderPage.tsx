@@ -9,9 +9,6 @@ import { visit } from "unist-util-visit"
 import { Root, Element, ElementContent } from "hast"
 import { GlobalConfiguration } from "../cfg"
 import { i18n } from "../i18n"
-// @ts-ignore
-import mermaidScript from "./scripts/mermaid.inline"
-import mermaidStyle from "./styles/mermaid.inline.scss"
 import { QuartzPluginData } from "../plugins/vfile"
 
 interface RenderComponents {
@@ -64,17 +61,6 @@ export function pageResources(
     moduleType: "module",
     contentType: "external",
   })
-
-  // dynamic afterDOMReady must come after postscript.js
-  if (fileData.hasMermaidDiagram) {
-    resources.js.push({
-      script: mermaidScript,
-      loadTime: "afterDOMReady",
-      moduleType: "module",
-      contentType: "inline",
-    })
-    resources.css.push({ content: mermaidStyle, inline: true })
-  }
 
   return resources
 }
