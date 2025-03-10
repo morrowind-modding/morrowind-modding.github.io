@@ -351,6 +351,10 @@ h6 {
   &[id]:hover > a {
     opacity: 1;
   }
+
+  &:not([id]) > a[role="anchor"] {
+    display: none;
+  }
 }
 
 // typography improvements
