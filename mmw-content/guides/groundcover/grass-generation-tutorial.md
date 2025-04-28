@@ -80,7 +80,7 @@ You may optionally add a second line with `timeout 10` or another number if you 
 
 Run the .bat file through [[mod-organizer-2|Mod Organizer 2]]. The first line tells [[the-lawnmower|Lawnmower]] to "mow" the grass and clean it up so there's extremely reduced clipping into anything like buildings and other statics. This will take 30 minutes to an hour or more depending on the speed of your CPU. Unlike what [[the-lawnmower|Lawnmower]] says in the command line, it's not actually deleting the grass, but moving it to the lowest Z-level. The second line tells [[tes3cmd]] to actually delete that grass.
 
-That's it! Now you can use the grass file as normal with MGE XE. Once again, this file will work just fine with OpenMW aas well, the writer of this article is just unaware of the process.
+That's it! Now you can use the grass file as normal with MGE XE. Once again, this file will work just fine with OpenMW as well, the writer of this article is just unaware of the process.
 ---
 
 ## Further Reading
