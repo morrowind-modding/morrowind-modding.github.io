@@ -49,7 +49,7 @@ This tutorial expects that you using [[MGE-XE]] and [[mod-organizer-2|Mod Organi
 
 ---
 
-## H2 (step 1)
+## step 1
 
 Navigate to your data files or override directory and create a blank .bat file. Open it and add the following line to it:
 ```
@@ -63,13 +63,13 @@ Run the .bat file through [[mod-organizer-2|Mod Organizer 2]] and you will now h
 
 ---
 
-## H2 (step 2)
+## step 2
 
-Download [this ini](https://paste.ee/p/18BgxrBV) and place it into your [[mesh-gen|Morrowind Groundcover Generator]] folder. You may rename it anything you want, if you wish.
+Download this [[grass.ini]] and place it into your [[mesh-gen|Morrowind Groundcover Generator]] folder. You may rename it anything you want, if you wish.
 
 Use the ini file I linked above and use the merged plugin you just made for the only thing in your load order. Alternatively, you can just add your entire load order, but since that won't be possible for the next step, it's quicker just to select a single file. Click the button to generate the grass.
 
-## H3 (step 3)
+## step 3
 
 Navigate to your data files or override directory and create a blank .bat file. Open it and add the following line to it:
 ```
