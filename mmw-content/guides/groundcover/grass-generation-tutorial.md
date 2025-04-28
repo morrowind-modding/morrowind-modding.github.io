@@ -22,7 +22,7 @@ description:
 > | Type | Name |
 > | --- | --- |
 > | **Requirements** | [[tes3conv]] [[habasi]] [[mesh-gen]] [[the-lawnmower]] [[tes3cmd]] |
-> | **Tutorial Files** | [grass.ini](https://paste.ee/p/18BgxrBV) |
+> | **Tutorial Files** | [[grass.ini]] |
 > 
 > %% embed download link to tutorial files if applicable %%
 
