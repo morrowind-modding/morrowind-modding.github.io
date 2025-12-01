@@ -10,9 +10,9 @@
 @use "./custom/transclusion-adjustments.scss";
 @use "./custom/ayembedt-font.scss";
 
-.page-title {
-    height: 175px;
-}
+// .page-title { //     revert to remove logo during hamburger menu testing
+//     height: 175px;
+// }
 
 /* --- MMW Logo on mobile display --- */
 
@@ -23,9 +23,9 @@
     max-width: 200px;
     min-width: 150px;
   }
-  .page-title {
-    height: 150px;
-  }
+  // .page-title { //    revert to remove logo during hamburger menu testing
+  //   height: 150px;
+  // }
   #quartz-body .sidebar.left {
     margin-top: 0.5rem;
   }  
